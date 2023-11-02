@@ -1,9 +1,9 @@
 // Loading the navbar
-const navbar = document.querySelector('nav');
-fetch('/components/navbar.html')
+const header = document.querySelector('header');
+fetch('/components/header.html')
     .then(response => response.text())
     .then(data => {
-        navbar.innerHTML = data;
+        header.innerHTML = data;
     });
 
 // Loading the footer
