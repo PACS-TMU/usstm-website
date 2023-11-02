@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # Tailwind build files
-tailwind.css
+./css/tailwind.css
