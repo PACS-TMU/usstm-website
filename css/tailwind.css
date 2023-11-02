@@ -534,6 +534,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.hidden {
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -545,4 +577,8 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+#parallax {
+  background-image: url('../public/images/parallax_placeholder.png');
 }

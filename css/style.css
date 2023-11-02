@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#parallax {
+    background-image: url('../public/images/parallax_placeholder.png');
+
+}
