@@ -54,5 +54,5 @@ Team | GitHub | Discord
 -|-|-
 0 | @williamKhine | @yumicol
 1 | @andrearcaina | @psykthe
-2 |  | 
-3 |  | 
+2 | @thatrisk | @thatrisk
+3 | @grcng | @grc_ng
