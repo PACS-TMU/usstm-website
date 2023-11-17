@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background-color: #FFFFE9;
+}
+
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("../public/images/parallax.png");
@@ -29,18 +33,18 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    row-gap: 100px;
+    row-gap: 10vh;
 }
 
 #usstm {
-    font-size: min(60pt, 6vw);
-    font-weight: 700;
-    color: white;
+    font-size: min(60pt, 5vw);
+    font-weight: 650;
+    color: #FFFFF0;
 }
 #slogan {
     font-size: min(25pt, 3vw);
-    font-weight: 500;
-    color: white;
+    font-weight: 400;
+    color: #FFFFF0;
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
