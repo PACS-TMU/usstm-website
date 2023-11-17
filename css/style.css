@@ -3,6 +3,49 @@
 @tailwind utilities;
 
 #parallax {
-    background-image: url('../public/images/parallax_placeholder.png');
-
+    /*  this is where the magic happens:  */
+    background-image: url("../public/images/parallax_placeholder.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    /* dimensions are important, ensure it is tall enough to scroll */ 
+    min-height: 65vh;
+    
+    /* you are free to lay out the container items with flexbox or whatever means you wish */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.overlay {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.55);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+#usstm {
+    font-size: min(60pt, 6vw);
+    font-weight: 700;
+    color: white;
+}
+#slogan {
+    font-size: min(25pt, 3vw);
+    font-weight: 500;
+    color: white;
+}
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+ @media only screen and (max-device-width: 1366px) {
+    .parallax-container {
+      background-attachment: scroll;
+    }
+  } 
