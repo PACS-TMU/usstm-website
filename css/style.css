@@ -4,7 +4,7 @@
 
 #parallax {
     /*  this is where the magic happens:  */
-    background-image: url("../public/images/parallax_placeholder.png");
+    background-image: url("../public/images/parallax.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
