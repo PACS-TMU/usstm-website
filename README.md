@@ -55,4 +55,4 @@ Team | GitHub | Discord
 0 | @williamKhine | @yumicol
 1 | @andrearcaina | @psykthe
 2 | @grcng | @grc_ng
-3 |  | 
+3 | @thatrisk | @thatrisk 
