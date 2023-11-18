@@ -6,6 +6,10 @@ html {
     background-color: #FFFFE9;
 }
 
+.nav-links {
+    color: #324557
+}
+
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("../public/images/parallax.png");
@@ -14,7 +18,7 @@ html {
     background-size: cover;
     
     /* dimensions are important, ensure it is tall enough to scroll */ 
-    min-height: 65vh;
+    min-height: 100vh;
     
     /* you are free to lay out the container items with flexbox or whatever means you wish */
     display: flex;
@@ -40,16 +44,21 @@ html {
     font-size: min(60pt, 5vw);
     font-weight: 650;
     color: #FFFFF0;
+    padding: 1vh 0;
 }
 #slogan {
     font-size: min(25pt, 3vw);
     font-weight: 400;
     color: #FFFFF0;
+    padding: 1vh 0;
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
  @media only screen and (max-device-width: 1366px) {
     .parallax-container {
       background-attachment: scroll;
+    }
+    .overlay {
+        padding: 0 0.5vw;
     }
   } 
