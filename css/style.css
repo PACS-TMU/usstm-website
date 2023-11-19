@@ -92,20 +92,16 @@ h1, h2, h3, h4, h5, h6 {
 /* For what is USSTM */
 /*********************/
 #cards {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 .card {
-    width: 80vw;
-    background-color: var(--usstm-highlight);
-    margin: 2vh 0;
-    border-radius: 5%;
-    aspect-ratio: 4/5;
+    width: 80%;
+    aspect-ratio: 6/7;
+    background-color: var(--usstm-highlight-dark);
 }
-
-
 
 @media only screen and (min-device-width: 768px) {
 }
