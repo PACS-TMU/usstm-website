@@ -18,6 +18,7 @@
     src: url(../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+/* Default Font */
 body {
     font-family: "Inter";
 }
