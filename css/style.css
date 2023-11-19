@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background-color: #FFFFE9;
-}
-
-.nav-links {
-    color: #324557
-}
-
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("../public/images/parallax.png");
