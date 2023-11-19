@@ -11,7 +11,7 @@
 
 #parallax {
     /*  this is where the magic happens:  */
-    background-image: url("../public/images/parallax.png");
+    background-image: url("../public/images/parallax.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -51,6 +51,17 @@
     color: #FFFFF0;
     padding: 1vh 0;
 }
+
+@media only screen and (min-device-width: 768px) {
+}
+
+@media only screen and (max-device-width: 1024px) {
+}
+
+@media only screen and (max-device-width: 1280px) {
+}
+
+
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
  @media only screen and (max-device-width: 1366px) {
