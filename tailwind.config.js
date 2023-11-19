@@ -8,6 +8,10 @@ module.exports = {
       "highlight": "#63BDEE",
       "highlight-dark": "#465DAE"
     },
+    fontFamily: {
+      "sans": ["Inika"],
+      "serif": ["Inter"],
+    },
     extend: {},
   },
   plugins: [],
