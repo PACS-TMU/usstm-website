@@ -5,8 +5,8 @@ module.exports = {
     colors: {
       "background": "#FFFFFF",
       "foreground": "#000000",
-      "highlight": "#63BDEE",
-      "highlight-dark": "#465DAE"
+      "highlight": "#9FC3E9",
+      "highlight-dark": "#2C547E"
     },
     fontFamily: {
       "sans": ["Inika"],
