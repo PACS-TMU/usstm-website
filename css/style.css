@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --usstm-background: #FFFFFF;
+    --usstm-foreground: #000000;
+    --usstm-highlight: #63BDEE;
+    --usstm-highlight-dark: #465DAE;
+}
+
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("../public/images/parallax.png");
