@@ -9,6 +9,19 @@
     --usstm-highlight-dark: #465DAE;
 }
 
+@font-face {
+    font-family: Inika;
+    src: url(../public/fonts/Inika/Inika-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: "Inter";
+}
+
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("../public/images/parallax.png");
