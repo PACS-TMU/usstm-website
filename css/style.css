@@ -5,8 +5,10 @@
 :root {
     --usstm-background: #FFFFFF;
     --usstm-foreground: #000000;
-    --usstm-highlight: #9FC3E9;
-    --usstm-highlight-dark: #2C547E;
+    /* --usstm-highlight: #9FC3E9; */
+    --usstm-highlight: #F1F4FB;
+    /* --usstm-highlight-dark: #c9d5f0; */
+    --usstm-highlight-dark: #A1B6E5;
 }
 
 @font-face {
@@ -31,9 +33,93 @@ body {
     font-family: "Inter";
 }
 
+/* Header font */
 h1, h2, h3, h4, h5, h6 {
     font-family: Inika;
 }
+
+/****************/
+/* For Footer */
+/****************/
+
+.footer-grid { /*Grid for containers*/
+    display: grid;
+    max-width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10vw 10vw;
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height: 7vh;
+    min-height: 7vh;
+    max-height: 150px;
+    margin-top: 7vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+}
+  
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: #7094BE;
+}
+
+/* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+
+#footer-text {
+    font-size: 3vw;
+    grid-column: 1 / span 3;
+}
+#footer-text > a {
+    text-decoration: underline;
+}
+#footer-text > a:hover {
+    opacity: 60%;
+}
+.logo {
+    width: min(48px, 5vw);
+}
+.logo:hover {
+    opacity: 60%;
+}
+
 
 /****************/
 /* For Parallex */
@@ -92,7 +178,8 @@ h1, h2, h3, h4, h5, h6 {
 /* For what is USSTM */
 /*********************/
 #what-usstm {
-    margin-bottom: 4vh;
+    font-size: min(40pt, 6vw);
+    margin-bottom: 3vh;
 }
 
 .cardContainer {
@@ -104,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #c0, #c1, #c2, #c3 {
-    background: var(--usstm-highlight-dark);
+    background: linear-gradient(#B6C8DE 0%, #93AECE 43%, #7094BE 100%);;
 }
 
 .card {
@@ -115,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     transform-style: preserve-3d;
     transition: 1s;
     box-shadow: 0px 30px 30px rgb(0, 0, 0, 0.5);
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 .cardFront,
@@ -125,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    color: #FFF;
+    color: #000000;
     backface-visibility: hidden;
 }
 
@@ -152,17 +239,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-device-width: 768px) {
+    .cardContainer {
+        perspective: 800px;
+    }
+    .content {
+        min-height: 20vh;
+    }
+    .waves {
+        min-height: 100px;
+        height: 15vh;
+    }
+    #footer-text {
+        font-size: 17pt;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) {
+    .cardContainer {
+        perspective: 1100px;
+    }
+    #footer-text {
+        font-size: 22pt;
+    }
 }
 
 @media only screen and (min-device-width: 1280px) {
     #parallax {
-        min-height: 1000px;
+        min-height: 80vh;
     }
     .cardContainer {
-        perspective: 1000px;
+        perspective: 1300px;
+    }
+    .content {
+        min-height: 25vh;
+    }
+    .footer-grid {
+        grid-template-rows: 5vw 5vw;
     }
 }
 
