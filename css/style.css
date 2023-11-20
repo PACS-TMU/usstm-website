@@ -91,16 +91,64 @@ h1, h2, h3, h4, h5, h6 {
 /*********************/
 /* For what is USSTM */
 /*********************/
-#cards {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
+#what-usstm {
+    margin-bottom: 4vh;
 }
-.card {
-    width: 80%;
+
+.cardContainer {
+    perspective: 500px;
+    margin: 0 auto;
+    width: 60%;
     aspect-ratio: 6/7;
-    background-color: var(--usstm-highlight-dark);
+    margin-bottom: 2vh;
+}
+
+#c0, #c1, #c2, #c3 {
+    background: var(--usstm-highlight-dark);
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transform-style: preserve-3d;
+    transition: 1s;
+    box-shadow: 0px 30px 30px rgb(0, 0, 0, 0.5);
+    border-radius: 20%;
+}
+
+.cardFront,
+.cardBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    backface-visibility: hidden;
+}
+
+.cardFront {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+.cardBack {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center
+}
+
+.cardContainer:hover .card {
+    transform: rotateY(-180deg);
+}
+
+.cardBack {
+    transform: rotateY(180deg);
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -111,7 +159,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-device-width: 1280px) {
     #parallax {
-        min-height: 100vh;
+        min-height: 1000px;
+    }
+    .cardContainer {
+        perspective: 1000px;
     }
 }
 
