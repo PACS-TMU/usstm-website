@@ -1,0 +1,306 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --usstm-background: #FFFFFF;
+    --usstm-foreground: #000000;
+    /* --usstm-highlight: #9FC3E9; */
+    --usstm-highlight: #F1F4FB;
+    /* --usstm-highlight-dark: #c9d5f0; */
+    --usstm-highlight-dark: #A1B6E5;
+}
+
+@font-face {
+    font-family: Inika;
+    src: url(../../public/fonts/Inika/Inika-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* Set bg color and margins */
+html {
+    background-color: var(--usstm-background);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Default Font */
+body {
+    font-family: "Inter";
+}
+
+/* Header font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Inika;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/****************/
+/* For Footer */
+/****************/
+.footer-grid { /*Grid for containers*/
+    display: grid;
+    max-width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10vw 10vw;
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height: 7vh;
+    min-height: 7vh;
+    max-height: 150px;
+    margin-top: 7vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+}
+  
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: #7094BE;
+}
+
+/* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+
+#footer-text {
+    font-size: 3vw;
+    grid-column: 1 / span 3;
+}
+#footer-text > a {
+    text-decoration: underline;
+}
+#footer-text > a:hover {
+    opacity: 60%;
+}
+.logo {
+    width: min(48px, 5vw);
+}
+.logo:hover {
+    opacity: 60%;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .content {
+        min-height: 20vh;
+    }
+    .waves {
+        min-height: 100px;
+        height: 15vh;
+    }
+    #footer-text {
+        font-size: 17pt;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) {
+    #footer-text {
+        font-size: 22pt;
+    }
+}
+
+@media only screen and (min-device-width: 1280px) {
+    .content {
+        min-height: 25vh;
+    }
+    .footer-grid {
+        grid-template-rows: 5vw 5vw;
+    }
+}
+/****************/
+/* For Parallex */
+/****************/
+#parallax {
+    /*  this is where the magic happens:  */
+    background-image: url("../../public/images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    /* dimensions are important, ensure it is tall enough to scroll */ 
+    min-height: 70vh;
+    
+    /* you are free to lay out the container items with flexbox or whatever means you wish */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 4vh;
+}
+
+.overlay {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.55);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#parallax-text {
+    margin: 0 1vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+
+#usstm {
+    font-family: "Inika";
+    font-size: min(60pt, 6vw);
+    font-weight: 650;
+    color: #FFFFFF;
+}
+#slogan {
+    font-size: min(25pt, 4vw);
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 1vh 0;
+}
+
+@media only screen and (min-device-width: 768px) {
+}
+
+@media only screen and (min-device-width: 1024px) {
+}
+
+@media only screen and (min-device-width: 1280px) {
+    #parallax {
+        min-height: 80vh;
+    }
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax-container {
+        background-attachment: scroll;
+    }
+} 
+/*********************/
+/* For what is USSTM */
+/*********************/
+#what-usstm {
+    font-size: min(40pt, 6vw);
+    margin-bottom: 3vh;
+}
+
+.cardContainer {
+    perspective: 500px;
+    margin: 0 auto;
+    width: 60%;
+    aspect-ratio: 6/7;
+    margin-bottom: 2vh;
+}
+
+#c0, #c1, #c2, #c3 {
+    /* background: linear-gradient(#B6C8DE 0%, #93AECE 43%, #7094BE 100%);; */
+    background-color: #0174BE;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transform-style: preserve-3d;
+    transition: 1s;
+    box-shadow: 0px 30px 30px rgb(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+
+.cardFront,
+.cardBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    backface-visibility: hidden;
+}
+
+.cardFront {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+.cardBack {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center
+}
+
+.cardContainer:hover .card {
+    transform: rotateY(-180deg);
+}
+
+.cardBack {
+    transform: rotateY(180deg);
+}
+
+@media only screen and (min-device-width: 768px) {
+    .cardContainer {
+        perspective: 800px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .cardContainer {
+        perspective: 1100px;
+    }
+}
+
+@media only screen and (min-device-width: 1280px) {
+    .cardContainer {
+        perspective: 1300px;
+    }
+}
