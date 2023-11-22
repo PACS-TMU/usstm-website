@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     colors: {
       "background": "#FFFFFF",
-      "foreground": "#000000",
-      "highlight": "#9FC3E9",
-      "highlight-dark": "#2C547E"
+      "foreground": "#161616",
+      "highlight": "#D67940",
+      "highlight-dark": "#001D56"
     },
     fontFamily: {
-      "sans": ["Inika"],
-      "serif": ["Inter"],
+      "sans": ["Abril"],
+      "serif": ["Lato"],
     },
     extend: {},
   },

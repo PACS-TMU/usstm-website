@@ -4,20 +4,17 @@
 
 :root {
     --usstm-background: #FFFFFF;
-    --usstm-foreground: #000000;
-    /* --usstm-highlight: #9FC3E9; */
-    --usstm-highlight: #F1F4FB;
-    /* --usstm-highlight-dark: #c9d5f0; */
-    --usstm-highlight-dark: #A1B6E5;
+    --usstm-foreground: #161616;
+    
 }
 
 @font-face {
-    font-family: Inika;
-    src: url(../../public/fonts/Inika/Inika-Regular.ttf);
+    font-family: Abril;
+    src: url(../../public/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 }
 @font-face {
-    font-family: Inter;
-    src: url(../../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: Lato;
+    src: url(../../public/fonts/Lato/Lato-Regular.ttf);
 }
 
 /* Set bg color and margins */
@@ -30,12 +27,12 @@ html {
 
 /* Default Font */
 body {
-    font-family: "Inter";
+    font-family: "Lato";
 }
 
 /* Header font */
 h1, h2, h3, h4, h5, h6 {
-    font-family: Inika;
+    font-family: Abril;
 }
 
 .main {

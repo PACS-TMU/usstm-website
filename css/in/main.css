@@ -12,8 +12,8 @@
 }
 
 @font-face {
-    font-family: Inika;
-    src: url(../../public/fonts/Inika/Inika-Regular.ttf);
+    font-family: Abril;
+    src: url(../../public/fonts/Abril/Abril-Regular.ttf);
 }
 @font-face {
     font-family: Inter;
@@ -35,6 +35,6 @@ body {
 
 /* Header font */
 h1, h2, h3, h4, h5, h6 {
-    font-family: Inika;
+    font-family: Abril;
 }
 
