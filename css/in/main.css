@@ -5,7 +5,10 @@
 :root {
     --usstm-background: #FFFFFF;
     --usstm-foreground: #161616;
-    
+    --highlight: #D67940;
+    --highlight-dark: #001D56;
+
+    --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
 }
 
 @font-face {
@@ -36,7 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
+    position: relative;
     max-width: 1440px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -148,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-rows: 5vw 5vw;
     }
 }
-#navbar {
-    
+#nav-logo > img {
+    width: max(2.7vw, 50px);
 }
 /****************/
 /* For Parallex */
@@ -166,13 +171,14 @@ h1, h2, h3, h4, h5, h6 {
         background-size: cover;
         
         /* dimensions are important, ensure it is tall enough to scroll */ 
-        min-height: 100vh;
+        min-height: calc(100vh - var(--navbar-height));
         
         /* you are free to lay out the container items with flexbox or whatever means you wish */
         display: flex;
     }
 
     #overlay {
+        position: relative;
         width: 100%;
         background-color: rgba(0, 29, 86, 0.38);
     }
@@ -186,18 +192,17 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 0;  
         color: white;
         display: flex;
-        align-content: center;
         flex-direction: column;
     }
 
     #parallax-text{
-        margin-top: auto;
-        margin-bottom: auto;
+        position: absolute;
+        top: 28%;
+        /* margin-bottom: auto; */
         margin-left: 5%;
     }
 
     .text {
-        /* display: inline-block; */
         margin-right: auto;
     }
 
@@ -213,12 +218,51 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 5vw;
     }
 
-    .motto {
+    .subtitle-text {
+        font-size: 1.4vw;
+        line-height: 1.3;
+    }
+
+    #motto {
         margin-top: 2vh;
+    }
+
+    #stats-box {
+        width: 95%;
+        height: 24%;
+        position: absolute;
+        z-index: 2;
+        background-color: var(--usstm-background);
+
+        top: 73%;
+        left: 2.5%;
+
+        border-radius: 5px;
+    }
+    #separator-holder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .stats-separator {
+        height: 67%;
+        width: 1px;
+        background-color: var(--highlight-dark);
     }
 }
 
-@media only screen and (min-device-width: 1280px) {
+@media only screen and (min-device-width: 1664px) {
+    #title-text {
+        font-size: 4vw;
+    }
+    .subtitle-text {
+        font-size: 1.1vw;
+    }
+    #parallax-text-container {
+        width: 50%
+    }
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */

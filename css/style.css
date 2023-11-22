@@ -5,7 +5,10 @@
 :root {
     --usstm-background: #FFFFFF;
     --usstm-foreground: #161616;
-    
+    --highlight: #D67940;
+    --highlight-dark: #001D56;
+
+    --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
 }
 
 @font-face {
@@ -36,6 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
+    position: relative;
     max-width: 1440px;
+    height: 100%;
     margin: 0 auto;
 }
