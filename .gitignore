@@ -131,6 +131,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Tailwind build files
-./css/in/*
-./css/out/*
+# CSS in and out directories
+css/in
+css/out
+
