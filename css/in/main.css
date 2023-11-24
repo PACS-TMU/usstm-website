@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .stats-icon {
-        height: 50%;
+        height: 60%;
         grid-row: 1 / span 2;
         margin-top: auto;
         margin-bottom: auto;
@@ -288,10 +288,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .stats-number {
-        font-size: 3vw;
         font-weight: 700;
         margin-top: auto;
         margin-bottom: 0;
+    }
+
+    .stats-description {
+        font-weight: 500;
     }
 
 }
