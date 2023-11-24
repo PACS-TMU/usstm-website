@@ -4,8 +4,9 @@
     echo "" >> ./css/in/main-in.css
     # for file in ./css/*.css; do
     for file in $(find ./css -name '*.css'); do
-        if [ $(basename $file) != "global.css" ] || 
-        [ $(basename $file) != "main*.css" ]; then
+        if [ $(basename $file) != "global.css" ] && 
+        [ $(basename $file) != "main-in.css" ] && 
+        [ $(basename $file) != "main-out.css" ]; then
             cat $file >> ./css/in/main-in.css
             echo "" >> ./css/in/main-in.css
         fi
