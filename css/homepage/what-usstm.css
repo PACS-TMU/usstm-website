@@ -1,7 +1,36 @@
-/*********************/
-/* For what is USSTM */
-/*********************/
-#what-usstm {
+/*****************************/
+/* For What is USSTM Section */
+/*****************************/
+
+.what-usstm-bar {
+    width: 100%;
+}
+#what-usstm-grid {
+    height: fit-content;
+}
+
+@media (min-width: 768px) {
+    .what-usstm-bar {
+        width: 51.5%;
+    }
+
+    #what-usstm-grid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    .what-usstm-heading {
+        grid-column: 2 / span 1;
+        grid-row: 1;
+    }
+
+    .what-usstm-text {
+        grid-column: 1 / span 1;
+        grid-row: 1;
+    }
+}
+
+/* #what-usstm {
     font-size: min(40pt, 6vw);
     margin-bottom: 3vh;
 }
@@ -15,7 +44,6 @@
 }
 
 #c0, #c1, #c2, #c3 {
-    /* background: linear-gradient(#B6C8DE 0%, #93AECE 43%, #7094BE 100%);; */
     background-color: #0174BE;
 }
 
@@ -79,4 +107,4 @@
     .cardContainer {
         perspective: 1300px;
     }
-}
+} */
