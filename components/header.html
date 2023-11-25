@@ -1,13 +1,23 @@
 <div class="main">
     <div id="navbar">
-        <nav class="px-3 w-full overflow-auto flex justify-between">
-            <div id="nav-links" class="flex items-center space-x-8 font-bold text-lg">
-                <a href="#about" class="hover:text-highlight-dark hover:opacity-95">About Us</a>
+        <nav class="px-6 w-full overflow-auto flex justify-between">
+            <div id="nav-links" class="md:flex items-center space-x-8 font-bold text-lg hidden">
+                <a href="#about" class="hover:text-highlight-dark hover:opacity-95">
+                    <!-- make text and svg inline -->
+                    <div class="flex items-center">
+                        About Us
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </a>
                 <a href="#events" class="hover:text-highlight-dark hover:opacity-95">Events</a>
                 <a href="#academics" class="hover:text-highlight-dark hover:opacity-95">Academics</a>
                 <a href="#finances" class="hover:text-highlight-dark hover:opacity-95">Finances</a>
                 <a href="#community" class="hover:text-highlight-dark hover:opacity-95">Community</a>
-                <a href="#contact" class="hover:text-highlight-dark hover:opacity-95">Contact Us</a>
+                <a href="#contact" class="hover:text-highlight-dark hover:opmd:visible hiddenacity-95">Contact Us</a>
                 <a href="#store" class="hover:text-highlight-dark hover:opacity-95">Store</a>
             </div>
             <div id="nav-logo">
