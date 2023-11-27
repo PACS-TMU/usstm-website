@@ -19,7 +19,7 @@
       <!---------------------->
       <!-- Parallex Section -->
       <!---------------------->
-      <div id="parallax">
+      <section id="parallax">
         <div id="overlay">
           <div class="main">
             <div id="parallax-text-container">
@@ -40,21 +40,21 @@
               </div>
               <div id="stats-text"> <!-- flex -->
                 <div id="stats-students"> <!-- grid -->
-                  <img class="stats-icon" src="./public/images/stats-icons/students-icon.png" alt="Icon of Students" />
-                  <p class="stats-info stats-number text-3xl">5000</p>
-                  <p class="stats-info stats-description text-lg">STUDENTS</p>
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/students-icon.png" alt="Icon of Students" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">5000</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">STUDENTS</p>
                 </div>
 
                 <div id="stats-groups"> <!-- grid -->
-                  <img class="stats-icon" src="./public/images/stats-icons/groups-icon.png" alt="Icon of Student Groups" />
-                  <p class="stats-info stats-number text-3xl">30</p>
-                  <p class="stats-info stats-description text-lg">STUDENT GROUPS</p>
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/groups-icon.png" alt="Icon of Student Groups" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">30</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">STUDENT GROUPS</p>
                 </div>
 
                 <div id="stats-board"> <!-- grid -->
-                  <img class="stats-icon" src="./public/images/stats-icons/board-icon.png" alt="Icon of Board Members" />
-                  <p class="stats-info stats-number text-3xl">30</p>
-                  <p class="stats-info stats-description text-lg">BOARD MEMBERS</p>
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/board-icon.png" alt="Icon of Board Members" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">30</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">BOARD MEMBERS</p>
                 </div>
               </div>
             </div>
@@ -63,12 +63,64 @@
             <!------------------------------>
           </div>
         </div>
-      </div>
+      </section>
       <!----------------------------->
       <!-- End of Parallex Section -->
       <!----------------------------->
-      
 
+      <!--------------------------->
+      <!-- What is USSTM Section -->
+      <!--------------------------->
+      <section id="what-is-usstm" class="main">
+        <div class="what-usstm-bar bg-highlight-dark h-6 mt-10 ml-auto mr-0 z-10 relative"></div>
+        <div id="what-usstm-grid" class="mx-auto grid mb-11 -mt-3">
+          <div class="what-usstm-heading sm:mt-4 md:mt-7">
+            <h1 class="text-8xl text-foreground p-5 ml-9">WHAT IS USSTM</h1>
+          </div>
+          <div class="what-usstm-text bg-zinc-300">
+            <p class="p-5 ml-5 mt-5 text-lg text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque similique aut. Eligendi 
+              ut ipsam dignissimos provident soluta molestiae praesentium magnam, a necessitatibus cupiditate blanditiis impedit ad, 
+              qui voluptates maxime? Ipsum pariatur nihil sed veniam. Nesciunt ab deserunt temporibus corrupti ea. Expedita, minima. 
+              Dolorum assumenda, ea libero magnam numquam harum quasi doloribus odit debitis? Fugit reiciendis suscipit voluptate 
+              dolorem mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque similique aut. Nesciunt ab 
+              deserunt temporibus corrupti ea. Expedita, minima. Dolorum assumenda, ea libero magnam numquam harum quasi doloribus 
+              odit debitis?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!---------------------------------->
+      <!-- End of What is USSTM Section -->
+      <!---------------------------------->
+
+      <!-- Pillars Section -->
+      <section id="Pillars" class="bg-highlight-dark w-screen">
+        <div class="main">
+          <div class="grid md:grid-cols-2 mx-auto p-4">
+            <div class="pillar-text flex items-center">
+              <h1 class="text-7xl text-center text-white">OUR FOUR PILLARS</h1>
+            </div>
+            <div class="pillar-circle grid grid-cols-2 gap-4 font-sans">
+              <div class="pillar pillar1 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
+                <p class="text-white">CONSISTENCY</p>
+              </div>
+              <div class="pillar pillar2 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
+                <p class="text-white">TRANSPARENCY</p>
+              </div>
+              <div class="pillar pillar3 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
+                <p class="text-white">SUPPORT</p>
+              </div>
+              <div class="pillar pillar4 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
+                <p class="text-white">UNITY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
       <!-- What is USSTM Section -->
       <!-- <div class="main">
         <div>
@@ -125,41 +177,8 @@
           </div>
         </div>
       </div> -->
-      <section id="what-is-usstm">
-        <div class="mx-auto grid md:grid-cols-2">
-          <div class="para bg-zinc-300">
-            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque similique aut. Eligendi ut ipsam dignissimos provident soluta molestiae praesentium magnam, a necessitatibus cupiditate blanditiis impedit ad, qui voluptates maxime?
-            Ipsum pariatur nihil sed veniam. Nesciunt ab deserunt temporibus corrupti ea. Expedita, minima. Dolorum assumenda, ea libero magnam numquam harum quasi doloribus odit debitis? Fugit reiciendis suscipit voluptate dolorem mollitia.</p>
-          </div>
-          <div class="heading">
-            <div class="bar bg-highlight-dark h-6 mt-2"></div>
-            <h1 class="text-8xl text-foreground p-5">WHAT IS USSTM</h1>
-          </div>
-        </div>
-      </section>
 
-      <!-- Pillars Section -->
-      <section id="Pillars" class="bg-highlight-dark">
-        <div class="container grid md:grid-cols-2 mx-auto p-4">
-          <div class="pillar-text flex items-center">
-            <h1 class="text-7xl text-center text-white">Our Four Pillars</h1>
-          </div>
-          <div class="pillar-circle grid grid-cols-2 gap-4 font-sans">
-            <div class="pillar pillar1 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
-              <p class="text-white">CONSISTENCY</p>
-            </div>
-            <div class="pillar pillar2 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
-              <p class="text-white">TRANSPARENCY</p>
-            </div>
-            <div class="pillar pillar3 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
-              <p class="text-white">SUPPORT</p>
-            </div>
-            <div class="pillar pillar4 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-xl">
-              <p class="text-white">UNITY</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <!-- Land Ackdnowledgement Section -->
 
       <!-- FAQ Section -->
