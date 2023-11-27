@@ -117,7 +117,7 @@
     }
 
     .stats-icon {
-        height: 60%;
+        width: 60%;
         grid-row: 1 / span 2;
         margin-top: auto;
         margin-bottom: auto;
@@ -139,6 +139,12 @@
         font-weight: 500;
     }
 
+}
+
+@media only screen and (min-device-width: 1280px) {
+    .stats-icon {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-device-width: 1664px) {
