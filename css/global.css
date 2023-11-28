@@ -5,10 +5,15 @@
 :root {
     --usstm-background: #FFFFFF;
     --usstm-foreground: #1E1E1E;
-    --highlight: #D67940;
+    /* --highlight: #D67940; */
+    --highlight: #64B9C9;
     --highlight-dark: #001D56;
 
     --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
+}
+
+html {
+    overflow-x: hidden;
 }
 
 @font-face {
