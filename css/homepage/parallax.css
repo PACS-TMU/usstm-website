@@ -123,6 +123,7 @@
 
     .stats-icon {
         width: 30%;
+        height: auto;
         margin-top: auto;
         margin-bottom: auto;
         margin-left: auto;
@@ -173,12 +174,6 @@
 
     .stats-description {
         margin-left: 0;
-    }
-}
-
-@media only screen and (min-device-width: 1280px) {
-    .stats-icon {
-        width: 50%;
     }
 }
 
