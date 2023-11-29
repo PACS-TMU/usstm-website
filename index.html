@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>USSTM</title>
-    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/out/main-out.css" />
     <link
       rel="icon"
       type="image/x-icon"
-      href="./public/images/USSTM-logo.png"
+      href="./public/images/usstm-logo.png"
     />
   </head>
   <body>
@@ -16,14 +16,177 @@
       <!-- componentLoader.js will load the navbar -->
     </header>
     <main>
-      <div id="parallax">
-        <div class="overlay">
-          <p id="usstm">
-            Undergraduate Science Society of Toronto Metropolitan
-          </p>
-          <p id="slogan">Quaerere Miror - Seek to Wonder</p>
+      <!---------------------->
+      <!-- Parallex Section -->
+      <!---------------------->
+      <section id="parallax">
+        <div id="overlay">
+          <div class="main">
+            <div id="parallax-text-container">
+              <div id="parallax-text">
+                <div class="text" id="title-line"></div>
+                <h1 class="text leading-tight" id="title-text">USSTM</h1>
+                <p class="text subtitle-text text-lg"><b>Undergraduate Science Society</b> <br> of <b>Toronto Metropolitan</b> University</p>
+                <p class="text subtitle-text text-lg" id="motto"><b>Our Motto: </b><i>Quarere Miror - Seek to Wonder</i></p>
+              </div>
+            </div>
+            <!----------------------->
+            <!-- Stats Box Section -->
+            <!----------------------->
+            <div id="stats-box">
+              <div id="separator-holder">
+                <div class="stats-separator"></div>
+                <div class="stats-separator"></div>
+              </div>
+              <div id="stats-text"> <!-- flex -->
+                <div id="stats-students"> <!-- grid -->
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/students-icon.png" alt="Icon of Students" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">5000</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">STUDENTS</p>
+                </div>
+
+                <div id="stats-groups"> <!-- grid -->
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/groups-icon.png" alt="Icon of Student Groups" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">30</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">STUDENT GROUPS</p>
+                </div>
+
+                <div id="stats-board"> <!-- grid -->
+                  <img class="stats-icon" src="./public/images/homepage/stats-icons/board-icon.png" alt="Icon of Board Members" />
+                  <p class="stats-info stats-number lg:text-5xl xl:text-3xl">30</p>
+                  <p class="stats-info stats-description lg:text-2xl xl:text-lg">BOARD MEMBERS</p>
+                </div>
+              </div>
+            </div>
+            <!------------------------------>
+            <!-- End of Stats Box Section -->
+            <!------------------------------>
+          </div>
         </div>
-      </div>
+      </section>
+      <!----------------------------->
+      <!-- End of Parallex Section -->
+      <!----------------------------->
+
+      <!--------------------------->
+      <!-- What is USSTM Section -->
+      <!--------------------------->
+      <section id="what-is-usstm" class="main">
+        <div class="what-usstm-bar bg-highlight-dark h-6 mt-10 ml-auto mr-0 z-10 relative"></div>
+        <div id="what-usstm-grid" class="mx-auto text-center lg:text-left grid mb-11 -mt-3">
+          <div class="what-usstm-heading sm:mt-4 md:mt-7">
+            <h1 class="text-8xl text-highlight-dark p-5 ml-0 lg:ml-9">ABOUT US</h1>
+          </div>
+          <div class="what-usstm-text bg-zinc-300">
+            <p class="p-5 mx-2 my-2 lg:ml-5 lg:mr-0 lg:mt-5 lg:mb-5 text-lg text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque similique aut. Eligendi 
+              ut ipsam dignissimos provident soluta molestiae praesentium magnam, a necessitatibus cupiditate blanditiis impedit ad, 
+              qui voluptates maxime? Ipsum pariatur nihil sed veniam. Nesciunt ab deserunt temporibus corrupti ea. Expedita, minima. 
+              Dolorum assumenda, ea libero magnam numquam harum quasi doloribus odit debitis? Fugit reiciendis suscipit voluptate 
+              dolorem mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque similique aut. Nesciunt ab 
+              deserunt temporibus corrupti ea. Expedita, minima. Dolorum assumenda, ea libero magnam numquam harum quasi doloribus 
+              odit debitis?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!---------------------------------->
+      <!-- End of What is USSTM Section -->
+      <!---------------------------------->
+
+      <!--------------------->
+      <!-- Pillars Section -->
+      <!--------------------->
+      <section id="Pillars" class="bg-highlight-dark w-screen">
+        <div class="main">
+          <div class="grid md:grid-cols-2 mx-auto p-4">
+            <div class="pillar-text sm:my-4 md:my-0 flex items-center">
+              <h1 class="text-8xl text-center text-white">OUR FOUR PILLARS</h1>
+            </div>
+            <div class="pillar-circle grid grid-cols-2 gap-4 font-sans">
+              <div class="pillar pillar1 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-3xl">
+                <p class="text-white">CONSISTENCY</p>
+              </div>
+              <div class="pillar pillar2 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-3xl">
+                <p class="text-white">TRANSPARENCY</p>
+              </div>
+              <div class="pillar pillar3 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-3xl">
+                <p class="text-white">SUPPORT</p>
+              </div>
+              <div class="pillar pillar4 bg-highlight rounded-full aspect-square flex flex-col items-center justify-center text-3xl">
+                <p class="text-white">UNITY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------------------->
+      <!-- End of Pillars Section -->
+      <!---------------------------->
+
+
+      
+      <!-- What is USSTM Section -->
+      <!-- <div class="main">
+        <div>
+          <h2
+            id="what-usstm"
+            class="font-sans text-center font-semibold"
+          >
+            What is USSTM?
+          </h2>
+          <div id="cards" class="grid grid-cols-1 md:grid-cols-2 justify-center gap-4">
+            <div class="cardContainer">
+              <div id="c0" class="card">
+                <div class="cardFront">
+                  <h3 class="card-text">What We do</h3>
+                </div>
+                <div class="cardBack">
+                  Hello!
+                </div>
+              </div>
+            </div>
+  
+            <div class="cardContainer">
+              <div id="c1" class="card">
+                <div class="cardFront">
+                  <h3 class="card-text">Get Involved</h3>
+                </div>
+                <div class="cardBack">
+                  Hello!
+                </div>
+              </div>
+            </div>
+  
+            <div class="cardContainer">
+              <div id="c2" class="card">
+                <div class="cardFront">
+                  <h3 class="card-text">Funding</h3>
+                </div>
+                <div class="cardBack">
+                  Hello!
+                </div>
+              </div>
+            </div>
+  
+            <div class="cardContainer">
+              <div id="c3" class="card">
+                <div class="cardFront">
+                  <h3 class="card-text">Academic Support</h3>
+                </div>
+                <div class="cardBack">
+                  Hello!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- Land Ackdnowledgement Section -->
+
+      <!-- FAQ Section -->
     </main>
     <footer>
       <!-- componentLoader.js will load the footer -->

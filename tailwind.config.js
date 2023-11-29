@@ -2,13 +2,19 @@
 module.exports = {
   content: ["./*.{html,js}", "./components/*.{html,js}"],
   theme: {
-    colors: {
-      "background": "#FFFFFF",
-      "foreground": "#000000",
-      "highlight": "#63BDEE",
-      "highlight-dark": "#465DAE"
+    extend: {
+      colors: {
+        "background": "#FFFFFF",
+        "foreground": "#1E1E1E",
+        "highlight": "#D67940",
+        // "highlight": "#01B7D4",
+        "highlight-dark": "#001D56",
+      },
+      fontFamily: {
+        "sans": ["Abril"],
+        "serif": ["Lato"],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
