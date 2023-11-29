@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Homepage from "./pages/Homepage.jsx"
 import About from "./pages/About.jsx"
-import "./index.css"
+import "./App.css"
 
 function App() {
   return (
