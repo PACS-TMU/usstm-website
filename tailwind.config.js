@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       "background": "#FFFFFF",
-        "foreground": "#1E1E1E",
-        "highlight": "#D67940",
-        // "highlight": "#01B7D4",
-        "highlight-dark": "#001D56",
-      },
-      fontFamily: {
-        "sans": ["Abril", "sans-serif"],
-        "serif": ["Lato", "serif"],
-      },
+      "foreground": "#1E1E1E",
+      "highlight": "#D67940",
+      // "highlight": "#01B7D4",
+      "highlight-dark": "#001D56",
     },
+    fontFamily: {
+      "sans": ["Abril", "sans-serif"],
+      "serif": ["Lato", "serif"],
+    },
+  },
   plugins: [],
 }
