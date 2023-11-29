@@ -29,7 +29,7 @@
     position: relative;
     height: 20vh;
     text-align: center;
-    background-color: #7094BE;
+    background-color: #001d56;
 }
 
 /* Animation */
@@ -63,6 +63,7 @@
 }
 
 #footer-text {
+    color: white;
     font-size: 3vw;
     grid-column: 1 / span 3;
 }
