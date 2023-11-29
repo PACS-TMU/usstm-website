@@ -18,24 +18,6 @@
     height: 100%; /* Full height of the parent */
 }
 
-
-/* 
-Navbar issue with sizing along the y-axis was due to padding applied to both
-the main navbar AND the div. 
-*/
-nav.max-w-6xl {
-    padding-top: 0; /* Reducing padding-top */
-    padding-bottom: 0; /* Reducing padding-bottom */
-}
-
-/* This targets the <div> containing your logo and USSTM text */
-div.text-3xl {
-    padding-top: 0; /* Reducing padding-top */
-    padding-bottom: 0; /* Reducing padding-bottom */
-    /* Adjust font-size if necessary */
-}
-
-
 @media screen and (max-width: 1145px) { 
     /* I tested to see at what screen size the navbar elements break into a 
     new line, and it's 1145px. 
