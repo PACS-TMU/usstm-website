@@ -1,58 +1,36 @@
-# usstm-website
-This is PACS first project, creating the USSTM website.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Prerequisites
-Welcome and thank you for working on this project.
+## Getting Started
 
-Before you work on this website there are some command line tools and extensions you need to install.
+First, run the development server:
 
-### Command Line Tools
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [NodeJS](https://nodejs.org/en/download)
-
-### VSCode Extensions
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-
-## Cloning the Website
-1. Clone the repo.
-```
-git clone https://github.com/PACS-TMU/usstm-website.git
-```
-2. Change into the repo directory.
-```
-cd usstm-website
-```
-3. Switch to the branch that you are working on by using:
-```
-git checkout <branch-name>
-```
-
-## Running the website
-1. Install node modules
-```
-npm install
-```
-2. Run tailwind build process
-```
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-3. Start up Live Server extension
 
-## Coding
-- Code in your respective or assigned branches to avoid git conflicts.
-- Only code what you are assigned to code. To get assigned, take part in USSTM Website meetings where we split tasks. Or ask your Tech Team Lead for vacant tasks.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Pure CSS coders
-Pure CSS coders will still have to follow the above mentioned steps. When writing your own CSS, make sure you write in `/css/style.css` file and not touch the `/css/tailwind.css` file. Tailwind will automatically take your CSS and apply it to the website.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
------------------------------------------------------------
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-If you have any questions or you are unsure of anything feel free to ask your Tech Team Leads.
+## Learn More
 
-Team | GitHub | Discord
--|-|-
-0 | @williamKhine | @yumicol
-1 | @andrearcaina | @psykthe
-2 | @grcng | @grc_ng
-3 | @thatrisk | @thatrisk 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
