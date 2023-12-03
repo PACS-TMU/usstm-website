@@ -3,25 +3,44 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --usstm-background: #FFFFFF;
+    --usstm-foreground: #1E1E1E;
+    --highlight: #D67940;
+    --highlight-dark: #001D56;
+
+    --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: Abril;
+    src: url(/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato/Lato-Regular.ttf);
 }
 
+/* Set bg color and margins */
+html {
+    background-color: var(--usstm-background);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Default Font */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: "Lato";
+}
+
+/* Header font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Abril;
+}
+
+.main {
+    position: relative;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
 }
