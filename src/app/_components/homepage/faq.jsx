@@ -65,7 +65,7 @@ export default function FAQ() {
   return (
     <section id="FAQ" className="main space-y-2 w-full md:w-3/4">
       <p className="text-center">{data.title}</p>
-      <h1 className="text-5xl text-highlight-dark text-center">
+      <h1 className="text-4xl lg:text-5xl text-highlight-dark text-center">
         Frequently Asked Questions
       </h1>
       <p className="text-center pb-4">Have Questions? We&apos;re here to help.</p>

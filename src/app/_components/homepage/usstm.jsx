@@ -11,7 +11,7 @@ export default function usstm() {
                 >
                     <div className="what-usstm-heading sm:mt-4 md:mt-7">
                         <h1 className="text-6xl lg:text-8xl text-highlight-dark p-5 ml-0 lg:ml-9">
-                            ABOUT US
+                            About Us
                         </h1>
                     </div>
                     <div className="what-usstm-text bg-zinc-300">
