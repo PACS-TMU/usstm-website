@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer className="bg-highlight-dark py-3">
+            <p className="text-center text-background">© 2021 - Copyright PACS for USSTM</p>
+        </footer>
     )
 }

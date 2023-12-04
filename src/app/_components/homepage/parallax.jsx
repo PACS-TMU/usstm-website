@@ -20,45 +20,45 @@ export default function Parallax() {
                             <div className="stats-separator"></div>
                             <div className="stats-separator"></div>
                         </div>
-                        <div id="stats-text"> 
+                        <div id="stats-text">
                             <div id="stats-students">
                                 <Image
-                                        src="/images/homepage/stats-icons/students-icon.png"
-                                        alt="Icon of Students"
-                                        className="stats-icon"
-                                        width={100}
-                                        height={100}
+                                    src="/images/homepage/stats-icons/students-icon.png"
+                                    alt="Icon of Students"
+                                    className="stats-icon"
+                                    width={100}
+                                    height={100}
                                 />
-                                <p className="stats-info stats-number lg:text-5xl xl:text-3xl">7000<sup>+</sup></p>
-                                <p className="stats-info stats-description lg:text-2xl xl:text-lg">STUDENTS</p>
+                                <p className="stats-info stats-number lg:text-3xl xl:text-3xl">7000<sup>+</sup></p>
+                                <p className="stats-info stats-description lg:text-lg xl:text-lg">STUDENTS</p>
                             </div>
 
                             <div id="stats-groups">
                                 <Image
-                                        src='/images/homepage/stats-icons/groups-icon.png'
-                                        alt="Icon of Student Groups"
-                                        className="stats-icon"
-                                        width={100}
-                                        height={100}
+                                    src='/images/homepage/stats-icons/groups-icon.png'
+                                    alt="Icon of Student Groups"
+                                    className="stats-icon"
+                                    width={100}
+                                    height={100}
                                 />
-                                <p className="stats-info stats-number lg:text-5xl xl:text-3xl">25<sup>+</sup></p>
-                                <p className="stats-info stats-description lg:text-2xl xl:text-lg">STUDENT GROUPS</p>
+                                <p className="stats-info stats-number lg:text-3xl">25<sup>+</sup></p>
+                                <p className="stats-info stats-description lg:text-lg">STUDENT GROUPS</p>
                             </div>
 
                             <div id="stats-board">
                                 <Image
-                                        src='/images/homepage/stats-icons/board-icon.png'
-                                        alt="Icon of Board Members"
-                                        className="stats-icon"
-                                        width={100}
-                                        height={100}
+                                    src='/images/homepage/stats-icons/board-icon.png'
+                                    alt="Icon of Board Members"
+                                    className="stats-icon"
+                                    width={100}
+                                    height={100}
                                 />
-                                <p className="stats-info stats-number lg:text-5xl xl:text-3xl">25<sup>+</sup></p>
-                                <p className="stats-info stats-description lg:text-2xl xl:text-lg">BOARD MEMBERS</p>
+                                <p className="stats-info stats-number lg:text-3xl">25<sup>+</sup></p>
+                                <p className="stats-info stats-description lg:text-lg">BOARD MEMBERS</p>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
