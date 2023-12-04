@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
         <div
           id="nav-links"
-          className="md:flex items-center space-x-8 font-bold text-lg hidden"
+          className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 font-bold lg:text-lg hidden"
         >
           <Link
             href="/about"

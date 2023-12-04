@@ -2,7 +2,7 @@ export default function Land() {
   return (
     <>
       <section id="land">
-        <h1 className="text-center text-5xl py-10 main text-highlight-dark my-auto">
+        <h1 className="text-center text-5xl pb-8 main text-highlight-dark my-auto">
           Land Acknowlegement
         </h1>
         <div className="bg-highlight-dark py-2">

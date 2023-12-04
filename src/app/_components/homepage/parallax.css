@@ -8,7 +8,7 @@
 #parallax {
     /*  this is where the magic happens:  */
     background-image: url("/images/homepage/parallax.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     
@@ -66,6 +66,7 @@
 @media only screen and (min-device-width: 1024px) {
     #parallax{
         min-height: calc(100vh + 1px - var(--navbar-height));
+        background-attachment: fixed;
     }
 
     .parallax-text-container {
@@ -218,10 +219,3 @@
         width: 50%
     }
 }
-
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1240px) {
-    .parallax-container {
-        background-attachment: scroll;
-    }
-} 

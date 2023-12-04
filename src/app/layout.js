@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${lato.className}`}>
         <Navbar />
-        <main className='space-y-50'>{children}</main>
+        <main className='space-y-20'>{children}</main>
         <Footer />
       </body>
     </html>

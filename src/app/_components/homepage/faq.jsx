@@ -63,7 +63,7 @@ const faq = data.content.map((item) => {
 
 export default function FAQ() {
   return (
-    <section id="FAQ" className="main space-y-2 w-full md:w-3/4 py-10">
+    <section id="FAQ" className="main space-y-2 w-full md:w-3/4">
       <p className="text-center">{data.title}</p>
       <h1 className="text-5xl text-highlight-dark text-center">
         Frequently Asked Questions
