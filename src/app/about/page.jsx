@@ -1,10 +1,7 @@
-import Land from "../_components/homepage/land";
-
-export default function Home() {
+export default function About() {
     return (
         <div>
-        <h1>about us</h1>
-        <Land />
+            <h1>About</h1>
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function usstm() {
                     className="mx-auto text-center lg:text-left grid mb-11 -mt-3"
                 >
                     <div className="what-usstm-heading sm:mt-4 md:mt-7">
-                        <h1 className="text-8xl text-highlight-dark p-5 ml-0 lg:ml-9">
+                        <h1 className="text-6xl lg:text-8xl text-highlight-dark p-5 ml-0 lg:ml-9">
                             ABOUT US
                         </h1>
                     </div>

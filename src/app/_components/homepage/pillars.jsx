@@ -1,18 +1,26 @@
 export default function Pillars() {
   return (
     <>
-        <section id="pillars">
-            <div className="pillars-container flex justify-evenly items-center min-h-screen w-screen relative">
-                <div className="banner bg-highlight-dark min-w-full h-3/4 absolute top-[12.5%]"></div>
-                <div className="pillar-grid h-full grid grid-cols-1 lg:grid-cols-2 items-center absolute">
-                    <div className="pillar-text text-background flex justify-center items-center">
-                        <h1 className="text-8xl px-8">OUR FOUR PILLARS</h1>
+        <section id="pillars" className="my-12">
+            <div className="pillars-container flex justify-evenly items-center min-h-screen max-w-screen relative">
+                <div className="banner bg-highlight-dark min-w-full h-3/4 max-w-screen absolute self-center"></div>
+                <div className="pillar-grid main h-full grid grid-cols-1 lg:grid-cols-2 absolute">
+                    <div className="pillar-text text-background h-full relative flex justify-center items-center">
+                        <h1 className="text-8xl text-highlight-dark lg:text-background lg:px-8 lg:mx-8 text-center">OUR FOUR PILLARS</h1>
                     </div>
-                    <div className="pillar-cirlces gap-6 grid grid-cols-4 grid-row-5 justify-center items-center">
-                        <div className="pillar1 rounded-full h-48 aspect-square row-start-1 col-start-1 row-span-2 col-span-2 bg-highlight">CONSISTENCY</div>
-                        <div className="pillar2 rounded-full h-48 aspect-square row-start-2 col-start-3 row-span-2 col-span-2 bg-highlight">TRANSPARENCY</div>
-                        <div className="pillar3 rounded-full h-48 aspect-square row-start-3 col-start-1 row-span-2 col-span-2 bg-highlight">SUPPORT</div>
-                        <div className="pillar4 rounded-full h-48 aspect-square row-start-4 col-start-3 row-span-2 col-span-2 bg-highlight">UNITY</div>
+                    <div className="pillar-cirlces h-full relative gap-6 gap-y-20 grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-5 max-h-[100%]">
+                        <div className="pillar1 rounded-full w-[50%] lg:w-[80%] aspect-square row-start-1 col-start-1 lg:row-span-2 lg:row-end-2 self-center justify-self-center flex items-center justify-center bg-highlight">
+                            <h2 className="text-background text-2xl text-center">CONSISTENCY</h2>
+                        </div>
+                        <div className="pillar2 rounded-full w-[50%] lg:w-[80%] aspect-square row-start-2 lg:col-start-2 lg:row-span-2 lg:row-end-3 self-center justify-self-center flex items-center justify-center bg-highlight">
+                            <h2 className="text-background text-2xl text-center">TRANSPARENCY</h2>
+                        </div>
+                        <div className="pillar3 rounded-full w-[50%] lg:w-[80%] aspect-square row-start-3 col-start-1 lg:row-span-2 lg:row-end-4 self-center justify-self-center flex items-center justify-center bg-highlight">
+                            <h2 className="text-background text-2xl text-center">SUPPORT</h2>
+                        </div>
+                        <div className="pillar4 rounded-full w-[50%] lg:w-[80%] aspect-square row-start-4 lg:col-start-2 lg:row-span-2 lg:row-end-5 self-center justify-self-center flex items-center justify-center bg-highlight">
+                            <h2 className="text-background text-2xl text-center">UNITY</h2>
+                        </div>
                     </div>
                 </div>
             </div>
