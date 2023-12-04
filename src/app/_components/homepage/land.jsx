@@ -1,18 +1,31 @@
 export default function Land() {
   return (
     <>
-    <section id="land">
-        <h1 className="text-center text-5xl py-10 main text-highlight-dark my-auto">Land Acknowlegement</h1>
+      <section id="land">
+        <h1 className="text-center text-5xl py-10 main text-highlight-dark my-auto">
+          Land Acknowlegement
+        </h1>
         <div className="bg-highlight-dark">
-            <p className="text-background py-5 px-6 text-center main">
-            As a settler on this land, I acknowledge that I am on the traditional
-            territory of the Mississaugas of the Credit First Nation, the
-            Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and
-            home to many diverse Indigenous peoples. I also acknowledge that
-            Toronto is covered by Treaty 13 with the Mississaugas of the Credit.
-            </p>
+          <p className="text-background py-2 text-center main">
+            Toronto Metropolitan University is in the ‘Dish With One Spoon
+            Territory’. The Dish With One Spoon is a treaty between the
+            Anishinaabe, Mississaugas and Haudenosaunee that bound them to share
+            the territory and protect the land. Subsequent Indigenous Nations
+            and peoples, Europeans and all newcomers have been invited into this
+            treaty in the spirit of peace, friendship and respect.
+          </p>
+          <p className="text-background py-2 text-center main">
+            The "Dish", or sometimes it is called the "Bowl", represents what is
+            now southern Ontario, from the Great Lakes to Quebec and from Lake
+            Simcoe into the United States. *We all eat out of the Dish, all of
+            us that share this territory, with only one spoon. That means we
+            have to share the responsibility of ensuring the dish is never
+            empty, which includes taking care of the land and the creatures we
+            share it with. Importantly, there are no knives at the table,
+            representing that we must keep the peace.
+          </p>
         </div>
-    </section>
+      </section>
     </>
   );
 }

@@ -4,34 +4,44 @@ const data = {
   title: "FAQs",
   content: [
     {
-      question: "What is Netflix?",
+      question: "What is USSTM?",
       answer:
-        "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.\n\nYou can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!",
+        "USSTM is a dynamic community of science enthusiasts, students, and professionals dedicated to fostering a love for science, innovation, and collaboration.",
     },
     {
-      question: "How much does Netflix cost?",
+      question: "How can I stay updated on upcoming events?",
       answer:
-        "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.",
+        "Stay informed about our events by checking our [Calendar] regularly and following us on [social media platforms].",
     },
     {
-      question: "Where can I watch?",
+      question: "Can I propose an event or activity idea?",
       answer:
-        "Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.\n\nYou can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.",
+        "Absolutely! We encourage our members to share their event ideas. Contact us through [Emails] or [Other Socials] with your suggestions.",
     },
     {
-      question: "How do I cancel?",
+      question: "How can I provide feedback on events?",
       answer:
-        "Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.",
+        "We value your feedback! Use our [Events Feedback] form to share your thoughts and suggestions regarding our events.",
     },
     {
-      question: "What can I watch on Netflix?",
+      question: "How is USSTM governed?",
       answer:
-        "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.",
+        "USSTM is governed by an elected body of students known as the Board of Directors (BoD). Learn more about our governance structure [Link to Governance Page].",
     },
     {
-      question: "Is Netflix good for kids?",
+      question: "How can I get involved in leadership roles?",
       answer:
-        "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.\n\nKids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.",
+        "If you're interested in leadership roles or committees, reach out to us through [Emails] or [Other Socials]. We welcome members who are eager to contribute!",
+    },
+    {
+      question: "How is USSTM funded?",
+      answer:
+        "USSTM is funded through a combination of membership fees, sponsorships, and fundraising initiatives. Check our [Finances] page for more details.",
+    },
+    {
+      question: "Can I apply for project funding?",
+      answer:
+        "Yes, we encourage members to apply for project funding. Visit our [Project Funding] page for information on the application process.",
     },
   ],
 };
