@@ -13,7 +13,7 @@ export default function Navbar() {
         >
           <Link
             href="/about"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               About Us
@@ -22,7 +22,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/events"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Events
@@ -31,7 +31,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/academics"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Academics
@@ -40,7 +40,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/finances"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Finances
@@ -49,7 +49,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/community"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Community
@@ -58,7 +58,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/contact"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Contact us
@@ -67,7 +67,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="https://store.usstm.ca"
-            className="hover:text-highlight-dark hover:opacity-95"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
             <div className="flex items-center">
               Store

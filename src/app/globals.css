@@ -7,7 +7,7 @@
     --usstm-foreground: #1E1E1E;
     --highlight: #D67940;
     --highlight-dark: #001D56;
-
+    --highlight-blue: #E1E8F5;
     --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
 }
 
@@ -36,6 +36,15 @@ body {
 /* Header font */
 h1, h2, h3, h4, h5, h6 {
     font-family: Abril;
+}
+
+.faq > .answer > a {
+    color: var(--highlight);
+}
+
+.faq > .answer > a:hover {
+    transition: ease-in-out 0.2s;
+    color: var(--highlight-dark);
 }
 
 .main {

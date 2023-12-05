@@ -11,7 +11,7 @@ export const faqData = [
     id: 2,
     question: "How can I stay updated on upcoming events?",
     answer:
-      "Stay informed about our events by checking our [Calendar] regularly and following us on [social media platforms].",
+      "Stay informed about our events by checking our <a href='/events/calendar' target='_blank'>Events Calendar</a> regularly and following us on [social media platforms].",
   },
   {
     id: 3,

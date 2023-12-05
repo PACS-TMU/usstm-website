@@ -14,7 +14,7 @@ export default function usstm() {
                             About Us
                         </h1>
                     </div>
-                    <div className="what-usstm-text bg-zinc-300">
+                    <div className="what-usstm-text bg-highlight-blue">
                         <p className="p-5 mx-2 my-2 lg:ml-5 lg:mr-0 lg:mt-5 lg:mb-5 text-lg text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
                             eaque similique aut. Eligendi ut ipsam dignissimos provident

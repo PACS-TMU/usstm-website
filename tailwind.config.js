@@ -11,7 +11,7 @@ module.exports = {
         "background": "#FFFFFF",
         "foreground": "#1E1E1E",
         "highlight": "#D67940",
-        // "highlight": "#01B7D4",
+        "highlight-blue": "#E1E8F5",
         "highlight-dark": "#001D56",
       },
       fontFamily: {
