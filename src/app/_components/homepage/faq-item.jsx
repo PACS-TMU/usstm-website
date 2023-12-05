@@ -1,7 +1,6 @@
 'use client'
 import { useState, useRef, useEffect } from "react"
-import DownArrow from "../general/down-arrow"
-import UpArrow from "../general/up-arrow"
+import Arrow from "../general/arrow"
 import autoAnimate from "@formkit/auto-animate";
 
 export default function FAQItem(item) {
@@ -21,7 +20,7 @@ export default function FAQItem(item) {
             <div className={`question flex justify-between py-2 ${isVisible ? "bg-highlight-blue rounded-sm" : "bg-background"}`}>
                 <p className="text-xl mx-2 lg:text-2xl">{item.props.question}</p>
                 <button className="mx-2">
-                    {isVisible ? <UpArrow /> : <DownArrow />}
+                    <Arrow direction={isVisible && "up"} />
                 </button>
             </div>
             {isVisible && <div className="answer mx-4 py-2 text-foreground lg:text-lg" dangerouslySetInnerHTML={ {__html: item.props.answer} } />}

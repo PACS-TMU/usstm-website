@@ -1,10 +1,16 @@
-export default function DownArrow() {
+/**
+ * Arrow component. Default direction is down.
+ * @param {string} direction - The direction of the arrow ("up" or "down").
+ * @returns {JSX.Element} The rendered Arrow component.
+ */
+export default function Arrow({ direction }) {
     return (
         <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
         className="w-5 h-5 pt-0.5"
+        transform={direction == "up" ? "rotate(180)" : "rotate(0)"}
       >
         <path
           fillRule="evenodd"

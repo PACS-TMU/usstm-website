@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import DownArrow from "./down-arrow";
+import Arrow from "./arrow";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               About Us
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -30,7 +30,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Events
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -39,7 +39,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Academics
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -48,7 +48,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Finances
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -57,7 +57,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Community
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -66,7 +66,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Contact us
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
           <Link
@@ -75,7 +75,7 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Store
-              <DownArrow />
+              <Arrow />
             </div>
           </Link>
         </div>
@@ -119,43 +119,43 @@ export default function Navbar() {
             <Link href="/about">
               <div className="flex items-center">
                 About Us
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="/events">
               <div className="flex items-center">
                 Events
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="/academics">
               <div className="flex items-center">
                 Academics
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="/finances">
               <div className="flex items-center">
                 Finances
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="/community">
               <div className="flex items-center">
                 Community
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="/contact">
               <div className="flex items-center">
                 Contact us
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
             <Link href="https://store.usstm.ca">
               <div className="flex items-center">
                 Store
-                <DownArrow />
+                <Arrow />
               </div>
             </Link>
           </div>
