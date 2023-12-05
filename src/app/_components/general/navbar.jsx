@@ -1,8 +1,12 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import DownArrow from "./down-arrow";
+import { useState } from "react";
 
 export default function Navbar() {
+
+  const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div id="navbar">
@@ -87,7 +91,7 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <button className="md:hidden m-3">
+        <button className="md:hidden m-3" onClick={() => {setIsExpanded(!isExpanded)}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -104,6 +108,62 @@ export default function Navbar() {
           </svg>
         </button>
       </nav>
+
+      {/* ----------------------------------------- */}
+      {/* Code below is just for prototype purposes */}
+      {/* ----------------------------------------- */}
+
+      <nav>
+        <div className={`${isExpanded ? "block" : "hidden"} md:hidden bg-highlight-dark text-background opacity-90 w-screen z-20 absolute`}>
+          <div className="flex flex-col items-center justify-center space-y-4 text-center py-4 opacity-100 z-30">
+            <Link href="/about">
+              <div className="flex items-center">
+                About Us
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="/events">
+              <div className="flex items-center">
+                Events
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="/academics">
+              <div className="flex items-center">
+                Academics
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="/finances">
+              <div className="flex items-center">
+                Finances
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="/community">
+              <div className="flex items-center">
+                Community
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="/contact">
+              <div className="flex items-center">
+                Contact us
+                <DownArrow />
+              </div>
+            </Link>
+            <Link href="https://store.usstm.ca">
+              <div className="flex items-center">
+                Store
+                <DownArrow />
+              </div>
+            </Link>
+          </div>
+        </div>
+      </nav>
+      {/* ----------------------------------------- */}
+      {/* Code above is just for prototype purposes */}
+      {/* ----------------------------------------- */}
     </div>
   );
 }
