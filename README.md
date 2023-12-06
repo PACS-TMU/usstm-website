@@ -1,4 +1,4 @@
-# usstm-website
+# Undergraduate Science Society of Toronto Metropolitan
 This is PACS first project, creating the USSTM website.
 
 ## Prerequisites
@@ -37,14 +37,15 @@ npm install
 ```
 npm run dev
 ```
-3. Start up Live Server extension
+3. The website will start running on
+```
+localhost:3000
+```
 
 ## Coding
 - Code in your respective or assigned branches to avoid git conflicts.
+- Ensure to pull regularly to stay up to date with the dev branch.
 - Only code what you are assigned to code. To get assigned, take part in USSTM Website meetings where we split tasks. Or ask your Tech Team Lead for vacant tasks.
-
-## Pure CSS coders
-Pure CSS coders will still have to follow the above mentioned steps. When writing your own CSS, make sure you write in `/css/style.css` file and not touch the `/css/tailwind.css` file. Tailwind will automatically take your CSS and apply it to the website.
 
 -----------------------------------------------------------
 
