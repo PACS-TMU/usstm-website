@@ -29,7 +29,7 @@ export default function Parallax() {
                                     width={100}
                                     height={100}
                                 />
-                                <p className="stats-info stats-number lg:text-3xl xl:text-3xl">7000<sup>+</sup></p>
+                                <p className="stats-info stats-number lg:text-3xl xl:text-3xl">4000<sup>+</sup></p>
                                 <p className="stats-info stats-description lg:text-lg xl:text-lg">STUDENTS</p>
                             </div>
 

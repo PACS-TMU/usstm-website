@@ -17,8 +17,7 @@ export default function Pillars() {
                                     CONSISTENCY
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
-                                USSTM is committed to ensuring consistency. Whether that is throughout our events or the planning process, we ensure to be 
-                                consistent.
+                                    We maintain a steady approach, ensuring our actions and decisions align with established standards and values consistently.
                                 </div>
                             </div>
                         </div>
@@ -28,7 +27,7 @@ export default function Pillars() {
                                     TRANSPARENCY
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
-                                    Description.
+                                    We prioritize open communication, providing accessible information to build trust and understanding among our members.
                                 </div>
                             </div>
                         </div>
@@ -38,8 +37,7 @@ export default function Pillars() {
                                     SUPPORT
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
-                                USSTM is commited to providing support and activities, events, and resources that will enhance the Membership&apos;s professional 
-                                experience and marketable skills.
+                                    We offer assistance, encouragement, and resources, fostering an environment where every member feels valued and empowered to succeed.
                                 </div>
                             </div>
                         </div>
@@ -49,7 +47,7 @@ export default function Pillars() {
                                     UNITY
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
-                                    Description.
+                                    We promote collaboration and teamwork, celebrating diversity and achieving success together through our cohesive community.
                                 </div>
                             </div>
                         </div>
