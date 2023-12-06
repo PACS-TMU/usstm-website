@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --usstm-background: #FFFFFF;
+    --usstm-foreground: #1E1E1E;
+    --highlight: #D67940;
+    /* --highlight: #64B9C9; */
+    --highlight-dark: #001D56;
+
+    --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Abril;
+    src: url(../../public/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../../public/fonts/Lato/Lato-Regular.ttf);
+}
+
+/* Set bg color and margins */
+html {
+    background-color: var(--usstm-background);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Default Font */
+body {
+    font-family: "Lato";
+}
+
+/* Header font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Abril;
+}
+
+.main {
+    position: relative;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
