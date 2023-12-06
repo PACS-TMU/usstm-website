@@ -16,6 +16,14 @@ export default function Navbar() {
           className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 font-bold lg:text-lg hidden"
         >
           <Link
+            href="/"
+            className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
+          >
+            <div className="flex items-center">
+              Home
+            </div>
+          </Link>
+          <Link
             href="/about"
             className="hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
           >
@@ -75,7 +83,6 @@ export default function Navbar() {
           >
             <div className="flex items-center">
               Store
-              <Arrow />
             </div>
           </Link>
         </div>
