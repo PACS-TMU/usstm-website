@@ -38,7 +38,7 @@ export default function Pillars() {
                                     SUPPORT
                                 </div>
                                 <div className="cardBack h-full flex justify-center items-center self-center text-background text-sm lg:text-md text-center">
-                                USSTM is commited to providing support and activities, events, and resources that will enhance the Membership's professional 
+                                USSTM is commited to providing support and activities, events, and resources that will enhance the Membership&apos;s professional 
                                 experience and marketable skills.
                                 </div>
                             </div>
