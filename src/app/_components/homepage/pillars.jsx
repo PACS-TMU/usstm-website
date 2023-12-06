@@ -17,8 +17,8 @@ export default function Pillars() {
                                     CONSISTENCY
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
-                                USSTM is committed to ensuring consistency. Whether that is throughout our events or  the planning process, we ensure to be 
-                                consistent and transparent with all students in the Faculty of Science.
+                                USSTM is committed to ensuring consistency. Whether that is throughout our events or the planning process, we ensure to be 
+                                consistent.
                                 </div>
                             </div>
                         </div>
