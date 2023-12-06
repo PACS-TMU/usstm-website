@@ -16,7 +16,7 @@ export default function Pillars() {
                                 <div className="cardFront h-full flex justify-center items-center text-background text-md lg:text-lg xl:text-2xl text-center font-sans">
                                     CONSISTENCY
                                 </div>
-                                <div className="cardBack h-full flex justify-center items-center self-center text-background text-sm lg:text-md text-center">
+                                <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
                                 USSTM is committed to ensuring consistency. Whether that is throughout our events or  the planning process, we ensure to be 
                                 consistent and transparent with all students in the Faculty of Science.
                                 </div>
@@ -27,7 +27,7 @@ export default function Pillars() {
                                 <div className="cardFront h-full flex justify-center items-center text-background text-md lg:text-lg xl:text-2xl text-center font-sans">
                                     TRANSPARENCY
                                 </div>
-                                <div className="cardBack h-full flex justify-center items-center self-center text-background text-sm lg:text-md text-center">
+                                <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
                                     Description.
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ export default function Pillars() {
                                 <div className="cardFront h-full flex justify-center items-center text-background text-md lg:text-lg xl:text-2xl text-center font-sans">
                                     SUPPORT
                                 </div>
-                                <div className="cardBack h-full flex justify-center items-center self-center text-background text-sm lg:text-md text-center">
+                                <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
                                 USSTM is commited to providing support and activities, events, and resources that will enhance the Membership&apos;s professional 
                                 experience and marketable skills.
                                 </div>
@@ -48,7 +48,7 @@ export default function Pillars() {
                                 <div className="cardFront h-full flex justify-center items-center text-background text-md lg:text-lg xl:text-2xl text-center font-sans">
                                     UNITY
                                 </div>
-                                <div className="cardBack h-full flex justify-center items-center self-center text-background text-sm lg:text-md text-center">
+                                <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-background text-md text-center">
                                     Description.
                                 </div>
                             </div>

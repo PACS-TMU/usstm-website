@@ -1,36 +1,43 @@
-.perspective {
-    perspective: 1000px;
+cardBack {
+    display: none;
 }
 
-.card {
-    transform-style: preserve-3d;
-    transition: 1s;
-}
-
-.cardBox:hover .card {
-    transform: rotateY(-180deg);
-}
-
-.cardFront,
-.cardBack {
-    backface-visibility: hidden;
-    position: absolute;
-}
-
-.cardFront {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.cardBack {
-    top: 15%;
-    left: 15%;
-}
-
-.cardBack {
-    transform: rotateY(180deg);
-    height: calc(100% / 1.414);
-    width: calc(100% / 1.414);
+@media only screen and (min-width: 1280px) {
+    .perspective {
+        perspective: 1000px;
+    }
+    
+    .card {
+        transform-style: preserve-3d;
+        transition: 1s;
+    }
+    
+    .cardBox:hover .card {
+        transform: rotateY(-180deg);
+    }
+    
+    .cardFront,
+    .cardBack {
+        backface-visibility: hidden;
+        position: absolute;
+    }
+    
+    .cardFront {
+        transform: rotateY(0deg);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .cardBack {
+        top: 15%;
+        left: 15%;
+    }
+    
+    .cardBack {
+        transform: rotateY(180deg);
+        height: calc(100% / 1.414);
+        width: calc(100% / 1.414);
+    }
 }
