@@ -47,7 +47,7 @@ export const faqData = [
     id: 8,
     question: "Can I apply for funding?",
     answer:
-      "Yes, we encourage members to apply for funding. USSTM funds students to go to <a href='/events/conference-competitions' target='_blank'>Conferences & Competitions</a>. We also fund students throught our <a href='/finanes/startup-certified' target='_blank'>Startup Certified</a> service, hosted by the <a href='https://dmz.torontomu.ca/' target='_blank'>DMZ</a> which is funding for student startups.",
+      "Yes, we encourage members to apply for funding. USSTM funds students to go to <a href='/finances/conferences-competitions' target='_blank'>Conferences & Competitions</a>. We also fund students throught our <a href='/finances/startup-certified' target='_blank'>Startup Certified</a> service, hosted by the <a href='https://dmz.torontomu.ca/' target='_blank'>DMZ</a> which is funding for student startups.",
   },
 ]
 
