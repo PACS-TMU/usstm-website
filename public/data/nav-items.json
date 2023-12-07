@@ -28,7 +28,7 @@
                 {
                     "id": 213,
                     "item-name": "Operations Committee",
-                    "path": "/about/your-team/-comittee",
+                    "path": "/about/your-team/operations-comittee",
                     "sub-items":[]
                 },
                 {
@@ -58,7 +58,7 @@
                 {
                     "id": 218,
                     "item-name": "Finnaces Committee",
-                    "path": "/about/your-team/finnaces-comittee",
+                    "path": "/about/your-team/finances-comittee",
                     "sub-items":[]
                 },
                 {
@@ -95,8 +95,8 @@
         },
         {
             "id": 24,
-            "item-name": "Past Board",
-            "path": "/about/past-board",
+            "item-name": "Past Boards",
+            "path": "/about/past-boards",
             "sub-items": []
         },
         {
@@ -113,8 +113,8 @@
     "sub-items": [
         {
             "id": 31,
-            "item-name": "Calender",
-            "path": "/events/calender",
+            "item-name": "Calendar",
+            "path": "/events/calendar",
             "sub-items": []
         },
         {
@@ -124,7 +124,7 @@
             "sub-items": []
         },
         {
-            "id": 31,
+            "id": 33,
             "item-name": "Yearbook/Gallery",
             "path": "/events/yearbook-gallery",
             "sub-items": []
@@ -181,7 +181,7 @@
         {
             "id": 52,
             "item-name": "Conferences & Competitions",
-            "path": "/finances/conferences-comper=titions",
+            "path": "/finances/conferences-competitions",
             "sub-items": []
         },
         {

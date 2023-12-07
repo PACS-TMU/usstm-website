@@ -8,6 +8,13 @@ export default function Navbar() {
 
   const [isExpanded, setIsExpanded] = useState(false);
 
+  try{
+    const res = fetch('/data/nav-items.json');
+    console.log(res);
+  } catch (error) {
+    console.error('Error fetching nav data:', error);
+  }
+
   return (
     <div id="navbar">
       <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
