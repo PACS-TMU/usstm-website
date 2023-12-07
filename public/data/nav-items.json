@@ -1,241 +1,248 @@
 [
-    {"id": 1,
-    "item-name": "Home",
-    "path": "/",
-    "sub-items": []
+    {
+        "id": 1,
+        "itemName": "Home",
+        "path": "/",
+        "subItems": []
     },
-    {"id": 2,
-    "item-name": "About Us",
-    "path": "/about",
-    "sub-items": [
-        {
-            "id": 201,
-            "item-name": "Your Team",
-            "path": "/about/your-team",
-            "sub-items": [
-                {
-                    "id": 20101,
-                    "item-name": "Board of Directors (BoD)",
-                    "path": "/about/your-team/directors",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20102,
-                    "item-name": "Presidents Committee",
-                    "path": "/about/your-team/president-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20103,
-                    "item-name": "Operations Committee",
-                    "path": "/about/your-team/operations-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20104,
-                    "item-name": "Events Committee",
-                    "path": "/about/your-team/events-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20105,
-                    "item-name": "Formal Committee",
-                    "path": "/about/your-team/formal-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20106,
-                    "item-name": "Frosh Committee",
-                    "path": "/about/your-team/frosh-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20107,
-                    "item-name": "Academics Committee",
-                    "path": "/about/your-team/academics-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20108,
-                    "item-name": "Finnaces Committee",
-                    "path": "/about/your-team/finances-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20109,
-                    "item-name": "Externals Committee",
-                    "path": "/about/your-team/externals-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20110,
-                    "item-name": "Communication Committee",
-                    "path": "/about/your-team/comms-comittee",
-                    "sub-items":[]
-                },
-                {
-                    "id": 20111,
-                    "item-name": "Equity Committee",
-                    "path": "/about/your-team/equity-comittee",
-                    "sub-items":[]
-                }
-            ]
-        },
-        {
-            "id": 202,
-            "item-name": "Governance",
-            "path": "/about/governance",
-            "sub-items": []
-        },
-        {
-            "id": 203,
-            "item-name": "Meetings",
-            "path": "/about/meetings",
-            "sub-items": []
-        },
-        {
-            "id": 204,
-            "item-name": "Past Boards",
-            "path": "/about/past-boards",
-            "sub-items": []
-        },
-        {
-            "id": 205,
-            "item-name": "Services",
-            "path": "/about/services",
-            "sub-items": []
-        }
-    ]
+    {
+        "id": 2,
+        "itemName": "About Us",
+        "path": "/about",
+        "subItems": [
+            {
+                "id": 201,
+                "itemName": "Your Team",
+                "path": "/about/your-team",
+                "subItems": [
+                    {
+                        "id": 20101,
+                        "itemName": "Board of Directors (BoD)",
+                        "path": "/about/your-team/directors",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20102,
+                        "itemName": "Presidents Committee",
+                        "path": "/about/your-team/president-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20103,
+                        "itemName": "Operations Committee",
+                        "path": "/about/your-team/operations-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20104,
+                        "itemName": "Events Committee",
+                        "path": "/about/your-team/events-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20105,
+                        "itemName": "Formal Committee",
+                        "path": "/about/your-team/formal-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20106,
+                        "itemName": "Frosh Committee",
+                        "path": "/about/your-team/frosh-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20107,
+                        "itemName": "Academics Committee",
+                        "path": "/about/your-team/academics-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20108,
+                        "itemName": "Finnaces Committee",
+                        "path": "/about/your-team/finances-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20109,
+                        "itemName": "Externals Committee",
+                        "path": "/about/your-team/externals-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20110,
+                        "itemName": "Communication Committee",
+                        "path": "/about/your-team/comms-comittee",
+                        "subItems": []
+                    },
+                    {
+                        "id": 20111,
+                        "itemName": "Equity Committee",
+                        "path": "/about/your-team/equity-comittee",
+                        "subItems": []
+                    }
+                ]
+            },
+            {
+                "id": 202,
+                "itemName": "Governance",
+                "path": "/about/governance",
+                "subItems": []
+            },
+            {
+                "id": 203,
+                "itemName": "Meetings",
+                "path": "/about/meetings",
+                "subItems": []
+            },
+            {
+                "id": 204,
+                "itemName": "Past Boards",
+                "path": "/about/past-boards",
+                "subItems": []
+            },
+            {
+                "id": 205,
+                "itemName": "Services",
+                "path": "/about/services",
+                "subItems": []
+            }
+        ]
     },
-    {"id": 3,
-    "item-name": "Events",
-    "path": "/events",
-    "sub-items": [
-        {
-            "id": 301,
-            "item-name": "Calendar",
-            "path": "/events/calendar",
-            "sub-items": []
-        },
-        {
-            "id": 302,
-            "item-name": "Annual Events",
-            "path": "/events/annual",
-            "sub-items": []
-        },
-        {
-            "id": 303,
-            "item-name": "Yearbook/Gallery",
-            "path": "/events/yearbook-gallery",
-            "sub-items": []
-        }
-        
-    ]
+    {
+        "id": 3,
+        "itemName": "Events",
+        "path": "/events",
+        "subItems": [
+            {
+                "id": 301,
+                "itemName": "Calendar",
+                "path": "/events/calendar",
+                "subItems": []
+            },
+            {
+                "id": 302,
+                "itemName": "Annual Events",
+                "path": "/events/annual",
+                "subItems": []
+            },
+            {
+                "id": 303,
+                "itemName": "Yearbook/Gallery",
+                "path": "/events/yearbook-gallery",
+                "subItems": []
+            }
+        ]
     },
-    {"id": 4,
-    "item-name": "Academics",
-    "path": "/academics",
-    "sub-items": [
-        {
-            "id": 401,
-            "item-name": "Feedback Form",
-            "path": "/academics/feedback",
-            "sub-items": []
-        },
-        {
-            "id": 402,
-            "item-name": "Crash Courses",
-            "path": "/academics/crash-course",
-            "sub-items": []
-        },
-        {
-            "id": 403,
-            "item-name": "Nimbus",
-            "path": "/academics/nimbus",
-            "sub-items": []
-        },
-        {
-            "id": 404,
-            "item-name": "Synergize Case Comp",
-            "path": "/academics/synergize",
-            "sub-items": []
-        },
-        {
-            "id": 405,
-            "item-name": "Lunch & Learn",
-            "path": "/academics/lunch-learn",
-            "sub-items": []
-        }
-    ]
+    {
+        "id": 4,
+        "itemName": "Academics",
+        "path": "/academics",
+        "subItems": [
+            {
+                "id": 401,
+                "itemName": "Feedback Form",
+                "path": "/academics/feedback",
+                "subItems": []
+            },
+            {
+                "id": 402,
+                "itemName": "Crash Courses",
+                "path": "/academics/crash-course",
+                "subItems": []
+            },
+            {
+                "id": 403,
+                "itemName": "Nimbus",
+                "path": "/academics/nimbus",
+                "subItems": []
+            },
+            {
+                "id": 404,
+                "itemName": "Synergize Case Comp",
+                "path": "/academics/synergize",
+                "subItems": []
+            },
+            {
+                "id": 405,
+                "itemName": "Lunch & Learn",
+                "path": "/academics/lunch-learn",
+                "subItems": []
+            }
+        ]
     },
-    {"id": 5,
-    "item-name": "Finances",
-    "path": "/finances",
-    "sub-items": [
-        {
-            "id": 501,
-            "item-name": "Budget",
-            "path": "/finances/budget",
-            "sub-items": []
-        },
-        {
-            "id": 502,
-            "item-name": "Conferences & Competitions",
-            "path": "/finances/conferences-competitions",
-            "sub-items": []
-        },
-        {
-            "id": 503,
-            "item-name": "DMZ Startup Certified",
-            "path": "/finances/startup-certified",
-            "sub-items": []
-        },
-        {
-            "id": 504,
-            "item-name": "Financial Policies",
-            "path": "/finances/policies",
-            "sub-items": []
-        }
-    ]
+    {
+        "id": 5,
+        "itemName": "Finances",
+        "path": "/finances",
+        "subItems": [
+            {
+                "id": 501,
+                "itemName": "Budget",
+                "path": "/finances/budget",
+                "subItems": []
+            },
+            {
+                "id": 502,
+                "itemName": "Conferences & Competitions",
+                "path": "/finances/conferences-competitions",
+                "subItems": []
+            },
+            {
+                "id": 503,
+                "itemName": "DMZ Startup Certified",
+                "path": "/finances/startup-certified",
+                "subItems": []
+            },
+            {
+                "id": 504,
+                "itemName": "Financial Policies",
+                "path": "/finances/policies",
+                "subItems": []
+            }
+        ]
     },
-    {"id": 6,
-    "item-name": "Community",
-    "path": "/community",
-    "sub-items": [ 
-        {
-            "id": 601,
-            "item-name": "Student Groups & Course Unions",
-            "path": "/community/groups-unions",
-            "sub-items": []
-        },
-        {
-            "id": 602,
-            "item-name": "Elections",
-            "path": "/community/elections",
-            "sub-items": []
-        },
-        {
-            "id": 603,
-            "item-name": "Science Lounge (KHE 223)",
-            "path": "/community/science-lounge",
-            "sub-items": []
-        },
-        {
-            "id": 604,
-            "item-name": "Student Spotlight",
-            "path": "/community/student-spotlight",
-            "sub-items": []
-        }
-    ]
+    {
+        "id": 6,
+        "itemName": "Community",
+        "path": "/community",
+        "subItems": [
+            {
+                "id": 601,
+                "itemName": "Student Groups & Course Unions",
+                "path": "/community/groups-unions",
+                "subItems": []
+            },
+            {
+                "id": 602,
+                "itemName": "Elections",
+                "path": "/community/elections",
+                "subItems": []
+            },
+            {
+                "id": 603,
+                "itemName": "Science Lounge (KHE 223)",
+                "path": "/community/science-lounge",
+                "subItems": []
+            },
+            {
+                "id": 604,
+                "itemName": "Student Spotlight",
+                "path": "/community/student-spotlight",
+                "subItems": []
+            }
+        ]
     },
-    {"id": 7,
-    "item-name": "Contact Us",
-    "path": "/contact",
-    "sub-items": []
+    {
+        "id": 7,
+        "itemName": "Contact Us",
+        "path": "/contact",
+        "subItems": []
     },
-    {"id": 8,
-    "item-name": "Store",
-    "path": "https://shop.usstm.ca/",
-    "sub-items": []
+    {
+        "id": 8,
+        "itemName": "Store",
+        "path": "https://shop.usstm.ca/",
+        "subItems": []
     }
 ]

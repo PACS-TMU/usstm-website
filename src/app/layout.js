@@ -1,12 +1,6 @@
-import { Lato } from 'next/font/google'
-import Navbar from './_components/general/navbar'
+import Navbar from './_components/general/navbar/navbar'
 import Footer from './_components/general/footer'
 import './globals.css'
-
-const lato = Lato({ 
-  subsets: ['latin'],
-  weight: ["100", "300", "400", "700", "900"]
-})
 
 export const metadata = {
   title: 'USSTM',
@@ -16,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${lato.className}`}>
+      <body className="font-serif">
         <Navbar />
         <main className='space-y-20'>{children}</main>
         <Footer />
