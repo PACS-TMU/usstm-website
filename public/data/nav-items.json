@@ -1,0 +1,79 @@
+[
+    {"id": 1,
+    "item-name": "Home",
+    "path": "/",
+    "sub-items": []
+    },
+    {"id": 2,
+    "item-name": "About Us",
+    "path": "/about",
+    "sub-items": [
+        {
+            "id": 201,
+            "item-name": "Governance",
+            "path": "/about/governance",
+            "sub-items": []
+        },
+        {
+            "id": 202,
+            "item-name": "Meetings",
+            "path": "/about/meetings",
+            "sub-items": []
+        },
+        {
+            "id": 203,
+            "item-name": "Past Board",
+            "path": "/about/past-board",
+            "sub-items": []
+        },
+        {
+            "id": 204,
+            "item-name": "Services",
+            "path": "/about/services",
+            "sub-items": []
+        },
+        {
+            "id": 205,
+            "item-name": "Your Team",
+            "path": "/about/your-team",
+            "sub-items": [
+                {},
+                {},
+                {}
+            ]
+        }
+    ]
+    },
+    {"id": 3,
+    "item-name": "Events",
+    "path": "/events",
+    "sub-items": [
+        
+    ]
+    },
+    {"id": 4,
+    "item-name": "Academics",
+    "path": "/academics",
+    "sub-items": []
+    },
+    {"id": 5,
+    "item-name": "Finances",
+    "path": "/finances",
+    "sub-items": []
+    },
+    {"id": 6,
+    "item-name": "Community",
+    "path": "/community",
+    "sub-items": []
+    },
+    {"id": 7,
+    "item-name": "Contact Us",
+    "path": "/contact",
+    "sub-items": []
+    },
+    {"id": 8,
+    "item-name": "Store",
+    "path": "https://shop.usstm.ca/",
+    "sub-items": []
+    }
+]
