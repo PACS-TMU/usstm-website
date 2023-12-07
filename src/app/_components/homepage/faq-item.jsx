@@ -16,15 +16,15 @@ export default function FAQItem(item) {
     }
 
     return (
-        <div className="faq py-2" ref={parent} onClick={toggle}>
-            <div className={`question flex justify-between py-2 ${isVisible ? "bg-highlight-blue rounded-sm" : "bg-background"}`}>
+        <button className="faq w-full py-2" onClick={toggle}>
+            <div className={`question text-left flex justify-between py-2 ${isVisible ? "bg-highlight-blue rounded-sm" : "bg-background"}`}>
                 <p className="text-xl mx-2 lg:text-2xl">{item.props.question}</p>
-                <button className="mx-2">
+                <div className="mx-2">
                     <Arrow direction={isVisible && "up"} />
-                </button>
+                </div>
             </div>
-            {isVisible && <div className="answer mx-4 py-2 text-foreground lg:text-lg" dangerouslySetInnerHTML={ {__html: item.props.answer} } />}
+            {isVisible && <div className="answer text-left mx-4 py-2 text-foreground lg:text-lg" dangerouslySetInnerHTML={ {__html: item.props.answer} } />}
             <hr />
-       </div>
+       </button>
     )
 }

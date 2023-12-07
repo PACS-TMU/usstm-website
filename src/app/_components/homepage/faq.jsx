@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import FAQItem from './faq-item';
 import { useEffect, useState } from 'react';
 
@@ -30,6 +31,9 @@ export default function FAQ() {
       {faqItems.map((faqItem) => (
         <FAQItem key={faqItem.id} props={faqItem} />
       ))}
+      <div id="linkToFAQ" className="w-full flex justify-center items-center py-2">
+        <Link href="/faq" className="text-highlight text-lg lg:text-xl hover:underline text-center">View More</Link>
+      </div>
     </section>
   );
 }

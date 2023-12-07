@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--highlight-dark);
 }
 
+#linkToFAQ > a:hover {
+    transition: ease-in-out 0.2s;
+    color: var(--highlight-dark);
+}
+
 .main {
     position: relative;
     max-width: 1440px;

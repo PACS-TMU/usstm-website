@@ -1,50 +1,46 @@
-import Link from "next/link"
-import Arrow from "../arrow"
-import Dropdown from "./dropdown"
+import Dropdown from "./dropdown";
+import Link from "next/link";
+import Arrow from "../arrow";
 
-const displayDropdown = (isExpanded, navItem) => {
-    switch (isExpanded) {
-        case "none":
-            break;
-        case "about":
-            <Dropdown navItem={navItem} subItems={navItem.props.subItems} />
-            break;
-        default:
-            break;
-    }
-}
-
-export default function NavItems(navItem, isExpanded, onShow) {
+export default function NavItems({ onClick, setExpanded, expanded, setIsExpandedMobile, items }) {
     return (
-        <li>
-            {navItem.props.subItems.length != 0 ? (
+        <li className="w-full md:w-auto flex flex-col md:block justify-start">
+            {items.subItems.length != 0 ? (
                 <>
-                    <button 
+                    <button
+                        id={items.id}
                         type="button"
                         aria-haspopup="menu"
-                        className="lg:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
-                        onClick={() => {isExpanded==navItem.props.itemName ? onShow("none") : onShow(navItem.props.itemName)}}
+                        className="md:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
+                        aria-expanded={expanded ? true : false}
+                        onClick={onClick}
                     >
-                        <div className="flex items-center">
-                            {navItem.props.itemName}
-                            <Arrow />
+                        <div className="flex items-center px-12 md:px-0">
+                            <p>{items.itemName}</p>
+                            <Arrow direction={expanded && "up"} />
                         </div>
                     </button>
-                    {displayDropdown(isExpanded, navItem)}
-                    {/* <Dropdown subItems={navItem.props.subItems} /> */}
+                    <Dropdown
+                        subItems={items.subItems}
+                        expanded={expanded}
+                        onClick={onClick}
+                        setIsExpandedMobile={setIsExpandedMobile}
+                        setExpanded={setExpanded}
+                    />
                 </>
             ) : (
-                <>
-                    <Link
-                        href={navItem.props.path}
-                        className="lg:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
-                    >
-                        <div className="flex items-center">
-                            {navItem.props.itemName}
-                        </div>
-                    </Link>
-                </>
+                <Link
+                    href={items.path}
+                    className="md:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
+                    onClick={(e) => {
+                        onClick;
+                        setIsExpandedMobile(false);
+                        setExpanded(false);
+                    }}
+                >
+                    <p className="px-12 md:px-0">{items.itemName}</p>
+                </Link>
             )}
         </li>
-    )
-}
+    );
+};

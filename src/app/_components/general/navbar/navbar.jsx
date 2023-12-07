@@ -1,13 +1,24 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
+import {useClickAway} from 'react-use';
 import NavItems from "./nav-items";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import autoAnimate from "@formkit/auto-animate";
+import { Turn as Hamburger } from 'hamburger-react'
 
 export default function Navbar() {
-
+  // States to open/close menus
   const [isExpandedMobile, setIsExpandedMobile] = useState(false);
-  const [isExpanded, setIsExpanded] = useState("none");
+  const [expanded, setExpanded] = useState(false);
+  const handleClick = item => (_, isExpanded) => {
+    setExpanded(isExpanded ? false : item.id);
+    if (expanded === item.id) {
+      setExpanded(false);
+    }
+  };
+
+  // Retrieve nav items from JSON file
   const [navItems, setNavItems] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -15,7 +26,6 @@ export default function Navbar() {
         const res = await fetch('/data/nav-items.json');
         const data = await res.json();
         setNavItems(data);
-        console.log(res);
       } catch (error) {
         console.error('Error fetching nav data:', error);
       }
@@ -23,19 +33,34 @@ export default function Navbar() {
     fetchData();
   }, []);
 
+  // For closing the dropdown menu when clicking outside of it
+  const ref = useRef(null);
+  useClickAway(ref, () => {
+    setIsExpandedMobile(false);
+    setExpanded(false);
+  });
+
   return (
-    <div id="navbar">
+    <div id="navbar" ref={ref}>
       <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
         <ul
           id="nav-links"
-          className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 font-bold lg:text-lg hidden"
+          className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
         >
-          {navItems.map((navItem) => (
-            <NavItems key={navItems.id} props={navItem} /> 
-          ))}
+          {navItems.map((navItem) => {
+            return (
+              <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
+            );
+          })}
         </ul>
 
-        <div id="nav-logo">
+        <div 
+          id="nav-logo"
+          onClick={() => { 
+            setIsExpandedMobile(false);
+            setExpanded(false);
+          }}
+        >
           <Link href="/">
             <Image
               src="/icons/usstm-logo.png"
@@ -47,41 +72,25 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <button className="md:hidden m-3" onClick={() => { setIsExpandedMobile(!isExpandedMobile) }}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        </button>
+        <div id="hamburger-button" className="md:hidden m-3" onClick={() => setIsExpandedMobile(!isExpandedMobile)}>
+          <Hamburger 
+            toggled={isExpandedMobile} 
+            toggle={setIsExpandedMobile}
+            duration={0.7}
+            rounded 
+            color="#1E1E1E"
+          />
+        </div>
       </nav>
 
       {/* ----------------------------------------- */}
       {/* Code below is just for prototype purposes */}
       {/* ----------------------------------------- */}
-
-      <nav>
-        <div className={`${isExpanded ? "block" : "hidden"} hidden md:block bg-highlight-dark text-background opacity-90 w-screen z-20 absolute`}>
-          <div className="flex flex-col items-center justify-center space-y-4 text-center py-4 opacity-100 z-30" onClick={() => {setIsExpanded(!isExpanded)}}>
-            
-          </div>
-        </div>
-      </nav>
-
       <nav id="mobile-dropdown">
-        <div className={`${isExpandedMobile ? "block" : "hidden"} md:hidden bg-highlight-dark text-background opacity-90 w-screen z-20 absolute`}>
-          <ul className="flex flex-col items-center justify-center space-y-4 text-center py-4 opacity-100 z-10" onClick={() => {setIsExpandedMobile(!isExpandedMobile)}}>
+        <div className={`${isExpandedMobile ? "block" : "hidden"} md:hidden bg-highlight-dark text-xl text-background opacity-95 w-screen h-fit z-20 absolute`}>
+          <ul className="flex flex-col items-center justify-center space-y-8 py-4 opacity-100 z-10">
             {navItems.map((navItem) => (
-              <NavItems key={navItems.id} props={navItem} />
+              <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
             ))}
           </ul>
         </div>

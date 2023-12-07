@@ -10,7 +10,7 @@ export default function Pillars() {
                     <div className="pillar-text text-background h-full relative flex justify-center items-center">
                         <h1 className="text-6xl lg:text-8xl text-background lg:px-8 lg:mx-8 text-center">Our Four Pillars</h1>
                     </div>
-                    <div className="pillar-cirlces h-full relative gap-6 lg:gap-y-20 grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-5 max-h-[100%]">
+                    <div className="pillar-cirlces h-full py-2 relative gap-6 lg:gap-y-20 grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-5 max-h-[100%]">
                         <div className="pillar1 cardBox perspective rounded-full mr-[40%] w-[50%] lg:mr-0 lg:w-[80%] xl:w-[90%] row-start-1 col-start-1 lg:row-span-2 self-center justify-self-center flex items-center justify-center">
                             <div className="card w-full h-full rounded-full aspect-square bg-highlight">
                                 <div className="cardFront h-full flex justify-center items-center text-background text-md lg:text-lg xl:text-2xl text-center font-sans">
