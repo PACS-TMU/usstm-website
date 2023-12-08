@@ -16,7 +16,7 @@ export default function FAQItem(item) {
     }
 
     return (
-        <button className="faq w-full py-2" onClick={toggle}>
+        <button className="faq w-full py-2" onClick={toggle} ref={parent}>
             <div className={`question text-left flex justify-between py-2 ${isVisible ? "bg-highlight-blue rounded-sm" : "bg-background"}`}>
                 <p className="text-xl mx-2 lg:text-2xl">{item.props.question}</p>
                 <div className="mx-2">

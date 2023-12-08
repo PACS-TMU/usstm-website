@@ -6,6 +6,7 @@ import { useEffect, useState, useRef } from "react";
 import { useClickAway } from 'react-use';
 import { Turn as Hamburger } from 'hamburger-react'
 import { AnimatePresence, motion } from "framer-motion";
+import "./navbar.css"
 
 export default function Navbar() {
   // States to open/close menus
@@ -41,7 +42,17 @@ export default function Navbar() {
   });
 
   return (
-    <div id="navbar" ref={ref}>
+    <div
+      id="navbar"
+      ref={ref}
+      className="sticky top-0 w-full bg-background z-50"
+      onKeyDown={(e) => {
+        if (e.key === "Escape") {
+          setIsExpandedMobile(false);
+          setExpanded(false);
+        }
+      }}
+    >
       <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
         <ul
           id="nav-links"
@@ -49,7 +60,14 @@ export default function Navbar() {
         >
           {navItems.map((navItem) => {
             return (
-              <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
+              <NavItems
+                onClick={handleClick(navItem)}
+                setExpanded={setExpanded}
+                expanded={expanded === navItem.id}
+                setIsExpandedMobile={setIsExpandedMobile}
+                items={navItem}
+                key={navItem.id}
+              />
             );
           })}
         </ul>

@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function NavItems({ onClick, setExpanded, expanded, isExpandedMobile, setIsExpandedMobile, items }) {
     return (
-        <li className="w-full md:w-auto flex flex-col md:block justify-start">
+        <li className="w-full md:w-auto flex flex-col md:block z-50 justify-start">
             {items.subItems.length != 0 ? (
                 <>
                     <button
@@ -31,9 +31,11 @@ export default function NavItems({ onClick, setExpanded, expanded, isExpandedMob
                                 transition={{ duration: 0.3 }}
                             >
                                 <Dropdown
+                                    parentItem = {items}
                                     subItems={items.subItems}
                                     expanded={expanded}
                                     onClick={onClick}
+                                    isExpandedMobile={isExpandedMobile}
                                     setIsExpandedMobile={setIsExpandedMobile}
                                     setExpanded={setExpanded}
                                 />

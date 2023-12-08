@@ -3,17 +3,20 @@
         "id": 1,
         "itemName": "Home",
         "path": "/",
+        "description": "This is the description of Home",
         "subItems": []
     },
     {
         "id": 2,
         "itemName": "About Us",
         "path": "/about",
+        "description": "Hello about us",
         "subItems": [
             {
                 "id": 201,
                 "itemName": "Your Team",
                 "path": "/about/your-team",
+                "description": "Hello from your team",
                 "subItems": [
                     {
                         "id": 20101,

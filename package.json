@@ -15,7 +15,8 @@
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-use": "^17.4.2"
+    "react-use": "^17.4.2",
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
