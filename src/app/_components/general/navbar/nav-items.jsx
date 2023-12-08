@@ -1,8 +1,9 @@
 import Dropdown from "./dropdown";
 import Link from "next/link";
 import Arrow from "../arrow";
+import { AnimatePresence, motion } from "framer-motion";
 
-export default function NavItems({ onClick, setExpanded, expanded, setIsExpandedMobile, items }) {
+export default function NavItems({ onClick, setExpanded, expanded, isExpandedMobile, setIsExpandedMobile, items }) {
     return (
         <li className="w-full md:w-auto flex flex-col md:block justify-start">
             {items.subItems.length != 0 ? (
@@ -19,14 +20,26 @@ export default function NavItems({ onClick, setExpanded, expanded, setIsExpanded
                             <p>{items.itemName}</p>
                             <Arrow direction={expanded && "up"} />
                         </div>
+                        {isExpandedMobile && <hr className="w-4/5 border-highlight-light mx-auto" />}
                     </button>
-                    <Dropdown
-                        subItems={items.subItems}
-                        expanded={expanded}
-                        onClick={onClick}
-                        setIsExpandedMobile={setIsExpandedMobile}
-                        setExpanded={setExpanded}
-                    />
+                    <AnimatePresence>
+                        {expanded && (
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.3 }}
+                            >
+                                <Dropdown
+                                    subItems={items.subItems}
+                                    expanded={expanded}
+                                    onClick={onClick}
+                                    setIsExpandedMobile={setIsExpandedMobile}
+                                    setExpanded={setExpanded}
+                                />
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
                 </>
             ) : (
                 <Link
@@ -39,6 +52,7 @@ export default function NavItems({ onClick, setExpanded, expanded, setIsExpanded
                     }}
                 >
                     <p className="px-12 md:px-0">{items.itemName}</p>
+                    {isExpandedMobile && <hr className="w-4/5 border-highlight-light mx-auto" />}
                 </Link>
             )}
         </li>

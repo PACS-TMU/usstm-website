@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
+    "framer-motion": "^10.16.15",
     "hamburger-react": "^2.5.0",
     "next": "14.0.3",
     "react": "^18",

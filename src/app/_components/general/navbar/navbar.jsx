@@ -1,11 +1,11 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import {useClickAway} from 'react-use';
 import NavItems from "./nav-items";
 import { useEffect, useState, useRef } from "react";
-import autoAnimate from "@formkit/auto-animate";
+import { useClickAway } from 'react-use';
 import { Turn as Hamburger } from 'hamburger-react'
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Navbar() {
   // States to open/close menus
@@ -54,9 +54,9 @@ export default function Navbar() {
           })}
         </ul>
 
-        <div 
+        <div
           id="nav-logo"
-          onClick={() => { 
+          onClick={() => {
             setIsExpandedMobile(false);
             setExpanded(false);
           }}
@@ -73,11 +73,11 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="hamburger-button" className="md:hidden m-3" onClick={() => setIsExpandedMobile(!isExpandedMobile)}>
-          <Hamburger 
-            toggled={isExpandedMobile} 
+          <Hamburger
+            toggled={isExpandedMobile}
             toggle={setIsExpandedMobile}
             duration={0.7}
-            rounded 
+            rounded
             color="#1E1E1E"
           />
         </div>
@@ -87,13 +87,23 @@ export default function Navbar() {
       {/* Code below is just for prototype purposes */}
       {/* ----------------------------------------- */}
       <nav id="mobile-dropdown">
-        <div className={`${isExpandedMobile ? "block" : "hidden"} md:hidden bg-highlight-dark text-xl text-background opacity-95 w-screen h-fit z-20 absolute`}>
-          <ul className="flex flex-col items-center justify-center space-y-8 py-4 opacity-100 z-10">
-            {navItems.map((navItem) => (
-              <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
-            ))}
-          </ul>
-        </div>
+        <AnimatePresence>
+          {isExpandedMobile && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="md:hidden bg-highlight-dark text-xl text-background opacity-95 w-screen h-fit z-20 absolute"
+            >
+              <ul className="flex flex-col items-center justify-center space-y-8 py-4 opacity-100 z-10">
+                {navItems.map((navItem) => (
+                  <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} isExpandedMobile={isExpandedMobile} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </nav>
       {/* ----------------------------------------- */}
       {/* Code above is just for prototype purposes */}
