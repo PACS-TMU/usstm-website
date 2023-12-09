@@ -68,7 +68,7 @@
 
 @media only screen and (min-device-width: 1024px) {
     #parallax{
-        min-height: calc(100vh + 1px - var(--navbar-height));
+        min-height: calc(100vh + 1px);
         background-attachment: fixed;
     }
 

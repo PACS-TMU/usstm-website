@@ -8,7 +8,6 @@
     --highlight: #D67940;
     --highlight-dark: #001D56;
     --highlight-blue: #E1E8F5;
-    --navbar-height: calc(max(2.7vw, 50px) + 0.75rem);
 }
 
 @font-face {
