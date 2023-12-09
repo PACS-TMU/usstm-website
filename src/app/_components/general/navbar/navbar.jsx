@@ -45,7 +45,7 @@ export default function Navbar() {
     <div
       id="navbar"
       ref={ref}
-      className="sticky top-0 w-full bg-background z-50"
+      className="sticky top-0 w-full h-[10%] bg-background z-50"
       onKeyDown={(e) => {
         if (e.key === "Escape") {
           setIsExpandedMobile(false);

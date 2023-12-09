@@ -26,7 +26,7 @@ export default function Dropdown({ parentItem, subItems, onClick, setIsExpandedM
                 </ul>)
             }
             {!isExpandedMobile && expanded && (
-                <ul className='fixed left-0 bg-highlight-dark w-full h-1/2 z-50 mt-[1.5%] flex'>
+                <ul className='fixed left-0 bg-highlight-dark w-full h-1/2 z-50 flex'>
                     <div className="lg-dropdown w-3/4 grid grid-row-3 grid-cols-2">
                         {subItems.map((subItem) => (
                             <li key={subItem.id}>

@@ -5,14 +5,14 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function NavItems({ onClick, setExpanded, expanded, isExpandedMobile, setIsExpandedMobile, items }) {
     return (
-        <li className="w-full md:w-auto flex flex-col md:block z-50 justify-start">
+        <li className="w-full md:w-auto flex flex-col h-full md:block z-50 justify-start">
             {items.subItems.length != 0 ? (
                 <>
                     <button
                         id={items.id}
                         type="button"
                         aria-haspopup="menu"
-                        className="md:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
+                        className="md:hover:text-highlight-dark h-full hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
                         aria-expanded={expanded ? true : false}
                         onClick={onClick}
                     >
@@ -31,7 +31,7 @@ export default function NavItems({ onClick, setExpanded, expanded, isExpandedMob
                                 transition={{ duration: 0.3 }}
                             >
                                 <Dropdown
-                                    parentItem = {items}
+                                    parentItem={items}
                                     subItems={items.subItems}
                                     expanded={expanded}
                                     onClick={onClick}
@@ -44,18 +44,21 @@ export default function NavItems({ onClick, setExpanded, expanded, isExpandedMob
                     </AnimatePresence>
                 </>
             ) : (
-                <Link
-                    href={items.path}
-                    className="md:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
-                    onClick={(e) => {
-                        onClick;
-                        setIsExpandedMobile(false);
-                        setExpanded(false);
-                    }}
-                >
-                    <p className="px-12 md:px-0">{items.itemName}</p>
-                    {isExpandedMobile && <hr className="w-4/5 border-highlight-light mx-auto" />}
-                </Link>
+                <div className="w-full h-full md:flex items-center">
+                    <Link
+                        href={items.path}
+                        className="md:hover:text-highlight-dark hover:opacity-95 hover:transition-ease-in-out hover:duration-300"
+                        onClick={(e) => {
+                            onClick;
+                            setIsExpandedMobile(false);
+                            setExpanded(false);
+                        }}
+                    >
+                        <p className="px-12 md:px-0 my-auto">{items.itemName}</p>
+                        {isExpandedMobile && <hr className="w-4/5 border-highlight-light mx-auto" />}
+                    </Link>
+                </div>
+
             )}
         </li>
     );
