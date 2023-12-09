@@ -3,20 +3,19 @@
         "id": 1,
         "itemName": "Home",
         "path": "/",
-        "description": "This is the description of Home",
         "subItems": []
     },
     {
         "id": 2,
         "itemName": "About Us",
         "path": "/about",
-        "description": "Hello about us",
+        "description": "Vision for USSTM: <br />Mission Statement:",
         "subItems": [
             {
                 "id": 201,
                 "itemName": "Your Team",
                 "path": "/about/your-team",
-                "description": "Hello from your team",
+                "description": "Meet the faces behind USSTM",
                 "subItems": [
                     {
                         "id": 20101,
@@ -90,24 +89,28 @@
                 "id": 202,
                 "itemName": "Governance",
                 "path": "/about/governance",
+                "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
                 "subItems": []
             },
             {
                 "id": 203,
                 "itemName": "Meetings",
                 "path": "/about/meetings",
+                "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
                 "subItems": []
             },
             {
                 "id": 204,
                 "itemName": "Past Boards",
                 "path": "/about/past-boards",
+                "description": "Giving recognition to the Past BoDs",
                 "subItems": []
             },
             {
                 "id": 205,
                 "itemName": "Services",
                 "path": "/about/services",
+                "description": "Learn about the services at TMU",
                 "subItems": []
             }
         ]
@@ -116,23 +119,27 @@
         "id": 3,
         "itemName": "Events",
         "path": "/events",
+        "description": "Learn about the services at TMU",
         "subItems": [
             {
                 "id": 301,
                 "itemName": "Calendar",
                 "path": "/events/calendar",
+                "description": "See everything that is happening within the Faculty of Science",
                 "subItems": []
             },
             {
                 "id": 302,
                 "itemName": "Annual Events",
                 "path": "/events/annual",
+                "description": "We host many annual events. Learn more about what event you can look forward to throughout the year!",
                 "subItems": []
             },
             {
                 "id": 303,
                 "itemName": "Yearbook/Gallery",
                 "path": "/events/yearbook-gallery",
+                "description": "temp",
                 "subItems": []
             }
         ]
@@ -141,35 +148,41 @@
         "id": 4,
         "itemName": "Academics",
         "path": "/academics",
+        "description": "temp",
         "subItems": [
             {
                 "id": 401,
                 "itemName": "Feedback Form",
                 "path": "/academics/feedback",
+                "description": "Have feedback for your professors but don't want to contact them directly? We can do it for you through our Academic Feedback Form!",
                 "subItems": []
             },
             {
                 "id": 402,
                 "itemName": "Crash Courses",
                 "path": "/academics/crash-course",
+                "description": "Struggling with a first or second year course? USSTM Crash Courses' may be exactly what you need.",
                 "subItems": []
             },
             {
                 "id": 403,
                 "itemName": "Nimbus",
                 "path": "/academics/nimbus",
+                "description": "Intrested in tutoring or being tutored? Nimbus is the perfect platform for you.",
                 "subItems": []
             },
             {
                 "id": 404,
                 "itemName": "Synergize Case Comp",
                 "path": "/academics/synergize",
+                "description": "Synergize is USSTM's annual case comp which has an emphasis on innovative tech.",
                 "subItems": []
             },
             {
                 "id": 405,
                 "itemName": "Lunch & Learn",
                 "path": "/academics/lunch-learn",
+                "description": "Learn more about a professours research thought our Lunch & Learn series.",
                 "subItems": []
             }
         ]
@@ -183,24 +196,28 @@
                 "id": 501,
                 "itemName": "Budget",
                 "path": "/finances/budget",
+                "description": "Where does USSTM's money go? Come find out here.",
                 "subItems": []
             },
             {
                 "id": 502,
                 "itemName": "Conferences & Competitions",
                 "path": "/finances/conferences-competitions",
+                "description": "Want to attended a conferences, case comp or hackathon? USSTM can give you funding to repersent TMU Scinece",
                 "subItems": []
             },
             {
                 "id": 503,
                 "itemName": "DMZ Startup Certified",
                 "path": "/finances/startup-certified",
+                "description": "temp",
                 "subItems": []
             },
             {
                 "id": 504,
                 "itemName": "Financial Policies",
                 "path": "/finances/policies",
+                "description": "Learn about the various ",
                 "subItems": []
             }
         ]
@@ -214,24 +231,28 @@
                 "id": 601,
                 "itemName": "Student Groups & Course Unions",
                 "path": "/community/groups-unions",
+                "description": "temp",
                 "subItems": []
             },
             {
                 "id": 602,
                 "itemName": "Elections",
                 "path": "/community/elections",
+                "description": "temp",
                 "subItems": []
             },
             {
                 "id": 603,
                 "itemName": "Science Lounge (KHE 223)",
                 "path": "/community/science-lounge",
+                "description": "temp",
                 "subItems": []
             },
             {
                 "id": 604,
                 "itemName": "Student Spotlight",
                 "path": "/community/student-spotlight",
+                "description": "temp",
                 "subItems": []
             }
         ]
