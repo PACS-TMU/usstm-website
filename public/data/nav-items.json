@@ -94,16 +94,16 @@
             },
             {
                 "id": 203,
-                "itemName": "Meetings",
-                "path": "/about/meetings",
-                "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
+                "itemName": "Past Boards",
+                "path": "/about/past-boards",
+                "description": "Giving recognition to the Past BoDs",
                 "subItems": []
             },
             {
                 "id": 204,
-                "itemName": "Past Boards",
-                "path": "/about/past-boards",
-                "description": "Giving recognition to the Past BoDs",
+                "itemName": "Meetings",
+                "path": "/about/meetings",
+                "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
                 "subItems": []
             },
             {
@@ -159,30 +159,30 @@
             },
             {
                 "id": 402,
-                "itemName": "Crash Courses",
-                "path": "/academics/crash-course",
-                "description": "Struggling with a first or second year course? USSTM Crash Courses' may be exactly what you need.",
-                "subItems": []
-            },
-            {
-                "id": 403,
-                "itemName": "Nimbus",
-                "path": "/academics/nimbus",
-                "description": "Intrested in tutoring or being tutored? Nimbus is the perfect platform for you.",
-                "subItems": []
-            },
-            {
-                "id": 404,
                 "itemName": "Synergize Case Comp",
                 "path": "/academics/synergize",
                 "description": "Synergize is USSTM's annual case comp which has an emphasis on innovative tech.",
                 "subItems": []
             },
             {
-                "id": 405,
+                "id": 403,
+                "itemName": "Crash Courses",
+                "path": "/academics/crash-course",
+                "description": "Struggling with a first or second year course? USSTM Crash Courses' may be exactly what you need.",
+                "subItems": []
+            },
+            {
+                "id": 404,
                 "itemName": "Lunch & Learn",
                 "path": "/academics/lunch-learn",
                 "description": "Learn more about a professours research thought our Lunch & Learn series.",
+                "subItems": []
+            },
+            {
+                "id": 405,
+                "itemName": "Nimbus",
+                "path": "/academics/nimbus",
+                "description": "Intrested in tutoring or being tutored? Nimbus is the perfect platform for you.",
                 "subItems": []
             }
         ]
@@ -208,16 +208,16 @@
             },
             {
                 "id": 503,
-                "itemName": "DMZ Startup Certified",
-                "path": "/finances/startup-certified",
-                "description": "temp",
+                "itemName": "Financial Policies",
+                "path": "/finances/policies",
+                "description": "Learn about the various ",
                 "subItems": []
             },
             {
                 "id": 504,
-                "itemName": "Financial Policies",
-                "path": "/finances/policies",
-                "description": "Learn about the various ",
+                "itemName": "DMZ Startup Certified",
+                "path": "/finances/startup-certified",
+                "description": "temp",
                 "subItems": []
             }
         ]
@@ -236,15 +236,15 @@
             },
             {
                 "id": 602,
-                "itemName": "Elections",
-                "path": "/community/elections",
+                "itemName": "Science Lounge (KHE 223)",
+                "path": "/community/science-lounge",
                 "description": "temp",
                 "subItems": []
             },
             {
                 "id": 603,
-                "itemName": "Science Lounge (KHE 223)",
-                "path": "/community/science-lounge",
+                "itemName": "Elections",
+                "path": "/community/elections",
                 "description": "temp",
                 "subItems": []
             },
@@ -252,7 +252,7 @@
                 "id": 604,
                 "itemName": "Student Spotlight",
                 "path": "/community/student-spotlight",
-                "description": "temp",
+                "description": "We vaule all the hardworking science students at TMU. Check out out standout students.",
                 "subItems": []
             }
         ]
