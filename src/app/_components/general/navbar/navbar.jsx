@@ -4,9 +4,8 @@ import Link from "next/link";
 import NavItems from "./nav-items";
 import { useEffect, useState, useRef } from "react";
 import { useClickAway } from 'react-use';
-import { Turn as Hamburger } from 'hamburger-react'
+import { Turn as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion } from "framer-motion";
-import "./navbar.css"
 
 export default function Navbar() {
   // States to open/close menus
@@ -45,7 +44,7 @@ export default function Navbar() {
     <div
       id="navbar"
       ref={ref}
-      className="fixed top-0 w-full bg-background z-50"
+      className="fixed top-0 w-full bg-background z-50 shadow-md"
       onKeyDown={(e) => {
         if (e.key === "Escape") {
           setIsExpandedMobile(false);
@@ -53,7 +52,7 @@ export default function Navbar() {
         }
       }}
     >
-      <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
+      <nav className="px-5 w-full overflow-auto flex justify-between nav-main mx-auto">
         <ul
           id="nav-links"
           className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
@@ -116,7 +115,15 @@ export default function Navbar() {
             >
               <ul className="flex flex-col items-center justify-center space-y-8 py-4 opacity-100 z-10">
                 {navItems.map((navItem) => (
-                  <NavItems onClick={handleClick(navItem)} setExpanded={setExpanded} expanded={expanded === navItem.id} isExpandedMobile={isExpandedMobile} setIsExpandedMobile={setIsExpandedMobile} items={navItem} key={navItem.id} />
+                  <NavItems
+                    onClick={handleClick(navItem)}
+                    setExpanded={setExpanded}
+                    expanded={expanded === navItem.id}
+                    isExpandedMobile={isExpandedMobile}
+                    setIsExpandedMobile={setIsExpandedMobile}
+                    items={navItem}
+                    key={navItem.id}
+                  />
                 ))}
               </ul>
             </motion.div>
