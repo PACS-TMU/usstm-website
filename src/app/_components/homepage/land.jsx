@@ -7,7 +7,7 @@ export default function Land() {
         </h1>
         <div className="bg-highlight-dark py-2 flex justify-center items-center">
           <div className="text-container w-[90%] lg:w-[75%] h-full">
-            <p className="text-background py-2 text-justify main ">
+            <p className="text-background py-2 text-left main ">
               Toronto Metropolitan University is in the ‘Dish With One Spoon
               Territory’. The Dish With One Spoon is a treaty between the
               Anishinaabe, Mississaugas and Haudenosaunee that bound them to share
@@ -15,7 +15,7 @@ export default function Land() {
               and peoples, Europeans and all newcomers have been invited into this
               treaty in the spirit of peace, friendship and respect.
             </p>
-            <p className="text-background py-2 text-justify main ">
+            <p className="text-background py-2 text-lef main ">
               The &quot;Dish&quot;, or sometimes it is called the &quot;Bowl&quot;, represents what is
               now southern Ontario, from the Great Lakes to Quebec and from Lake
               Simcoe into the United States. We all eat out of the Dish, all of

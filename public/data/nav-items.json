@@ -3,6 +3,7 @@
         "id": 1,
         "itemName": "Home",
         "path": "/",
+        "description": "This is the description of Home in the navbar",
         "subItems": []
     },
     {
@@ -89,7 +90,7 @@
                 "id": 202,
                 "itemName": "Governance",
                 "path": "/about/governance",
-                "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
+                "description": "Find our By-Laws and Constitution here. See how USSTM is structured.",
                 "subItems": []
             },
             {
@@ -191,6 +192,7 @@
         "id": 5,
         "itemName": "Finances",
         "path": "/finances",
+        "description": "temp",
         "subItems": [
             {
                 "id": 501,
@@ -226,6 +228,7 @@
         "id": 6,
         "itemName": "Community",
         "path": "/community",
+        "description": "temp",
         "subItems": [
             {
                 "id": 601,
@@ -261,12 +264,14 @@
         "id": 7,
         "itemName": "Contact Us",
         "path": "/contact",
+        "description": "temp",
         "subItems": []
     },
     {
         "id": 8,
         "itemName": "Store",
         "path": "https://shop.usstm.ca/",
+        "description": "This is the description of Store in the navbar",
         "subItems": []
     }
 ]

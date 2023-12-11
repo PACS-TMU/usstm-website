@@ -1,7 +1,8 @@
 'use client'
-import { useState, useRef, useEffect } from "react"
-import Arrow from "../general/arrow"
+import { useState, useRef, useEffect } from "react";
+import Arrow from "../general/arrow";
 import autoAnimate from "@formkit/auto-animate";
+import parse from "html-react-parser";
 
 export default function FAQItem(item) {
     const [ isVisible, setVisible ] = useState(false);
@@ -23,7 +24,11 @@ export default function FAQItem(item) {
                     <Arrow direction={isVisible && "up"} />
                 </div>
             </div>
-            {isVisible && <div className="answer text-left mx-4 py-2 text-foreground lg:text-lg" dangerouslySetInnerHTML={ {__html: item.props.answer} } />}
+            {isVisible && 
+                <div className="answer text-left mx-4 py-2 text-foreground lg:text-lg">
+                    {parse(item.props.answer)}
+                </div>
+            }
             <hr />
        </button>
     )

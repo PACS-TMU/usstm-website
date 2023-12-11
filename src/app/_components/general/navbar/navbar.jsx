@@ -4,7 +4,7 @@ import Link from "next/link";
 import NavItems from "./nav-items";
 import { useEffect, useState, useRef } from "react";
 import { useClickAway } from 'react-use';
-import { Turn as Hamburger } from 'hamburger-react';
+import { Twirl as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Navbar() {
@@ -52,7 +52,7 @@ export default function Navbar() {
         }
       }}
     >
-      <nav className="px-5 w-full overflow-auto flex justify-between nav-main mx-auto">
+      <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
         <ul
           id="nav-links"
           className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
@@ -93,7 +93,7 @@ export default function Navbar() {
           <Hamburger
             toggled={isExpandedMobile}
             toggle={setIsExpandedMobile}
-            duration={0.7}
+            duration={0.5}
             rounded
             color="#1E1E1E"
           />
