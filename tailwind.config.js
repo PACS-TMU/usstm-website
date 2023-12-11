@@ -12,7 +12,8 @@ module.exports = {
         "foreground": "#1E1E1E",
         "highlight": "#D67940",
         "highlight-blue": "#E1E8F5",
-        "highlight-dark": "#001D56",
+        // "highlight": "#e6a132",
+        "highlight-dark": "#001D56"
       },
       fontFamily: {
         "sans": ["Abril"],
