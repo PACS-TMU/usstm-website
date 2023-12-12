@@ -180,13 +180,13 @@
     .stats-icon {
         grid-row: 1 / span 2;
         grid-column: 1 / span 2;
-        height: 30%;
+        height: 40%;
         width: auto;
-        margin: auto;
+        margin: auto 1rem auto auto;
     }
 
     .stats-info {
-        grid-column: 2 / span 2;
+        grid-column: 3 / span 2;
     }
 
     .stats-number {
