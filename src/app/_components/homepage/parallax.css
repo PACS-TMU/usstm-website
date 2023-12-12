@@ -1,5 +1,5 @@
 /****************/
-/* For Parallex */
+/* For Parallax */
 /****************/
 
 #stats-box {
@@ -32,7 +32,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: left;
     padding-left: 10%;
     justify-content: center;
 }
@@ -68,7 +67,7 @@
 
 @media only screen and (min-device-width: 1024px) {
     #parallax{
-        min-height: 94vh;
+        min-height: calc(100vh - 4rem);
         background-attachment: fixed;
     }
 
@@ -82,7 +81,6 @@
         color: white;
         display: flex;
         flex-direction: column;
-        align-items: left;
         padding: 0;
     }
 
@@ -119,13 +117,13 @@
         border-radius: 5px;
     }
 
-    #separator-holder {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+    /*#separator-holder {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*    display: flex;*/
+    /*    justify-content: space-evenly;*/
+    /*    align-items: center;*/
+    /*}*/
     .stats-separator {
         height: 67%;
         width: 1px;
@@ -137,7 +135,6 @@
         top: 0;
         left: 0;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
         width: 100%;
         height: 100%;
@@ -158,26 +155,17 @@
     .stats-icon {
         width: 30%;
         height: auto;
-        margin-top: auto;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto auto 0;
     }
 
     .stats-number {
         font-weight: 700;
-        margin-top: auto;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto auto 0;
     }
 
     .stats-description {
         font-weight: 500;
-        margin-top: 0;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto auto;
     }
 
 }
@@ -185,17 +173,16 @@
 @media only screen and (min-device-width: 1280px) {
     #stats-students, #stats-groups, #stats-board {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         grid-template-rows: 50% 50%;
     }
 
     .stats-icon {
         grid-row: 1 / span 2;
+        grid-column: 1 / span 2;
         height: 30%;
         width: auto;
-        margin-right: 1vw;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .stats-info {

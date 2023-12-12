@@ -40,37 +40,37 @@ export default function Navbar() {
     setExpanded(false);
   });
 
-  return (
-    <>
-      <div
-        id="navbar"
-        ref={ref}
-        className="fixed top-0 w-full bg-background z-50 shadow-md"
-        onKeyDown={(e) => {
-          if (e.key === "Escape") {
-            setIsExpandedMobile(false);
-            setExpanded(false);
-          }
-        }}
-      >
-        <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
-          <ul
-            id="nav-links"
-            className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
-          >
-            {navItems.map((navItem) => {
-              return (
-                <NavItems
-                  onClick={handleClick(navItem)}
-                  setExpanded={setExpanded}
-                  expanded={expanded === navItem.id}
-                  setIsExpandedMobile={setIsExpandedMobile}
-                  items={navItem}
-                  key={navItem.id}
-                />
-              );
-            })}
-          </ul>
+    return (
+        <>
+            <div
+                id="navbar"
+                ref={ref}
+                className="fixed top-0 w-full h-16 bg-background z-50 shadow-md"
+                onKeyDown={(e) => {
+                    if (e.key === "Escape") {
+                        setIsExpandedMobile(false);
+                        setExpanded(false);
+                    }
+                }}
+            >
+                <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
+                    <ul
+                        id="nav-links"
+                        className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
+                    >
+                        {navItems.map((navItem) => {
+                            return (
+                                <NavItems
+                                    onClick={handleClick(navItem)}
+                                    setExpanded={setExpanded}
+                                    expanded={expanded === navItem.id}
+                                    setIsExpandedMobile={setIsExpandedMobile}
+                                    items={navItem}
+                                    key={navItem.id}
+                                />
+                            );
+                        })}
+                    </ul>
 
           <div
             id="nav-logo"

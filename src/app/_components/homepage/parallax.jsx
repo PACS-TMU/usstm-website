@@ -16,10 +16,6 @@ export default function Parallax() {
                     </div>
 
                     <div id="stats-box">
-                        <div id="separator-holder">
-                            <div className="stats-separator"></div>
-                            <div className="stats-separator"></div>
-                        </div>
                         <div id="stats-text">
                             <div id="stats-students">
                                 <Image
@@ -33,6 +29,8 @@ export default function Parallax() {
                                 <p className="stats-info stats-description lg:text-lg xl:text-lg">STUDENTS</p>
                             </div>
 
+                            <div className="stats-separator"></div>
+
                             <div id="stats-groups">
                                 <Image
                                     src='/images/homepage/stats-icons/groups-icon.png'
@@ -44,6 +42,8 @@ export default function Parallax() {
                                 <p className="stats-info stats-number lg:text-3xl">25<sup>+</sup></p>
                                 <p className="stats-info stats-description lg:text-lg">STUDENT GROUPS</p>
                             </div>
+
+                            <div className="stats-separator"></div>
 
                             <div id="stats-board">
                                 <Image
