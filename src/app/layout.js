@@ -12,8 +12,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="font-serif">
         <Navbar />
-        {/* Add a div to push all content to be below fixed navbar */}
-        <div className='h-16'></div>
         <main className='space-y-20'>{children}</main>
         <Footer />
       </body>
