@@ -11,7 +11,6 @@ Before you work on this website there are some command line tools and extensions
 - [NodeJS](https://nodejs.org/en/download)
 
 ### VSCode Extensions
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ## Cloning the Website
