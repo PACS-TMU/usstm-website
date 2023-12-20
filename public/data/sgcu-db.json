@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "group-name": "Practical Applications of Computer Science",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 2,
+        "group-name": "Practical Applications of Computer Science 2",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 3,
+        "group-name": "Practical Applications of Computer Science 3",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 4,
+        "group-name": "Practical Applications of Computer Science 4",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 5,
+        "group-name": "Practical Applications of Computer Science 5",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 6,
+        "group-name": "Practical Applications of Computer Science 6",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 7,
+        "group-name": "Practical Applications of Computer Science 7",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 8,
+        "group-name": "Practical Applications of Computer Science 8",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 9,
+        "group-name": "Practical Applications of Computer Science 9",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 10,
+        "group-name": "Practical Applications of Computer Science 10",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 11,
+        "group-name": "Practical Applications of Computer Science 11",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    },
+    {
+        "id": 12,
+        "group-name": "Practical Applications of Computer Science 12",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
+            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+        ],
+        "stauts": "alive"
+    }
+]
