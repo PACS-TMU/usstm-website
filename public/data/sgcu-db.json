@@ -17,7 +17,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     },
     {
         "id": 12,
@@ -117,6 +117,6 @@
             "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
             "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
         ],
-        "stauts": "alive"
+        "status": "alive"
     }
 ]
