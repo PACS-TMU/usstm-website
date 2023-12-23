@@ -2,120 +2,286 @@
     {
         "id": 1,
         "group-name": "Practical Applications of Computer Science",
+        "short-name": "PACS",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/pacs_tmu' target='_blank'>pacs_tmu</a>",
+            "Email: <a href='mailto:pacs@usstm.ca' target='_blank'>pacs@usstm.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 2,
-        "group-name": "Practical Applications of Computer Science 2",
+        "group-name": "PreMedical Society",
+        "short-name": "PreMed",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmupremed' target='_blank'>tmupremed</a>",
+            "Email: <a href='mailto:ryersonpremedical@gmail.com' target='_blank'>ryersonpremedical@gmail.com</a>"
         ],
         "status": "alive"
     },
     {
         "id": 3,
-        "group-name": "Practical Applications of Computer Science 3",
+        "group-name": "Women in Computer Science",
+        "short-name": "WiCS",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmu_wics' target='_blank'>tmu_wics</a>",
+            "Email: <a href='mailto:wics@torontomu.ca' target='_blank'>wics@torontomu.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 4,
-        "group-name": "Practical Applications of Computer Science 4",
+        "group-name": "Metropolitan Open Source Society",
+        "short-name": "MOSS",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/mosstmu' target='_blank'>moostmu</a>",
+            "Email: <a href='mailto:moss@usstm.ca' target='_blank'>moss@usstm.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 5,
-        "group-name": "Practical Applications of Computer Science 5",
+        "group-name": "Game Makers Union",
+        "short-name": "GMU",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/gamemakersunion' target='_blank'>gamemakersunion</a>",
+            "Email: <a href='mailto:ryersongmu@gmail.ca' target='_blank'>ryersogmu@gmail.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 6,
-        "group-name": "Practical Applications of Computer Science 6",
+        "group-name": "Toronto Metropolitan Algorithms & Coding Club",
+        "short-name": "TMACC",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmu_acc' target='_blank'>tmu_acc</a>",
+            "Email: "
         ],
         "status": "alive"
     },
     {
         "id": 7,
-        "group-name": "Practical Applications of Computer Science 7",
+        "group-name": "Association of Undergraduate Women in Science",
+        "short-name": "AUWS",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmuauws' target='_blank'>tmuauws</a>",
+            "Email: <a href='mailto:auws@usstm.ca' target='_blank'>auws@usstm.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 8,
-        "group-name": "Practical Applications of Computer Science 8",
+        "group-name": "STEM Fellowship",
+        "short-name": "",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/stemfellowship_tmu' target='_blank'>stemfellowship_tmu</a>",
+            "Email: <a href='mailto:stemfellow.rye@gmail.com' target='_blank'>stemfellow.rye@gmail.com</a>"
         ],
         "status": "alive"
     },
     {
         "id": 9,
-        "group-name": "Practical Applications of Computer Science 9",
+        "group-name": "Stem Cell Club",
+        "short-name": "",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmustemcellclub' target='_blank'>tmustemcellclub</a>",
+            "Email: <a href='mailto:stemcell@torontomu.ca' target='_blank'>stemcell@torontomu.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 10,
-        "group-name": "Practical Applications of Computer Science 10",
+        "group-name": "Toronto MetRobotics",
+        "short-name": "TMR",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/torontometrobotics' target='_blank'>torontometrobotics</a>",
+            "Email: <a href='mailto:TMR@torontomu.ca' target='_blank'>TMR@torontomu.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 11,
-        "group-name": "Practical Applications of Computer Science 11",
+        "group-name": "ArtSci",
+        "short-name": "",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/artscitorontomet' target='_blank'>artscitorontomet</a>",
+            "Email: <a href='mailto:artsci@usstm.ca' target='_blank'>artsci@usstm.ca</a>"
         ],
         "status": "alive"
     },
     {
         "id": 12,
-        "group-name": "Practical Applications of Computer Science 12",
+        "group-name": "Predental Society",
+        "short-name": "",
         "group-logo": "pacs.png",
         "contact-info": [
-            "<a href='https://instagram.com/pacs_tmu' target='_blank'>Instagram</a>",
-            "<a href='mailto:pacs@usstm.ca' target='_blank'>Email</a>"
+            "Instagram: <a href='https://instagram.com/tmupredental' target='_blank'>tmupredental</a>",
+            "Email: <a href='mailto:tmupredental@gmail.com' target='_blank'>tmupredental@gmail.com</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 13,
+        "group-name": "Women in Math",
+        "short-name": "WiM",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_wim' target='_blank'>tmu_wim</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 14,
+        "group-name": "Mental Health Science Association",
+        "short-name": "MHSA",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_mentalhealthsa' target='_blank'>tmu_mentalhealthsa</a>",
+            "Email: <a href='tmumentalhealthsa@gmail.com' target='_blank'>tmumentalhealthsa@gmail.com</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 15,
+        "group-name": "Rare Disease Club",
+        "short-name": "",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/rarediseasestmu' target='_blank'rarediseasestmu</a>",
+            "Email: <a href='rarediseasestmu@gmail.com' target='_blank'>rarediseasestmu@gmail.com</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 16,
+        "group-name": "Viro",
+        "short-name": "",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/viro_tmu' target='_blank'viro_tmu</a>",
+            "Email: <a href='viro@usstm.com' target='_blank'>viro@usstm.com</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 17,
+        "group-name": "PrePharmacy Society",
+        "short-name": "PrePharm",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmuprepharm' target='_blank'tmuprepharm</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 18,
+        "group-name": "Google Developer Student Club",
+        "short-name": "GDSC",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/gdsc.tmu' target='_blank'gdsc.tmu</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 19,
+        "group-name": "Quantum Science and Engineering Club",
+        "short-name": "QSEC",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/qsec_tmu' target='_blank'qsec_tmu</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 20,
+        "group-name": "Biology Course Union",
+        "short-name": "BCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmubiology' target='_blank'tmubiology</a>",
+            "Email: <a href='biology@torontomu.ca' target='_blank'biology@torontomu.ca</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 21,
+        "group-name": "BioMedical Science Course Union",
+        "short-name": "BMSCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmubiomed' target='_blank'tmubiomed</a>",
+            "Email: <a href='biomedcu@torontomu.ca' target='_blank'biomedcu@torontomu.ca</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 21,
+        "group-name": "BioMedical Science Course Union",
+        "short-name": "BMSCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmubiomed' target='_blank'tmubiomed</a>",
+            "Email: <a href='biomedcu@torontomu.ca' target='_blank'biomedcu@torontomu.ca</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 21,
+        "group-name": "Chemistry Course Union",
+        "short-name": "CCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_ccu' target='_blank'tmu_ccu</a>",
+            "Email: <a href='chemcu@torontomu.ca' target='_blank'chemcu@torontomu.ca</a>"
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 22,
+        "group-name": "Computer Science Course Union",
+        "short-name": "CSCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_cscu' target='_blank'tmu_cscu</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 23,
+        "group-name": "Math Course Union",
+        "short-name": "MCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_mcu' target='_blank'tmu_mcu</a>",
+            "Email: "
+        ],
+        "status": "alive"
+    },
+    {
+        "id": 24,
+        "group-name": "Fin Math Course Union",
+        "short-name": "FMCU",
+        "group-logo": "pacs.png",
+        "contact-info": [
+            "Instagram: <a href='https://instagram.com/tmu_finmath' target='_blank'tmu_finmath</a>",
+            "Email: "
         ],
         "status": "alive"
     }
