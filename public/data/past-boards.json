@@ -1,0 +1,141 @@
+[
+    {
+        "id": "board",
+        "year": "2022-2023",
+        "members": [
+            {
+                "id": "executives",
+                "people": [
+                    {
+                        "id": 1, 
+                        "name": "Jamie Rice", 
+                        "position": "President"
+                    },
+                    {
+                        "id": 2, 
+                        "name": "VACANT", 
+                        "position": "VP Operations"
+                    },
+                    {
+                        "id": 3, 
+                        "name": "Redge Wang", 
+                        "position": "VP Finance"
+                    },
+                    {
+                        "id": 4, 
+                        "name": "Tiam Vanaki", 
+                        "position": "VP Communications"
+                    },
+                    {
+                        "id": 5, 
+                        "name": "Anita Lesan", 
+                        "position": "VP Student Life"
+                    },
+                    {
+                        "id": 6, 
+                        "name": "Ramisa Razi", 
+                        "position": "VP Academics"
+                    },
+                    {
+                        "id": 7, 
+                        "name": "VACANT", 
+                        "position": "VP Externals"
+                    },
+                    {
+                        "id": 8, 
+                        "name": "Jafarul Hoque", 
+                        "position": "VP Equity"
+                    }
+                ]
+            },
+            {
+                "id": "program-directors",
+                "people": [
+                    {
+                        "id": 9, 
+                        "name": [
+                            "Urwa Najeeb", 
+                            "Frank Garfalo", 
+                            "Golsa Malak"
+                        ], 
+                        "position": "Biomedical Science Directors"
+                    },
+                    {
+                        "id": 10, 
+                        "name": "VACANT", 
+                        "position": "Biology Director"
+                    },
+                    {
+                        "id": 11, 
+                        "name": "Stephanie Tboas", 
+                        "position": "Chemistry Director"
+                    },
+                    {
+                        "id": 12, 
+                        "name": [
+                            "Mathushan", 
+                            "VACANT", 
+                            "VACANT"
+                        ], 
+                        "position": "Computer Science Directors"
+                    },
+                    {
+                        "id": 13, 
+                        "name": "VACANT", 
+                        "position": "Mathematics and Its Applications Director"
+                    },
+                    {
+                        "id": 14, 
+                        "name": "VACANT", 
+                        "position": "Financial Mathematics Director"
+                    },
+                    {
+                        "id": 15, 
+                        "name": "Alejandro Coba Cabrera", 
+                        "position": "Medical Physics Director"
+                    }
+                ]
+            },
+            {
+                "id": "first-year-directors",
+                "people": [
+                    {
+                        "id": 16, 
+                        "name": "Benson Zhang",
+                        "position": "First-Year Director"
+                    },
+                    {
+                        "id": 17, 
+                        "name": "Louise Malabanan",
+                        "position": "First-Year Director"
+                    },
+                    {
+                        "id": 18, 
+                        "name": "Jack Shen",
+                        "position": "First-Year Director"
+                    }
+                ]
+            },
+            {
+                "id": "non-voting-members",
+                "people": [
+                    {
+                        "id": 19, 
+                        "name": "Alessandro Cunsolo", 
+                        "position": "Chairperson"
+                    },
+                    {
+                        "id": 20, 
+                        "name": "Pamela Wettlaufer", 
+                        "position": "Manager, Student Relations and Development"
+                    },
+                    {
+                        "id": 21, 
+                        "name": "Nzonzila Mundele", 
+                        "position": "Secretary"
+                    }
+                ]
+            }
+        ]
+    }
+]
