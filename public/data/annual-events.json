@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "eventName": "(Name1)",
+        "description": "(Description)",
+        "images": []
+    },
+    {
+        "id": 2,
+        "eventName": "(Name2)",
+        "description": "(Description)",
+        "images": []
+    },
+    {
+        "id": 3,
+        "eventName": "(Name3)",
+        "description": "(Description)",
+        "images": []
+    }
+]
