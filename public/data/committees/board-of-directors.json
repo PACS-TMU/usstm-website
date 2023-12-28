@@ -33,7 +33,7 @@
             {
                 "id": 5,
                 "position": "VP Student Life",
-                "image": "student-life.png",
+                "image": "studentLife.png",
                 "contact-info": "<a href='mailto:vp.events@usstm.ca' target='_blank'>vp.events@usstm.ca</a>",
                 "name": "Anita Lesan"
             },
@@ -68,7 +68,7 @@
                 "position": "Biomedical Science Directors",
                 "image": [
                     "biomed1.png",
-                    "biomed2.png"
+                    "bioed2.png"
                 ],
                 "name": [
                     "Norhan Almasri",
@@ -125,7 +125,7 @@
                 "id": 6,
                 "position": "Financial Mathematics Director",
                 "image": [
-                    "finmath.png"
+                    "finMath.png"
                 ],
                 "name": [
                     "Abigail Willie"
@@ -135,7 +135,7 @@
                 "id": 7,
                 "position": "Medical Physics Director",
                 "image": [
-                    "medphys.png"
+                    "medPhys.png"
                 ],
                 "name": [
                     "Alejandro Coba Cabrera"
@@ -161,6 +161,7 @@
             {
                 "id": 3,
                 "position": "First-Year Director",
+                "image": "fyd3.png",
                 "name": "Nathan Romero"
             }
         ]
