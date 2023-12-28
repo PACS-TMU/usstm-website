@@ -109,21 +109,9 @@
             {
                 "id": "First Year Directors-22",
                 "people": [
-                    {
-                        "id": 1,
-                        "position": "First-Year Director",
-                        "name": "Louise Malabanan"
-                    },
-                    {
-                        "id": 2,
-                        "position": "First-Year Director",
-                        "name": "Jack Shen"
-                    },
-                    {
-                        "id": 3,
-                        "position": "First-Year Director",
-                        "name": "Benson Zhang"
-                    }
+                        "Louise Malabanan",
+                        "Jack Shen",
+                        "Benson Zhang"
                 ]
             },
             {

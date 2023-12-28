@@ -35,8 +35,16 @@ export default function PastBoards() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto justify-center">
                                     {section.people.map((member) => {
-                                        const POS = member.position;
-                                        const NAME = Array.isArray(member.name) ? member.name.join(', ') : member.name;
+                                        let POS = member.position;
+                                        let NAME;
+
+                                        if (typeof member !== 'object') {
+                                            POS = '';
+                                            NAME = member;
+                                        }
+                                        else {
+                                            NAME = Array.isArray(member.name) ? member.name.join(', ') : member.name;
+                                        }
 
                                         return (
                                             <div key={member.id} className="bg-gray-100 p-4 rounded-md">
