@@ -44,7 +44,7 @@
                     {
                         "id": 8,
                         "position": "VP Equity",
-                        "name": "Jafarul Hoque"      
+                        "name": "Jafarul Hoque"
                     }
                 ]
             },
@@ -58,17 +58,21 @@
                             "Frank Garfalo",
                             "Golsa Malak",
                             "Urwa Najeeb"
-                        ]  
+                        ]
                     },
                     {
                         "id": 2,
                         "position": "Biology Director",
-                        "name": ["VACANT"]  
+                        "name": [
+                            "VACANT"
+                        ]
                     },
                     {
                         "id": 3,
                         "position": "Chemistry Director",
-                        "name": ["Stephanie Tboas"]
+                        "name": [
+                            "Stephanie Tboas"
+                        ]
                     },
                     {
                         "id": 4,
@@ -82,17 +86,23 @@
                     {
                         "id": 5,
                         "position": "Mathematics and Its Applications Director",
-                        "name": ["Aisha Yusuf"]
+                        "name": [
+                            "Aisha Yusuf"
+                        ]
                     },
                     {
                         "id": 6,
                         "position": "Financial Mathematics Director",
-                        "name": ["VACANT"]
+                        "name": [
+                            "VACANT"
+                        ]
                     },
                     {
                         "id": 7,
                         "position": "Medical Physics Director",
-                        "name": ["Alejandro Coba Cabrera"]
+                        "name": [
+                            "Alejandro Coba Cabrera"
+                        ]
                     }
                 ]
             },
@@ -133,7 +143,6 @@
                         "id": 3,
                         "position": "Secretary",
                         "name": "Nzonzila Mundele"
-
                     }
                 ]
             }
