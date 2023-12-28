@@ -1,19 +1,31 @@
 [
     {
         "id": 1,
-        "eventName": "(Name1)",
+        "eventName": "Frosh",
         "description": "(Description)",
         "images": []
     },
     {
         "id": 2,
-        "eventName": "(Name2)",
+        "eventName": "Week of Welcome (WoW)",
         "description": "(Description)",
         "images": []
     },
     {
         "id": 3,
-        "eventName": "(Name3)",
+        "eventName": "Formal/Semi-Formal",
+        "description": "(Description)",
+        "images": []
+    },
+    {
+        "id": 4,
+        "eventName": "Horrorland",
+        "description": "(Description)",
+        "images": []
+    },
+    {
+        "id": 5,
+        "eventName": "Networking/Skill Building Events",
         "description": "(Description)",
         "images": []
     }
