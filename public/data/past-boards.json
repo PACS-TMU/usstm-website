@@ -8,43 +8,43 @@
                 "people": [
                     {
                         "id": 1,
-                        "name": "Jamie Rice",
-                        "position": "President"
+                        "position": "President",
+                        "name": "Jamie Rice"
                     },
                     {
                         "id": 2,
-                        "name": "VACANT",
-                        "position": "VP Operations"
+                        "position": "VP Operations",
+                        "name": "VACANT"
                     },
                     {
                         "id": 3,
-                        "name": "Redge Wang",
-                        "position": "VP Finance"
+                        "position": "VP Finance",
+                        "name": "Redge Wang"
                     },
                     {
                         "id": 4,
-                        "name": "Tiam Vanaki",
-                        "position": "VP Communications"
+                        "position": "VP Communications",
+                        "name": "Tiam Vanaki"
                     },
                     {
                         "id": 5,
-                        "name": "Anita Lesan",
-                        "position": "VP Student Life"
+                        "position": "VP Student Life",
+                        "name": "Anita Lesan"
                     },
                     {
                         "id": 6,
-                        "name": "Ramisa Razi",
-                        "position": "VP Academics"
+                        "position": "VP Academics",
+                        "name": "Ramisa Razi"
                     },
                     {
                         "id": 7,
-                        "name": "VACANT",
-                        "position": "VP Externals"
+                        "position": "VP Externals",
+                        "name": "VACANT"
                     },
                     {
                         "id": 8,
-                        "name": "Jafarul Hoque",
-                        "position": "VP Equity"
+                        "position": "VP Equity",
+                        "name": "Jafarul Hoque"      
                     }
                 ]
             },
@@ -53,46 +53,46 @@
                 "people": [
                     {
                         "id": 1,
+                        "position": "Biomedical Science Directors",
                         "name": [
-                            "Urwa Najeeb",
                             "Frank Garfalo",
-                            "Golsa Malak"
-                        ],
-                        "position": "Biomedical Science Directors"
+                            "Golsa Malak",
+                            "Urwa Najeeb"
+                        ]  
                     },
                     {
                         "id": 2,
-                        "name": "VACANT",
-                        "position": "Biology Director"
+                        "position": "Biology Director",
+                        "name": ["VACANT"]  
                     },
                     {
                         "id": 3,
-                        "name": "Stephanie Tboas",
-                        "position": "Chemistry Director"
+                        "position": "Chemistry Director",
+                        "name": ["Stephanie Tboas"]
                     },
                     {
                         "id": 4,
+                        "position": "Computer Science Directors",
                         "name": [
                             "Mathushan",
                             "VACANT",
                             "VACANT"
-                        ],
-                        "position": "Computer Science Directors"
+                        ]
                     },
                     {
                         "id": 5,
-                        "name": "VACANT",
-                        "position": "Mathematics and Its Applications Director"
+                        "position": "Mathematics and Its Applications Director",
+                        "name": ["VACANT"]
                     },
                     {
                         "id": 6,
-                        "name": "VACANT",
-                        "position": "Financial Mathematics Director"
+                        "position": "Financial Mathematics Director",
+                        "name": ["VACANT"]
                     },
                     {
                         "id": 7,
-                        "name": "Alejandro Coba Cabrera",
-                        "position": "Medical Physics Director"
+                        "position": "Medical Physics Director",
+                        "name": ["Alejandro Coba Cabrera"]
                     }
                 ]
             },
@@ -101,18 +101,18 @@
                 "people": [
                     {
                         "id": 1,
-                        "name": "Benson Zhang",
-                        "position": "First-Year Director"
+                        "position": "First-Year Director",
+                        "name": "Louise Malabanan"
                     },
                     {
                         "id": 2,
-                        "name": "Louise Malabanan",
-                        "position": "First-Year Director"
+                        "position": "First-Year Director",
+                        "name": "Jack Shen"
                     },
                     {
                         "id": 3,
-                        "name": "Jack Shen",
-                        "position": "First-Year Director"
+                        "position": "First-Year Director",
+                        "name": "Benson Zhang"
                     }
                 ]
             },
@@ -121,18 +121,19 @@
                 "people": [
                     {
                         "id": 1,
-                        "name": "Alessandro Cunsolo",
-                        "position": "Chairperson"
+                        "position": "Chairperson",
+                        "name": "Alessandro Cunsolo"
                     },
                     {
                         "id": 2,
-                        "name": "Pamela Wettlaufer",
-                        "position": "Manager, Student Relations and Development"
+                        "position": "Manager, Student Relations and Development",
+                        "name": "Pamela Wettlaufer"
                     },
                     {
                         "id": 3,
-                        "name": "Nzonzila Mundele",
-                        "position": "Secretary"
+                        "position": "Secretary",
+                        "name": "Nzonzila Mundele"
+
                     }
                 ]
             }
