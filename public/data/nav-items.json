@@ -83,6 +83,12 @@
                         "itemName": "Equity Committee",
                         "path": "/about/your-team/equity-comittee",
                         "subItems": []
+                    },
+                    {
+                        "id": 20112,
+                        "itemName": "Yearbook Committee",
+                        "path": "/about/your-team/yearbook-comittee",
+                        "subItems": []
                     }
                 ]
             },
