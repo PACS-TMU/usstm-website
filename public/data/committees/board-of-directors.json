@@ -145,25 +145,15 @@
     },
     {
         "id": "First Year Directors-22",
+        "image": [
+            "fyd1.png",
+            "fyd2.png",
+            "fyd3.png"
+        ],
         "people": [
-            {
-                "id": 1,
-                "position": "First-Year Director",
-                "image": "fyd1.png",
-                "name": "Dylan Cheong"
-            },
-            {
-                "id": 2,
-                "position": "First-Year Director",
-                "image": "fyd2.png",
-                "name": "Maesah Rahman"
-            },
-            {
-                "id": 3,
-                "position": "First-Year Director",
-                "image": "fyd3.png",
-                "name": "Nathan Romero"
-            }
+            "Dylan Cheong",
+            "Maesah Rahman",
+            "Nathan Romero"
         ]
     },
     {
