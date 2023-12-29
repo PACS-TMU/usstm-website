@@ -16,8 +16,6 @@ export default function PastBoards() {
         fetchData();
     }, []);
 
-    console.log(boardItems);
-
     return (
         <div className="p-4 mx-auto main">
             <h1 className="text-5xl font-semibold mb-4 text-center">Past Boards</h1>
@@ -34,20 +32,24 @@ export default function PastBoards() {
                                 <h3 className="text-lg font-serif font-semibold mb-2">{ID}</h3>
 
                                 <div className="flex flex-wrap gap-4 mx-auto justify-center">
-                                    {section.people.map((member) => {
+                                    {section.people.map((member, index) => {
                                         let POS = member.position;
                                         let NAME;
+                                        // Create a key to map items uniquely in case they don't have an id
+                                        let key;
 
                                         if (typeof member !== 'object') {
                                             POS = '';
                                             NAME = member;
+                                            key = index;
                                         }
                                         else {
                                             NAME = Array.isArray(member.name) ? member.name.join(', ') : member.name;
+                                            key = member.id;
                                         }
 
                                         return (
-                                            <div key={member.id} className="flex flex-col bg-gray-100 shadow-md p-4 w-full md:w-1/2 lg:w-1/5 rounded-md">
+                                            <div key={key} className="flex flex-col bg-gray-100 shadow-md p-4 w-[90%] md:w-1/3 lg:w-1/4 xl:w-1/5 rounded-md">
                                                 <p className="text-sm font-semibold mb-2">{POS}</p>
                                                 <p className="text-sm font-light mb-2">{NAME}</p>
                                             </div>
