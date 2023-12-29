@@ -231,18 +231,7 @@
         "active-group": true
     },
     {
-        "id": 21,
-        "group-name": "BioMedical Science Course Union",
-        "short-name": "BMSCU",
-        "group-logo": "pacs.png",
-        "contact-info": [
-            "Instagram: <a href='https://instagram.com/tmubiomed' target='_blank'tmubiomed</a>",
-            "biomedcu@torontomu.ca"
-        ],
-        "active-group": true
-    },
-    {
-        "id": 21,
+        "id": 22,
         "group-name": "Chemistry Course Union",
         "short-name": "CCU",
         "group-logo": "pacs.png",
@@ -253,7 +242,7 @@
         "active-group": true
     },
     {
-        "id": 22,
+        "id": 23,
         "group-name": "Computer Science Course Union",
         "short-name": "CSCU",
         "group-logo": "pacs.png",
@@ -264,7 +253,7 @@
         "active-group": true
     },
     {
-        "id": 23,
+        "id": 24,
         "group-name": "Math Course Union",
         "short-name": "MCU",
         "group-logo": "mcu.png",
@@ -275,7 +264,7 @@
         "active-group": true
     },
     {
-        "id": 24,
+        "id": 25,
         "group-name": "Fin Math Course Union",
         "short-name": "FMCU",
         "group-logo": "pacs.png",
