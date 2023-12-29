@@ -59,3 +59,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+
+.teamButton{
+    width: 100%;
+    background-color: var(--highlight-dark); 
+    color: #FFFFFF;
+    box-sizing: border-box;
+    
+}
