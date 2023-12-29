@@ -2,56 +2,56 @@
     {
         "id": 1,
         "committee-name": "Board of Directors",
-        "committee-image": "bod.png"
+        "committee-image": ["bod1.png"]
     },
     {
         "id": 2,
-        "committee-image": "President's Committee",
-        "committee-name": "committeePres.png"
+        "committee-name": "President's Committee",
+        "committee-image": ["committeePres1.png"]
     },
     {
         "id": 3,
-        "committee-image": "Operations Committee",
-        "committee-name": "committeeOps.png"
+        "committee-name": "Operations Committee",
+        "committee-image": ["committeeOps1.png"]
     },
     {
         "id": 4,
-        "committee-image": "Finance Committee",
-        "committee-name": "committeeFin.png"
+        "committee-name": "Finance Committee",
+        "committee-image": ["committeeFin1.png"]
     },
     {
         "id": 5,
-        "committee-image": "Commuications Committee",
-        "committee-name": "committeeComms.png"
+        "committee-name": "Commuications Committee",
+        "committee-image": ["committeeComms1.png"]
     },
     {
         "id": 6,
-        "committee-image": "Events Committee",
-        "committee-name": "committeeEvents.png"
+        "committee-name": "Events Committee",
+        "committee-image": ["committeeEvents1.png"]
     },
     {
         "id": 7,
-        "committee-image": "Frosh Committee",
-        "committee-name": "committeeFrosh.png"
+        "committee-name": "Frosh Committee",
+        "committee-image": ["committeeFrosh1.png"]
     },
     {
         "id": 8,
-        "committee-image": "Formal Committee",
-        "committee-name": "committeeFormal.png"
+        "committee-name": "Formal Committee",
+        "committee-image": ["committeeFormal1.png"]
     },
     {
         "id": 9,
-        "committee-image": "Academics Committee",
-        "committee-name": "committeeAcademics.png"
+        "committee-name": "Academics Committee",
+        "committee-image": ["committeeAcademics1.png"]
     },
     {
         "id": 10,
-        "committee-image": "Externals Committee",
-        "committee-name": "committeeExternals.png"
+        "committee-name": "Externals Committee",
+        "committee-image": ["committeeExternals1.png"]
     },
     {
         "id": 11,
-        "committee-image": "Equity Committee",
-        "committee-name": "committeeEquity.png"
+        "committee-name": "Equity Committee",
+        "committee-image": ["committeeEquity1.png"]
     }
 ]
