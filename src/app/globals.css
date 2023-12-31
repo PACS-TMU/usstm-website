@@ -37,16 +37,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Abril;
 }
 
-.faq > .answer > a {
+a:not(#navbar a) {
     color: var(--highlight);
+    text-decoration: underline;
 }
 
-.faq > .answer > a:hover {
-    transition: ease-in-out 0.2s;
-    color: var(--highlight-dark);
-}
-
-#linkToFAQ > a:hover {
+a:hover:not(#navbar a) {
     transition: ease-in-out 0.2s;
     color: var(--highlight-dark);
 }

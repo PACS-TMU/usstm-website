@@ -1,14 +1,6 @@
-*{
-    box-sizing: border-box;
-}
-ul{
-    list-style: disc;
-}
+
 b{
     font-weight: 900;
-}
-a{
-    text-decoration: underline;
 }
 div>div{
     width: auto;
