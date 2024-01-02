@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link';
 import Header from '@/app/_components/general/header';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 
@@ -88,7 +89,12 @@ export default function Elections() {
                                 </ul>
                             </section>
                             <section id="timeline-image" className="row-start-1 lg:col-start-2 px-4">
-                                <img src="/images/elections/timeline.svg" alt="timeline" />
+                                <Image
+                                    src="/images/elections/timeline.svg"
+                                    alt="USSTM Elections Timeline"
+                                    width={`auto`}
+                                    height={`auto`}
+                                />
                             </section>
                         </div>
                     </div>
@@ -118,14 +124,14 @@ export default function Elections() {
                         <div className="px-4">
                             <ul className="px-2">
                                 {/* DO's */}
-                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DO's:</li>
+                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DO&apos;s:</li>
                                 <ul className="px-4 pb-3 pt-1">
                                     <li>Ensure that your campaign is paperless.</li>
                                     <li>Banners are allowed but must be approved by the CRO and are posted by the Science Lounge (KHE 223).</li>
                                 </ul>
 
                                 {/* DON'Ts */}
-                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DON'Ts:</li>
+                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DON&apos;Ts:</li>
                                 <ul className="px-4 pb-3 pt-1">
                                     <li>No campaigning in the Science Lounge (KHE223).</li>
                                     <li>No campaigning within classrooms without faculty permission.</li>
