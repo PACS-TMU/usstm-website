@@ -1,6 +1,7 @@
 "use client";
 import sgcuData from '../../../../public/data/sgcu-db.json';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function GroupsUnions() {
     const [copiedEmail, setCopiedEmail] = useState(null);
@@ -28,7 +29,7 @@ export default function GroupsUnions() {
                         style={{ textAlign: 'center', padding: '10px' }}
                         className='flex flex-col aspect-square items-center justify-center bg-gray-100 shadow-md rounded-md'
                     >
-                        <img
+                        <Image
                             src={`/images/sg-logos/${group['group-logo']}`}
                             alt={group['group-name']}
                             className='mx-auto'
