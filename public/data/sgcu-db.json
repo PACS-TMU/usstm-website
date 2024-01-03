@@ -8,6 +8,7 @@
             "Instagram: <a href='https://instagram.com/pacs_tmu' target='_blank'>pacs_tmu</a>",
             "pacs@usstm.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -19,6 +20,7 @@
             "Instagram: <a href='https://instagram.com/tmupremed' target='_blank'>tmupremed</a>",
             "ryersonpremedical@gmail.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -30,6 +32,7 @@
             "Instagram: <a href='https://instagram.com/tmu_wics' target='_blank'>tmu_wics</a>",
             "wics@torontomu.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -41,6 +44,7 @@
             "Instagram: <a href='https://instagram.com/mosstmu' target='_blank'>moostmu</a>",
             "moss@usstm.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -52,6 +56,7 @@
             "Instagram: <a href='https://instagram.com/gamemakersunion' target='_blank'>gamemakersunion</a>",
             "ryersongmu@gmail.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -63,6 +68,7 @@
             "Instagram: <a href='https://instagram.com/tmu_acc' target='_blank'>tmu_acc</a>",
             ""
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -74,6 +80,7 @@
             "Instagram: <a href='https://instagram.com/tmuauws' target='_blank'>tmuauws</a>",
             "auws@usstm.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -85,6 +92,7 @@
             "Instagram: <a href='https://instagram.com/stemfellowship_tmu' target='_blank'>stemfellowship_tmu</a>",
             "stemfellow.rye@gmail.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -96,6 +104,7 @@
             "Instagram: <a href='https://instagram.com/tmustemcellclub' target='_blank'>tmustemcellclub</a>",
             "stemcell@torontomu.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -107,6 +116,7 @@
             "Instagram: <a href='https://instagram.com/torontometrobotics' target='_blank'>torontometrobotics</a>",
             "TMR@torontomu.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -118,6 +128,7 @@
             "Instagram: <a href='https://instagram.com/artscitorontomet' target='_blank'>artscitorontomet</a>",
             "artsci@usstm.ca"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -129,6 +140,7 @@
             "Instagram: <a href='https://instagram.com/tmupredental' target='_blank'>tmupredental</a>",
             "tmupredental@gmail.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -140,6 +152,7 @@
             "Instagram: <a href='https://instagram.com/tmu_wim' target='_blank'>tmu_wim</a>",
             ""
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -151,6 +164,7 @@
             "Instagram: <a href='https://instagram.com/tmu_mentalhealthsa' target='_blank'>tmu_mentalhealthsa</a>",
             "tmumentalhealthsa@gmail.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -162,17 +176,19 @@
             "Instagram: <a href='https://instagram.com/rarediseasestmu' target='_blank'rarediseasestmu</a>",
             "rarediseasestmu@gmail.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
         "id": 16,
         "group-name": "Viro",
         "short-name": "",
-        "group-logo": "pacs.png",
+        "group-logo": "viro.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/viro_tmu' target='_blank'viro_tmu</a>",
             "viro@usstm.com"
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -184,6 +200,7 @@
             "Instagram: <a href='https://instagram.com/tmuprepharm' target='_blank'tmuprepharm</a>",
             ""
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -195,6 +212,7 @@
             "Instagram: <a href='https://instagram.com/gdsc.tmu' target='_blank'gdsc.tmu</a>",
             ""
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -206,6 +224,7 @@
             "Instagram: <a href='https://instagram.com/qsec_tmu' target='_blank'qsec_tmu</a>",
             ""
         ],
+        "type": "SG",
         "active-group": true
     },
     {
@@ -217,6 +236,7 @@
             "Instagram: <a href='https://instagram.com/tmubiology' target='_blank'tmubiology</a>",
             "biology@torontomu.ca"
         ],
+        "type": "CU",
         "active-group": true
     },
     {
@@ -228,6 +248,7 @@
             "Instagram: <a href='https://instagram.com/tmubiomed' target='_blank'tmubiomed</a>",
             "biomedcu@torontomu.ca"
         ],
+        "type": "CU",
         "active-group": true
     },
     {
@@ -239,6 +260,7 @@
             "Instagram: <a href='https://instagram.com/tmu_ccu' target='_blank'tmu_ccu</a>",
             "chemcu@torontomu.ca"
         ],
+        "type": "CU",
         "active-group": true
     },
     {
@@ -250,6 +272,7 @@
             "Instagram: <a href='https://instagram.com/tmu_cscu' target='_blank'tmu_cscu</a>",
             ""
         ],
+        "type": "CU",
         "active-group": true
     },
     {
@@ -261,6 +284,7 @@
             "Instagram: <a href='https://instagram.com/tmu_mcu' target='_blank'tmu_mcu</a>",
             ""
         ],
+        "type": "CU",
         "active-group": true
     },
     {
@@ -272,6 +296,7 @@
             "Instagram: <a href='https://instagram.com/tmu_finmath' target='_blank'tmu_finmath</a>",
             ""
         ],
+        "type": "CU",
         "active-group": true
     }
 ]
