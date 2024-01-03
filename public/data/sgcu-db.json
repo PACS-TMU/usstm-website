@@ -15,7 +15,7 @@
         "id": 2,
         "group-name": "PreMedical Society",
         "short-name": "PreMed",
-        "group-logo": "pacs.png",
+        "group-logo": "premed.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmupremed' target='_blank'>tmupremed</a>",
             "ryersonpremedical@gmail.com"
@@ -27,7 +27,7 @@
         "id": 3,
         "group-name": "Women in Computer Science",
         "short-name": "WiCS",
-        "group-logo": "pacs.png",
+        "group-logo": "wics.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmu_wics' target='_blank'>tmu_wics</a>",
             "wics@torontomu.ca"
@@ -51,7 +51,7 @@
         "id": 5,
         "group-name": "Game Makers Union",
         "short-name": "GMU",
-        "group-logo": "pacs.png",
+        "group-logo": "gmu.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/gamemakersunion' target='_blank'>gamemakersunion</a>",
             "ryersongmu@gmail.ca"
@@ -63,7 +63,7 @@
         "id": 6,
         "group-name": "Toronto Metropolitan Algorithms & Coding Club",
         "short-name": "TMACC",
-        "group-logo": "pacs.png",
+        "group-logo": "tmacc.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmu_acc' target='_blank'>tmu_acc</a>",
             ""
@@ -75,7 +75,7 @@
         "id": 7,
         "group-name": "Association of Undergraduate Women in Science",
         "short-name": "AUWS",
-        "group-logo": "pacs.png",
+        "group-logo": "auws.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmuauws' target='_blank'>tmuauws</a>",
             "auws@usstm.ca"
@@ -87,7 +87,7 @@
         "id": 8,
         "group-name": "STEM Fellowship",
         "short-name": "",
-        "group-logo": "pacs.png",
+        "group-logo": "stemfellowship.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/stemfellowship_tmu' target='_blank'>stemfellowship_tmu</a>",
             "stemfellow.rye@gmail.com"
@@ -111,7 +111,7 @@
         "id": 10,
         "group-name": "Toronto MetRobotics",
         "short-name": "TMR",
-        "group-logo": "pacs.png",
+        "group-logo": "tmr.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/torontometrobotics' target='_blank'>torontometrobotics</a>",
             "TMR@torontomu.ca"
@@ -123,7 +123,7 @@
         "id": 11,
         "group-name": "ArtSci",
         "short-name": "",
-        "group-logo": "pacs.png",
+        "group-logo": "artsci.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/artscitorontomet' target='_blank'>artscitorontomet</a>",
             "artsci@usstm.ca"
@@ -135,7 +135,7 @@
         "id": 12,
         "group-name": "Predental Society",
         "short-name": "",
-        "group-logo": "pacs.png",
+        "group-logo": "predental.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmupredental' target='_blank'>tmupredental</a>",
             "tmupredental@gmail.com"
@@ -159,7 +159,7 @@
         "id": 14,
         "group-name": "Mental Health Science Association",
         "short-name": "MHSA",
-        "group-logo": "pacs.png",
+        "group-logo": "mhsa.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmu_mentalhealthsa' target='_blank'>tmu_mentalhealthsa</a>",
             "tmumentalhealthsa@gmail.com"
@@ -171,7 +171,7 @@
         "id": 15,
         "group-name": "Rare Disease Club",
         "short-name": "",
-        "group-logo": "pacs.png",
+        "group-logo": "raredisease.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/rarediseasestmu' target='_blank'rarediseasestmu</a>",
             "rarediseasestmu@gmail.com"
@@ -195,7 +195,7 @@
         "id": 17,
         "group-name": "PrePharmacy Society",
         "short-name": "PrePharm",
-        "group-logo": "pacs.png",
+        "group-logo": "prepharm.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmuprepharm' target='_blank'tmuprepharm</a>",
             ""
@@ -219,7 +219,7 @@
         "id": 19,
         "group-name": "Quantum Science and Engineering Club",
         "short-name": "QSEC",
-        "group-logo": "pacs.png",
+        "group-logo": "qsec.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/qsec_tmu' target='_blank'qsec_tmu</a>",
             ""
@@ -231,7 +231,7 @@
         "id": 20,
         "group-name": "Biology Course Union",
         "short-name": "BCU",
-        "group-logo": "pacs.png",
+        "group-logo": "bcu.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmubiology' target='_blank'tmubiology</a>",
             "biology@torontomu.ca"
@@ -243,7 +243,7 @@
         "id": 21,
         "group-name": "BioMedical Science Course Union",
         "short-name": "BMSCU",
-        "group-logo": "pacs.png",
+        "group-logo": "bmscu.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmubiomed' target='_blank'tmubiomed</a>",
             "biomedcu@torontomu.ca"
@@ -255,7 +255,7 @@
         "id": 22,
         "group-name": "Chemistry Course Union",
         "short-name": "CCU",
-        "group-logo": "pacs.png",
+        "group-logo": "ccu.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmu_ccu' target='_blank'tmu_ccu</a>",
             "chemcu@torontomu.ca"
@@ -267,7 +267,7 @@
         "id": 23,
         "group-name": "Computer Science Course Union",
         "short-name": "CSCU",
-        "group-logo": "pacs.png",
+        "group-logo": "cscu.png",
         "contact-info": [
             "Instagram: <a href='https://instagram.com/tmu_cscu' target='_blank'tmu_cscu</a>",
             ""
