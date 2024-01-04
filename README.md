@@ -46,6 +46,15 @@ localhost:3000
 - Ensure to pull regularly to stay up to date with the dev branch.
 - Only code what you are assigned to code. To get assigned, take part in USSTM Website meetings where we split tasks. Or ask your Tech Team Lead for vacant tasks.
 
+## Packages Used
+- `react-html-parser`
+- `react-slick`
+- `framer-motion`
+- `@formkit/auto-animate`
+- `react-use`
+- `hamburger-react`
+
+
 -----------------------------------------------------------
 
 If you have any questions or you are unsure of anything feel free to ask your Tech Team Leads.
