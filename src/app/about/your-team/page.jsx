@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './your-team.css';
+import Image from 'next/image';
 
 export default function YourTeam() {
     function Directors() {
@@ -16,8 +17,11 @@ export default function YourTeam() {
 
         return (
             <Slider {...settings}>
-                <img
-                    src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                <Image
+                    src="/images/usstm-people.png"
+                    alt="placeholder"
+                    width={1240}
+                    height={1240}
                     style={{
                         display: 'flex',
                         height: '100%',
@@ -25,8 +29,11 @@ export default function YourTeam() {
                         width: '100%'
                     }}
                 />
-                <img
-                    src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                <Image
+                    src="/images/usstm-people.png"
+                    alt="placeholder"
+                    width={1240}
+                    height={1240}
                     style={{
                         display: 'flex',
                         height: '100%',
@@ -77,12 +84,12 @@ export default function YourTeam() {
 
                 <div className="space-y-5 pt-12">
                     <h1 className="text-center pt-5 text-3xl text-highlight-dark">
-                        PRESIDENT'S COMMITTEE
+                        PRESIDENT&apos;S COMMITTEE
                     </h1>
 
                     <Directors className="hidden" />
                     <p className=" pt-2">
-                        The President's Committee is responsible for assiting and aiding the President in thier tasks
+                        The President&apos;s Committee is responsible for assiting and aiding the President in thier tasks
                     </p>
 
                     <a href="/about/your-team/president-committee">
@@ -244,7 +251,7 @@ export default function YourTeam() {
                     <Directors className="hidden" />
                     <p className=" pt-2">
                         Text about Communicaitons Committee goes here
-                        Bro I dont know why I wrote out every single one of these 'p' tags
+                        Bro I dont know why I wrote out every single one of these &apos;p&apos; tags
                         This is so time consuming I swear.
                     </p>
                     <a href="/about/your-team/comms-committee">
