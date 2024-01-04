@@ -4,7 +4,6 @@ import Header from '@/app/_components/general/header';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-
 export default function Elections() {
     const [electionsResults, setElectionsResults] = useState([]);
     useEffect(() => {
@@ -94,6 +93,7 @@ export default function Elections() {
                                     alt="USSTM Elections Timeline"
                                     width={`auto`}
                                     height={`auto`}
+                                    priority={true}
                                 />
                             </section>
                         </div>

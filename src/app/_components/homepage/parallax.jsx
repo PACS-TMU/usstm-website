@@ -24,6 +24,7 @@ export default function Parallax() {
                                     className="stats-icon"
                                     width={100}
                                     height={100}
+                                    priority={true}
                                 />
                                 <p className="stats-info stats-number lg:text-3xl xl:text-3xl">4000<sup>+</sup></p>
                                 <p className="stats-info stats-description lg:text-lg xl:text-lg">STUDENTS</p>
@@ -38,6 +39,7 @@ export default function Parallax() {
                                     className="stats-icon"
                                     width={100}
                                     height={100}
+                                    priority={true}
                                 />
                                 <p className="stats-info stats-number lg:text-3xl">25<sup>+</sup></p>
                                 <p className="stats-info stats-description lg:text-lg">STUDENT GROUPS</p>
@@ -52,6 +54,7 @@ export default function Parallax() {
                                     className="stats-icon"
                                     width={100}
                                     height={100}
+                                    priority={true}
                                 />
                                 <p className="stats-info stats-number lg:text-3xl">25<sup>+</sup></p>
                                 <p className="stats-info stats-description lg:text-lg">BOARD MEMBERS</p>

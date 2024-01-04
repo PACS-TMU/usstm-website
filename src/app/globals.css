@@ -55,3 +55,12 @@ a:hover:not(#navbar a) {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+
+.teamButton{
+    width: 100%;
+    background-color: var(--highlight-dark); 
+    color: #FFFFFF;
+    box-sizing: border-box;
+    
+}
