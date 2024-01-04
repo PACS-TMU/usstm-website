@@ -32,7 +32,7 @@ git checkout <branch-name>
 ```
 npm install
 ```
-or
+>OR
 ```
 npm i
 ```
@@ -52,6 +52,7 @@ localhost:3000
 
 ## Packages Used
 - `react-html-parser` - This npm package was utilized to parse HTML code from our JSON files into our `jsx` files.
+
 - `react-slick` - This npm package was utilized to implement a carousel in the `/about/your-team` page.
 - `framer-motion` - This npm package was utilized to implement different animations into the website, so buttons that expand items are smooth and not too abrupt.
 - `@formkit/auto-animate` - This is another animation package that was utilized for dropdown menu animation, so the drop-down isn't too abrupt.
@@ -60,6 +61,8 @@ localhost:3000
 
 
 -----------------------------------------------------------
+
+## Points of Contact
 
 If you have any questions or you are unsure of anything feel free to ask our Project Managers and Tech Team Leads.
 
