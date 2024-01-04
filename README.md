@@ -1,4 +1,6 @@
-# USSTM Website Project Overview
+# USSTM Website Project
+
+## Overview
 This is PACS first project, creating the Undergraduate Science Society of Toronto Metropolitan (USSTM, pronounced U-STEM) website. USSTM is the science society at Toronto Metropolitan University (TMU, formerly known as Ryerson University). As representatives of the Faculty of Science student body, USSTM needs a well-established presence in the community. Their old website was using their old domain (the name was changed due to the university name change) and is out-dated. PACS, a group that functions under the supervision of USSTM, took the project of designing a new website that uses their new domain, boasts a more modern design, and allows their members to keep it up-to-date more easily. Since USSTM is a big society, their website has several pages with a lot of content, which is why we decided to use a framework (next.js, in particular) in order to allow modularity and readability in this large implementation.
 
 ## Prerequisites
