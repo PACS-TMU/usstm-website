@@ -23,6 +23,7 @@ export default function YourTeam() {
                     alt="placeholder"
                     width={1500}
                     height={750}
+                    priority={true}
                     style={{
                         display: 'flex',
                         height: '100%',
@@ -35,6 +36,7 @@ export default function YourTeam() {
                     alt="placeholder"
                     width={1500}
                     height={750}
+                    priority={true}
                     style={{
                         display: 'flex',
                         height: 'auto',

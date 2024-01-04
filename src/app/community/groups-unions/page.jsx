@@ -51,6 +51,7 @@ export default function GroupsUnions() {
                                 alt={group['group-name']}
                                 className='mx-auto'
                                 style={{ width: '100px', height: 'auto', marginBottom: '10px', cursor: 'pointer' }}
+                                priority={true}
                             />
                             <p
                                 style={{ margin: '0', cursor: 'pointer' }}

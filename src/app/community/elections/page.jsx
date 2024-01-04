@@ -94,6 +94,7 @@ export default function Elections() {
                                     alt="USSTM Elections Timeline"
                                     width={`auto`}
                                     height={`auto`}
+                                    priority={true}
                                 />
                             </section>
                         </div>
