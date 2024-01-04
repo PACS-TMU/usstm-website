@@ -32,7 +32,7 @@ git checkout <branch-name>
 ```
 npm install
 ```
-2. Run tailwind build process
+2. Run the dev build of the project to view how it looks locally on your browser
 ```
 npm run dev
 ```
