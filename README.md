@@ -14,6 +14,8 @@ Before you work on this website there are some command line tools and extensions
 - [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ## Cloning the Website
+If you are unfamiliar with how to use GitHub and the Git CLI, please check out our [GitHub Docs](https://github.com/PACS-TMU/documentation/blob/main/github-docs.md), where we offer a description of all you need to know to run this website.
+
 1. Clone the repo.
 ```
 git clone https://github.com/PACS-TMU/usstm-website.git
