@@ -55,35 +55,35 @@ export default function Elections() {
                             <section className="px-4">
                                 <p className="py-2">Our election process follows a well-defined timeline to ensure transparency and fairness. Here are the key milestones:</p>
                                 <ul className="list-none">
-                                    <li className="font-semibold tracking-wide">Nomination Period: First week of March</li>
+                                    <li className="font-semibold tracking-wide py-1">Nomination Period: First week of March</li>
                                     <ul className="px-4 pb-3 pt-1">
-                                        <li>Open for at least 7 days</li>
-                                        <li>Submit your nominations in person or via email to <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.</li>
+                                        <li className="py-1">- Open for at least 7 days</li>
+                                        <li className="py-1">- Submit your nominations in person or via email to <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.</li>
                                     </ul>
 
-                                    <li className="font-semibold tracking-wider">Candidates Meeting: (announced within twenty-four (24) hours of the meeting)</li>
+                                    <li className="font-semibold tracking-wider py-1">Candidates Meeting: (announced within twenty-four (24) hours of the meeting)</li>
                                     <ul className="px-4 pb-3 pt-1">
-                                        <li>Mandatory for all candidates or authorized representatives.</li>
-                                        <li>Overview of election rules/schedule and candidate roles.</li>
+                                        <li className="py-1">- Mandatory for all candidates or authorized representatives.</li>
+                                        <li className="py-1">- Overview of election rules/schedule and candidate roles.</li>
                                     </ul>
 
-                                    <li className="font-semibold tracking-wider">Campaigning Period: (shortly after the closing of nominations)</li>
+                                    <li className="font-semibold tracking-wider py-1">Campaigning Period: (shortly after the closing of nominations)</li>
                                     <ul className="px-4 pb-3 pt-1">
-                                        <li>Paperless campaigns.</li>
-                                        <li>Maximum spending limit: [$X].</li>
+                                        <li className="py-1">- Paperless campaigns.</li>
+                                        <li className="py-1">- Maximum spending limit: [$X].</li>
                                     </ul>
 
-                                    <li className="font-semibold tracking-wider">Voting Days: Last 2 days of Campaigning Period</li>
+                                    <li className="font-semibold tracking-wider py-1">Voting Days: Last 2 days of Campaigning Period</li>
                                     <ul className="px-4 pb-3 pt-1">
-                                        <li>Online voting available during this period.</li>
-                                        <li>Campaigning allowed, with restrictions in certain areas.</li>
+                                        <li className="py-1">- Online voting available during this period.</li>
+                                        <li className="py-1">- Campaigning allowed, with restrictions in certain areas.</li>
                                     </ul>
 
-                                    <li className="font-semibold tracking-wider">Results Announcement: Date of AGM</li>
+                                    <li className="font-semibold tracking-wider py-1">Results Announcement: Date of AGM</li>
                                     <ul className="px-4 pb-3 pt-1">
-                                        <li>Tallying process begins immediately after polls close.</li>
-                                        <li>Results sent to candidates first.</li>
-                                        <li>Public announcement via electronic and social media on the same day as AGM.</li>
+                                        <li className="py-1">- Tallying process begins immediately after polls close.</li>
+                                        <li className="py-1">- Results sent to candidates first.</li>
+                                        <li className="py-1">- Public announcement via electronic and social media on the same day as AGM.</li>
                                     </ul>
 
                                 </ul>
@@ -92,8 +92,8 @@ export default function Elections() {
                                 <Image
                                     src="/images/elections/timeline.svg"
                                     alt="USSTM Elections Timeline"
-                                    width={`auto`}
-                                    height={`auto`}
+                                    width={1000}
+                                    height={280}
                                     priority={true}
                                 />
                             </section>
@@ -125,19 +125,19 @@ export default function Elections() {
                         <div className="px-4">
                             <ul className="px-2">
                                 {/* DO's */}
-                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DO&apos;s:</li>
+                                <li className="text-lg lg:text-xl font-semibold tracking-wider py-1">DO&apos;s:</li>
                                 <ul className="px-4 pb-3 pt-1">
-                                    <li>Ensure that your campaign is paperless.</li>
-                                    <li>Banners are allowed but must be approved by the CRO and are posted by the Science Lounge (KHE 223).</li>
+                                    <li className="py-1">- Ensure that your campaign is paperless.</li>
+                                    <li className="py-1">- Banners are allowed but must be approved by the CRO and are posted by the Science Lounge (KHE 223).</li>
                                 </ul>
 
                                 {/* DON'Ts */}
-                                <li className="text-lg lg:text-xl font-semibold tracking-wider">DON&apos;Ts:</li>
+                                <li className="text-lg lg:text-xl font-semibold tracking-wider py-1">DON&apos;Ts:</li>
                                 <ul className="px-4 pb-3 pt-1">
-                                    <li>No campaigning in the Science Lounge (KHE223).</li>
-                                    <li>No campaigning within classrooms without faculty permission.</li>
-                                    <li>No campaigning in the Library or computer labs.</li>
-                                    <li>No printed posters allowed.</li>
+                                    <li className="py-1">- No campaigning in the Science Lounge (KHE223).</li>
+                                    <li className="py-1">- No campaigning within classrooms without faculty permission.</li>
+                                    <li className="py-1">- No campaigning in the Library or computer labs.</li>
+                                    <li className="py-1">- No printed posters allowed.</li>
                                 </ul>
                             </ul>
                             <p className="px-2">Report any violations to the Chief Returning Officer (CRO) at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.</p>
@@ -159,18 +159,18 @@ export default function Elections() {
                     </div>
 
                     <div className="past-election-results">
-                        <h2 className="pb-4 pt-7 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                        <h2 className="pb-2 pt-7 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             Past Election Results
                         </h2>
                         <div className="px-4">
                             <ul className="px-2 pb-3 pt-1">
                                 {
                                     electionsResults.map((election) => (
-                                        <li className="flex py-1" key={election.id}>
+                                        <li className="flex py-2" key={election.id}>
                                             <div className='flex flex-col lg:flex-row'>
                                                 <p>{election.title}:&nbsp;</p>
                                                 <a
-                                                    className='px-2 py-1 lg:py-0 lg:px-0'
+                                                    className='lg:py-0 lg:px-0'
                                                     href={election.path}
                                                     target="_blank"
                                                 >
