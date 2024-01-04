@@ -66,19 +66,12 @@ export default function YourTeam() {
                      <Directors/>
 
                     <p className=" pt-2">
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here
-                        Text about Directors goes here
-                        Text about Directors goes here
-                        Text about Directors goes here
-                        Text about Directors goes here
-                        Text about Directors goes here
-                        Text about Directors goes here
+                        The USSTM Board of Directors is a dynamic group of student leaders at 
+                        Toronto Metropolitan University, dedicated to enhancing the academic and s
+                        ocial experience for the Faculty of Science. The Board is committed to 
+                        fostering a vibrant and inclusive community. Elected annually, these student 
+                        leaders embody the spirit of innovation and collaboration, working to create a 
+                        fulfilling experience for science students at TMU. 
                     </p>
 
                     <a href="/about/your-team/directors"> 
@@ -94,11 +87,7 @@ export default function YourTeam() {
 
                      <Directors/>
                      <p className=" pt-2">
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here 
-                        Text about Directors goes here
+                        The President's Committee is responsible for assiting and aiding the President in thier tasks
                     </p>
 
                     <a href="/about/your-team/president-committee"> 
