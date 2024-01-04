@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "committee-name": "Board of Directors",
+        "committee-image": ["bod1.png"]
+    },
+    {
+        "id": 2,
+        "committee-name": "President's Committee",
+        "committee-image": ["committeePres1.png"]
+    },
+    {
+        "id": 3,
+        "committee-name": "Operations Committee",
+        "committee-image": ["committeeOps1.png"]
+    },
+    {
+        "id": 4,
+        "committee-name": "Finance Committee",
+        "committee-image": ["committeeFin1.png"]
+    },
+    {
+        "id": 5,
+        "committee-name": "Commuications Committee",
+        "committee-image": ["committeeComms1.png"]
+    },
+    {
+        "id": 6,
+        "committee-name": "Events Committee",
+        "committee-image": ["committeeEvents1.png"]
+    },
+    {
+        "id": 7,
+        "committee-name": "Frosh Committee",
+        "committee-image": ["committeeFrosh1.png"]
+    },
+    {
+        "id": 8,
+        "committee-name": "Formal Committee",
+        "committee-image": ["committeeFormal1.png"]
+    },
+    {
+        "id": 9,
+        "committee-name": "Academics Committee",
+        "committee-image": ["committeeAcademics1.png"]
+    },
+    {
+        "id": 10,
+        "committee-name": "Externals Committee",
+        "committee-image": ["committeeExternals1.png"]
+    },
+    {
+        "id": 11,
+        "committee-name": "Equity Committee",
+        "committee-image": ["committeeEquity1.png"]
+    }
+]
