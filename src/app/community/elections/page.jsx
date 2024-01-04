@@ -31,16 +31,16 @@ export default function Elections() {
                         outlined in detail in the By-Laws and Constitution, accessible at our <Link id="btext" href="/about/governance/">governance page</Link>.
                     </p>
                     <p>
-                        Elections are run by the Chief Returning Officer, who is
-                        appointed by the Board of Directors. The CRO can be reached at cro@usstm.ca.
-                        Everyone who wants to run should attend an info session and MUST ATTEND the All
-                        Candidates Meeting. If you cannot attend either you MUST email cro@usstm.ca
-                        at least 24 hours before. You may send someone in your place to the All Candidates
-                        meeting but you must tell the CRO (cro@usstm.ca) who will be attending in your
+                        Elections are run by the Chief Returning Officer (CRO), who is
+                        appointed by the Board of Directors. The CRO can be reached at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.
+                        Everyone who wants to run should attend an info session and <span className='font-semibold'>MUST ATTEND</span> the &quot;All
+                        Candidates Meeting&quot;. If you cannot attend either you <span className='font-semibold'>MUST</span> email cro@usstm.ca
+                        at least 24 hours before. You may send someone in your place to the &quot;All Candidates
+                        Meeting&quot; but you must tell the CRO who will be attending in your
                         place 24 hours in advance.
-                        Please read the Election Policies that can be found here: Link to Election
-                        Procedures. It is your responsibility to know this document as well as the
-                        Constitution and By-Laws, especially if you are elected.
+                        Please read the Election Policies that can be found <a href="" target="_blank">here (Link to Election
+                        Procedures)</a>. It is your responsibility to know this document as well as the
+                        Constitution and By-Laws (available in our <Link id="btext" href="/about/governance/">governance page</Link>), especially if you are elected.
                     </p>
                 </div>
 
