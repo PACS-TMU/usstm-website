@@ -207,7 +207,7 @@
         "id": 18,
         "group-name": "Google Developer Student Club",
         "short-name": "GDSC",
-        "group-logo": "pacs.png",
+        "group-logo": "gdsc.png",
         "contact-info": [
             "<a href='https://instagram.com/gdsc.tmu' target='_blank'gdsc.tmu</a>",
             ""
@@ -289,12 +289,12 @@
     },
     {
         "id": 25,
-        "group-name": "Fin Math Course Union",
+        "group-name": "Financial Math Course Union",
         "short-name": "FMCU",
         "group-logo": "pacs.png",
         "contact-info": [
             "<a href='https://instagram.com/tmu_finmath' target='_blank'tmu_finmath</a>",
-            ""
+            "rfms@torontomu.ca"
         ],
         "type": "CU",
         "active-group": true
