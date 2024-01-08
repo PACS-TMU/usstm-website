@@ -291,10 +291,22 @@
         "id": 25,
         "group-name": "Financial Math Course Union",
         "short-name": "FMCU",
-        "group-logo": "pacs.png",
+        "group-logo": "fmcu.png",
         "contact-info": [
             "<a href='https://instagram.com/tmu_finmath' target='_blank'tmu_finmath</a>",
             "rfms@torontomu.ca"
+        ],
+        "type": "CU",
+        "active-group": true
+    },
+    {
+        "id": 26,
+        "group-name": "Medical Physics Course Union",
+        "short-name": "MPCU",
+        "group-logo": "mpcu.png",
+        "contact-info": [
+            "<a href='https://instagram.com/mpcu_tmu' target='_blank'mpcu_tmu</a>",
+            "mphysicis@torontomu.ca"
         ],
         "type": "CU",
         "active-group": true
