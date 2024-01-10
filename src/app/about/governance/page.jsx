@@ -2,34 +2,6 @@ import Link from "next/link";
 import Header from "@/app/_components/general/header";
 
 export default function Governance() {
-    // These are all the links under the membership information section
-    // Please update the links here if they are changed on the website
-    const membership_information_links = [
-        {
-            title: "2022 - 2023 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/Final-2022-2023-Budget.xlsx.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2021 - 2022 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2021_2022-RSS-Budget.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2020 - 2021 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2020_2021-RSS-Budget-Final.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2019 - 2020 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2019_2020-RSS-Budget-Final.pdf",
-            target: "_blank",
-            description: "Click Here",
-        }
-    ]
     return (
         <section className="governance-page lg:text-lg">
 
@@ -89,24 +61,9 @@ export default function Governance() {
 
                                 </p>
                                 <p className="pb-2">
-                                    For information on applying to the USSTM for funding, please visit our <Link href="">Funding Page (update redirect)</Link>. More information
+                                    For information on applying to the USSTM for funding, please visit our <Link href="/finances/budget">Budget Page</Link>. More information
                                     regarding the previous year&apos;s budget can be found in the following links:
                                 </p>
-                                <ul className="list-none py-2 px-4">
-                                    <li>
-                                        2023 - 2024 Budget: <span className="italic">In Progress</span>
-                                    </li>
-                                    {
-                                        membership_information_links.map(
-                                            link => (
-                                                <li key={link.title}>
-                                                    {link.title}: <Link target={link.target} href={link.href}>{link.description}</Link>
-                                                </li>
-                                            )
-                                        )
-                                    }
-                                </ul>
-                                <p className="italic">Last Updated: June 2023</p>
                             </section>
                         </div>
                     </div>
@@ -121,30 +78,11 @@ export default function Governance() {
                                     the General Meeting. General meetings must be communicated to the membership at least 15 days before the date of it.
                                 </p>
                                 <p className="py-2">
-                                    Motions have a specific format that they must be submitted in, you can see an example below:
-                                </p>
-                                <p className="font-bold">This is a very confusing example, make it better</p>
-                                <ul className="list-none py-2 px-4">
-                                    <li className="py-1">Whereas state your reasoning here</li>
-                                    <li className="py-1">Whereas state your further reasoning here</li>
-                                    <li className="py-1">Be it resolved that state your proposed solution here</li>
-                                    <li className="py-1">Be it further resolved that state further proposed solutions here</li>
-                                </ul>
-                                <p className="py-2">
-                                    Note: you can use as many “whereas” and “be it resolved that” as you need to write out your entire motion. If you want help writing your motion, please contact
-                                    our VP Operations at <a href="mailto:vp.operation@usstm.ca">vp.operations@usstm.ca</a>. If you send a motion in that is not in the
-                                    proper format, our VP Operations may be in contact with you to work on fixing it.
-                                </p>
-                                <p className="py-2">
                                     Documents used for the General Meetings are the following: the Constitution, By-Laws, Financial Policies. Refer to the last updated versions of the
                                     documents located in the Governing Documents section of this page. Any motions discussed in the meeting may use any of these documents as reference.
                                 </p>
                                 <p className="py-2">
-                                    Agendas/Meeting Minutes for general meetings are posted below:
-                                </p>
-                                <p className="py-2 px-4">
-                                    {/* UPDATE THE SAGM AGENDA HERE */}
-                                    SAGM 2023 Agenda: <span className="italic">coming soon</span>.
+                                    For more information about General Meetings, please refer to our <Link href="/about/meetings">Meetings Page</Link>.
                                 </p>
                             </section>
                         </div>
