@@ -32,7 +32,7 @@ git checkout <branch-name>
 ```
 npm install
 ```
-2. Run tailwind build process
+2. Run the dev build of the project to view how it looks locally on your browser
 ```
 npm run dev
 ```
@@ -45,6 +45,15 @@ localhost:3000
 - Code in your respective or assigned branches to avoid git conflicts.
 - Ensure to pull regularly to stay up to date with the dev branch.
 - Only code what you are assigned to code. To get assigned, take part in USSTM Website meetings where we split tasks. Or ask your Tech Team Lead for vacant tasks.
+
+## Packages Used
+- `react-html-parser`
+- `react-slick`
+- `framer-motion`
+- `@formkit/auto-animate`
+- `react-use`
+- `hamburger-react`
+
 
 -----------------------------------------------------------
 
