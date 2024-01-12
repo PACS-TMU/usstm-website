@@ -20,39 +20,36 @@ export default function GroupsUnions() {
 
     const [copiedEmail, setCopiedEmail] = useState(null);
     const [hoveredIndex, setHoveredIndex] = useState(null);
+    const [hoveredTitle, setHoveredTitle] = useState(null);
+
+    const extractTitle = (htmlString) => {
+        const match = htmlString.match(/<a[^>]*>(.*?)<\/a>/);
+        return match ? match[1] : ''; // Extract text between <a> and </a>
+    };
+
+    const handleMouseEnter = (index, title) => {
+        setHoveredIndex(index);
+        setHoveredTitle(title);
+    };
+
+    const handleMouseLeave = () => {
+        setHoveredIndex(null);
+        setHoveredTitle(null);
+    };
 
     const studentGroups = sgcuData.filter(group => group.type === 'SG');
     const courseUnions = sgcuData.filter(group => group.type === 'CU');
-    const combinedGroups = [...studentGroups, ...courseUnions];
 
-    const copyToClipboard = (email) => {
-        navigator.clipboard.writeText(email);
-        setCopiedEmail(email);
-
-        setTimeout(() => {
-            setCopiedEmail(null);
-        }, 2000);
-    };
-
-    const redirectToInstagram = (instagramUrl) => {
-        window.open(instagramUrl, '_blank');
-    };
-
-    
-
-    return (
-<<<<<<< HEAD
-        <div className='main p-4'>
-            <h1 className="text-5xl font-semibold pb-4 leading-relaxed" style={{ textAlign: 'center' }}>Groups And Unions</h1>
-            <div className='grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center' style={{ display: 'grid', gap: '20px' }}>
-                {combinedGroups.map((group, index) => (
-                    <div
-                        key={index}
-                        style={{ textAlign: 'center', padding: '10px', display: 'grid', gridTemplateRows: '50% 50%' }}
-                        className='flex flex-col aspect-square items-center justify-center bg-gray-100 shadow-md rounded-md'
-                        onMouseEnter={() => setHoveredIndex(index)}
-                        onMouseLeave={() => setHoveredIndex(null)}
-                    >
+    const renderGroupCards = (groups) => (
+        <div className='grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center' style={{ display: 'grid', gap: '20px' }}>
+            {groups.map((group, index) => (
+                <div
+                    key={index}
+                    style={{ textAlign: 'center', padding: '10px', display: 'grid', gridTemplateRows: '50% 50%' }}
+                    className='flex flex-col aspect-square items-center justify-center bg-gray-100 shadow-md rounded-md'
+                    onMouseEnter={() => handleMouseEnter(index, extractTitle(group['contact-info'][0]))}
+                    onMouseLeave={handleMouseLeave}
+                >
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src={`/images/sg-logos/${group['group-logo']}`}
@@ -71,20 +68,24 @@ export default function GroupsUnions() {
                             {group['group-name']}
                         </p>
                         {copiedEmail === group['contact-info'][1] && <p style={{ color: 'green' }}>Email Copied!</p>}
-                        
+
+                        {hoveredIndex === index && hoveredTitle && (
+                            <p style={{ margin: '0', color: 'black' }}>@{hoveredTitle}</p>
+                        )}
+
                         <div className="flex mt-2">
                             {hoveredIndex === index && (
                                 <>
                                     {group['contact-info'][1] && (
                                     <button
-                                    className="rounded-full bg-blue-500 text-white px-4 py-2 mr-2 flex items-center"
+                                    className="rounded-full bg-highlight-dark text-white px-4 py-2 mr-2 flex items-center"
                                     onClick={() => copyToClipboard(group['contact-info'][1])}
                                     >
                                         Copy Email
                                     </button>)}
                                     {group ['contact-info'][0].match(/href='(https:\/\/.*?)'/) && (
                                         <button
-                                        className="rounded-full bg-purple-500 text-white px-4 py-2 flex items-center"
+                                        className="rounded-full bg-highlight text-white px-4 py-2 flex items-center"
                                         onClick={() => redirectToInstagram(group['contact-info'][0].match(/href='(https:\/\/.*?)'/)[1])}
                                         >
                                             Instagram
@@ -94,55 +95,31 @@ export default function GroupsUnions() {
                             )}
                         </div>
                      </div>
-                  </div>
-                ))}
-=======
-        <section id="sg-cu">
-            <Header title="Student Groups and Course Unions" />
-            <div className='main p-4'>
-                <div className='grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center' style={{ display: 'grid', gap: '20px' }}>
-                    {sgcuData.map((group, index) => (
-                        <div
-                            key={index}
-                            style={{ textAlign: 'center', padding: '10px' }}
-                            className='flex flex-col aspect-square items-center justify-center bg-gray-100 shadow-md rounded-md'
-                        >
-                            <Image
-                                src={`/images/sg-logos/${group['group-logo']}`}
-                                width={500}
-                                height={500}
-                                alt={group['group-name']}
-                                className='mx-auto'
-                                style={{ width: '100px', height: 'auto', marginBottom: '10px', cursor: 'pointer' }}
-                                priority={true}
-                            />
-                            <p
-                                style={{ margin: '0', cursor: 'pointer' }}
-                                className='font-semibold'
-                            >
-                                {group['group-name']}
-                            </p>
-                            {copiedEmail === group['contact-info'][1] && <p style={{ color: 'green' }}>Email Copied!</p>}
-
-                            <div className="flex mt-2">
-                                <button
-                                    className="bg-blue-500 text-white px-4 py-2 mr-2"
-                                    onClick={() => copyToClipboard(group['contact-info'][1])}
-                                >
-                                    Copy Email
-                                </button>
-                                <button
-                                    className="bg-purple-500 text-white px-4 py-2"
-                                    onClick={() => redirectToInstagram(group['instagram-url'])}
-                                >
-                                    Instagram
-                                </button>
-                            </div>
-                        </div>
-                    ))}
                 </div>
->>>>>>> cf9c2d979bb0e2ed01e22c4927e5fb90e31d8aeb
-            </div>
-        </section>
+            ))}
+        </div>
+    );
+
+    const copyToClipboard = (email) => {
+        navigator.clipboard.writeText(email);
+        setCopiedEmail(email);
+
+        setTimeout(() => {
+            setCopiedEmail(null);
+        }, 2000);
+    };
+
+    const redirectToInstagram = (instagramUrl) => {
+        window.open(instagramUrl, '_blank');
+    };
+
+    return (
+        <div className='main p-4'>
+            <h1 className="text-5xl font-semibold pb-4 leading-relaxed" style={{ textAlign: 'center' }}>Student Groups</h1>
+            {renderGroupCards(studentGroups)}
+
+            <h1 className="text-5xl font-semibold pb-4 leading-relaxed" style={{ textAlign: 'center' }}>Course Unions</h1>
+            {renderGroupCards(courseUnions)}
+        </div>
     );
 }
