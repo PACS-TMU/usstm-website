@@ -2,34 +2,7 @@ import Link from "next/link";
 import Header from "@/app/_components/general/header";
 
 export default function Governance() {
-    // These are all the links under the membership information section
-    // Please update the links here if they are changed on the website
-    const membership_information_links = [
-        {
-            title: "2022 - 2023 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/Final-2022-2023-Budget.xlsx.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2021 - 2022 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2021_2022-RSS-Budget.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2020 - 2021 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2020_2021-RSS-Budget-Final.pdf",
-            target: "_blank",
-            description: "Click Here",
-        },
-        {
-            title: "2019 - 2020 Budget",
-            href: "https://www.rssonline.ca/wp-content/uploads/2023/06/2019_2020-RSS-Budget-Final.pdf",
-            target: "_blank",
-            description: "Click Here",
-        }
-    ]
+
     return (
         <section className="governance-page lg:text-lg">
 
