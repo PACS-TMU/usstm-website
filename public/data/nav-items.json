@@ -17,80 +17,7 @@
                 "itemName": "Your Team",
                 "path": "/about/your-team",
                 "description": "Meet the faces behind USSTM",
-                "subItems": [
-                    {
-                        "id": 20101,
-                        "itemName": "Board of Directors (BoD)",
-                        "path": "/about/your-team/directors",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20102,
-                        "itemName": "Presidents Committee",
-                        "path": "/about/your-team/president-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20103,
-                        "itemName": "Operations Committee",
-                        "path": "/about/your-team/operations-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20104,
-                        "itemName": "Events Committee",
-                        "path": "/about/your-team/events-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20105,
-                        "itemName": "Formal Committee",
-                        "path": "/about/your-team/formal-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20106,
-                        "itemName": "Frosh Committee",
-                        "path": "/about/your-team/frosh-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20107,
-                        "itemName": "Academics Committee",
-                        "path": "/about/your-team/academics-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20108,
-                        "itemName": "Finnaces Committee",
-                        "path": "/about/your-team/finances-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20109,
-                        "itemName": "Externals Committee",
-                        "path": "/about/your-team/externals-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20110,
-                        "itemName": "Communication Committee",
-                        "path": "/about/your-team/comms-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20111,
-                        "itemName": "Equity Committee",
-                        "path": "/about/your-team/equity-comittee",
-                        "subItems": []
-                    },
-                    {
-                        "id": 20112,
-                        "itemName": "Yearbook Committee",
-                        "path": "/about/your-team/yearbook-comittee",
-                        "subItems": []
-                    }
-                ]
+                "subItems": []
             },
             {
                 "id": 202,
@@ -111,13 +38,6 @@
                 "itemName": "Meetings",
                 "path": "/about/meetings",
                 "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
-                "subItems": []
-            },
-            {
-                "id": 205,
-                "itemName": "Services",
-                "path": "/about/services",
-                "description": "Learn about the services at TMU",
                 "subItems": []
             }
         ]
