@@ -52,19 +52,18 @@ export default function GroupsUnions() {
                     onMouseEnter={() => handleMouseEnter(index, extractTitle(group['contact-info'][0]))}
                     onMouseLeave={handleMouseLeave}
                 >
-                    <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'center' }}>
+                    <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'end' }}>
                         <Image
                             src={`/images/sg-logos/${group['group-logo']}`}
                             alt={group['group-name']}
                             width={500}
                             height={500}
-                            className='mx-auto h-auto w-1/2'
-                            style={{ marginBottom: '10px', cursor: 'pointer' }}
+                            className='mx-auto h-auto w-1/2 mb-0 mt-auto'
                         />
                     </div>
                     <div className="flex flex-col justify-center items-center" style={{ textAlign: 'center' }}>
                         <p
-                            style={{ margin: '0', cursor: 'pointer' }}
+                            style={{ margin: '0' }}
                             className='font-semibold'
                         >
                             {group['group-name']}
@@ -120,12 +119,43 @@ export default function GroupsUnions() {
     };
 
     return (
-        <div className='main p-4'>
-            <h1 className="text-5xl font-semibold pb-4 leading-relaxed" style={{ textAlign: 'center' }}>Student Groups</h1>
-            {renderGroupCards(studentGroups)}
+        <section id="sg-cu-page">
+            <Header title="Student Groups & Course Unions" />
+            <div className='main p-4'>
 
-            <h1 className="text-5xl font-semibold pb-4 leading-relaxed" style={{ textAlign: 'center' }}>Course Unions</h1>
-            {renderGroupCards(courseUnions)}
-        </div>
+                <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Student Groups</h2>
+                <p className="lg:text-lg pb-4 text-left">
+                    Discover the diverse range of student groups that enhance the USSTM experience. These groups cater to specific interests,
+                    providing opportunities for networking, skill development, and social engagement.
+                </p>
+                {renderGroupCards(studentGroups)}
+
+                <h2 className="pb-4 pt-12 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Course Unions</h2>
+                <p className="lg:text-lg pb-4 text-left">
+                    Course Unions represent students in their specific programs. They all have positions that work to run events, advocate for students
+                    facing issues and be a source of support for students.
+                </p>
+                {renderGroupCards(courseUnions)}
+
+                <h2 className="pb-4 pt-12 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">How to Start/Revive a Student Group at USSTM?</h2>
+                <p className="lg:text-lg pb-4 text-left">
+                    Have a group idea that is not being repersented or a group that no longer exists? Empower your passion for a specific scientific field or interest by
+                    starting your own student group at the Undergrad Science Society of Toronto Metropolitan (USSTM)
+                </p>
+                <p className="lg:text-lg pb-4 text-left">
+                    Check out our <a href="https://docs.google.com/document/d/10Oe5miU2aVl9_-vld1zPplsTLl-MJBKOVbk0o6mJY04" target="_blank">Student Group Package</a> to 
+                    find out how to start your own student group!
+                </p>
+
+                <h2 className="pb-4 pt-8 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Join or Start Today!</h2>
+                <p className="lg:text-lg pb-4 text-left">
+                    Explore the existing student groups and course unions, or start your own to create a community tailored to your scientific interests.
+                    For more information, contact us at <a href="mailto:vp.operations@usstm.ca" target="_blank">vp.operations@usstm.ca</a>.
+                </p>
+                <p className="lg:text-lg pb-4 text-left">
+                    We look forward to supporting your journey in building and participating in the vibrant student group community at USSTM!
+                </p>
+            </div>
+        </section>
     );
 }
