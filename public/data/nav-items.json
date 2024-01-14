@@ -80,7 +80,7 @@
             {
                 "id": 401,
                 "itemName": "Feedback Form",
-                "path": "/academics/feedback",
+                "path": "/academics/feedback-form",
                 "description": "Have feedback for your professors but don't want to contact them directly? We can do it for you through our Academic Feedback Form!",
                 "subItems": []
             },
