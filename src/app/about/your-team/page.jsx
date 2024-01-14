@@ -73,7 +73,7 @@ export default function YourTeam() {
                         </p>
 
                         <a href="/about/your-team/directors">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
 
                     </div>
@@ -90,7 +90,7 @@ export default function YourTeam() {
                         </p>
 
                         <a href="/about/your-team/president-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
 
                     </div>
@@ -110,7 +110,7 @@ export default function YourTeam() {
                             Text about Operations goes here
                         </p>
                         <a href="/about/your-team/operations-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -128,7 +128,7 @@ export default function YourTeam() {
                             Text about Frosh Committee goes here
                         </p>
                         <a href="/about/your-team/frosh-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -146,7 +146,7 @@ export default function YourTeam() {
                             Text about Academics Committee goes here
                         </p>
                         <a href="/about/your-team/academics-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -164,7 +164,7 @@ export default function YourTeam() {
                             Text about Formal Committee goes here
                         </p>
                         <a href="/about/your-team/formal-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -182,7 +182,7 @@ export default function YourTeam() {
                             Text about Finance Committee goes here
                         </p>
                         <a href="/about/your-team/finance-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -200,7 +200,7 @@ export default function YourTeam() {
                             Text about External Committee goes here
                         </p>
                         <a href="/about/your-team/extermal-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -218,7 +218,7 @@ export default function YourTeam() {
                             Text about Events Committee goes here
                         </p>
                         <a href="/about/your-team/events-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -236,7 +236,7 @@ export default function YourTeam() {
                             Text about Equity Committee goes here
                         </p>
                         <a href="/about/your-team/equity-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
 
@@ -252,7 +252,7 @@ export default function YourTeam() {
                             This is so time consuming I swear.
                         </p>
                         <a href="/about/your-team/comms-committee">
-                            <button className="teamButton py-3"> Meet the Team</button>
+                            <button className="w-full box-border bg-highlight-dark text-background py-3"> Meet the Team</button>
                         </a>
                     </div>
                 </div>
