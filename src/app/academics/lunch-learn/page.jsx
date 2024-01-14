@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function LunchLearn() {
     return (
-        <div>
-            <h1>LunchLearn</h1>
-        </div>
+        <section>
+            <Header title={`Lunch & Learn`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

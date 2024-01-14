@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function About() {
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+        <section>
+            <Header title={`About`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

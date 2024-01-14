@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function YearbookCommittee() {
     return (
-        <div>
-            <h1>YearbookCommittee</h1>
-        </div>
+        <section>
+            <Header title={`Yearbook Committee`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

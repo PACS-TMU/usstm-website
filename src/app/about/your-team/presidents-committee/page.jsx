@@ -1,9 +1,9 @@
 import Header from "@/app/_components/general/header";
 
-export default function EventsCommittee() {
+export default function PresidentsCommittee() {
     return (
         <section>
-            <Header title={`Events Committee`} />
+            <Header title={`Presidents Committee`} />
             <div className="main">
             </div>
         </section>
