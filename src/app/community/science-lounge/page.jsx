@@ -27,15 +27,17 @@ export default function ScienceLounge() {
                     </div>
                 </div>
                 <div className="w-full my-4">
-                <h2 className="pb-3 pt-5 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
-                            Science Lounge Calender
-                        </h2>
+                    <h2 className="pb-3 pt-5 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                        Science Lounge Calender
+                    </h2>
                     <iframe
-                        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&showTitle=0&showTz=0&showPrint=0&showCalendars=0&showTabs=1&title=Sci%20Lounge&src=cnNzb25saW5lLmNhX2xiYzVtbDN1bmhydWwxZDY0a20yNXJjdmNrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23a48980"
-                        className="border-0 w-full"
-                        width="600"
-                        height="600"
-                        frameborder="0" />
+                        src="https://embed.styledcalendar.com/#XcDRrWuhwLrNxYO7kFrT"
+                        title="Sci Lounge Styled Calendar"
+                        class="styled-calendar-container"
+                        className="w-full border-none h-[70vh]"
+                        data-cy="calendar-embed-iframe"
+                    />
+                    <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
                 </div>
                 <div className="flex flex-col lg:flex-row">
                     <div className="flex flex-col justify-center w-full lg:w-3/5 lg:ml-4">
@@ -55,7 +57,7 @@ export default function ScienceLounge() {
                         <h2 className="pb-3 pt-5 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide self-center">
                             Rules of the Sci Lounge
                         </h2>
-                        <ul>
+                        <ul className="lg:my-6">
                             <li>
                                 No ipsum dolor sit amet, consectetur adipiscing elit
                             </li>
@@ -111,18 +113,18 @@ export default function ScienceLounge() {
                 </h2>
                 <div>
                     <p className="lg:text-lg">
-                        Nam posuere viverra arcu, gravida suscipit mauris consequat et. 
-                        Praesent varius elit eu massa vehicula, vitae vestibulum massa tristique. 
-                        Suspendisse gravida lorem ut posuere egestas. Nullam tincidunt 
-                        tempor dolor eget faucibus. Cras eu odio quis velit luctus euismod. 
-                        Etiam tellus mauris, ullamcorper vitae justo a, consectetur bibendum ante. 
-                        Sed lacus mauris, dapibus nec eleifend at, dignissim at lacus. Donec nulla 
+                        Nam posuere viverra arcu, gravida suscipit mauris consequat et.
+                        Praesent varius elit eu massa vehicula, vitae vestibulum massa tristique.
+                        Suspendisse gravida lorem ut posuere egestas. Nullam tincidunt
+                        tempor dolor eget faucibus. Cras eu odio quis velit luctus euismod.
+                        Etiam tellus mauris, ullamcorper vitae justo a, consectetur bibendum ante.
+                        Sed lacus mauris, dapibus nec eleifend at, dignissim at lacus. Donec nulla
                         orci, mollis malesuada turpis vel, finibus maximus eros. Curabitur sed velit
-                         vel lectus condimentum volutpat. Donec viverra arcu ante. Mauris at risus 
-                         velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
-                         per inceptos himenaeos. Nulla iaculis leo non turpis blandit scelerisque. 
-                         Sed faucibus commodo neque eu posuere. Donec gravida mauris ante, vel pharetra 
-                         elit tristique id. Nam eu venenatis tellus.
+                        vel lectus condimentum volutpat. Donec viverra arcu ante. Mauris at risus
+                        velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                        per inceptos himenaeos. Nulla iaculis leo non turpis blandit scelerisque.
+                        Sed faucibus commodo neque eu posuere. Donec gravida mauris ante, vel pharetra
+                        elit tristique id. Nam eu venenatis tellus.
                     </p>
                 </div>
             </div>
