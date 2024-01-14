@@ -22,6 +22,7 @@ export default function ScienceLounge() {
                             height={2560}
                             className="w-full h-auto my-6 lg:my-0"
                             alt="Photo of Science Lounge"
+                            priority={true}
                         />
                     </div>
                 </div>
@@ -47,6 +48,7 @@ export default function ScienceLounge() {
                             height={2560}
                             className="w-full h-auto lg:my-6"
                             alt="Photo of Science Lounge Layout"
+                            priority={true}
                         />
                     </div>
                     <div className="flex-col w-full lg:w-2/5 lg:ml-4">
