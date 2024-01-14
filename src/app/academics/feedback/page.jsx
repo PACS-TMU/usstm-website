@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Feedback() {
     return (
-        <div>
-            <h1>Feedback</h1>
-        </div>
+        <section>
+            <Header title={`Academic Feedback`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

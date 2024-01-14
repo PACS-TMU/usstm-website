@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Nimbus() {
     return (
-        <div>
-            <h1>Nimbus</h1>
-        </div>
+        <section>
+            <Header title={`Nimbus`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

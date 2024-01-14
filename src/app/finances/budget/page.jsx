@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Budget() {
     return (
-        <div>
-            <h1>Budget</h1>
-        </div>
+        <section>
+            <Header title={`Budget`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

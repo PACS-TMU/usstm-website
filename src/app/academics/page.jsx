@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Academics() {
     return (
-        <div>
-            <h1>Academics</h1>
-        </div>
+        <section>
+            <Header title={`Academics`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

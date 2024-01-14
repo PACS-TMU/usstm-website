@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Meetings() {
     return (
-        <div>
-            <h1>Meetings</h1>
-        </div>
+        <section>
+            <Header title={`Meetings`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Annual() {
     return (
-        <div>
-            <h1>Annual</h1>
-        </div>
+        <section>
+            <Header title={`Annual Events`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

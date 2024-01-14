@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Policies() {
     return (
-        <div>
-            <h1>Policies</h1>
-        </div>
+        <section>
+            <Header title={`Financial Policies`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }
