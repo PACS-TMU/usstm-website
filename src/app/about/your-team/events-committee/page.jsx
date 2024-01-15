@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function EventsCommittee() {
     return (
-        <div>
-            <h1>EventsCommittee</h1>
-        </div>
+        <section>
+            <Header title={`Events Committee`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

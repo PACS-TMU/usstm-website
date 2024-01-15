@@ -6,9 +6,8 @@ import Meeting from "@/app/about/governance/components/meeting";
 import { useEffect, useState } from "react";
 
 export default function Governance() {
-
     const [currentTab, setCurrentTab] = useState('directors');
-
+  
     return (
         <section className="governance-page lg:text-lg">
 

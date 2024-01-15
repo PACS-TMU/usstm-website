@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Finance() {
     return (
-        <div>
-            <h1>Finance</h1>
-        </div>
+        <section>
+            <Header title={`Finance`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

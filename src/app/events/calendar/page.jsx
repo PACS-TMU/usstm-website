@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Calendar() {
     return (
-        <div>
-            <h1>Calendar</h1>
-        </div>
+        <section>
+            <Header title={`Calendar`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

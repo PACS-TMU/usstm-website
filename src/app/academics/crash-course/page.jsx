@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function CrashCourse() {
     return (
-        <div>
-            <h1>CrashCourse</h1>
-        </div>
+        <section>
+            <Header title={`Crash Courses`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

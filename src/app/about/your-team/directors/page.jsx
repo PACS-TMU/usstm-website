@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Director() {
     return (
-        <div>
-            <h1>Director</h1>
-        </div>
+        <section>
+            <Header title={`Board of Director`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

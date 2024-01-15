@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Events() {
     return (
-        <div>
-            <h1>Events</h1>
-        </div>
+        <section>
+            <Header title={`Events`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }
