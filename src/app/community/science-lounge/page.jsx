@@ -34,7 +34,7 @@ export default function ScienceLounge() {
                         src="https://embed.styledcalendar.com/#XcDRrWuhwLrNxYO7kFrT"
                         title="Sci Lounge Styled Calendar"
                         
-                        className="w-full border-none h-[700px]"
+                        className="w-full border border-black lg:border-none h-[700px]"
                         data-cy="calendar-embed-iframe"
                     />
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
