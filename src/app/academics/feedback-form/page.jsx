@@ -7,7 +7,7 @@ export default function Feedback() {
 
     const pageHeading = (
         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
-            <p className="py-2 text-base">Feedback Form - {requiredStar} <span className="text-red-500">indicates required question</span></p>
+            <p className="py-2 font-medium text-base">Feedback Form - {requiredStar} <span className="text-red-500">indicates required question</span></p>
         </div>
     );
 
