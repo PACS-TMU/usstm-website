@@ -1,20 +1,18 @@
-.slick-prev:before,
-.slick-next:before {
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--usstm-background);
+  font-weight: bold;
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
-  .slick-prev:before,
-  .slick-next:before {
-    display: block;
-    position: relative;
-    color: black;
-  }
+.swiper-pagination-bullet-active {
+  background-color: var(--usstm-background);
+}
 
-  .slick-next {
-    right: -25px;
-  }
-  .slick-prev{
-    left: -25px;
+@media screen and (min-width: 1024px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
   }
 }
