@@ -16,6 +16,7 @@ export default function YourTeam() {
     function Carousel({ img1, img2, img3 }) {
         return (
             <Swiper
+                loop={true}
                 pagination={{
                     dynamicBullets: true,
                 }}
