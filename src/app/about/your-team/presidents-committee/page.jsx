@@ -1,9 +1,9 @@
 import Header from "@/app/_components/general/header";
 
-export default function Finance() {
+export default function PresidentsCommittee() {
     return (
         <section>
-            <Header title={`Finance`} />
+            <Header title={`Presidents Committee`} />
             <div className="main">
             </div>
         </section>

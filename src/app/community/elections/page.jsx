@@ -89,7 +89,7 @@ export default function Elections() {
                             </section>
                             <section id="timeline-image" className="row-start-1 lg:col-start-2 px-4">
                                 <Image
-                                    src="/images/elections/timeline.svg"
+                                    src="/images/community/elections/timeline.svg"
                                     alt="USSTM Elections Timeline"
                                     width={1000}
                                     height={280}
