@@ -32,7 +32,7 @@ export default function Feedback() {
                     src="https://docs.google.com/forms/d/e/1FAIpQLSfoAHIv_COKTku-omHjU7jCdPrShy9gxLLBMiF3eqkGFvnuTg/viewform?embedded=true"
                     width="640"
                     height="1745"
-                    className="mx-auto lg:w-[90%] w-[90vw] border border-black lg:border-0 rounded-md"
+                    className="mx-auto w-[90%] border border-black lg:border-0 rounded-md"
                 >
                     Loading…
                 </iframe>
