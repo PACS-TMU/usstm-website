@@ -54,7 +54,7 @@ export default function GroupsUnions() {
                 >
                     <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'end' }}>
                         <Image
-                            src={`/images/sg-logos/${group['group-logo']}`}
+                            src={`/images/community/sg-logos/${group['group-logo']}`}
                             alt={group['group-name']}
                             width={500}
                             height={500}
