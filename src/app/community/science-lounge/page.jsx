@@ -6,7 +6,7 @@ export default function ScienceLounge() {
         <section>
             <Header title={`Science Lounge (KHE223)`} />
             <div className="main">
-                <div className="flex flex-col lg:flex-row">
+                <div className="flex flex-col lg:flex-row mx-2">
                     <div className="w-full lg:w-2/5 lg:text-lg space-y-5 > * + *">
                         <p>
                             The Science Lounge is located on the second floor of Kerr Hall East in KHE 223. The lounge is open to all Faculty of Science students from 7 am - 10 pm Monday to Friday. This space is managed by the VP Operations. If there are any problems with the lounge or any suggestions that you would like to make so we can improve the space, please feel free to email them.
@@ -33,8 +33,8 @@ export default function ScienceLounge() {
                     <iframe
                         src="https://embed.styledcalendar.com/#XcDRrWuhwLrNxYO7kFrT"
                         title="Sci Lounge Styled Calendar"
-                        class="styled-calendar-container"
-                        className="w-full border-none h-[70vh]"
+                        
+                        className="w-full border-none h-[700px]"
                         data-cy="calendar-embed-iframe"
                     />
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>

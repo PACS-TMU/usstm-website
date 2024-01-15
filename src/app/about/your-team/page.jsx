@@ -17,6 +17,7 @@ export default function YourTeam() {
         return (
             <Swiper
                 loop={true}
+                slidesPerGroupSkip={0}
                 pagination={{
                     dynamicBullets: true,
                 }}
@@ -95,7 +96,7 @@ export default function YourTeam() {
 
                                 <a href="/about/your-team/directors">
                                     <button
-                                        className="w-full box-border bg-highlight-dark text-background py-3 my-4 hover:text-highlight-dark hover:bg-background hover:border hover:border-highlight-dark hover:ease-in-out duration-300"
+                                        className="w-full box-border bg-highlight-dark text-background py-3 my-4 rounded-sm font-medium hover:text-highlight-dark hover:bg-background hover:border hover:border-highlight-dark hover:ease-in-out duration-300"
                                     >
                                         Meet the Team
                                     </button>
