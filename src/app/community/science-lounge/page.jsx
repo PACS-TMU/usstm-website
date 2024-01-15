@@ -45,7 +45,7 @@ export default function ScienceLounge() {
                             Layout
                         </h2>
                         <Image
-                            src="/images/usstm-people.png"
+                            src="/images/about/your-team/usstm-people.png"
                             width={2502}
                             height={2560}
                             className="w-full h-auto lg:my-6"
