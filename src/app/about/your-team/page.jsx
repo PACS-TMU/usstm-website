@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Header from "@/app/_components/general/header";
+import "./your-team.css";
 
 export default function YourTeam() {
     function Carousel({ img1, img2, img3 }) {

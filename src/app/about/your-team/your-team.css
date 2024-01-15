@@ -1,20 +1,8 @@
-.slick-prev:before,
-.slick-next:before {
-  display: none;
+.swiper-button-next, .swiper-button-prev {
+  color: var(--usstm-background);
+  font-weight: bold;
 }
 
-@media screen and (min-width: 1024px) {
-  .slick-prev:before,
-  .slick-next:before {
-    display: block;
-    position: relative;
-    color: black;
-  }
-
-  .slick-next {
-    right: -25px;
-  }
-  .slick-prev{
-    left: -25px;
-  }
+.swiper-pagination-bullet-active {
+  background-color: var(--usstm-background);
 }
