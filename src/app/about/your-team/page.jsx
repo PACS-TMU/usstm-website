@@ -13,6 +13,22 @@ import Header from "@/app/_components/general/header";
 import "./your-team.css";
 
 export default function YourTeam() {
+
+    // Make this fetch from the main json when images are updated
+    const [yourTeamData, setYourTeamData] = useState([]);
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const res = await fetch('/data/your-team-temp.json');
+                const data = await res.json();
+                setYourTeamData(data);
+            } catch (error) {
+                console.error('Error fetching past-boards data:', error);
+            }
+        }
+        fetchData();
+    }, []);
+    
     function Carousel({ img1, img2, img3 }) {
         return (
             <Swiper
@@ -58,20 +74,6 @@ export default function YourTeam() {
             </Swiper>
         );
     }
-
-    const [yourTeamData, setYourTeamData] = useState([]);
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('/data/your-team-temp.json');
-                const data = await res.json();
-                setYourTeamData(data);
-            } catch (error) {
-                console.error('Error fetching past-boards data:', error);
-            }
-        }
-        fetchData();
-    }, []);
 
     return (
         <section id="your-team-page">
