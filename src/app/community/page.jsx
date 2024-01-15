@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function Community() {
     return (
-        <div>
-            <h1>Community</h1>
-        </div>
+        <section>
+            <Header title={`Community`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

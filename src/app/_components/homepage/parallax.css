@@ -29,7 +29,7 @@
     height: 100%;
     margin-left: auto;
     margin-right: 0;  
-    color: white;
+    color: #FFFAFA;
     display: flex;
     flex-direction: column;
     padding-left: 10%;
@@ -43,7 +43,7 @@
 #title-line {
     width: 35px;
     height: 3px;
-    background-color: white;
+    background-color: #FFFAFA;
     border-radius: 10%;
     margin-bottom: 2vh;
 }
@@ -78,7 +78,7 @@
         background-color: rgba(0, 29, 86, 0.65);
         margin-left: auto;
         margin-right: 0;  
-        color: white;
+        color: #FFFAFA;
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -117,13 +117,6 @@
         border-radius: 5px;
     }
 
-    /*#separator-holder {*/
-    /*    width: 100%;*/
-    /*    height: 100%;*/
-    /*    display: flex;*/
-    /*    justify-content: space-evenly;*/
-    /*    align-items: center;*/
-    /*}*/
     .stats-separator {
         height: 67%;
         width: 1px;

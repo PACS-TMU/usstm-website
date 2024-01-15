@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function StudentSpotlight() {
     return (
-        <div>
-            <h1>StudentSpotlight</h1>
-        </div>
+        <section>
+            <Header title={`Student Spotlight`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }
