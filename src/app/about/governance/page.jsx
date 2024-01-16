@@ -3,11 +3,11 @@ import Header from "@/app/_components/general/header";
 import Directors from "@/app/about/governance/components/directors";
 import Membership from "@/app/about/governance/components/membership";
 import Meeting from "@/app/about/governance/components/meeting";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Governance() {
     const [currentTab, setCurrentTab] = useState('directors');
-  
+
     return (
         <section className="governance-page lg:text-lg">
 
@@ -21,12 +21,45 @@ export default function Governance() {
                     </p>
                 </div>
                 <div className="content px-6">
-                    <div className="space-x-4 text-highlight bg-gray-300">
-                        <button onClick={() => { setCurrentTab('directors') }}>Directors Overview</button>
-                        <button onClick={() => { setCurrentTab('membership-information') }}>Membership Information</button>
-                        <button onClick={() => { setCurrentTab('meeting-information') }}>General Meetings</button>
+                    <div className="space-y-2 flex flex-col lg:flex-row lg:space-x-4 text-highlight-dark font-semibold bg-background">
+                        <button
+                            id="directors-overview"
+                            className="rounded-t-md py-1 px-2 bg-highlight-blue text-left lg:text-center"
+                            onClick={() => {
+                                setCurrentTab('directors');
+                                document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                            }}
+                        >
+                            Directors Overview
+                        </button>
+                        <button
+                            id="membership-information"
+                            className="rounded-t-md py-1 px-2 text-left lg:text-center"
+                            onClick={() => {
+                                setCurrentTab('membership-information');
+                                document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('membership-information').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                            }}
+                        >
+                            Membership Information
+                        </button>
+                        <button
+                            id="meeting-information"
+                            className="rounded-t-md py-1 px-2 text-left lg:text-center"
+                            onClick={() => {
+                                setCurrentTab('meeting-information');
+                                document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                document.getElementById('meeting-information').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
+                            }}
+                        >
+                            General Meetings
+                        </button>
                     </div>
-                    <div className="bg-gray-500">
+                    <div className="bg-highlight-blue rounded-b-md px-4 py-2">
                         {currentTab === 'directors' && <Directors />}
                         {currentTab === 'membership-information' && <Membership />}
                         {currentTab === 'meeting-information' && <Meeting />}
