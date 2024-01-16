@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function OperationsCommittee() {
     return (
-        <div>
-            <h1>OperationsCommittee</h1>
-        </div>
+        <section>
+            <Header title={`Operations Committee`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

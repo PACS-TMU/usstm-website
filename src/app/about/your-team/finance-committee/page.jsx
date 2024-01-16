@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function FinanceCommittee() {
     return (
-        <div>
-            <h1>FinanceCommittee</h1>
-        </div>
+        <section>
+            <Header title={`Finance Committee`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

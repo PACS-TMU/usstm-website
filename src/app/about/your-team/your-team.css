@@ -1,0 +1,18 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--usstm-background);
+  font-weight: bold;
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--usstm-background);
+}
+
+@media screen and (min-width: 1024px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}

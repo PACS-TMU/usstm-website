@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function FAQ() {
     return (
-        <div>
-            <h1>FAQ Page</h1>
-        </div>
+        <section>
+            <Header title={`FAQ (Frequently Asked Question)`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }

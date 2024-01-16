@@ -1,7 +1,11 @@
+import Header from "@/app/_components/general/header";
+
 export default function StartupCertified() {
     return (
-        <div>
-            <h1>StartupCertified</h1>
-        </div>
+        <section>
+            <Header title={`DMZ Startup Certified`} />
+            <div className="main">
+            </div>
+        </section>
     )
 }
