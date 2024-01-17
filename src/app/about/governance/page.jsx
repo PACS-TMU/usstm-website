@@ -24,7 +24,7 @@ export default function Governance() {
                     <div className="space-y-2 flex flex-col lg:flex-row lg:space-x-4 text-highlight-dark font-semibold bg-background">
                         <button
                             id="directors-overview"
-                            className="rounded-t-md py-1 px-2 bg-highlight-blue text-left lg:text-center"
+                            className="rounded-t-md py-1 px-2 bg-highlight-blue border-b border-gray-500 text-left lg:text-center"
                             onClick={() => {
                                 setCurrentTab('directors');
                                 document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
