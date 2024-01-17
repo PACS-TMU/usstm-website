@@ -21,10 +21,10 @@ export default function Governance() {
                     </p>
                 </div>
                 <div className="content px-6">
-                    <div className="space-y-2 flex flex-col lg:flex-row lg:space-x-4 text-highlight-dark font-semibold bg-background">
+                    <div className="space-y-2 flex flex-col lg:flex-row lg:space-y-0 text-highlight-dark font-semibold bg-background">
                         <button
                             id="directors-overview"
-                            className="rounded-t-md py-1 px-2 bg-highlight-blue border-b border-gray-500 text-left lg:text-center"
+                            className="rounded-t-md py-2 px-4 bg-highlight-blue border-b border-gray-500 text-left lg:text-center"
                             onClick={() => {
                                 setCurrentTab('directors');
                                 document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
@@ -36,7 +36,7 @@ export default function Governance() {
                         </button>
                         <button
                             id="membership-information"
-                            className="rounded-t-md py-1 px-2 text-left lg:text-center"
+                            className="rounded-t-md py-2 px-4 text-left lg:text-center"
                             onClick={() => {
                                 setCurrentTab('membership-information');
                                 document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
@@ -48,7 +48,7 @@ export default function Governance() {
                         </button>
                         <button
                             id="meeting-information"
-                            className="rounded-t-md py-1 px-2 text-left lg:text-center"
+                            className="rounded-t-md py-2 px-4 text-left lg:text-center"
                             onClick={() => {
                                 setCurrentTab('meeting-information');
                                 document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
