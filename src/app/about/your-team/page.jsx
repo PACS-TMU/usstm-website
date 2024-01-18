@@ -28,7 +28,7 @@ export default function YourTeam() {
         }
         fetchData();
     }, []);
-    
+
     function Carousel({ img1, img2, img3 }) {
         return (
             <Swiper
@@ -77,8 +77,9 @@ export default function YourTeam() {
 
     return (
         <section id="your-team-page">
-            <Header title="Your 2023-2024 Team" />
+            <Header title="Meet the Faces Behind USSTM" />
             <div className="main flex flex-col">
+                <p className='lg:text-lg'> Welcome to the heart of USSTM, where a passionate team of individuals works tirelessly to bring the best experiences to our members. Get to know the leaders and contributors who drive our society forward:</p>
                 {
                     yourTeamData.map((committee) => (
                         <div key={committee.id} className="flex flex-col space-y-3 w-[90%] self-center max-w-5xl">
@@ -107,6 +108,11 @@ export default function YourTeam() {
                         </div>
                     ))
                 }
+                <p className='text-2xl lg:text-3xl xl:text-4xl'>How We Work Together:</p>
+                <p className='lg:text-lg'> Our diverse team collaborates to ensure that the needs and aspirations of our members are met. Through open communication and a shared commitment to excellence, we strive to make USSTM a vibrant and inclusive community.
+
+                    Join us on this exciting journey as we continue to innovate, engage, and inspire!
+                </p>
             </div>
         </section>
     )
