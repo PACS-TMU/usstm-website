@@ -108,7 +108,7 @@ export default function YourTeam() {
                         </div>
                     ))
                 }
-                <p className='text-2xl lg:text-3xl xl:text-4xl'>How We Work Together:</p>
+                <p className='text-2xl lg:text-3xl xl:text-4xl py-4'>How We Work Together</p>
                 <p className='lg:text-lg'> Our diverse team collaborates to ensure that the needs and aspirations of our members are met. Through open communication and a shared commitment to excellence, we strive to make USSTM a vibrant and inclusive community.
 
                     Join us on this exciting journey as we continue to innovate, engage, and inspire!
