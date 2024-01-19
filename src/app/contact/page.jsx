@@ -42,7 +42,7 @@ export default function Contact() {
                         <div className="w-1/2 mr-2">
                             <label htmlFor="program">Program</label>
                             <select id="program" name="program" className="w-full bg-white" value={"none"}>
-                                <option value="none" disabled={true}>Select your program</option>
+                                <option value="none" disabled={true}>-- Select your program --</option>
                                 {
                                     programs.map((program) => (
                                         <option value={program}>{program}</option>
@@ -54,7 +54,7 @@ export default function Contact() {
                         <div className="w-1/2 ml-2">
                             <label htmlFor="year">Year</label>
                             <select id="year" name="year" className="w-full bg-white" value={"none"}>
-                                <option value="none" disabled={true}>Select your year</option>
+                                <option value="none" disabled={true}>-- Select your year --</option>
                                 <option value="year1">Year 1</option>
                                 <option value="year2">Year 2</option>
                                 <option value="year3">Year 3</option>
@@ -67,7 +67,7 @@ export default function Contact() {
                     <div className="mt-4">
                         <label htmlFor="natureOfRequest">Nature of Request</label>
                         <select id="natureOfRequest" name="natureOfRequest" className="w-full bg-white" value={'none'}>
-                            <option value="none">Options coming soon</option>
+                            <option value="none">-- Options coming soon --</option>
                         </select>
                     </div>
                     <div className="mt-4">
