@@ -19,22 +19,22 @@ export default function QuestionTable({ questionArray, requiredStar }) {
                 <div className="md:bg-gray-100 md:rounded-sm grid grid-cols-[22%_13%_13%_13%_13%_13%_13%] self-center lg:grid-cols-7 w-[98%] place-items-center text-xs md:text-sm lg:text-base my-2 p-2" key={question.id}>
                     <p className="">{question.question}</p>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="Strongly Agree" required />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="Strongly Agree" required />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="Agree" />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="Agree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="Neutral" />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="Neutral" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="Disagree" />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="Disagree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="Strongly Disagree" />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="Strongly Disagree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`[${question.question}]`} value="N/A" />
+                        <input type="radio" name={`${question.title}[${question.question}]`} value="N/A" />
                     </div>
                 </div>
             )

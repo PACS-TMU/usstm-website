@@ -57,7 +57,7 @@ export default function Feedback() {
                 <form
                     id="my-form"
                     method="POST"
-                    action="https://script.google.com/macros/s/AKfycbyN2fz_tDlFd7uZgt1CDBRVW6J9ubMEVBbRva6YJs2fUYm8QXkW9if69R1S4viuVzQHig/exec"
+                    action="https://script.google.com/macros/s/AKfycbzW5VEPq6ZtTdjLT_-l4dIrHblh5mjrY2-SG4shyiBO5NtLlGBgbC1tQ7DifjryxdWyxA/exec"
                     onSubmit={e => {
                         document.getElementById('submit-button').innerHTML = 'Submitting...'
                         e.preventDefault();
@@ -71,10 +71,15 @@ export default function Feedback() {
                             document.getElementById('submit-button').style.backgroundColor = '#E5E5E5';
                             const otherProgram = document.getElementById('other-program');
                             otherProgram.value = document.getElementById('other-program-text').value;
-                            fetch(action, {
-                                method: 'POST',
-                                body: data,
-                            })
+                            try {
+                                fetch(action, {
+                                    method: 'POST',
+                                    body: data,
+                                })
+                            }
+                            catch (error) {
+                                console.error("Couldn't submit feedback form", error);
+                            }
                         }, 1000);
                     }}
                     className="flex flex-col justify-center items-center pt-4 w-full max-w-3xl mx-auto"
@@ -85,7 +90,7 @@ export default function Feedback() {
                             General Information
                         </p>
                         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
-                            <p className="m-4 mb-2">Name {requiredStar}</p>
+                            <p className="m-4 mb-2">Full Name {requiredStar}</p>
                             <input
                                 id="name"
                                 className='w-1/2 px-1 text-base m-4 h-9 border-b border-gray-300 placeholder-gray-500'
@@ -94,11 +99,25 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="name"
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
+                                required
+                            />
+                        </div>
+
+                        <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
+                            <p className="m-4 mb-2">Email {requiredStar}</p>
+                            <input
+                                id="email"
+                                className='px-2 w-1/2 text-base m-4 h-9 border-b border-gray-300 placeholder-gray-500'
+                                name="TMU Email"
+                                type="email"
+                                placeholder="Your answer"
+                                autoComplete="email"
+                                onKeyDown={(e) => { e.key === " " ? e.preventDefault() : "" }}
                                 required
                             />
                         </div>
@@ -175,12 +194,11 @@ export default function Feedback() {
                                                 type="text"
                                                 placeholder=""
                                                 autoComplete="none"
-                                                pattern="[A-Za-z]+"
+                                                pattern="[A-Za-z ]+"
                                                 onKeyDown={(e) => {
-                                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                                     allowed.test(e.key) ? "" : e.preventDefault()
                                                 }}
-                                                required
                                             />
                                         </div>
                                     </label>
@@ -230,9 +248,9 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="none"
-                                pattern="[A-Za-z0-9]+"
+                                pattern="[A-Za-z0-9 ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z0-9]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z0-9 ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
                                 required
@@ -249,9 +267,9 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="name"
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
                                 required
