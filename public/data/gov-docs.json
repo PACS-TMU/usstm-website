@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "USSTM Constitution",
+        "pdf": "usstm-constitution.pdf",
+        "updated": "January 2024"
+    },
+    {
+        "id": 2,
+        "name": "USSTM By-Laws",
+        "pdf": "usstm-by-laws.pdf",
+        "updated": "January 2024"
+    },
+    {
+        "id": 3,
+        "name": "USSTM Financial Policies",
+        "pdf": "usstm-financial-policies.pdf",
+        "updated": "May 2023"
+    },
+    {
+        "id": 4,
+        "name": "USSTM Election Procedures",
+        "pdf": "election-procedures.pdf",
+        "updated": "February 2023"
+    }
+]
