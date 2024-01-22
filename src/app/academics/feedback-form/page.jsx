@@ -5,18 +5,24 @@ import { useState, useEffect } from "react";
 import "./feedback-form.css";
 
 export default function Feedback() {
-    const [arrayQuestion1, setArrayQuestion1] = useState([]);
-    const [arrayQuestion2, setArrayQuestion2] = useState([]);
+    const [assess, setAssess] = useState([]);
+    const [courseContent, setCourseContent] = useState([]);
+    const [assessQuestions, setAssessQuestions] = useState([]);
+    const [courseQuestions, setCourseQuestions] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch('/data/feedback-form.json');
                 const data = await response.json();
-                const data1 = await data[0].questions;
-                const data2 = await data[1].questions;
-                setArrayQuestion1(data1);
-                setArrayQuestion2(data2);
+                const assessments = await data[0];
+                const content = await data[1];
+                const assessmentQuestions = await data[0].questions;
+                const contentQuestions = await data[1].questions;
+                setAssess(assessments);
+                setCourseContent(content);
+                setAssessQuestions(assessmentQuestions);
+                setCourseQuestions(contentQuestions);
             } catch (error) {
                 console.error("Couldn't fetch data for feedback form", error);
             }
@@ -57,7 +63,7 @@ export default function Feedback() {
                 <form
                     id="my-form"
                     method="POST"
-                    action="https://script.google.com/macros/s/AKfycbyN2fz_tDlFd7uZgt1CDBRVW6J9ubMEVBbRva6YJs2fUYm8QXkW9if69R1S4viuVzQHig/exec"
+                    action="https://script.google.com/macros/s/AKfycbzW5VEPq6ZtTdjLT_-l4dIrHblh5mjrY2-SG4shyiBO5NtLlGBgbC1tQ7DifjryxdWyxA/exec"
                     onSubmit={e => {
                         document.getElementById('submit-button').innerHTML = 'Submitting...'
                         e.preventDefault();
@@ -69,12 +75,15 @@ export default function Feedback() {
                             document.getElementById('submit-button').innerHTML = 'Submitted';
                             document.getElementById('submit-button').disabled = true;
                             document.getElementById('submit-button').style.backgroundColor = '#E5E5E5';
-                            const otherProgram = document.getElementById('other-program');
-                            otherProgram.value = document.getElementById('other-program-text').value;
-                            fetch(action, {
-                                method: 'POST',
-                                body: data,
-                            })
+                            try {
+                                fetch(action, {
+                                    method: 'POST',
+                                    body: data,
+                                })
+                            }
+                            catch (error) {
+                                console.error("Couldn't submit feedback form", error);
+                            }
                         }, 1000);
                     }}
                     className="flex flex-col justify-center items-center pt-4 w-full max-w-3xl mx-auto"
@@ -85,7 +94,7 @@ export default function Feedback() {
                             General Information
                         </p>
                         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
-                            <p className="m-4 mb-2">Name {requiredStar}</p>
+                            <p className="m-4 mb-2">Full Name {requiredStar}</p>
                             <input
                                 id="name"
                                 className='w-1/2 px-1 text-base m-4 h-9 border-b border-gray-300 placeholder-gray-500'
@@ -94,9 +103,9 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="name"
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
                                 required
@@ -104,9 +113,23 @@ export default function Feedback() {
                         </div>
 
                         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
-                            <p className="m-4 mb-2">TMU Email {requiredStar}</p>
+                            <p className="m-4 mb-2">Email {requiredStar}</p>
                             <input
                                 id="email"
+                                className='px-2 w-1/2 text-base m-4 h-9 border-b border-gray-300 placeholder-gray-500'
+                                name="Email Address"
+                                type="email"
+                                placeholder="Your answer"
+                                autoComplete="email"
+                                onKeyDown={(e) => { e.key === " " ? e.preventDefault() : "" }}
+                                required
+                            />
+                        </div>
+
+                        <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
+                            <p className="m-4 mb-2">TMU Email {requiredStar}</p>
+                            <input
+                                id="tmu-email"
                                 className='px-2 w-1/2 text-base m-4 h-9 border-b border-gray-300 placeholder-gray-500'
                                 name="TMU Email"
                                 type="email"
@@ -162,28 +185,9 @@ export default function Feedback() {
                                     <input type="radio" id="medphys" name="Program" value="Medical Physics" required />
                                     <label className="px-2" htmlFor="medphys">Medical Physics</label>
                                 </div>
-                                <div className="pb-4 flex flex-row">
-                                    <input type="radio" id="other-program" name="Program" value="other" required />
-                                    <label className="px-2 w-full" htmlFor="other-program">
-                                        <div className="flex flex-row w-3/4">
-                                            <p className="mr-2">Other:</p>
-                                            <input
-                                                id="other-program-text"
-                                                className='px-2 w-full text-base border-b border-gray-300 placeholder-gray-500'
-                                                maxLength="50"
-                                                name="Program"
-                                                type="text"
-                                                placeholder=""
-                                                autoComplete="none"
-                                                pattern="[A-Za-z]+"
-                                                onKeyDown={(e) => {
-                                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
-                                                    allowed.test(e.key) ? "" : e.preventDefault()
-                                                }}
-                                                required
-                                            />
-                                        </div>
-                                    </label>
+                                <div className="pb-4">
+                                    <input type="radio" id="undeclared" name="Program" value="Undeclared Science" required />
+                                    <label className="px-2" htmlFor="undeclared">Undeclared Science</label>
                                 </div>
                             </div>
                         </div>
@@ -230,9 +234,9 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="none"
-                                pattern="[A-Za-z0-9]+"
+                                pattern="[A-Za-z0-9 ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z0-9]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z0-9 ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
                                 required
@@ -249,9 +253,9 @@ export default function Feedback() {
                                 type="text"
                                 placeholder="Your answer"
                                 autoComplete="name"
-                                pattern="[A-Za-z]+"
+                                pattern="[A-Za-z ]+"
                                 onKeyDown={(e) => {
-                                    var allowed = new RegExp("^[a-zA-Z]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
                                     allowed.test(e.key) ? "" : e.preventDefault()
                                 }}
                                 required
@@ -358,7 +362,7 @@ export default function Feedback() {
                         <p className="lg:text-xl text-lg pt-4 text-left font-semibold w-full max-w-7xl mx-auto">
                             Assessments and Grading
                         </p>
-                        <QuestionTable questionArray={arrayQuestion1} requiredStar={requiredStar} />
+                        <QuestionTable sectionObject={assess} questionArray={assessQuestions} requiredStar={requiredStar} />
 
                         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
                             <p className="m-4 mb-1">
@@ -424,7 +428,7 @@ export default function Feedback() {
                         <p className="lg:text-xl text-lg pt-4 text-left font-semibold w-full max-w-7xl mx-auto">
                             Course Content and Delivery
                         </p>
-                        <QuestionTable questionArray={arrayQuestion2} requiredStar={requiredStar} />
+                        <QuestionTable sectionObject={courseContent} questionArray={courseQuestions} requiredStar={requiredStar} />
 
                         <div className="my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
                             <p className="m-4 mb-1">
