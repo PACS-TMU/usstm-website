@@ -3,6 +3,7 @@ import Header from "@/app/_components/general/header";
 import Directors from "@/app/about/governance/components/directors";
 import Membership from "@/app/about/governance/components/membership";
 import Meeting from "@/app/about/governance/components/meeting";
+import Arrow from "@/app/_components/general/arrow";
 import { useState, useEffect } from "react";
 import { GrDocumentText } from "react-icons/gr";
 
@@ -38,42 +39,85 @@ export default function Governance() {
                     </div>
                     <div className="content px-6">
                         <div className="space-y-2 flex flex-col lg:flex-row lg:space-y-0 text-highlight-dark font-semibold bg-background">
-                            <button
+                            <div
                                 id="directors-overview"
-                                className="rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 bg-highlight-blue lg:border-b border-gray-500 text-left lg:text-center"
-                                onClick={() => {
-                                    setCurrentTab('directors');
-                                    document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                }}
+                                className="flex justify-between items-center rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 bg-highlight-blue lg:border-b border-gray-500 text-left lg:text-center"
                             >
-                                Directors Overview
-                            </button>
-                            <button
+                                <button
+                                    className="w-full h-full text-left"
+                                    onClick={() => {
+                                        setCurrentTab('directors');
+                                        document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    Directors Overview
+                                </button>
+                                <button
+                                    onClick={() => {
+                                        setCurrentTab('directors');
+                                        document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    <Arrow id="directors-arrow" direction={"down"} />
+                                </button>
+                            </div>
+                            <div
                                 id="membership-information"
-                                className="rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 text-left lg:text-center"
-                                onClick={() => {
-                                    setCurrentTab('membership-information');
-                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                }}
+                                className="flex justify-between items-center rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 text-left lg:text-center"
                             >
-                                Membership Information
-                            </button>
-                            <button
+                                <button
+                                    className="w-full h-full text-left"
+                                    onClick={() => {
+                                        setCurrentTab('membership-information');
+                                        document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    Membership Information
+                                </button>
+                                <button
+                                    onClick={() => {
+                                        setCurrentTab('membership-information');
+                                        document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    <Arrow id="membership-arrow" direction={"down"} />
+                                </button>
+
+                            </div>
+                            <div
                                 id="meeting-information"
-                                className="rounded-t-md py-2 px-4 text-left lg:text-center"
-                                onClick={() => {
-                                    setCurrentTab('meeting-information');
-                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
-                                }}
+                                className="flex justify-between items-center rounded-t-md py-2 px-4 text-left lg:text-center"
                             >
-                                General Meetings
-                            </button>
+                                <button
+                                    className="w-full h-full text-left"
+                                    onClick={() => {
+                                        setCurrentTab('meeting-information');
+                                        document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    General Meetings
+                                </button>
+                                <button
+                                    onClick={() => {
+                                        setCurrentTab('membership-information');
+                                        document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('membership-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                        document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    }}
+                                >
+                                    <Arrow id="meeting-arrow" direction={"down"} />
+                                </button>
+                            </div>
                         </div>
                         <div className="bg-highlight-blue rounded-b-md px-4 py-2">
                             {currentTab === 'directors' && <Directors />}
