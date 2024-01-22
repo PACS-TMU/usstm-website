@@ -3,11 +3,26 @@ import Header from "@/app/_components/general/header";
 import Directors from "@/app/about/governance/components/directors";
 import Membership from "@/app/about/governance/components/membership";
 import Meeting from "@/app/about/governance/components/meeting";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { GrDocumentText } from "react-icons/gr";
 
 export default function Governance() {
     const [currentTab, setCurrentTab] = useState('directors');
+    const [documents, setDocuments] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('/data/gov-docs.json');
+                const data = await response.json();
+                setDocuments(data);
+            } catch (error) {
+                console.error('Error fetching governance data: ', error);
+            }
+        };
+
+        fetchData();
+    }, []);
 
     return (
         <section className="governance-page lg:text-lg">
@@ -25,24 +40,24 @@ export default function Governance() {
                         <div className="space-y-2 flex flex-col lg:flex-row lg:space-y-0 text-highlight-dark font-semibold bg-background">
                             <button
                                 id="directors-overview"
-                                className="rounded-t-md py-2 px-4 bg-highlight-blue border-b border-gray-500 text-left lg:text-center"
+                                className="rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 bg-highlight-blue lg:border-b border-gray-500 text-left lg:text-center"
                                 onClick={() => {
                                     setCurrentTab('directors');
-                                    document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                    document.getElementById('directors-overview').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
                                 }}
                             >
                                 Directors Overview
                             </button>
                             <button
                                 id="membership-information"
-                                className="rounded-t-md py-2 px-4 text-left lg:text-center"
+                                className="rounded-md lg:rounded-none lg:rounded-t-md py-2 px-4 text-left lg:text-center"
                                 onClick={() => {
                                     setCurrentTab('membership-information');
-                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('membership-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('meeting-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
                                 }}
                             >
                                 Membership Information
@@ -52,9 +67,9 @@ export default function Governance() {
                                 className="rounded-t-md py-2 px-4 text-left lg:text-center"
                                 onClick={() => {
                                     setCurrentTab('meeting-information');
-                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'border-b', 'border-gray-500');
-                                    document.getElementById('meeting-information').classList.add('bg-highlight-blue', 'border-b', 'border-gray-500');
+                                    document.getElementById('directors-overview').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('membership-information').classList.remove('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
+                                    document.getElementById('meeting-information').classList.add('bg-highlight-blue', 'lg:border-b', 'border-gray-500');
                                 }}
                             >
                                 General Meetings
@@ -73,35 +88,26 @@ export default function Governance() {
 
                 <div className="bg-highlight-dark my-4 text-background">
                     <div className="main">
-                        <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center py-8 mx-6 lg:space-y-0 > * + * space-y-12 > * + * ">
-                            <div className="flex flex-col items-center space-y-4 > * + *">
-                                <GrDocumentText  size={70}/>
-                                <p>USSTM Constitution</p>
-                                <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
-                                Last Updated: January 2024
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-center space-y-4 > * + *">
-                                <GrDocumentText  size={70}/>
-                                <p>USSTM By-Laws</p>
-                                <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
-                                Last Updated: January 2024
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-center space-y-4 > * + *">
-                                <GrDocumentText  size={70}/>
-                                <p>USSTM Financial Policies</p>
-                                <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
-                                Last Updated: June 2021
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-center space-y-4 > * + *">
-                                <GrDocumentText  size={70}/>
-                                <p>USSTM Election Procedures</p>
-                                <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
-                                Last Updated: February 2023
-                                </p>
-                            </div>
+                        <div className="flex flex-col md:flex-row md:justify-between justify-center items-center py-8 mx-2 lg:mx-6 md:space-y-0 > * + * space-y-12 > * + * ">
+                            {documents.map((document) => (
+                                <div key={document.id} className="flex flex-col items-center space-y-4 > * + *">
+                                    <a
+                                        href={`/assets/governance/${document.pdf}`}
+                                        target="_blank"
+                                    >
+                                        <button>
+                                            <GrDocumentText
+                                                size={70}
+                                                className="text-background hover:scale-105 lg:hover:scale-110 hover:text-highlight-blue transition duration-300 ease-in-out"
+                                            />
+                                        </button>
+                                    </a>
+                                    <p>{document.name}</p>
+                                    <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
+                                        Last Updated: {document.updated}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
