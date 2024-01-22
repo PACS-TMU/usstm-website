@@ -1,6 +1,6 @@
 "use client";
 
-export default function QuestionTable({ questionArray, requiredStar }) {
+export default function QuestionTable({ sectionObject, questionArray, requiredStar }) {
     return (
         <div className="flex justify-center flex-col my-2 w-full p-2 border border-gray-300 rounded-md bg-[#FDFDFD]">
             <p className="m-4 mb-3">
@@ -18,23 +18,24 @@ export default function QuestionTable({ questionArray, requiredStar }) {
             {questionArray && questionArray.map((question) => (
                 <div className="md:bg-gray-100 md:rounded-sm grid grid-cols-[22%_13%_13%_13%_13%_13%_13%] self-center lg:grid-cols-7 w-[98%] place-items-center text-xs md:text-sm lg:text-base my-2 p-2" key={question.id}>
                     <p className="">{question.question}</p>
+                    {console.log(`${sectionObject.title} [${question.question}]`)}
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="Strongly Agree" required />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="Strongly Agree" required />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="Agree" />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="Agree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="Neutral" />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="Neutral" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="Disagree" />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="Disagree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="Strongly Disagree" />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="Strongly Disagree" />
                     </div>
                     <div className="justify-center items-center">
-                        <input type="radio" name={`${question.title}[${question.question}]`} value="N/A" />
+                        <input type="radio" name={`${sectionObject.title} [${question.question}]`} value="N/A" />
                     </div>
                 </div>
             )
