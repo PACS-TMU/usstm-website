@@ -19,7 +19,7 @@
     },
     {
         "id": 4,
-        "position": "",
+        "position": "Operations Lead",
         "image": ".png",
         "name": "Queenie Chung"
     },
@@ -44,13 +44,13 @@
     {
         "id": 8,
         "position": "General Projects Managerr",
-        "image": "generalProjectsManager1.png",
-        "name": "Jirah Jamog"
+        "image": "generalProjectsManager2.png",
+        "name": "Tamanjot Baraich"
     },
     {
         "id": 9,
         "position": "General Projects Managerr",
-        "image": "generalProjectsManager2.png",
+        "image": "generalProjectsManager3.png",
         "name": "Mareson Suresh"
     },
     {
