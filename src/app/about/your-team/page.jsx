@@ -19,7 +19,7 @@ export default function YourTeam() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/your-team-temp.json');
+                const res = await fetch('/data/your-team.json');
                 const data = await res.json();
                 setYourTeamData(data);
             } catch (error) {
@@ -29,7 +29,7 @@ export default function YourTeam() {
         fetchData();
     }, []);
 
-    function Carousel({ img1, img2, img3 }) {
+    function Carousel({ img1, img2, img3, name }) {
         return (
             <Swiper
                 loop={true}
@@ -43,32 +43,32 @@ export default function YourTeam() {
             >
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/your-team/${img1}`}
-                        alt="placeholder"
-                        width={1500}
-                        height={750}
+                        src={`/images/about/committee/${img1}`}
+                        alt={name}
+                        width={5184}
+                        height={3456}
                         priority={true}
-                        className='w-full h-full block object-cover'
+                        className='w-full h-full max-h-[80vh] block object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/your-team/${img2}`}
-                        alt="placeholder"
-                        width={1500}
-                        height={750}
+                        src={`/images/about/committee/${img2}`}
+                        alt={name}
+                        width={5184}
+                        height={3456}
                         priority={true}
-                        className='w-full h-full block object-cover'
+                        className='w-full h-full max-h-[80vh] block object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/your-team/${img3}`}
-                        alt="placeholder"
-                        width={1500}
-                        height={750}
+                        src={`/images/about/committee/${img3}`}
+                        alt={name}
+                        width={5184}
+                        height={3456}
                         priority={true}
-                        className='w-full h-full block object-cover'
+                        className='w-full h-full max-h-[80vh] block object-cover'
                     />
                 </SwiperSlide>
             </Swiper>
@@ -91,7 +91,7 @@ export default function YourTeam() {
                                     {committee['committee-name']}
                                 </p>
 
-                                <Carousel img1={committee['committee-image'][0]} img2={committee['committee-image'][1]} img3={committee['committee-image'][2]} />
+                                <Carousel img1={committee['committee-image'][0]} img2={committee['committee-image'][1]} img3={committee['committee-image'][2]} name={committee['committee-name']} />
 
                                 <p className=" pt-2">
                                     {committee['committee-description']}
