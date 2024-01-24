@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "position": "VP Equity",
+        "image": "equity.png",
+        "name": "Jaraful Hoque"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Equity",
+        "image": "deputyEquity.png",
+        "name": "Daniel Samir"
+    },
+    {
+        "id": 3,
+        "position": "Graphic Designer",
+        "image": "graphicDesigner.png",
+        "name": "Ghaith Haj"
+    },
+    {
+        "id": 4,
+        "position": "Community Outreach Coordinator",
+        "image": "outreach1.png",
+        "name": "Stephanie Ttofas"
+    },
+    {
+        "id": 5,
+        "position": "Community Outreach Coordinator",
+        "image": "outreach2.png",
+        "name": "Aisha Yusuf"
+    },
+    {
+        "id": 6,
+        "position": "Community Outreach Coordinator",
+        "image": "outreach3.png",
+        "name": "Abigail Willie"
+    },
+    {
+        "id": 7,
+        "position": "Community Outreach Coordinator",
+        "image": "outreach4.png",
+        "name": "Marisa Chiaravalloti"
+    }
+]

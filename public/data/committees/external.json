@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "position": "VP External",
+        "image": "external.png",
+        "name": "Jack Shen"
+    },
+    {
+        "id": 2,
+        "position": "Deputy External",
+        "image": "deputyExternal.png",
+        "name": "Tamanna Nasseri"
+    },
+    {
+        "id": 3,
+        "position": "Medical Physics Liaison",
+        "image": "externalMedicalPhysics.png",
+        "name": "Manuel Alejandro"
+    },
+    {
+        "id": 4,
+        "position": "Bio/Biomed Liaison",
+        "image": "externalBioBiomedLiaison.png",
+        "name": "Suzy Petrosyan"
+    },
+    {
+        "id": 5,
+        "position": "Chemistry Liaison",
+        "image": "externalChemistryLiaison.png",
+        "name": "Emily Nguyen"
+    },
+    {
+        "id": 6,
+        "position": "Math Liaison",
+        "image": "exteranlMathLiaison.png",
+        "name": "Ashton Singh "
+    },
+    {
+        "id": 7,
+        "position": "Computer Science Liaison",
+        "image": "externalComputerScienceLiaison1.png",
+        "name": "Prachi Patel"
+    },
+    {
+        "id": 8,
+        "position": "Computer Science Liaison",
+        "image": "externalComputerScienceLiaison2.png",
+        "name": "Rishabh Seth"
+    },
+    {
+        "id": 9,
+        "position": "Sponsorship Manager",
+        "image": "sponsorship.png",
+        "name": "Julia Rapczynska"
+    }
+]

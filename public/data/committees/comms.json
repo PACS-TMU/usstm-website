@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "position": "VP Communications",
+        "image": "comms.png",
+        "name": "Tiam Vanaki"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Communications",
+        "image": "deputyComms.png",
+        "name": "Fiona Vongsay"
+    },
+    {
+        "id": 3,
+        "position": "Graphic Designer",
+        "image": "graphicDesigner.png",
+        "name": "Vy Luong"
+    },
+    {
+        "id": 4,
+        "position": "Merchandise Designer",
+        "image": "merch.png",
+        "name": "Ira"
+    },
+    {
+        "id": 5,
+        "position": "Social Media Manager",
+        "image": "socialMediaManager.png",
+        "name": "Hamidreza"
+    },
+    {
+        "id": 6,
+        "position": "Social Media Assistant",
+        "image": "socialMediaAssistant.png",
+        "name": "Valeria Suaznabar"
+    },
+    {
+        "id": 7,
+        "position": "Social Media Video Editor",
+        "image": "videoEditor.png",
+        "name": "Ethan Dally"
+    }
+]
