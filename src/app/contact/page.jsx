@@ -25,27 +25,65 @@ export default function Contact() {
             <div className="main">
                 <form className="bg-gray-200 py-4 px-20 w-3/4 mx-auto rounded">
                     <div className="flex">
-                        <div className="w-1/2 mr-2">
+                        <div className="flex flex-col w-1/2">
                             <label htmlFor="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName" className="w-full" />
+                            <input
+                                id="firstName"
+                                className='w-[95%] my-2 text-base h-9 rounded-md pl-2 placeholder-gray-500'
+                                maxLength="50"
+                                name="Name"
+                                type="text"
+                                placeholder="Your answer"
+                                autoComplete="first-name"
+                                pattern="[A-Za-z]+"
+                                onKeyDown={(e) => {
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    allowed.test(e.key) ? "" : e.preventDefault()
+                                }}
+                                required
+                            />
                         </div>
-                        <div className="w-1/2 ml-2">
+                        <div className="flex flex-col w-1/2">
                             <label htmlFor="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" className="w-full" />
+                            <input
+                                id="lastName"
+                                className='w-full my-2 text-base h-9 rounded-md pl-2 placeholder-gray-500'
+                                maxLength="50"
+                                name="Name"
+                                type="text"
+                                placeholder="Your answer"
+                                autoComplete="family-name"
+                                pattern="[A-Za-z]+"
+                                onKeyDown={(e) => {
+                                    var allowed = new RegExp("^[a-zA-Z ]+$|Backspace|Delete|ArrowLeft|ArrowRight|ArrowUp|ArrowDown|Tab|Enter");
+                                    allowed.test(e.key) ? "" : e.preventDefault()
+                                }}
+                                required
+                            />
                         </div>
                     </div>
-                    <div className="mt-4">
+                    <div className="flex flex-col mt-4">
                         <label htmlFor="tmuEmail">TMU Email</label>
-                        <input type="email" id="tmuEmail" name="tmuEmail" className="w-full" />
+                        <input
+                            id="tmuEmail"
+                            className='w-[47.5%] my-2 pl-2 text-base rounded-md h-9 placeholder-gray-500'
+                            name="TMU Email"
+                            type="email"
+                            placeholder="Your answer"
+                            autoComplete="email"
+                            pattern=".+@torontomu\.ca"
+                            onKeyDown={(e) => { e.key === " " ? e.preventDefault() : "" }}
+                            required
+                        />
                     </div>
                     <div className="flex mt-4">
-                        <div className="w-1/2 mr-2">
+                        <div className="w-1/2">
                             <label htmlFor="program">Program</label>
-                            <select id="program" name="program" className="w-full bg-white" value={"none"}>
+                            <select id="program" name="program" className="w-[95%] my-2 h-9 rounded-md pl-1 bg-white" defaultValue={"none"}>
                                 <option value="none" disabled={true}>-- Select your program --</option>
                                 {
-                                    programs.map((program) => (
-                                        <option value={program}>{program}</option>
+                                    programs.map((program, index) => (
+                                        <option key={index} value={program}>{program}</option>
                                     ))
                                 }
                                 <option value="Other">Other</option>
@@ -53,7 +91,7 @@ export default function Contact() {
                         </div>
                         <div className="w-1/2 ml-2">
                             <label htmlFor="year">Year</label>
-                            <select id="year" name="year" className="w-full bg-white" value={"none"}>
+                            <select id="year" name="year" className="w-full my-2 h-9 rounded-md pl-1 bg-white" defaultValue={"none"}>
                                 <option value="none" disabled={true}>-- Select your year --</option>
                                 <option value="year1">Year 1</option>
                                 <option value="year2">Year 2</option>
@@ -66,15 +104,15 @@ export default function Contact() {
                     </div>
                     <div className="mt-4">
                         <label htmlFor="natureOfRequest">Nature of Request</label>
-                        <select id="natureOfRequest" name="natureOfRequest" className="w-full bg-white" value={'none'}>
+                        <select id="natureOfRequest" name="natureOfRequest" className="w-full my-2 h-9 rounded-md pl-1 bg-white" defaultValue={'none'}>
                             <option value="none">-- Options coming soon --</option>
                         </select>
                     </div>
                     <div className="mt-4">
                         <label htmlFor="description">Description</label>
-                        <textarea id="description" name="description" className="w-full"></textarea>
+                        <textarea id="description" name="description" className="w-full h-28 lg:h-46 border border-gray-300 text-base p-2 rounded-md my-2 placeholder-gray-500 text-wrap break-normal"></textarea>
                     </div>
-                    <div className="mt-4">
+                    <div className="flex items-center justify-center mt-4">
                         <button type="submit" className="bg-highlight-dark text-white px-4 py-2 rounded">Submit</button>
                     </div>
                 </form>
