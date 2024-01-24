@@ -2,55 +2,55 @@
     {
         "id": 1,
         "position": "VP External",
-        "image": "external.png",
+        "image": "external.JPG",
         "name": "Jack Shen"
     },
     {
         "id": 2,
         "position": "Deputy External",
-        "image": "deputyExternal.png",
+        "image": "deputyExternal.JPG",
         "name": "Tamanna Nasseri"
     },
     {
         "id": 3,
         "position": "Medical Physics Liaison",
-        "image": "externalMedicalPhysics.png",
+        "image": "externalMedicalPhysics.JPG",
         "name": "Manuel Alejandro"
     },
     {
         "id": 4,
         "position": "Bio/Biomed Liaison",
-        "image": "externalBioBiomedLiaison.png",
+        "image": "externalBioBiomedLiaison.JPG",
         "name": "Suzy Petrosyan"
     },
     {
         "id": 5,
         "position": "Chemistry Liaison",
-        "image": "externalChemistryLiaison.png",
+        "image": "externalChemistryLiaison.JPG",
         "name": "Emily Nguyen"
     },
     {
         "id": 6,
         "position": "Math Liaison",
-        "image": "exteranlMathLiaison.png",
-        "name": "Ashton Singh "
+        "image": "exteranlMathLiaison.JPG",
+        "name": "Ashton Singh"
     },
     {
         "id": 7,
         "position": "Computer Science Liaison",
-        "image": "externalComputerScienceLiaison1.png",
+        "image": "externalComputerScienceLiaison1.JPG",
         "name": "Prachi Patel"
     },
     {
         "id": 8,
         "position": "Computer Science Liaison",
-        "image": "externalComputerScienceLiaison2.png",
+        "image": "externalComputerScienceLiaison2.JPG",
         "name": "Rishabh Seth"
     },
     {
         "id": 9,
         "position": "Sponsorship Manager",
-        "image": "sponsorship.png",
+        "image": "sponsorship.JPG",
         "name": "Julia Rapczynska"
     }
 ]

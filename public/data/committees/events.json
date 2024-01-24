@@ -2,61 +2,61 @@
     {
         "id": 1,
         "position": "VP Student Life",
-        "image": "studentLife.png",
+        "image": "studentLife.JPG",
         "name": "Anita Lesan"
     },
     {
         "id": 2,
         "position": "Deputy Student Life",
-        "image": "deputyStudentLife.png",
+        "image": "deputyStudentLife.JPG",
         "name": "Katherine Moncada"
     },
     {
         "id": 3,
         "position": "Events Coordinator",
-        "image": "eventscoord1.png",
+        "image": "eventscoord1.JPG",
         "name": "Alejandro Cobacabrera"
     },
     {
         "id": 4,
         "position": "Events Coordinator",
-        "image": "eventscoord2.png",
+        "image": "eventscoord2.JPG",
         "name": "Indveer Sandhu"
     },
     {
         "id": 5,
         "position": "Events Coordinator",
-        "image": "eventscoord3.png",
+        "image": "eventscoord3.JPG",
         "name": "Nurtaj Haque"
     },
     {
         "id": 6,
         "position": "Events Coordinator",
-        "image": "eventscoord4.png",
+        "image": "eventscoord4.JPG",
         "name": "Pooja Samaraweera"
     },
     {
         "id": 7,
         "position": "Events Coordinator",
-        "image": "eventscoord5.png",
+        "image": "eventscoord5.JPG",
         "name": "Suzy Petrosyan"
     },
     {
         "id": 8,
         "position": "Events Coordinator",
-        "image": "eventscoord6.png",
+        "image": "eventscoord6.JPG",
         "name": "Tamara Beriia"
     },
     {
         "id": 9,
         "position": "Events Coordinator",
-        "image": "eventscoord7.png",
+        "image": "eventscoord7.JPG",
         "name": "Urwa Najeeb"
     },
     {
         "id": 10,
         "position": "Events Coordinator",
-        "image": "eventscoord8.png",
+        "image": "eventscoord8.JPG",
         "name": "Mohammad"
     }
 ]
