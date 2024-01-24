@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import handleForm from "@/app/_server/handleForm"
 
 export default function Form() {
     const [programs, setPrograms] = useState([]);
@@ -17,7 +18,7 @@ export default function Form() {
     }, []);
 
     return (
-        <form className="bg-gray-200 py-4 px-5 lg:px-20 w-3/4 mx-auto rounded">
+        <form action={handleForm} className="bg-gray-200 py-4 px-5 lg:px-20 w-3/4 mx-auto rounded">
             <div className="flex md:flex-row flex-col justify-center items-center">
                 <div className="flex flex-col w-[95%] md:w-1/2">
                     <label htmlFor="firstName">First Name</label>
@@ -111,7 +112,7 @@ export default function Form() {
                     <label htmlFor="description">Description</label>
                     <textarea
                         id="description"
-                        name="description"
+                        name="message"
                         className="w-full h-28 lg:h-46 border border-gray-300 text-base p-2 rounded-md my-2 placeholder-gray-500 text-wrap break-normal"
                     />
                 </div>

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.1",
+    "@sendgrid/mail": "^8.1.0",
     "framer-motion": "^10.16.15",
     "hamburger-react": "^2.5.0",
     "html-react-parser": "^5.0.7",
