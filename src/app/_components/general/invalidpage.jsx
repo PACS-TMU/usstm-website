@@ -14,7 +14,6 @@ export default function InvalidPage( {id} ) {
         try {
             const res = await fetch( '/data/nav-items.json' ); 
             const data = await res.json( );
-            console.log( data );
             setItems( data );
 
         } catch ( error ) {
