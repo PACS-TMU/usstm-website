@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "position": "VP Operations",
+        "image": "operations.JPG",
+        "name": "Louise Malabanan"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Operations",
+        "image": "deputyOps.JPG",
+        "name": "Benson Zhang"
+    },
+    {
+        "id": 3,
+        "position": "Secretary",
+        "image": "secretary.JPG",
+        "name": "Umayyah Saleh"
+    },
+    {
+        "id": 4,
+        "position": "Operations Lead",
+        "image": "opsLead.JPG",
+        "name": "Queenie Chung"
+    },
+    {
+        "id": 5,
+        "position": "Science Lounge Coordinator",
+        "image": "scienceLoungeCoord1.JPG",
+        "name": "Bel Catapusan"
+    },
+    {
+        "id": 6,
+        "position": "Science Lounge Coordinator",
+        "image": "scienceLoungeCoord2.JPG",
+        "name": "Melanie Kentsn"
+    },
+    {
+        "id": 7,
+        "position": "General Projects Managerr",
+        "image": "generalProjectsManager1.JPG",
+        "name": "Jirah Jamog"
+    },
+    {
+        "id": 8,
+        "position": "General Projects Managerr",
+        "image": "generalProjectsManager2.JPG",
+        "name": "Tamanjot Baraich"
+    },
+    {
+        "id": 9,
+        "position": "General Projects Managerr",
+        "image": "generalProjectsManager3.JPG",
+        "name": "Mareson Suresh"
+    },
+    {
+        "id": 10,
+        "position": "Events Calendar Coordinator",
+        "image": "eventsCalendarCoordinator.JPG",
+        "name": "Pooja Samaraweera"
+    }
+]
