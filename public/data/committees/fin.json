@@ -31,38 +31,8 @@
     },
     {
         "id": 6,
-        "position": "Funding Request Member",
-        "image": "fundingRequest1.JPG",
-        "name": "Ramisa Razi"
-    },
-    {
-        "id": 7,
-        "position": "Funding Request Member",
-        "image": "fundingRequest2.JPG",
-        "name": "Vy Luong"
-    },
-    {
-        "id": 8,
-        "position": "Funding Request Member",
-        "image": "fundingRequest3.JPG",
-        "name": "Basma Mahmoud"
-    },
-    {
-        "id": 9,
-        "position": "Funding Request Member",
-        "image": "fundingRequest4.JPG",
-        "name": "Arraf Khan"
-    },
-    {
-        "id": 10,
-        "position": "Funding Request Member",
-        "image": "fundingRequest5.JPG",
-        "name": "Abiali Badani"
-    },
-    {
-        "id": 11,
-        "position": "Funding Request Member",
-        "image": "fundingRequest6.JPG",
-        "name": "Krista Lila"
+        "position": "Financial Associate",
+        "image": "financialAssociate.JPG",
+        "name": "Kabilash Jegatheswaran"
     }
 ]
