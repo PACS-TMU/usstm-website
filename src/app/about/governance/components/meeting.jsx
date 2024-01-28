@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Meeting() {
     return (
         <div id="meeting-information">
-            <h2 className="py-2 pt-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">General Meetings Information</h2>
+            <h2 className="py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">General Meetings Information</h2>
             <div className="grid grid-cols-1 lg:grid-cols-[70%_30%] items-center justify-start lg:justify-center">
                 <section className="px-4">
                     <p className="py-2">
