@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "position": "President",
+        "image": "president.JPG",
+        "name": "Ramisa Razi"
+    },
+    {
+        "id": 2,
+        "position": "Program and Support Lead",
+        "image": "programSupport1.JPG",
+        "name": "Jirah Jhamog"
+    },
+    {
+        "id": 3,
+        "position": "Program and Support Lead",
+        "image": "programSupport2.JPG",
+        "name": "Maeesah Rahman"
+    },
+    {
+        "id": 4,
+        "position": "Organization and Logistics Lead",
+        "image": "organizationLogistics1.JPG",
+        "name": "Stephen Varughese"
+    },
+    {
+        "id": 5,
+        "position": "Organization and Logistics Lead",
+        "image": "organizationLogistics2.JPG",
+        "name": "Mo Nakouzi"
+    },
+    {
+        "id": 6,
+        "position": "Events Coordinator",
+        "image": "eventsCoordinator.JPG",
+        "name": "Urwa Najeen"
+    },
+    {
+        "id": 7,
+        "position": "Graphic Designer",
+        "image": "presGraphicDesigner.JPG",
+        "name": "Maheen Syeda"
+    },
+    {
+        "id": 8,
+        "position": "PR and Branding Support",
+        "image": "prBranding.JPG",
+        "name": "Anjani Patel"
+    },
+    {
+        "id": 9,
+        "position": "Student Group Liason",
+        "image": "studentGroupLiason1.JPG",
+        "name": "Benson Zhang"
+    },
+    {
+        "id": 10,
+        "position": "Student Group Liason",
+        "image": "studentGroupLiason2.JPG",
+        "name": "Dylan Cheong"
+    },
+    {
+        "id": 11,
+        "position": "General Support Assistant",
+        "image": "generalSupportAssistant.JPG",
+        "name": "Damian Gavrusenko"
+    }
+]

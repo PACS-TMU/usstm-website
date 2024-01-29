@@ -1,0 +1,31 @@
+@media (min-width: 1024px) {
+    input[type='radio'] {
+        position: relative;
+        transform: scale(1.5);
+    }
+}
+
+input[type='radio']:hover {
+    cursor: pointer;
+}
+
+input[type='radio']::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(0, 29, 86, 0.1);
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+
+#other-program::before {
+    top: 3px;
+}
+
+input[type='radio']:hover::before {
+    visibility: visible;
+}
