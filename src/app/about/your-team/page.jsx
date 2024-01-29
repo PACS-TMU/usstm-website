@@ -48,7 +48,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-full h-full max-h-[80vh] block object-cover'
+                        className='w-auto h-full max-h-[100vh] block mx-auto object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -58,7 +58,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-full h-full max-h-[80vh] block object-cover'
+                        className='w-auto h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -68,7 +68,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-full h-full max-h-[80vh] block object-cover'
+                        className='w-auto h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>
             </Swiper>
