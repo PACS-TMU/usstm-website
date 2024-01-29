@@ -4,7 +4,7 @@ import Committee from "@/app/about/_components/committee"
 export default function Director() {
     return (
         <section>
-            <Header title={`Board of Director`} />
+            <Header title={`Board of Directors`} />
             <div className="main">
                 <Committee fileName="bod" />
             </div>
