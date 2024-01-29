@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import ImageFallback from "@/app/about/_components/imageFallback";
 
 export default function Committee({ fileName }) {
+    const [error, setError] = useState(false);
+
     const [members, setMembers] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
@@ -20,10 +22,12 @@ export default function Committee({ fileName }) {
 
     return (
         <div className="grid gap-5 grid-cols-1 mx-12 lg:mx-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center">
-            {members.map((item) => (
-                <div key={item.id} className="w-full h-full flex flex-col">
-                    <Image
-                        src={`/images/about/${fileName}/${item.image}`}
+            {members.map((item, index) => (
+                <div key={index} className="w-full h-full flex flex-col">
+                    <ImageFallback 
+                        fileName={fileName}
+                        imageName={item.image}
+                        alt={item.name}
                         width={1200}
                         height={800}
                         className="w-full h-auto"

@@ -81,14 +81,6 @@
     },
     {
         "id": 11,
-        "position": "Biomedical Science Directors",
-        "type": "ProgramDirector",
-        "image": "biomed2.JPG",
-        "contact-info": "",
-        "name": "Urwa Najeeb"
-    },
-    {
-        "id": 12,
         "position": "Biology Director",
         "type": "ProgramDirector",
         "image": "bio1.JPG",
@@ -96,7 +88,7 @@
         "name": "Pooja Samaraweera"
     },
     {
-        "id": 13,
+        "id": 12,
         "position": "Biology Director",
         "type": "ProgramDirector",
         "image": "bio2.JPG",
@@ -200,7 +192,7 @@
         "name": "Pamela Wettlaufer"
     },
     {
-        "id": 24,
+        "id": 25,
         "position": "Secretary",
         "type": "NonVotingBoardMembers",
         "image": "secretary.JPG",
@@ -208,7 +200,7 @@
         "name": "Umayyah Saleh"
     },
     {
-        "id": 24,
+        "id": 26,
         "position": "International Student Commisioner",
         "type": "NonVotingBoardMembers",
         "image": "commisioner.JPG",
