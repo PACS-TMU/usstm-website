@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "option": "Finance Inquiry/Complaint (This is what the user will see)",
+        "value": "Finace Request (This is what is sent in the support email)"
+    }
+    <option value="Finance Request">Finance Inquiry/Complaint</option>
+    <option value="Locker Request">Locker Request/Issue</option>
+    <option value="Website Request">Website Bug/Suggestion</option>
+    <option value="Events Request">Events Ideas/Complaints</option>
+    <option value="Academics Request">Academic Concerns</option>
+    <option value="Equity Request">Equity Concerns</option>
+    <option value="General Inquiry">General Inquiry</option>
+]
