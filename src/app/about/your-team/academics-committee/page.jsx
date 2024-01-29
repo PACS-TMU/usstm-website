@@ -6,7 +6,7 @@ export default function AcademicsCommittee() {
         <section>
             <Header title={`Academics Committee`} />
             <div className="main">
-                <Committee />
+                <Committee fileName="academics.json" />
             </div>
         </section>
     )

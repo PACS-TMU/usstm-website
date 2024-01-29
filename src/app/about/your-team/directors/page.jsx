@@ -6,7 +6,7 @@ export default function Director() {
         <section>
             <Header title={`Board of Director`} />
             <div className="main">
-                <Committee />
+                <Committee fileName="bod.json" />
             </div>
         </section>
     )
