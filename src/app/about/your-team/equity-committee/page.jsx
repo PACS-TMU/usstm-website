@@ -6,7 +6,7 @@ export default function EquityCommittee() {
         <section>
             <Header title={`Equity Committee`} />
             <div className="main">
-                <Committee fileName="equity.json" />
+                <Committee fileName="equity" />
             </div>
         </section>
     )

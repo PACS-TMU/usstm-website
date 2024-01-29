@@ -6,7 +6,7 @@ export default function YearbookCommittee() {
         <section>
             <Header title={`Yearbook Committee`} />
             <div className="main">
-                <Committee fileName="yearbook.json" />
+                <Committee fileName="yearbook" />
             </div>
         </section>
     )

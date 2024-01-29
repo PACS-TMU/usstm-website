@@ -1,83 +1,73 @@
 [
     {
-        "id": 1,
-        "position": "President",
-        "type": "Executive",
-        "image": "president.JPG",
-        "contact-info": "president@usstm.ca",
-        "name": "Ramisa Razi"
-    },
-    {
-        "id": 2,
-        "position": "VP Operations",
-        "type": "Executive",
-        "image": "operations.JPG",
-        "contact-info": "vp.operations@usstm.ca",
-        "name": "Louise Malabanan"
-    },
-    {
-        "id": 3,
-        "position": "VP Finance",
-        "type": "Executive",
-        "image": "finance.JPG",
-        "contact-info": "vp.finance@usstm.ca",
-        "name": "Redge Wang"
-    },
-    {
-        "id": 4,
-        "position": "VP Communications",
-        "type": "Executive",
-        "image": "comms.JPG",
-        "contact-info": "vp.communications@usstm.ca",
-        "name": "Tiam Vanaki"
-    },
-    {
-        "id": 5,
-        "position": "VP Student Life",
-        "type": "Executive",
-        "image": "studentLife.JPG",
-        "contact-info": "vp.events@usstm.ca",
-        "name": "Anita Lesan"
-    },
-    {
-        "id": 6,
-        "position": "VP Academics",
-        "type": "Executive",
-        "image": "academics.JPG",
-        "contact-info": "vp.academics@usstm.ca",
-        "name": "Intesar Shah"
-    },
-    {
-        "id": 7,
-        "position": "VP Externals",
-        "type": "Executive",
-        "image": "externals.JPG",
-        "contact-info": "vp.externals@usstm.ca",
-        "name": "Jack Shen"
-    },
-    {
-        "id": 8,
-        "position": "VP Equity",
-        "type": "Executive",
-        "image": "equity.JPG",
-        "contact-info": "vp.equity@usstm.ca",
-        "name": "Jafarul Hoque"
-    },
-    {
-        "id": 9,
-        "position": "Biomedical Science Directors",
-        "type": "ProgramDirector",
-        "image": "biomed1.JPG",
-        "contact-info": "vp.externals@usstm.ca",
-        "name": "Jack Shen"
-    }
-]
-
-
+        "id": "Executives",
+        "people": [
+            {
                 "id": 1,
-                "position": "",
+                "position": "President",
+                "image": "president.JPG",
+                "contact-info": "president@usstm.ca",
+                "name": "Ramisa Razi"
+            },
+            {
+                "id": 2,
+                "position": "VP Operations",
+                "image": "operations.JPG",
+                "contact-info": "vp.operations@usstm.ca",
+                "name": "Louise Malabanan"
+            },
+            {
+                "id": 3,
+                "position": "VP Finance",
+                "image": "finance.JPG",
+                "contact-info": "vp.finance@usstm.ca",
+                "name": "Redge Wang"
+            },
+            {
+                "id": 4,
+                "position": "VP Communications",
+                "image": "comms.JPG",
+                "contact-info": "vp.communications@usstm.ca",
+                "name": "Tiam Vanaki"
+            },
+            {
+                "id": 5,
+                "position": "VP Student Life",
+                "image": "studentLife.JPG",
+                "contact-info": "vp.events@usstm.ca",
+                "name": "Anita Lesan"
+            },
+            {
+                "id": 6,
+                "position": "VP Academics",
+                "image": "academics.JPG",
+                "contact-info": "vp.academics@usstm.ca",
+                "name": "Intesar Shah"
+            },
+            {
+                "id": 7,
+                "position": "VP Externals",
+                "image": "externals.JPG",
+                "contact-info": "vp.externals@usstm.ca",
+                "name": "Jack Shen"
+            },
+            {
+                "id": 8,
+                "position": "VP Equity",
+                "image": "equity.JPG",
+                "contact-info": "vp.equity@usstm.ca",
+                "name": "Jafarul Hoque"
+            }
+        ]
+    },
+    {
+        "id": "Program Directors",
+        "people": [
+            {
+                "id": 1,
+                "position": "Biomedical Science Directors",
                 "image": [
-                    ,
+                    "biomed1.JPG",
                     "biomed2.JPG"
                 ],
                 "name": [

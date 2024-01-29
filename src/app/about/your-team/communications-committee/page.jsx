@@ -6,7 +6,7 @@ export default function CommsCommittee() {
         <section>
             <Header title={`Communication Committee`} />
             <div className="main">
-                <Committee fileName="comms.json" />
+                <Committee fileName="comms" />
             </div>
         </section>
     )
