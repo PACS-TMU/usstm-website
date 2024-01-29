@@ -1,10 +1,12 @@
 import Header from "@/app/_components/general/header";
+import Committee from "@/app/about/_components/committee"
 
 export default function ExternalCommittee() {
     return (
         <section>
             <Header title={`Externals Committee`} />
             <div className="main">
+                <Committee />
             </div>
         </section>
     )
