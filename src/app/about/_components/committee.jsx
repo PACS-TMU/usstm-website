@@ -52,7 +52,7 @@ export default function Committee({ fileName }) {
                         priority={true}
                         placeholder="blur"
                         blurDataURL={blur}
-                        className="w-full h-auto aspect-square object-cover object-top shadow-md rounded-full"
+                        className="w-full h-auto aspect-square object-cover object-top shadow-md rounded-full rotate-0"
                     />
                     <div>
                         {item.name}
