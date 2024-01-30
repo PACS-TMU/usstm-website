@@ -6,7 +6,7 @@ export default function ExternalCommittee() {
         <section>
             <Header title={`Externals Committee`} />
             <div className="main">
-            <Committee fileName="external" />
+                <Committee fileName="external" />
             </div>
         </section>
     )

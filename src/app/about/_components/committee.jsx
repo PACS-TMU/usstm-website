@@ -3,8 +3,6 @@ import { useState, useEffect } from "react";
 import ImageFallback from "@/app/about/_components/imageFallback";
 
 export default function Committee({ fileName }) {
-    const [error, setError] = useState(false);
-
     const [members, setMembers] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
@@ -13,7 +11,7 @@ export default function Committee({ fileName }) {
                 const data = await response.json();
                 setMembers(data);
             } catch (error) {
-                console.error('Error fetching governance data: ', error);
+                console.error('Error fetching committee data: ', error);
             }
         };
 
@@ -27,10 +25,11 @@ export default function Committee({ fileName }) {
                     <ImageFallback 
                         fileName={fileName}
                         imageName={item.image}
+                        fallback={`/images/usstm-people.png`}
                         alt={item.name}
                         width={1200}
                         height={800}
-                        className="w-full h-auto"
+                        className="w-full h-auto aspect-square object-cover object-top shadow-md rounded-full"
                     />
                     <div>
                         {item.name}

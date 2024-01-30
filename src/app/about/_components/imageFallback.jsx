@@ -1,19 +1,20 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export default function ImageFallback({ fileName, imageName, alt, width, height, className }) {
+export default function ImageFallback({ fileName, imageName, fallback, alt, width, height, className }) {
     const [error, setError] = useState(false);
 
     return (
         <Image
-            src={!error ? `/images/about/${fileName}/${imageName}` : '/images/usstm-people.png'}
+            src={!error ? `/images/about/${fileName}/${imageName}` : fallback}
             alt={alt}
             width={width}
             height={height}
-            onError={() => setError(true)}
-            placeholder="blur"
-            blurDataURL="text/plain;loading"
-            loading="lazy"
+            onError={() => {
+                    setError(true);
+                }
+            }
+            priority={true}
             className={className}
         />
     )
