@@ -6,7 +6,7 @@ export default function PresidentsCommittee() {
         <section>
             <Header title={`Presidents Committee`} />
             <div className="main">
-                <Committee />
+                <Committee fileName="pres" />
             </div>
         </section>
     )

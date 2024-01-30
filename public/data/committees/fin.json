@@ -34,5 +34,11 @@
         "position": "Financial Associate",
         "image": "financialAssociate.JPG",
         "name": "Kabilash Jegatheswaran"
+    },
+    {
+        "id": 7,
+        "position": "Budget Analyst",
+        "image": "budgetAnalyst.JPG",
+        "name": "Abiali Badani"
     }
 ]

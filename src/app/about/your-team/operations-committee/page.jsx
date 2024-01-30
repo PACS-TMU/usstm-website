@@ -6,7 +6,7 @@ export default function OperationsCommittee() {
         <section>
             <Header title={`Operations Committee`} />
             <div className="main">
-                <Committee />
+                <Committee fileName="ops" />
             </div>
         </section>
     )

@@ -40,5 +40,11 @@
         "position": "Community Outreach Coordinator",
         "image": "outreach4.JPG",
         "name": "Marisa Chiaravalloti"
+    },
+    {
+        "id": 8,
+        "position": "Researcher Lead",
+        "image": "researcher.JPG",
+        "name": "Elijah Urdinata"
     }
 ]
