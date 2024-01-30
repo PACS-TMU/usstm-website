@@ -38,7 +38,7 @@ export default function Committee({ fileName }) {
         };
 
         fetchData();
-    }, []);
+    }, [fileName]);
 
     return (
         <div className="grid gap-5 grid-cols-1 mx-12 lg:mx-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center">
