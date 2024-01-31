@@ -6,7 +6,7 @@ export default function FinanceCommittee() {
         <section>
             <Header title={`Finance Committee`} />
             <div className="main">
-                <Committee fileName="fin" />
+                <Committee fileName="fin" group="none" />
             </div>
         </section>
     )
