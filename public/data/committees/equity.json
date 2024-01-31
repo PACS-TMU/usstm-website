@@ -2,49 +2,49 @@
     {
         "id": 1,
         "position": "VP Equity",
-        "image": "equity.JPG",
+        "image": "equity.jpg",
         "name": "Jaraful Hoque"
     },
     {
         "id": 2,
         "position": "Deputy Equity",
-        "image": "deputyEquity.JPG",
+        "image": "deputyEquity.jpg",
         "name": "Daniel Samir"
     },
     {
         "id": 3,
         "position": "Graphic Designer",
-        "image": "graphicDesigner.JPG",
+        "image": "graphicDesigner.jpg",
         "name": "Ghaith Haj"
     },
     {
         "id": 4,
         "position": "Community Outreach Coordinator",
-        "image": "outreach1.JPG",
+        "image": "outreach1.jpg",
         "name": "Stephanie Ttofas"
     },
     {
         "id": 5,
         "position": "Community Outreach Coordinator",
-        "image": "outreach2.JPG",
+        "image": "outreach2.jpg",
         "name": "Aisha Yusuf"
     },
     {
         "id": 6,
         "position": "Community Outreach Coordinator",
-        "image": "outreach3.JPG",
+        "image": "outreach3.jpg",
         "name": "Abigail Willie"
     },
     {
         "id": 7,
         "position": "Community Outreach Coordinator",
-        "image": "outreach4.JPG",
+        "image": "outreach4.jpg",
         "name": "Marisa Chiaravalloti"
     },
     {
         "id": 8,
         "position": "Researcher Lead",
-        "image": "researcher.JPG",
+        "image": "researcher.jpg",
         "name": "Elijah Urdinata"
     }
 ]

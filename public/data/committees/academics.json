@@ -2,61 +2,61 @@
     {
         "id": 1,
         "position": "VP Academics",
-        "image": "academics.JPG",
+        "image": "academics.jpg",
         "name": "Intesar Shah"
     },
     {
         "id": 2,
         "position": "Deputy Equity",
-        "image": "deputyAcademics.JPG",
+        "image": "deputyAcademics.jpg",
         "name": "Umayyah Saleh"
     },
     {
         "id": 3,
         "position": "Events Coordinator",
-        "image": "eventsCoord.JPG",
+        "image": "eventsCoord.jpg",
         "name": "Tamanna Nasseri"
     },
     {
         "id": 4,
         "position": "Tutor Recruiter",
-        "image": "tutor.JPG",
+        "image": "tutor.jpg",
         "name": "Vani Vashisht"
     },
     {
         "id": 5,
         "position": "Nimbus Liason",
-        "image": "nimbus.JPG",
+        "image": "nimbus.jpg",
         "name": "Sharifa Lomiyev"
     },
     {
         "id": 6,
         "position": "Social Media Coordinator",
-        "image": "socialMediaCoord.JPG",
+        "image": "socialMediaCoord.jpg",
         "name": "Laiba Tahseen"
     },
     {
         "id": 7,
         "position": "Graphic Designer",
-        "image": "academicsGraphicDesigner.JPG",
+        "image": "academicsGraphicDesigner.jpg",
         "name": "Maheen Syeda"
     },
     {
         "id": 8,
         "position": "Academic Feedback Coordinator",
-        "image": "academicFeedback.JPG",
+        "image": "academicFeedback.jpg",
         "name": "Burhanuddin Miyaji"
     },
     {
         "id": 9,
         "position": "Lab Bootcamp Coordinator",
-        "image": "labBootCamp.JPG",
+        "image": "labBootCamp.jpg",
         "name": "Paniz Pour Abdi"
     },
     {
         "id": 10,
         "position": "Academics Member",
-        "image": "academicsMember.JPG",
+        "image": "academicsMember.jpg",
         "name": "Farid Forghani"
     }
 ]
