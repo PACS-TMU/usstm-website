@@ -1,7 +1,7 @@
 "use client";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -38,7 +38,8 @@ export default function YourTeam() {
                     dynamicBullets: true,
                 }}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[Pagination, Navigation, Autoplay]}
+                autoplay={{ delay: 5000, disableOnInteraction: false }}
                 className="w-full h-full text-center text-lg flex justify-center items-center"
             >
                 <SwiperSlide>

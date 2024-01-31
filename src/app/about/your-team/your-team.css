@@ -1,8 +1,10 @@
 .swiper-button-next,
 .swiper-button-prev {
-  color: var(--usstm-background);
+  color: transparent;
   font-weight: bold;
   display: none;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .swiper-pagination-bullet-active {
@@ -14,5 +16,15 @@
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
+  }
+
+  .swiper-button-next{
+    background-image: url('./_components/side-arrow.svg');
+    fill: white;
+    stroke: white;
+  }
+  .swiper-button-prev{
+    background-image: url('./_components/side-arrow.svg');
+    transform: rotate(180deg);
   }
 }

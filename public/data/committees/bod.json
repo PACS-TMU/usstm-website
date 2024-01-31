@@ -154,7 +154,7 @@
     {
         "id": 20,
         "position": "First Year Directors",
-        "type": "FirstYearDirectors",
+        "type": "FirstYearDirector",
         "image": "fyd1.jpg",
         "contact-info": "",
         "name": "Dylan Cheong"
@@ -162,7 +162,7 @@
     {
         "id": 21,
         "position": "First Year Directors",
-        "type": "FirstYearDirectors",
+        "type": "FirstYearDirector",
         "image": "fyd2.jpg",
         "contact-info": "",
         "name": "Maesah Rahman"
@@ -170,7 +170,7 @@
     {
         "id": 22,
         "position": "First Year Directors",
-        "type": "FirstYearDirectors",
+        "type": "FirstYearDirector",
         "image": "fyd3.jpg",
         "contact-info": "",
         "name": "Nathan Romero"
@@ -178,7 +178,7 @@
     {
         "id": 23,
         "position": "Chairperson",
-        "type": "NonVotingBoardMembers",
+        "type": "NonVotingBoardMember",
         "image": "chairperson.jpg",
         "contact-info": "",
         "name": "Alessandro Cunsolo"
@@ -186,7 +186,7 @@
     {
         "id": 24,
         "position": "Manager, Student Relations and Development",
-        "type": "NonVotingBoardMembers",
+        "type": "NonVotingBoardMember",
         "image": "manager.jpg",
         "contact-info": "manager@usstm.ca",
         "name": "Pamela Wettlaufer"
@@ -194,7 +194,7 @@
     {
         "id": 25,
         "position": "Secretary",
-        "type": "NonVotingBoardMembers",
+        "type": "NonVotingBoardMember",
         "image": "secretary.jpg",
         "contact-info": "secretary@usstm.ca",
         "name": "Umayyah Saleh"
@@ -202,7 +202,7 @@
     {
         "id": 26,
         "position": "International Student Commisioner",
-        "type": "NonVotingBoardMembers",
+        "type": "NonVotingBoardMember",
         "image": "commisioner.jpg",
         "contact-info": "",
         "name": "Tamara Beriia"
