@@ -5,56 +5,56 @@
             {
                 "id": 1,
                 "position": "President",
-                "image": "president.JPG",
+                "image": "president.jpg",
                 "contact-info": "president@usstm.ca",
                 "name": "Ramisa Razi"
             },
             {
                 "id": 2,
                 "position": "VP Operations",
-                "image": "operations.JPG",
+                "image": "operations.jpg",
                 "contact-info": "vp.operations@usstm.ca",
                 "name": "Louise Malabanan"
             },
             {
                 "id": 3,
                 "position": "VP Finance",
-                "image": "finance.JPG",
+                "image": "finance.jpg",
                 "contact-info": "vp.finance@usstm.ca",
                 "name": "Redge Wang"
             },
             {
                 "id": 4,
                 "position": "VP Communications",
-                "image": "comms.JPG",
+                "image": "comms.jpg",
                 "contact-info": "vp.communications@usstm.ca",
                 "name": "Tiam Vanaki"
             },
             {
                 "id": 5,
                 "position": "VP Student Life",
-                "image": "studentLife.JPG",
+                "image": "studentLife.jpg",
                 "contact-info": "vp.events@usstm.ca",
                 "name": "Anita Lesan"
             },
             {
                 "id": 6,
                 "position": "VP Academics",
-                "image": "academics.JPG",
+                "image": "academics.jpg",
                 "contact-info": "vp.academics@usstm.ca",
                 "name": "Intesar Shah"
             },
             {
                 "id": 7,
                 "position": "VP Externals",
-                "image": "externals.JPG",
+                "image": "externals.jpg",
                 "contact-info": "vp.externals@usstm.ca",
                 "name": "Jack Shen"
             },
             {
                 "id": 8,
                 "position": "VP Equity",
-                "image": "equity.JPG",
+                "image": "equity.jpg",
                 "contact-info": "vp.equity@usstm.ca",
                 "name": "Jafarul Hoque"
             }
@@ -67,8 +67,8 @@
                 "id": 1,
                 "position": "Biomedical Science Directors",
                 "image": [
-                    "biomed1.JPG",
-                    "biomed2.JPG"
+                    "biomed1.jpg",
+                    "biomed2.jpg"
                 ],
                 "name": [
                     "Norhan Almasri",
@@ -79,8 +79,8 @@
                 "id": 2,
                 "position": "Biology Director",
                 "image": [
-                    "bio1.JPG",
-                    "bio2.JPG"
+                    "bio1.jpg",
+                    "bio2.jpg"
                 ],
                 "name": [
                     "Pooja Samaraweera",
@@ -91,7 +91,7 @@
                 "id": 3,
                 "position": "Chemistry Director",
                 "image": [
-                    "chem.JPG"
+                    "chem.jpg"
                 ],
                 "name": [
                     "Ethan Dalley"
@@ -101,9 +101,9 @@
                 "id": 4,
                 "position": "Computer Science Directors",
                 "image": [
-                    "cs1.JPG",
-                    "cs2.JPG",
-                    "cs3.JPG"
+                    "cs1.jpg",
+                    "cs2.jpg",
+                    "cs3.jpg"
                 ],
                 "name": [
                     "Amir Ali Eslami",
@@ -115,7 +115,7 @@
                 "id": 5,
                 "position": "Mathematics and Its Applications Director",
                 "image": [
-                    "math.JPG"
+                    "math.jpg"
                 ],
                 "name": [
                     "Benson Zhang"
@@ -125,7 +125,7 @@
                 "id": 6,
                 "position": "Financial Mathematics Director",
                 "image": [
-                    "finMath.JPG"
+                    "finMath.jpg"
                 ],
                 "name": [
                     "Abigail Willie"
@@ -135,7 +135,7 @@
                 "id": 7,
                 "position": "Medical Physics Director",
                 "image": [
-                    "medPhys.JPG"
+                    "medPhys.jpg"
                 ],
                 "name": [
                     "Alejandro Coba Cabrera"
@@ -146,9 +146,9 @@
     {
         "id": "First Year Directors-22",
         "image": [
-            "fyd1.JPG",
-            "fyd2.JPG",
-            "fyd3.JPG"
+            "fyd1.jpg",
+            "fyd2.jpg",
+            "fyd3.jpg"
         ],
         "people": [
             "Dylan Cheong",
@@ -162,28 +162,28 @@
             {
                 "id": 1,
                 "position": "Chairperson",
-                "image": "chairperson.JPG",
+                "image": "chairperson.jpg",
                 "contact-info": "",
                 "name": "Alessandro Cunsolo"
             },
             {
                 "id": 2,
                 "position": "Manager, Student Relations and Development",
-                "image": "manager.JPG",
+                "image": "manager.jpg",
                 "contact-info": "manager@usstm.ca",
                 "name": "Pamela Wettlaufer"
             },
             {
                 "id": 3,
                 "position": "Secretary",
-                "image": "secretary.JPG",
+                "image": "secretary.jpg",
                 "contact-info": "secretary@usstm.ca",
                 "name": "Umayyah Saleh"
             },
             {
                 "id": 4,
                 "position": "International Student Commisioner",
-                "image": "commisioner.JPG",
+                "image": "commisioner.jpg",
                 "contact-info": "",
                 "name": "Tamara Beriia"
             }
