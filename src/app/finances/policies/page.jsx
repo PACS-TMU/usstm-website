@@ -16,7 +16,16 @@ export default function Policies() {
         <section>
             <Header title={`Financial Policies`} />
             <div className="main">
-                <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue my-12">
+                <div id="introduction" className="px-6">
+                    <p className="block py-2">
+                        Our financial policies are in place to ensure that we are transparent and accountable in our financial dealings. 
+                        These policies help us to provide guidance to our students and groups on how to request and use funds. We believe 
+                        that having these policies in place helps us to be transparent and accountable to the people we serve and the people 
+                        who support us.
+                    </p>
+                </div>
+
+                <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue mt-6 mb-12">
                     <div className="w-[55%] lg:min-h-[80vh] flex flex-col justify-center py-6">
                         <h2 className="pb-8 px-4 md:px-6 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             PURPOSE
@@ -77,7 +86,7 @@ export default function Policies() {
                         />
                     </div>
                     <div className="w-[55%] min-h-[70vh] flex flex-col pt-6">
-                        <h2 className="py-6 pt-16 md:px-8 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                        <h2 className="py-0 md:px-8 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                             FUNDING REQUESTS
                         </h2>
                         <div className="grid grid-cols-2 grid-rows-1 min-h-[60%] w-full mt-auto mb-0">
@@ -85,10 +94,10 @@ export default function Policies() {
                                 <p className="p-8 self-center">
                                     {
                                         active === "Amounts" ? "To request funds, please fill out the form on the 'Request Funds' page. You will need to provide the following information:"
-                                        : active === "Methods" ? "We accept requests for funds through the following methods:"
-                                        : active === "Timeline" ? "Requests for funds must be made at least 2 weeks before the funds are needed. If the request is for an event, it must be made at least 4 weeks before the event."
-                                        : active === "Reimbursements" ? "To request a reimbursement, please fill out the form on the 'Request Funds' page. You will need to provide the following information:"
-                                        : ""
+                                            : active === "Methods" ? "We accept requests for funds through the following methods:"
+                                                : active === "Timeline" ? "Requests for funds must be made at least 2 weeks before the funds are needed. If the request is for an event, it must be made at least 4 weeks before the event."
+                                                    : active === "Reimbursements" ? "To request a reimbursement, please fill out the form on the 'Request Funds' page. You will need to provide the following information:"
+                                                        : ""
                                     }
                                 </p>
                             </div>
