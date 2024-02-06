@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import handleForm from "@/app/_server/handleForm"
+import handleForm from "@/server/handleForm"
 
 export default function Form() {
     const [programs, setPrograms] = useState([]);
