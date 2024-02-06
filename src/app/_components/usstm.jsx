@@ -1,6 +1,6 @@
 import "./usstm.css";
 
-export default function usstm() {
+export default function USSTM() {
     return (
         <>
             <section id="what-is-usstm" className="main">
