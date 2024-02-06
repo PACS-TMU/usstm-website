@@ -1,6 +1,6 @@
 'use client'
 import { useState, useRef, useEffect } from "react";
-import Arrow from "../general/arrow";
+import Arrow from "./general/arrow";
 import autoAnimate from "@formkit/auto-animate";
 import parse from "html-react-parser";
 
