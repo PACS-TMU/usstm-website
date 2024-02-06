@@ -1,6 +1,7 @@
 "use client";
 import Header from "@/app/_components/general/header";
 import Image from "next/image";
+import Link from "next/link";
 import { Brygada_1918 } from "next/font/google";
 import NumberEntry from "./_components/numberEntry";
 import { useState } from "react";
@@ -9,24 +10,24 @@ const brygada = Brygada_1918({ subsets: ["latin"] });
 
 export default function Policies() {
 
-    // Possible Values: "Amounts", "Methods", "Timeline", "Reimbursements"
-    const [active, setActive] = useState("Amounts");
+    // Possible Values: "Intro", "Methods", "Reimbursements", "Amounts"
+    const [active, setActive] = useState("Intro");
 
     return (
         <section>
             <Header title={`Financial Policies`} />
             <div className="main">
-                <div id="introduction" className="px-6">
+                <div id="introduction" className="px-6 lg:text-lg">
                     <p className="block py-2">
-                        Our financial policies are in place to ensure that we are transparent and accountable in our financial dealings. 
-                        These policies help us to provide guidance to our students and groups on how to request and use funds. We believe 
-                        that having these policies in place helps us to be transparent and accountable to the people we serve and the people 
+                        Our financial policies are in place to ensure that we are transparent and accountable in our financial dealings.
+                        These policies help us to provide guidance to our students and groups on how to request and use funds. We believe
+                        that having these policies in place helps us to be transparent and accountable to the people we serve and the people
                         who support us.
                     </p>
                 </div>
 
                 <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue mt-6 mb-12">
-                    <div className="w-[55%] lg:min-h-[80vh] flex flex-col justify-center py-6">
+                    <div className="md:w-[55%] aspect-[14/15] flex flex-col justify-center py-6">
                         <h2 className="pb-8 px-4 md:px-6 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             PURPOSE
                         </h2>
@@ -62,7 +63,7 @@ export default function Policies() {
 
                         <hr className="w-full border-foreground" />
                     </div>
-                    <div className="w-[45%] min-h-full">
+                    <div className="hidden md:block w-[45%] min-h-full">
                         <Image
                             src="/images/usstm-people.png"
                             alt="Purpose Graphic"
@@ -75,7 +76,7 @@ export default function Policies() {
                 </div>
 
                 <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue my-12">
-                    <div className="w-[45%] min-h-full">
+                    <div className="hidden lg:block lg:w-[45%] min-h-full">
                         <Image
                             src="/images/usstm-people.png"
                             alt="Purpose Graphic"
@@ -85,28 +86,39 @@ export default function Policies() {
                             priority
                         />
                     </div>
-                    <div className="w-[55%] min-h-[70vh] flex flex-col pt-6">
-                        <h2 className="py-0 md:px-8 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                    <div className="w-full lg:w-[55%] aspect-[14/15] flex flex-col pt-6">
+                        <h2 className="mb-10 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                             FUNDING REQUESTS
                         </h2>
-                        <div className="grid grid-cols-2 grid-rows-1 min-h-[60%] w-full mt-auto mb-0">
-                            <div className=" border-t border-foreground flex h-full">
-                                <p className="p-8 self-center">
+                        <div className="grid grid-cols-2 grid-rows-1 min-h-[75%] w-full mt-auto mb-0">
+                            <div className="border-t border-foreground flex h-full">
+                                <p className="text-sm md:text-base xl:text-lg p-2 lg:px-5 lg:py-2 self-center">
                                     {
-                                        active === "Amounts" ? "To request funds, please fill out the form on the 'Request Funds' page. You will need to provide the following information:"
-                                            : active === "Methods" ? "We accept requests for funds through the following methods:"
-                                                : active === "Timeline" ? "Requests for funds must be made at least 2 weeks before the funds are needed. If the request is for an event, it must be made at least 4 weeks before the event."
-                                                    : active === "Reimbursements" ? "To request a reimbursement, please fill out the form on the 'Request Funds' page. You will need to provide the following information:"
-                                                        : ""
+                                        active === "Intro" ? "To request funds, a detailed budget must be submitted to our Vice-President of Finance. " +
+                                            "Details of what the budget should include varies depending on the nature of the request. Student Group/Course Union budgets" +
+                                            "are to be submitted before the start of each semester, by a date set by the Vice-President of Finance. The budget" +
+                                            "will then be reviewed by the Funding Request Committee under the Vice-President of Finance. The group will be" +
+                                            "notified of the decision within a time that is pre-determined before the submission."
+                                            : active === "Methods" ? "There are a few methods of requesting funds. The method used depends on the nature of the " +
+                                                "request. Student Group/Course Union budgets are to be submitted before the start of each semester, by a date set by the Vice-President of Finance. " +
+                                                "Student initiative funding is to be requested through an email to Vice-President of Finance. The email should include a detailed budget and a description of the request."
+                                                : active === "Reimbursements" ? "After an event or purchase, a reimbursement can be requested. To request a reimbursement, please fill out our reimbursement form and " +
+                                                    "submit itemized receipts with your form. Your receipts must be legible upon submission. All reimbursements must be submitted " +
+                                                    "within 1 month of the purchase. Failure to do so may risk your reimbursement being approved. If any help is required, please contact the Vice-President of Finance."
+                                                    : active === "Amounts" ? "The amount of funds that can be requested varies depending on the nature of the request. " +
+                                                        "The amount of funds that are approved for student group budgets is determined by the Funding Request Committee. " +
+                                                        "Once a request is reviewed, the group will be notified of the decision, along with a detailed explanation of the " +
+                                                        "decision (if not approved). If any help is required, please contact the Vice-President of Finance or the Appeals Committee."
+                                                        : "Error fetching data. Please reload the page and try again."
                                     }
                                 </p>
                             </div>
-                            <div className="grid grid-rows-4 grid-cols-1 lg:text-lg">
+                            <div className="grid grid-rows-4 grid-cols-1 text-sm md:text-base lg:text-lg">
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-white underline" : ""}`}
-                                    onClick={() => setActive("Amounts")}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Intro" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    onClick={() => setActive("Intro")}
                                 >
-                                    Request Amounts
+                                    Introduction to Funding Requests
                                 </button>
                                 <button
                                     className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Methods" ? "bg-highlight-dark text-white underline" : ""}`}
@@ -115,20 +127,102 @@ export default function Policies() {
                                     Methods of Request
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Timeline" ? "bg-highlight-dark text-white underline" : ""}`}
-                                    onClick={() => setActive("Timeline")}
-                                >
-                                    Timeline for Requests
-                                </button>
-                                <button
                                     className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Reimbursements" ? "bg-highlight-dark text-white underline" : ""}`}
                                     onClick={() => setActive("Reimbursements")}
                                 >
                                     How to Request Reimbursements
                                 </button>
+                                <button
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    onClick={() => setActive("Amounts")}
+                                >
+                                    Request Amounts
+                                </button>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto min-h-[70vh] bg-highlight-blue my-12">
+                    <h2 className="mb-10 pb-2 pt-6 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                        LIMITATIONS
+                    </h2>
+                    <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 mt-auto mb-0 w-full">
+                        <div className="border-t md:border-r border-foreground flex flex-col h-full">
+                            <p className="text-sm md:text-base lg:text-lg p-2 lg:px-5 lg:py-2 self-center">
+                                There are various limitations on the use of funds. These limitations are in
+                                place to ensure that funds are used in a responsible and accountable manner.
+                                Some of the limitations include:
+                            </p>
+                            <ul className="list-disc list-inside p-4 lg:px-7 py-1 text-sm md:text-base lg:text-lg">
+                                <li>Things that are not allowed under USSTM budget</li>
+                                <li>Things that should be discussed before requesting</li>
+                                <li>Rules and regulations to follow</li>
+                            </ul>
+                            <Image
+                                src="/images/usstm-people.png"
+                                alt="Purpose Graphic"
+                                width={1200}
+                                height={800}
+                                className="w-[50%] object-cover h-auto mx-auto my-6"
+                                priority
+                            />
+                        </div>
+                        <div className="border-t border-foreground flex flex-col h-full">
+                            <div className="grid grid-cols-2 grid-rows-2 w-full h-full">
+                                <div className="flex flex-col col-span-1 row-span-1 border-r border-b border-foreground">
+                                    <p className="px-4 py-2 text-sm md:text-base lg:text-lg xl:font-semibold tracking-wide">
+                                        What you are not allowed to get?
+                                    </p>
+                                    <ul className="list-disc list-inside p-4 lg:px-7 py-1 text-sm md:text-base lg:text-lg">
+                                        <li>Gift Cards</li>
+                                        <li>Drugs and Alcohol</li>
+                                        <li>Illegal Substances</li>
+                                    </ul>
+                                </div>
+                                <div className="flex flex-col col-span-1 row-span-1 border-b border-foreground">
+                                    <p className="px-4 py-2 text-sm md:text-base lg:text-lg xl:font-semibold tracking-wide">
+                                        Discuss before requesting
+                                    </p>
+                                    <ul className="list-disc list-inside p-4 lg:px-7 py-1 text-sm md:text-base lg:text-lg">
+                                        <li>Transportation Costs (e.g., Ubers)</li>
+                                        <li>Things with varying prices (e.g., Hotel Rooms)</li>
+                                        <li>Tips (e.g., delivery tips) and additional fees</li>
+                                    </ul>
+                                </div>
+                                <div className="flex flex-col col-span-2 row-span-1">
+                                    <p className="px-4 py-2 text-sm md:text-base lg:text-lg xl:font-semibold tracking-wide">
+                                        Rules
+                                    </p>
+                                    <ul className="list-disc list-inside p-4 lg:px-7 py-1 text-sm md:text-base lg:text-lg">
+                                        <li>
+                                            Receipts must be provided for all purchases for reimbursement
+                                        </li>
+                                        <li>
+                                            Reimbursement must be submitted within 1 month of the purchase.
+                                            Failure to do so may result in the reimbursement not being processed.
+                                        </li>
+                                        <li>
+                                            If money was spent without the approval of the budget, you are not
+                                            guaranteed reimbursement.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="outro px-6 py-6">
+                    <h2 className="pb-2 pt-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                        Any Questions?
+                    </h2>
+                    <p className="py-2 lg:text-lg">
+                        The financial policies document can be accessed in our <Link href="/about/governance">governance page</Link>.
+                        If you have any questions about our financial policies, please contact our Vice-President of Finance 
+                        at <a href="mailto:vp.finance@usstm.ca" target="_blank">vp.finance@usstm.ca</a>. If your budget gets denied, and 
+                        you believe it was unjust, please contact VP Operations so it can be raised to the appeals committee
+                    </p>
                 </div>
             </div>
         </section>
