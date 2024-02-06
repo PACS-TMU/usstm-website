@@ -176,13 +176,6 @@
                 "path": "/community/elections",
                 "description": "temp",
                 "subItems": []
-            },
-            {
-                "id": 604,
-                "itemName": "Student Spotlight",
-                "path": "/community/student-spotlight",
-                "description": "We vaule all the hardworking science students at TMU. Check out out standout students.",
-                "subItems": []
             }
         ]
     },
@@ -191,13 +184,6 @@
         "itemName": "Contact Us",
         "path": "/contact",
         "description": "This is the description of Contact Us in the navbar",
-        "subItems": []
-    },
-    {
-        "id": 8,
-        "itemName": "Store",
-        "path": "https://shop.usstm.ca/",
-        "description": "This is the description of Store in the navbar",
         "subItems": []
     }
 ]
