@@ -1,5 +1,5 @@
 "use client";
-import AnnualEvent from '@/app/_components/events/annual-event';
+import AnnualEvent from '@/app/events/annual/_components/annual-event';
 import { useEffect, useState } from 'react';
 import Header from "@/app/_components/general/header";
 
