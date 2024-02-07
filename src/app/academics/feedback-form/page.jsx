@@ -1,6 +1,6 @@
 "use client";
 import Header from "@/app/_components/general/header";
-import QuestionTable from "@/app/_components/academics/feedback-form/question-table";
+import QuestionTable from "@/app/academics/feedback-form/_components/question-table";
 import { useState, useEffect } from "react";
 import "./feedback-form.css";
 
