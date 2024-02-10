@@ -9,7 +9,7 @@ export default function Annual() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/annual-events.json');
+                const response = await fetch('/data/events/annual/annual-events.json');
                 const data = await response.json();
                 setAnnualEvents(data);
             } catch (error) {
