@@ -9,7 +9,7 @@ export default function Elections() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/elections-results.json');
+                const res = await fetch('/data/community/elections/elections-results.json');
                 const data = await res.json();
                 setElectionsResults(data);
             } catch (error) {
