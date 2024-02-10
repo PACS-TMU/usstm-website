@@ -7,7 +7,7 @@ export default function Form() {
     useEffect(() => {
         const fetchPrograms = async () => {
             try {
-                const response = await fetch('/data/programs.json');
+                const response = await fetch('/data/contact/programs.json');
                 const programs = await response.json();
                 setPrograms(programs);
             } catch (error) {
