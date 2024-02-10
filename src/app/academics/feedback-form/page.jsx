@@ -1,6 +1,6 @@
 "use client";
 import Header from "@/app/_components/general/header";
-import QuestionTable from "@/app/_components/academics/feedback-form/question-table";
+import QuestionTable from "@/app/academics/feedback-form/_components/question-table";
 import { useState, useEffect } from "react";
 import "./feedback-form.css";
 
@@ -13,7 +13,7 @@ export default function Feedback() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/feedback-form.json');
+                const response = await fetch('/data/academics/feedback-form/feedback-form.json');
                 const data = await response.json();
                 const assessments = await data[0];
                 const content = await data[1];
