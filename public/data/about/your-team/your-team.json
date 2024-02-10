@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "committee-name": "Board of Directors",
+        "path": "directors",
+        "committee-image": ["bod1.jpg","bod2.jpg","bod3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 2,
+        "committee-name": "President's Committee",
+        "path": "presidents-committee",
+        "committee-image": ["pres1.jpg","pres2.jpg","pres3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 3,
+        "committee-name": "Operations Committee",
+        "path": "operations-committee",
+        "committee-image": ["ops1.jpg","ops2.jpg","ops3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 4,
+        "committee-name": "Finance Committee",
+        "path": "finance-committee",
+        "committee-image": ["fin1.jpg","fin2.jpg","fin3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 5,
+        "committee-name": "Communications Committee",
+        "path": "communications-committee",
+        "committee-image": ["comms1.jpg","comms2.jpg","comms3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 6,
+        "committee-name": "Yearbook Committee",
+        "path": "yearbook-committee",
+        "committee-image": ["yearbook1.jpg","yearbook2.jpg","yearbook3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 7,
+        "committee-name": "Events Committee",
+        "path": "events-committee",
+        "committee-image": ["events1.jpg","events2.jpg","events3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 8,
+        "committee-name": "Academics Committee",
+        "path": "academics-committee",
+        "committee-image": ["academics1.jpg","academics2.jpg","academics3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 9,
+        "committee-name": "Externals Committee",
+        "path": "external-committee",
+        "committee-image": ["external1.jpg","external2.jpg","external3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    },
+    {
+        "id": 10,
+        "committee-name": "Equity Committee",
+        "path": "equity-committee",
+        "committee-image": ["equity1.jpg","equity2.jpg","equity3.jpg"],
+        "committee-description": "The USSTM Board of Directors is a dynamic group of student leaders at Toronto Metropolitan University, dedicated to enhancing the academic and social experience for the Faculty of Science. The Board is committed to fostering a vibrant and inclusive community. Elected annually, these student leaders embody the spirit of innovation and collaboration, working to create a fulfilling experience for science students at TMU."
+    }
+]

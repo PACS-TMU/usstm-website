@@ -14,14 +14,13 @@ export default function Governance() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/gov-docs.json');
+                const response = await fetch('/data/about/governance/gov-docs.json');
                 const data = await response.json();
                 setDocuments(data);
             } catch (error) {
                 console.error('Error fetching governance data: ', error);
             }
         };
-
         fetchData();
     }, []);
 

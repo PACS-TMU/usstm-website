@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "section": "Assessments and Grading",
+        "title": "",
+        "questions": [
+            {
+                "id": "101",
+                "question": "Grades were provided with useful feedback"
+            },
+            {
+                "id": "102",
+                "question": "Assessments reflected course content"
+            },
+            {
+                "id": "103",
+                "question": "Grades were uploaded at appropriate times"
+            },
+            {
+                "id": "104",
+                "question": "Grading of the assessments were fair"
+            },
+            {
+                "id": "105",
+                "question": "Appropriate amount of time was given for examinations"
+            },
+            {
+                "id": "106",
+                "question": "Instructions regarding assignments were clearly communicated"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "section": "Course Content and Delivery",
+        "title": "Instructor was available for communication (office hours)",
+        "questions": [
+            {
+                "id": "201",
+                "question": "Instructor was available for communication (office hours)"
+            },
+            {
+                "id": "202",
+                "question": "Instructor was responsive to emails"
+            },
+            {
+                "id": "203",
+                "question": "Instructor was responsive in live lectures"
+            },
+            {
+                "id": "204",
+                "question": "Visible effort was put into planning and delivering the course"
+            },
+            {
+                "id": "205",
+                "question": "Lectures content was delivered at appropriate times"
+            },
+            {
+                "id": "206",
+                "question": "Lecture content was clear and organized"
+            },
+            {
+                "id": "207",
+                "question": "Lecture content fit into the allotted time"
+            }
+        ]
+    }
+]

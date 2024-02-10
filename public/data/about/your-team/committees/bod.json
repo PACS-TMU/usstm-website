@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "position": "President",
+        "type": "Executive",
+        "image": "president.jpg",
+        "contact-info": "president@usstm.ca",
+        "name": "Ramisa Razi"
+    },
+    {
+        "id": 2,
+        "position": "VP Operations",
+        "type": "Executive",
+        "image": "operations.jpg",
+        "contact-info": "vp.operations@usstm.ca",
+        "name": "Louise Malabanan"
+    },
+    {
+        "id": 3,
+        "position": "VP Finance",
+        "type": "Executive",
+        "image": "finance.jpg",
+        "contact-info": "vp.finance@usstm.ca",
+        "name": "Redge Wang"
+    },
+    {
+        "id": 4,
+        "position": "VP Communications",
+        "type": "Executive",
+        "image": "comms.jpg",
+        "contact-info": "vp.communications@usstm.ca",
+        "name": "Tiam Vanaki"
+    },
+    {
+        "id": 5,
+        "position": "VP Student Life",
+        "type": "Executive",
+        "image": "studentLife.jpg",
+        "contact-info": "vp.events@usstm.ca",
+        "name": "Anita Lesan"
+    },
+    {
+        "id": 6,
+        "position": "VP Academics",
+        "type": "Executive",
+        "image": "academics.jpg",
+        "contact-info": "vp.academics@usstm.ca",
+        "name": "Intesar Shah"
+    },
+    {
+        "id": 7,
+        "position": "VP Externals",
+        "type": "Executive",
+        "image": "externals.jpg",
+        "contact-info": "vp.externals@usstm.ca",
+        "name": "Jack Shen"
+    },
+    {
+        "id": 8,
+        "position": "VP Equity",
+        "type": "Executive",
+        "image": "equity.jpg",
+        "contact-info": "vp.equity@usstm.ca",
+        "name": "Jafarul Hoque"
+    },
+    {
+        "id": 9,
+        "position": "Biomedical Science Directors",
+        "type": "ProgramDirector",
+        "image": "biomed1.jpg",
+        "contact-info": "",
+        "name": "Norhan Almasri"
+    },
+    {
+        "id": 10,
+        "position": "Biomedical Science Directors",
+        "type": "ProgramDirector",
+        "image": "biomed2.jpg",
+        "contact-info": "",
+        "name": "Urwa Najeeb"
+    },
+    {
+        "id": 11,
+        "position": "Biology Director",
+        "type": "ProgramDirector",
+        "image": "bio1.jpg",
+        "contact-info": "",
+        "name": "Pooja Samaraweera"
+    },
+    {
+        "id": 12,
+        "position": "Biology Director",
+        "type": "ProgramDirector",
+        "image": "bio2.jpg",
+        "contact-info": "",
+        "name": "Fiona Vongsay"
+    },
+    {
+        "id": 13,
+        "position": "Chemistry Director",
+        "type": "ProgramDirector",
+        "image": "chem.jpg",
+        "contact-info": "",
+        "name": "Ethan Dalley"
+    },
+    {
+        "id": 14,
+        "position": "Computer Science Directors",
+        "type": "ProgramDirector",
+        "image": "cs1.jpg",
+        "contact-info": "",
+        "name": "Amir Ali Eslami"
+    },
+    {
+        "id": 15,
+        "position": "Computer Science Directors",
+        "type": "ProgramDirector",
+        "image": "cs2.jpg",
+        "contact-info": "",
+        "name": "Hamidreza Khoramrokh"
+    },
+    {
+        "id": 16,
+        "position": "Computer Science Directors",
+        "type": "ProgramDirector",
+        "image": "cs3.jpg",
+        "contact-info": "",
+        "name": "Zil Pavdighada"
+    },
+    {
+        "id": 17,
+        "position": "Mathematics and Its Applications Director",
+        "type": "ProgramDirector",
+        "image": "math.jpg",
+        "contact-info": "",
+        "name": "Benson Zhang"
+    },
+    {
+        "id": 18,
+        "position": "Financial Mathematics Director",
+        "type": "ProgramDirector",
+        "image": "finMath.jpg",
+        "contact-info": "",
+        "name": "Abigail Willie"
+    },
+    {
+        "id": 19,
+        "position": "Medical Physics Director",
+        "type": "ProgramDirector",
+        "image": "medPhys.jpg",
+        "contact-info": "",
+        "name": "Alejandro Coba Cabrera"
+    },
+    {
+        "id": 20,
+        "position": "First Year Directors",
+        "type": "FirstYearDirector",
+        "image": "fyd1.jpg",
+        "contact-info": "",
+        "name": "Dylan Cheong"
+    },
+    {
+        "id": 21,
+        "position": "First Year Directors",
+        "type": "FirstYearDirector",
+        "image": "fyd2.jpg",
+        "contact-info": "",
+        "name": "Maesah Rahman"
+    },
+    {
+        "id": 22,
+        "position": "First Year Directors",
+        "type": "FirstYearDirector",
+        "image": "fyd3.jpg",
+        "contact-info": "",
+        "name": "Nathan Romero"
+    },
+    {
+        "id": 23,
+        "position": "Chairperson",
+        "type": "NonVotingBoardMember",
+        "image": "chairperson.jpg",
+        "contact-info": "",
+        "name": "Alessandro Cunsolo"
+    },
+    {
+        "id": 24,
+        "position": "Manager, Student Relations and Development",
+        "type": "NonVotingBoardMember",
+        "image": "manager.jpg",
+        "contact-info": "manager@usstm.ca",
+        "name": "Pamela Wettlaufer"
+    },
+    {
+        "id": 25,
+        "position": "Secretary",
+        "type": "NonVotingBoardMember",
+        "image": "secretary.jpg",
+        "contact-info": "secretary@usstm.ca",
+        "name": "Umayyah Saleh"
+    },
+    {
+        "id": 26,
+        "position": "International Student Commisioner",
+        "type": "NonVotingBoardMember",
+        "image": "commisioner.jpg",
+        "contact-info": "",
+        "name": "Tamara Beriia"
+    }
+]
