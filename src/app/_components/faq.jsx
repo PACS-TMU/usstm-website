@@ -9,7 +9,7 @@ export default function FAQ() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/faq-db.json');
+        const response = await fetch('/data/faq/faq-db.json');
         const data = await response.json();
         setFaqItems(data.slice(0, 8));
       } catch (error) {
