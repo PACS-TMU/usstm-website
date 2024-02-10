@@ -18,11 +18,9 @@ export default function Governance() {
                 const data = await response.json();
                 setDocuments(data);
             } catch (error) {
-                console.log(response.json)
                 console.error('Error fetching governance data: ', error);
             }
         };
-
         fetchData();
     }, []);
 
