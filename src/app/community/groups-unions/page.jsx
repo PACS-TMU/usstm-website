@@ -8,7 +8,7 @@ export default function GroupsUnions() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/sgcu-db.json');
+                const res = await fetch('/data/community/groups-unions/sgcu-db.json');
                 const data = await res.json();
                 setSgcuData(data);
             } catch (error) {

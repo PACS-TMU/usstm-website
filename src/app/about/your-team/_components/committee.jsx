@@ -33,7 +33,7 @@ export default function Committee({ fileName, group }) {
         if (group === "none") {
             const fetchData = async () => {
                 try {
-                    const response = await fetch(`/data/committees/${fileName}.json`);
+                    const response = await fetch(`/data/about/your-team/committees/${fileName}.json`);
                     const data = await response.json();
                     setMembers(data);
                     setLoading(false);

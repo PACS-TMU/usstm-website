@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "2021/22 Election Results",
+        "path": "/assets/elections/2021-Elections.pdf"
+    },
+    {
+        "id": 2,
+        "title": "2020/21 Election Results",
+        "path": "/assets/elections/2020-Elections.pdf"
+    },
+    {
+        "id": 3,
+        "title": "2019/20 Election Results",
+        "path": "/assets/elections/2019-Elections.pdf"
+    },
+    {
+        "id": 4,
+        "title": "2018/19 Election Results",
+        "path": "/assets/elections/2018-Elections.pdf"
+    },
+    {
+        "id": 5,
+        "title": "Fall 2018 By-Election Results",
+        "path": "/assets/elections/2018-Fall-By-Elections.pdf"
+    }
+]

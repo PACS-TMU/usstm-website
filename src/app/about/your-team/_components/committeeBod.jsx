@@ -10,7 +10,7 @@ export default function CommitteeBOD({ fileName }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`/data/committees/${fileName}.json`);
+                const response = await fetch(`/data/about/your-team/committees/${fileName}.json`);
                 const data = await response.json();
                 setBod(data);
                 setLoading(false);

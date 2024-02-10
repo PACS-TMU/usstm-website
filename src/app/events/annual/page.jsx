@@ -1,5 +1,5 @@
 "use client";
-import AnnualEvent from '@/app/_components/events/annual-event';
+import AnnualEvent from '@/app/events/annual/_components/annual-event';
 import { useEffect, useState } from 'react';
 import Header from "@/app/_components/general/header";
 
@@ -9,7 +9,7 @@ export default function Annual() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/annual-events.json');
+                const response = await fetch('/data/events/annual/annual-events.json');
                 const data = await response.json();
                 setAnnualEvents(data);
             } catch (error) {
