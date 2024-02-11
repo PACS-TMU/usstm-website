@@ -25,7 +25,7 @@ This is PACS first project, creating the Undergraduate Science Society of Toront
   - [ ] Conferences & Competitions
   - [ ] Financial Policies
   - [ ] DMZ Startup Certified
-- [ ] Community
+- [X] Community
   - [X] Student Groups & Course Unions
   - [X] Science Lounge
   - [X] Elections
