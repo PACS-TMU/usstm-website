@@ -6,7 +6,7 @@ export default function ScienceLounge() {
         <section>
             <Header title={`Science Lounge (KHE223)`} />
             <div className="main">
-                <div className="flex flex-col lg:flex-row mx-2">
+                <div className="flex flex-col lg:flex-row mx-2 items-center">
                     <div className="w-full lg:w-2/5 lg:text-lg space-y-5 > * + *">
                         <p>
                             The Science Lounge is located on the second floor of Kerr Hall East in KHE 223. The lounge is open to all Faculty of Science students from 7 am - 10 pm Monday to Friday. This space is managed by the VP Operations. If there are any problems with the lounge or any suggestions that you would like to make so we can improve the space, please feel free to email them.
@@ -17,10 +17,10 @@ export default function ScienceLounge() {
                     </div >
                     <div className="w-full lg:w-3/5 lg:ml-4">
                         <Image
-                            src="/images/usstm-people.png"
-                            width={2502}
-                            height={2560}
-                            className="w-full h-auto my-6 lg:my-0"
+                            src="/images/community/sci-lounge/intro.jpg"
+                            width={1296}
+                            height={725}
+                            className="w-full rounded-sm shadow-md my-6 lg:my-0"
                             alt="Photo of Science Lounge"
                             priority={true}
                         />
