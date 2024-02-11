@@ -66,7 +66,7 @@ export default function Policies() {
                     </div>
                     <div className="hidden md:block w-[45%] min-h-full">
                         <Image
-                            src="/images/usstm-people.png"
+                            src="/images/finances/policies/purpose-graphic.webp"
                             alt="Purpose Graphic"
                             width={1200}
                             height={800}
@@ -79,8 +79,8 @@ export default function Policies() {
                 <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue my-12">
                     <div className="hidden lg:block lg:w-[45%] min-h-full">
                         <Image
-                            src="/images/usstm-people.png"
-                            alt="Purpose Graphic"
+                            src="/images/finances/policies/fr-graphic.webp"
+                            alt="Funding Request Graphic"
                             width={1200}
                             height={800}
                             className="object-cover h-full"
@@ -144,8 +144,8 @@ export default function Policies() {
                     </div>
                 </div>
 
-                <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto min-h-[70vh] bg-highlight-blue my-12">
-                    <h2 className="mb-10 pb-2 pt-6 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto bg-highlight-blue my-12">
+                    <h2 className="mb-10 mt-8 pb-2 pt-6 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                         LIMITATIONS
                     </h2>
                     <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 mt-auto mb-0 w-full">
@@ -161,11 +161,11 @@ export default function Policies() {
                                 <li>Rules and regulations to follow</li>
                             </ul>
                             <Image
-                                src="/images/usstm-people.png"
-                                alt="Purpose Graphic"
+                                src="/images/finances/policies/lim-graphic.png"
+                                alt="Limitations Graphic"
                                 width={1200}
                                 height={800}
-                                className="w-[50%] object-cover h-auto mx-auto my-6"
+                                className="w-[75%] object-cover h-auto mx-auto my-6"
                                 priority
                             />
                         </div>
