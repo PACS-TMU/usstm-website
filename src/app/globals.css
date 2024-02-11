@@ -14,22 +14,12 @@
     font-family: Abril;
     src: url(/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 }
-@font-face {
-    font-family: Lato;
-    src: url(/fonts/Lato/Lato-Regular.ttf);
-}
 
 /* Set bg color and margins */
 html {
     background-color: var(--usstm-background);
     margin: 0;
     padding: 0;
-}
-
-
-/* Default Font */
-body {
-    font-family: "Lato";
 }
 
 /* Header font */

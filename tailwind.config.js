@@ -15,8 +15,7 @@ module.exports = {
         "highlight-dark": "#002956"
       },
       fontFamily: {
-        "sans": ["Abril"],
-        "serif": ["Lato"],
+        "sans": ["Abril"]
       },
     },
   },
