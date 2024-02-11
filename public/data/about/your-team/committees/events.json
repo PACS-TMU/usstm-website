@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "position": "VP Student Life",
+        "image": "studentLife.jpg",
+        "name": "Anita Lesan"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Student Life",
+        "image": "deputyStudentLife.jpg",
+        "name": "Katherine Moncada"
+    },
+    {
+        "id": 3,
+        "position": "Events Coordinator",
+        "image": "eventscoord1.jpg",
+        "name": "Alejandro Cobacabrera"
+    },
+    {
+        "id": 4,
+        "position": "Events Coordinator",
+        "image": "eventscoord2.jpg",
+        "name": "Indveer Sandhu"
+    },
+    {
+        "id": 5,
+        "position": "Events Coordinator",
+        "image": "eventscoord3.jpg",
+        "name": "Nurtaj Haque"
+    },
+    {
+        "id": 6,
+        "position": "Events Coordinator",
+        "image": "eventscoord4.jpg",
+        "name": "Pooja Samaraweera"
+    },
+    {
+        "id": 7,
+        "position": "Events Coordinator",
+        "image": "eventscoord5.jpg",
+        "name": "Suzy Petrosyan"
+    },
+    {
+        "id": 8,
+        "position": "Events Coordinator",
+        "image": "eventscoord6.jpg",
+        "name": "Tamara Beriia"
+    },
+    {
+        "id": 9,
+        "position": "Events Coordinator",
+        "image": "eventscoord7.jpg",
+        "name": "Urwa Najeeb"
+    },
+    {
+        "id": 10,
+        "position": "Events Coordinator",
+        "image": "eventscoord8.jpg",
+        "name": "Mohammad"
+    }
+]

@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import Header from "@/app/_components/general/header";
 import Directors from "@/app/about/governance/components/directors";
 import Membership from "@/app/about/governance/components/membership";
@@ -14,14 +15,13 @@ export default function Governance() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/gov-docs.json');
+                const response = await fetch('/data/about/governance/gov-docs.json');
                 const data = await response.json();
                 setDocuments(data);
             } catch (error) {
                 console.error('Error fetching governance data: ', error);
             }
         };
-
         fetchData();
     }, []);
 
@@ -36,8 +36,23 @@ export default function Governance() {
                             Faculty of Science is dedicated to serving and representing you, the students. Learn more about the structure and leadership
                             that drives our mission forward.
                         </p>
+                        <Image
+                            src="/images/about/governance/structure.png"
+                            alt="USSTM Structure"
+                            width={3000}
+                            height={3000}
+                            priority={true}
+                            className="w-full md:w-3/4 lg:w-1/2 h-auto mx-auto"
+                        />
+                        <p className="block pt-2">
+                            Below, you will find information about our directors, membership, and general meetings. You will also find our governance policies, all
+                            of which are designed to ensure the highest standards of operation.
+                        </p>
                     </div>
                     <div className="content px-6">
+                        <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                            Structure Overview
+                        </h2>
                         <div className="space-y-2 flex flex-col lg:flex-row lg:space-y-0 text-highlight-dark font-semibold bg-background">
                             <div
                                 id="directors-overview"
@@ -125,8 +140,12 @@ export default function Governance() {
                             {currentTab === 'meeting-information' && <Meeting />}
                         </div>
 
-                        <h2 className="py-2 pt-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Governance Policies</h2>
-                        <p>To ensure the highest standards of operation, we adhere to a set of governance policies: </p>
+                        <h2 className="py-4 pt-6 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                            Governance Policies
+                        </h2>
+                        <p>
+                            To ensure the highest standards of operation, we adhere to a set of governance policies:
+                        </p>
                     </div>
                 </div>
 

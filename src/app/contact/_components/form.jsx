@@ -1,13 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
-import handleForm from "@/app/_server/handleForm"
+import handleForm from "@/server/handleForm"
 
 export default function Form() {
     const [programs, setPrograms] = useState([]);
     useEffect(() => {
         const fetchPrograms = async () => {
             try {
-                const response = await fetch('/data/programs.json');
+                const response = await fetch('/data/contact/programs.json');
                 const programs = await response.json();
                 setPrograms(programs);
             } catch (error) {

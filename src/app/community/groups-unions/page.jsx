@@ -8,7 +8,7 @@ export default function GroupsUnions() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/sgcu-db.json');
+                const res = await fetch('/data/community/groups-unions/sgcu-db.json');
                 const data = await res.json();
                 setSgcuData(data);
             } catch (error) {
@@ -43,7 +43,7 @@ export default function GroupsUnions() {
     const courseUnions = unsortedCourseUnions.sort((a, b) => a['group-name'].localeCompare(b['group-name']));
 
     const renderGroupCards = (groups) => (
-        <div className='grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center' style={{ display: 'grid', gap: '20px' }}>
+        <div className='grid-cols-1 mx-12 lg:mx-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-4 items-center justify-center' style={{ display: 'grid', gap: '20px' }}>
             {groups.map((group, index) => (
                 <div
                     key={index}
@@ -83,14 +83,14 @@ export default function GroupsUnions() {
                                 <>
                                     {group['contact-info'][1] && (
                                         <button
-                                            className="rounded-full bg-highlight-dark text-white px-4 py-2 mr-2 flex items-center"
+                                            className="rounded-full bg-highlight-dark text-background px-4 py-2 mr-2 flex items-center"
                                             onClick={() => copyToClipboard(group['contact-info'][1])}
                                         >
                                             Copy Email
                                         </button>)}
                                     {group['contact-info'][0].match(/href='(https:\/\/.*?)'/) && (
                                         <button
-                                            className="rounded-full bg-highlight text-white px-4 py-2 flex items-center"
+                                            className="rounded-full bg-highlight text-background px-4 py-2 flex items-center"
                                             onClick={() => redirectToInstagram(group['contact-info'][0].match(/href='(https:\/\/.*?)'/)[1])}
                                         >
                                             Instagram

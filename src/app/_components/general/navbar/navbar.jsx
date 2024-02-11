@@ -23,7 +23,7 @@ export default function Navbar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/data/nav-items.json');
+        const res = await fetch('/data/navbar/nav-items.json');
         const data = await res.json();
         setNavItems(data);
       } catch (error) {
