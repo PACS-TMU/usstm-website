@@ -36,7 +36,7 @@ export default function Budget() {
                     </h3>
                     <p className="my-3 mx-6 lg:w-1/2 text-center">
                         The student levy is a fee that is charged to all students at the beginning of each semester. The Levy 
-                        (in addition to money provided by the Dean's Office in the Faculty of Science) is used to fund USSTM and 
+                        (in addition to money provided by the Dean&apos;s Office in the Faculty of Science) is used to fund USSTM and 
                         its operations, as well as student activities, clubs, and events. The student levy is $30 per semester 
                         and is non-refundable. It is how we (and the student groups ratified under us) are able to provide the 
                         services and events that we do!
