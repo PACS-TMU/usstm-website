@@ -58,5 +58,11 @@
         "position": "Events Calendar Coordinator",
         "image": "eventsCalendarCoordinator.jpg",
         "name": "Pooja Samaraweera"
+    },
+    {
+        "id": 11,
+        "position": "Operations Assistant",
+        "image": "operationsAssisstant.jpg",
+        "name": "Zoe Dumensil"
     }
 ]
