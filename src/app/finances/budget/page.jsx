@@ -26,7 +26,7 @@ export default function Budget() {
             <Header title={`Budget`} />
             <div className="main lg:text-lg">
                 <p className="p-3">
-                    The USSTM budget is a document that outlines the expected income and expenses for the upcoming year and is ratified by the membership 
+                    The USSTM budget is a document that outlines the expected income and expenses for the upcoming year and is ratified by the membership
                     during our general meetings. Budget requests can be made by student groups or by independent students. For Independent Student Funding, please
                     visit our <Link href="/finances/conferences-competitions">Conferences & Competitions Page</Link>. Budget details are described in this page.
                 </p>
@@ -35,10 +35,10 @@ export default function Budget() {
                         Student Levy
                     </h3>
                     <p className="my-3 mx-6 lg:w-1/2 text-center">
-                        The student levy is a fee that is charged to all students at the beginning of each semester. The Levy 
-                        (in addition to money provided by the Dean&apos;s Office in the Faculty of Science) is used to fund USSTM and 
-                        its operations, as well as student activities, clubs, and events. The student levy is $30 per semester 
-                        and is non-refundable. It is how we (and the student groups ratified under us) are able to provide the 
+                        The student levy is a fee that is charged to all students at the beginning of each semester. The Levy
+                        (in addition to money provided by the Dean&apos;s Office in the Faculty of Science) is used to fund USSTM and
+                        its operations, as well as student activities, clubs, and events. The student levy is $30 per semester
+                        and is non-refundable. It is how we (and the student groups ratified under us) are able to provide the
                         services and events that we do!
                     </p>
                     <hr className="border border-gray-400 lg:w-3/4 w-4/5 mt-4 mb-5 mx-auto" />
@@ -67,15 +67,17 @@ export default function Budget() {
                         Our Past & Current Budgets
                     </h2>
                     <p className="my-3">
-                        Below are the budgets that have been approved/ratified by our membership for the current and past years. Click 
+                        Below are the budgets that have been approved/ratified by our membership for the current and past years. Click
                         on the year to view the budget details.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6 pt-4">
-                        {budgets.map((budget, index) => (
-                            <div key={index} className="text-center">
-                                <button className="bg-highlight-blue rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105">
-                                    {budget.title} <br /> Budget
-                                </button>
+                        {budgets.map((budget) => (
+                            <div key={budget.id} className="text-center">
+                                <a href={`/assets/budgets/${budget.path}`} target="_blank">
+                                    <button className="bg-highlight-blue text-foreground rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105">
+                                        {budget.title} <br /> Budget
+                                    </button>
+                                </a>
                             </div>
                         ))}
                     </div>
