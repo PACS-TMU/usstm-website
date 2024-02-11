@@ -19,6 +19,7 @@ export default function Policies() {
             <div className="main">
                 <div id="introduction" className="px-6 lg:text-lg">
                     <p className="block py-2">
+                        The financial policies document can be accessed in our <Link href="/about/governance">governance page</Link>.
                         Our financial policies are in place to ensure that we are transparent and accountable in our financial dealings.
                         These policies help us to provide guidance to our students and groups on how to request and use funds. We believe
                         that having these policies in place helps us to be transparent and accountable to the people we serve and the people
@@ -218,9 +219,8 @@ export default function Policies() {
                         Any Questions?
                     </h2>
                     <p className="py-2 lg:text-lg">
-                        The financial policies document can be accessed in our <Link href="/about/governance">governance page</Link>.
-                        If you have any questions about our financial policies, please contact our Vice-President of Finance 
-                        at <a href="mailto:vp.finance@usstm.ca" target="_blank">vp.finance@usstm.ca</a>. If your budget gets denied, and 
+                        If you have any questions about our financial policies, please contact our Vice-President of Finance
+                        at <a href="mailto:vp.finance@usstm.ca" target="_blank">vp.finance@usstm.ca</a>. If your budget gets denied, and
                         you believe it was unjust, please contact VP Operations so it can be raised to the appeals committee
                     </p>
                 </div>
