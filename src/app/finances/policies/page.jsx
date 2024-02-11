@@ -87,7 +87,7 @@ export default function Policies() {
                             priority
                         />
                     </div>
-                    <div className="w-full lg:w-[55%] aspect-[14/15] flex flex-col pt-6">
+                    <div className="w-full lg:w-[55%] flex flex-col pt-6">
                         <h2 className="mb-10 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                             FUNDING REQUESTS
                         </h2>
@@ -145,7 +145,7 @@ export default function Policies() {
                 </div>
 
                 <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto bg-highlight-blue my-12">
-                    <h2 className="mb-10 mt-8 pb-2 pt-6 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                    <h2 className="mb-10 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                         LIMITATIONS
                     </h2>
                     <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 mt-auto mb-0 w-full">
