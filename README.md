@@ -29,7 +29,7 @@ This is PACS first project, creating the Undergraduate Science Society of Toront
   - [X] Student Groups & Course Unions
   - [X] Science Lounge
   - [X] Elections
-- [ ] Contact Us
+- [X] Contact Us
 
 ## Prerequisites
 Welcome and thank you for working on/checking out this project.
