@@ -116,25 +116,25 @@ export default function Policies() {
                             </div>
                             <div className="grid grid-rows-4 grid-cols-1 text-sm md:text-base lg:text-lg">
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Intro" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Intro" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Intro")}
                                 >
                                     Introduction to Funding Requests
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Methods" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Methods" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Methods")}
                                 >
                                     Methods of Request
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Reimbursements" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Reimbursements" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Reimbursements")}
                                 >
                                     How to Request Reimbursements
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Amounts")}
                                 >
                                     Request Amounts
