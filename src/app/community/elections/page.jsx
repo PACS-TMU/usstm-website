@@ -38,9 +38,11 @@ export default function Elections() {
                         at least 24 hours before. You may send someone in your place to the &quot;All Candidates
                         Meeting&quot; but you must tell the CRO who will be attending in your
                         place 24 hours in advance.
-                        Please read the Election Policies that can be found <a href="" target="_blank">here (Link to Election
-                        Procedures)</a>. It is your responsibility to know this document as well as the
-                        Constitution and By-Laws (available in our <Link id="btext" href="/about/governance/">governance page</Link>), especially if you are elected.
+                        Please read the Election Policies that can be found <a href="/assets/governance/election-procedures.pdf" target="_blank">here</a>.
+                    </p>
+                    <p className='block py-2'>
+                        It is your responsibility to know this document as well as the Constitution and By-Laws
+                        (available in our <Link id="btext" href="/about/governance/">governance page</Link>), especially if you are elected.
                     </p>
                 </div>
 
@@ -50,50 +52,16 @@ export default function Elections() {
                         <h2 className="py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             Timeline
                         </h2>
-                        <div className="grid grid-cols-1 lg:grid-cols-[70%_30%] items-center justify-start lg:justify-center">
-                            <section className="px-4">
-                                <p className="py-2">Our election process follows a well-defined timeline to ensure transparency and fairness. Here are the key milestones:</p>
-                                <ul className="list-none">
-                                    <li className="font-semibold tracking-wide py-1">Nomination Period: First week of March</li>
-                                    <ul className="px-4 pb-3 pt-1">
-                                        <li className="py-1">- Open for at least 7 days</li>
-                                        <li className="py-1">- Submit your nominations in person or via email to <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.</li>
-                                    </ul>
+                        <div className="grid grid-cols-1 lg:grid-cols-[0%_100%] items-center justify-start lg:justify-center">
 
-                                    <li className="font-semibold tracking-wider py-1">Candidates Meeting: (announced within twenty-four (24) hours of the meeting)</li>
-                                    <ul className="px-4 pb-3 pt-1">
-                                        <li className="py-1">- Mandatory for all candidates or authorized representatives.</li>
-                                        <li className="py-1">- Overview of election rules/schedule and candidate roles.</li>
-                                    </ul>
-
-                                    <li className="font-semibold tracking-wider py-1">Campaigning Period: (shortly after the closing of nominations)</li>
-                                    <ul className="px-4 pb-3 pt-1">
-                                        <li className="py-1">- Paperless campaigns.</li>
-                                        <li className="py-1">- Maximum spending limit: [$X].</li>
-                                    </ul>
-
-                                    <li className="font-semibold tracking-wider py-1">Voting Days: Last 2 days of Campaigning Period</li>
-                                    <ul className="px-4 pb-3 pt-1">
-                                        <li className="py-1">- Online voting available during this period.</li>
-                                        <li className="py-1">- Campaigning allowed, with restrictions in certain areas.</li>
-                                    </ul>
-
-                                    <li className="font-semibold tracking-wider py-1">Results Announcement: Date of AGM</li>
-                                    <ul className="px-4 pb-3 pt-1">
-                                        <li className="py-1">- Tallying process begins immediately after polls close.</li>
-                                        <li className="py-1">- Results sent to candidates first.</li>
-                                        <li className="py-1">- Public announcement via electronic and social media on the same day as AGM.</li>
-                                    </ul>
-
-                                </ul>
-                            </section>
                             <section id="timeline-image" className="row-start-1 lg:col-start-2 px-4">
                                 <Image
-                                    src="/images/community/elections/timeline.svg"
+                                    src="/images/community/elections/timeline.png"
                                     alt="USSTM Elections Timeline"
-                                    width={1000}
-                                    height={280}
+                                    width={800}
+                                    height={1055}
                                     priority={true}
+                                    className='w-1/2 h-auto mx-auto'
                                 />
                             </section>
                         </div>
@@ -106,12 +74,10 @@ export default function Elections() {
                         </h2>
                         <div className="px-4">
                             <p>
-                                To run, you must complete <a href="">this (add a redirect link here)</a> nomination form. Failure to
-                                do so before the deadline may result in your candidacy not being deemed eligible. It is
-                                highly recommended that this is completed EARLY in the nomination period to
-                                allow for time to collect the required signatures after submission.
-                                If you wish to submit a scanned paper nomination, please find the
-                                form in the <a href="">here (add a redirect link here)</a>.
+                                To run, you must complete a nomination form which is released closer to the election date each year. 
+                                Failure to do so before the deadline may result in your candidacy not being deemed eligible. It is 
+                                highly recommended that this is completed EARLY in the nomination period to allow for time to collect 
+                                the required signatures after submission.
                             </p>
                         </div>
                     </div>
@@ -139,8 +105,13 @@ export default function Elections() {
                                     <li className="py-1">- No printed posters allowed.</li>
                                 </ul>
                             </ul>
-                            <p className="px-2">Report any violations to the Chief Returning Officer (CRO) at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.</p>
-                            <p className="px-2">Note: This is a general overview. For detailed rules, refer to the comprehensive <a href="" target="_blank">Election Procedures Document (add a redirect link here)</a>.</p>
+                            <p className="px-2">
+                                Report any violations to the Chief Returning Officer (CRO) at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.
+                            </p>
+                            <p className="px-2">
+                                Note: This is a general overview. For detailed rules, refer to the 
+                                comprehensive <a href="/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
+                            </p>
                         </div>
                     </div>
 
