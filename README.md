@@ -17,7 +17,7 @@ This is PACS first project, creating the Undergraduate Science Society of Toront
 - [ ] Academics
   - [X] Feedback Form
   - [ ] Synergize Case Comp
-  - [ ] Crash Courses
+  - [X] Crash Courses
 - [ ] Finances
   - [X] Budget
   - [ ] Conferences & Competitions
