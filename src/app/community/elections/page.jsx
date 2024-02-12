@@ -52,19 +52,16 @@ export default function Elections() {
                         <h2 className="py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             Timeline
                         </h2>
-                        <div className="grid grid-cols-1 lg:grid-cols-[0%_100%] items-center justify-start lg:justify-center">
-
-                            <section id="timeline-image" className="row-start-1 lg:col-start-2 px-4">
-                                <Image
-                                    src="/images/community/elections/timeline.png"
-                                    alt="USSTM Elections Timeline"
-                                    width={800}
-                                    height={1055}
-                                    priority={true}
-                                    className='w-1/2 h-auto mx-auto'
-                                />
-                            </section>
-                        </div>
+                        <section id="timeline-image" className="p-4">
+                            <Image
+                                src="/images/community/elections/timeline.png"
+                                alt="USSTM Elections Timeline"
+                                width={800}
+                                height={1055}
+                                priority={true}
+                                className='w-full lg:w-3/4 h-auto mx-auto'
+                            />
+                        </section>
                     </div>
 
                     {/* Eligibity Rules */}
@@ -74,9 +71,9 @@ export default function Elections() {
                         </h2>
                         <div className="px-4">
                             <p>
-                                To run, you must complete a nomination form which is released closer to the election date each year. 
-                                Failure to do so before the deadline may result in your candidacy not being deemed eligible. It is 
-                                highly recommended that this is completed EARLY in the nomination period to allow for time to collect 
+                                To run, you must complete a nomination form which is released closer to the election date each year.
+                                Failure to do so before the deadline may result in your candidacy not being deemed eligible. It is
+                                highly recommended that this is completed EARLY in the nomination period to allow for time to collect
                                 the required signatures after submission.
                             </p>
                         </div>
@@ -109,7 +106,7 @@ export default function Elections() {
                                 Report any violations to the Chief Returning Officer (CRO) at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.
                             </p>
                             <p className="px-2">
-                                Note: This is a general overview. For detailed rules, refer to the 
+                                Note: This is a general overview. For detailed rules, refer to the
                                 comprehensive <a href="/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
                             </p>
                         </div>
