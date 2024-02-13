@@ -35,7 +35,7 @@ export default function Form() {
             <p className="pb-6 text-center w-3/4 mx-auto">
                 If you have any questions, concerns, or requests, please feel free to reach out to us. We are here to help you!
             </p>
-            <form action={handleForm} className="">
+            <form action={handleForm} className="w-full">
                 <div className="flex md:flex-row flex-col justify-center items-center">
                     <div className="flex flex-col w-[95%] md:w-1/2">
                         <label htmlFor="firstName">First Name</label>
