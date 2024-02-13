@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "option": "Finance Inquiry/Complaint",
+        "value": "Finance Request"
+    },
+    {
+        "id": 2,
+        "option": "Locker Request/Maintenance",
+        "value": "Locker Request"
+    },
+    {
+        "id": 3,
+        "option": "Website Suggestion/Complaint",
+        "value": "Website Request"
+    },
+    {
+        "id": 4,
+        "option": "Merchandise Inquiry",
+        "value": "Merchandise Request"
+    },
+    {
+        "id": 5,
+        "option": "Request to Book the Science Lounge",
+        "value": "Science Lounge Booking"
+    },
+    {
+        "id": 6,
+        "option": "Event Inquiry/Complaint",
+        "value": "Events Request"
+    },
+    {
+        "id": 7,
+        "option": "Academic Inquiry/Complaint",
+        "value": "Academics Request"
+    },
+    {
+        "id": 8,
+        "option": "Equity Inquiry/Complaint",
+        "value": "Equity Request"
+    },
+    {
+        "id": 9,
+        "option": "Any Other Inquiries",
+        "value": "General Inquiry"
+    }
+]
