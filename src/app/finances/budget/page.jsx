@@ -93,7 +93,7 @@ export default function Budget() {
                                 Account Codes
                             </h2>
                             <p className="m-4">
-                                For the account codes, check out our list of <a href="https://docs.google.com/document/d/1_W61LmlF0CECeZMLu1jCtVsvhq8HVpq5F0A9Ldzi9Jc/view" target="_blank">Account Codes</a> that we use 
+                                For the account codes, check out our list of <a href="/assets/budgets/USSTM-AccountCodes.pdf" target="_blank">Account Codes</a> that we use 
                                 for our accounting. If you are not sure which account your purchase goes under, please confirm with the VP Finance through email or in person.
                             </p>
                         </div>
