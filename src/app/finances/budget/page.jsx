@@ -93,8 +93,8 @@ export default function Budget() {
                                 Account Codes
                             </h2>
                             <p className="m-4">
-                                For the account codes, check out our list of <a href="https://docs.google.com/document/d/1_W61LmlF0CECeZMLu1jCtVsvhq8HVpq5F0A9Ldzi9Jc/view" target="_blank">Account Codes</a> that we use for our accounting. If you are not sure which account your
-                                purchase goes under, please confirm with the VP Finance through email or in person.
+                                For the account codes, check out our list of <a href="https://docs.google.com/document/d/1_W61LmlF0CECeZMLu1jCtVsvhq8HVpq5F0A9Ldzi9Jc/view" target="_blank">Account Codes</a> that we use 
+                                for our accounting. If you are not sure which account your purchase goes under, please confirm with the VP Finance through email or in person.
                             </p>
                         </div>
                         <div className="bg-highlight-blue rounded-sm shadow-md w-full h-full p-4">
@@ -112,8 +112,8 @@ export default function Budget() {
                                 How to Read a Budget
                             </h2>
                             <p className="m-4">
-                                Budgets are sometimes hard to read and understand. This document will help you understand how to read a budget, which will help you understand
-                                our budgets and help you create your own as well. Please click <a href="#" target="_blank">here</a> to
+                                Budgets are sometimes hard to read and understand. This document will help you understand how to read the USSTM budget, which will help you understand
+                                where our money goes and help you create your own as well. Please click <a href="/assets/budgets/howToReadUSSTMBudget.pdf" target="_blank">here</a> to
                                 access the document.
                             </p>
                         </div>
