@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { CustomNext, CustomPrev } from './CustomArrow';
+import { CustomNext, CustomPrev } from './customarrow';
 
 export default function Carousel() {
     const [yearbookData, setYearbookData] = useState([]);
