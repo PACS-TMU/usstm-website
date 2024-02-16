@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "path": "/images/usstm-people.png",
+        "year": "2012",
+        "title": "placeholder text 1"
+    },
+    {
+        "id": 2,
+        "path": "/images/usstm-people.png",
+        "year": "2013",
+        "title": "placeholder text 2"
+    },
+    {
+        "id": 3,
+        "path": "/images/usstm-people.png",
+        "year": "2014",
+        "title": "placeholder text 3"
+    },
+    {
+        "id": 4,
+        "path": "/images/usstm-people.png",
+        "year": "2015",
+        "title": "placeholder text 4"
+    },
+    {
+        "id": 5,
+        "path": "/images/usstm-people.png",
+        "year": "2016",
+        "title": "placeholder text 5"
+    },
+    {
+        "id": 6,
+        "path": "/images/usstm-people.png",
+        "year": "2017",
+        "title": "placeholder text 6"
+    },
+    {
+        "id": 7,
+        "path": "/images/usstm-people.png",
+        "year": "2018",
+        "title": "placeholder text 7"
+    },
+    {
+        "id": 8,
+        "path": "/images/usstm-people.png",
+        "year": "2019",
+        "title": "placeholder text 8"
+    }
+]
