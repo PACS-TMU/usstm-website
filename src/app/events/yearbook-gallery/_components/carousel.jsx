@@ -45,21 +45,21 @@ export default function Carousel() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
     };
 
     return (
-        <div className="slider-container my-[3.5rem]">
+        <div className="slider-container my-[3.5rem] mx-[0.8rem]">
             <Slider {...settings}>
                 {yearbookData.map((image, index) => (
                     <div key={index} className="cursor-pointer">
