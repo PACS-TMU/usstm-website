@@ -33,7 +33,7 @@ export default function ScienceLounge() {
                     <iframe
                         src="https://embed.styledcalendar.com/#XcDRrWuhwLrNxYO7kFrT"
                         title="Sci Lounge Styled Calendar"
-                        className="w-[90%] mx-auto lg:w-full border border-gray-300 md:border-none h-[700px]"
+                        className="styled-calendar-container w-[90%] mx-auto lg:w-full border border-gray-300 md:border-none h-[700px]"
                         data-cy="calendar-embed-iframe"
                     />
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
