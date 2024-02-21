@@ -64,10 +64,10 @@ export default function Carousel() {
                         <Image
                             src={image.path}
                             alt={image.title}
-                            width={5184}
-                            height={3456}
+                            width={2400}
+                            height={1600}
                             priority={true}
-                            className="rounded-md w-full h-full"
+                            className="rounded-md w-full h-auto"
                         />
                         
                         <h1 className="text-center pb-10">{image.title}, {image.year}</h1>
