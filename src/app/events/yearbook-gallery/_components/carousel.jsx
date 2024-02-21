@@ -27,7 +27,7 @@ export default function Carousel() {
 
     return (
         <div className="w-full bg-highlight-blue pt-10 pb-2 flex mt-4 mb-14 items-center justify-center">
-            <div className="slider-container main">
+            <div className="slider-container w-[90%] main">
                 <Swiper
                     modules={[Navigation, Pagination]}
                     slidesPerGroupSkip={0}
