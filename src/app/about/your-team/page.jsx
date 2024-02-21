@@ -40,7 +40,7 @@ export default function YourTeam() {
                 navigation={true}
                 modules={[Pagination, Navigation, Autoplay]}
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
-                className="w-full h-full text-center text-lg flex justify-center items-center"
+                className="w-full h-auto text-center text-lg flex justify-center items-center"
             >
                 <SwiperSlide>
                     <Image
@@ -49,7 +49,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-auto h-full max-h-[100vh] block mx-auto object-cover'
+                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] block mx-auto object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -59,7 +59,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-auto h-full max-h-[100vh] mx-auto block object-cover'
+                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -69,7 +69,7 @@ export default function YourTeam() {
                         width={5184}
                         height={3456}
                         priority={true}
-                        className='w-auto h-full max-h-[100vh] mx-auto block object-cover'
+                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>
             </Swiper>

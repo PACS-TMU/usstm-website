@@ -97,20 +97,6 @@
                 "path": "/academics/crash-course",
                 "description": "Struggling with a first or second year course? USSTM Crash Courses' may be exactly what you need.",
                 "subItems": []
-            },
-            {
-                "id": 404,
-                "itemName": "Lunch & Learn",
-                "path": "/academics/lunch-learn",
-                "description": "Learn more about a professours research thought our Lunch & Learn series.",
-                "subItems": []
-            },
-            {
-                "id": 405,
-                "itemName": "Nimbus",
-                "path": "/academics/nimbus",
-                "description": "Intrested in tutoring or being tutored? Nimbus is the perfect platform for you.",
-                "subItems": []
             }
         ]
     },

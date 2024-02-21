@@ -19,6 +19,7 @@ export default function Policies() {
             <div className="main">
                 <div id="introduction" className="px-6 lg:text-lg">
                     <p className="block py-2">
+                        The financial policies document can be accessed in our <Link href="/about/governance">governance page</Link>.
                         Our financial policies are in place to ensure that we are transparent and accountable in our financial dealings.
                         These policies help us to provide guidance to our students and groups on how to request and use funds. We believe
                         that having these policies in place helps us to be transparent and accountable to the people we serve and the people
@@ -65,7 +66,7 @@ export default function Policies() {
                     </div>
                     <div className="hidden md:block w-[45%] min-h-full">
                         <Image
-                            src="/images/usstm-people.png"
+                            src="/images/finances/policies/purpose-graphic.webp"
                             alt="Purpose Graphic"
                             width={1200}
                             height={800}
@@ -78,15 +79,15 @@ export default function Policies() {
                 <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue my-12">
                     <div className="hidden lg:block lg:w-[45%] min-h-full">
                         <Image
-                            src="/images/usstm-people.png"
-                            alt="Purpose Graphic"
+                            src="/images/finances/policies/fr-graphic.webp"
+                            alt="Funding Request Graphic"
                             width={1200}
                             height={800}
                             className="object-cover h-full"
                             priority
                         />
                     </div>
-                    <div className="w-full lg:w-[55%] aspect-[14/15] flex flex-col pt-6">
+                    <div className="w-full lg:w-[55%] flex flex-col pt-6">
                         <h2 className="mb-10 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                             FUNDING REQUESTS
                         </h2>
@@ -115,25 +116,25 @@ export default function Policies() {
                             </div>
                             <div className="grid grid-rows-4 grid-cols-1 text-sm md:text-base lg:text-lg">
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Intro" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Intro" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Intro")}
                                 >
                                     Introduction to Funding Requests
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Methods" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Methods" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Methods")}
                                 >
                                     Methods of Request
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Reimbursements" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Reimbursements" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Reimbursements")}
                                 >
                                     How to Request Reimbursements
                                 </button>
                                 <button
-                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-white underline" : ""}`}
+                                    className={`w-full h-full row-span-1 border-x border-t border-foreground hover:underline ${active === "Amounts" ? "bg-highlight-dark text-background underline" : ""}`}
                                     onClick={() => setActive("Amounts")}
                                 >
                                     Request Amounts
@@ -143,8 +144,8 @@ export default function Policies() {
                     </div>
                 </div>
 
-                <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto min-h-[70vh] bg-highlight-blue my-12">
-                    <h2 className="mb-10 pb-2 pt-6 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
+                <div className="w-full md:w-5/6 flex flex-col shadow-md mx-auto bg-highlight-blue my-12">
+                    <h2 className="mb-10 p-2 md:p-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold self-start tracking-wide">
                         LIMITATIONS
                     </h2>
                     <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 mt-auto mb-0 w-full">
@@ -160,11 +161,11 @@ export default function Policies() {
                                 <li>Rules and regulations to follow</li>
                             </ul>
                             <Image
-                                src="/images/usstm-people.png"
-                                alt="Purpose Graphic"
+                                src="/images/finances/policies/lim-graphic.png"
+                                alt="Limitations Graphic"
                                 width={1200}
                                 height={800}
-                                className="w-[50%] object-cover h-auto mx-auto my-6"
+                                className="w-[75%] object-cover h-auto mx-auto my-6"
                                 priority
                             />
                         </div>
@@ -218,9 +219,8 @@ export default function Policies() {
                         Any Questions?
                     </h2>
                     <p className="py-2 lg:text-lg">
-                        The financial policies document can be accessed in our <Link href="/about/governance">governance page</Link>.
-                        If you have any questions about our financial policies, please contact our Vice-President of Finance 
-                        at <a href="mailto:vp.finance@usstm.ca" target="_blank">vp.finance@usstm.ca</a>. If your budget gets denied, and 
+                        If you have any questions about our financial policies, please contact our Vice-President of Finance
+                        at <a href="mailto:vp.finance@usstm.ca" target="_blank">vp.finance@usstm.ca</a>. If your budget gets denied, and
                         you believe it was unjust, please contact VP Operations so it can be raised to the appeals committee
                     </p>
                 </div>

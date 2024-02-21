@@ -83,14 +83,14 @@ export default function GroupsUnions() {
                                 <>
                                     {group['contact-info'][1] && (
                                         <button
-                                            className="rounded-full bg-highlight-dark text-white px-4 py-2 mr-2 flex items-center"
+                                            className="rounded-full bg-highlight-dark text-background px-4 py-2 mr-2 flex items-center"
                                             onClick={() => copyToClipboard(group['contact-info'][1])}
                                         >
                                             Copy Email
                                         </button>)}
                                     {group['contact-info'][0].match(/href='(https:\/\/.*?)'/) && (
                                         <button
-                                            className="rounded-full bg-highlight text-white px-4 py-2 flex items-center"
+                                            className="rounded-full bg-highlight text-background px-4 py-2 flex items-center"
                                             onClick={() => redirectToInstagram(group['contact-info'][0].match(/href='(https:\/\/.*?)'/)[1])}
                                         >
                                             Instagram

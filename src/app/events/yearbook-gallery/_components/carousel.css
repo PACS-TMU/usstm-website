@@ -1,0 +1,32 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: transparent;
+  font-weight: bold;
+  display: none;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--usstm-foreground);
+}
+
+@media screen and (min-width: 1024px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+
+  .swiper-button-next{
+    background-image: url('../../../_components/side-arrow.svg');
+    fill: white;
+    stroke: white;
+    top: 40%;
+  }
+  .swiper-button-prev{
+    background-image: url('../../../_components/side-arrow.svg');
+    transform: rotate(180deg);
+    top: 37.5%;
+  }
+}
