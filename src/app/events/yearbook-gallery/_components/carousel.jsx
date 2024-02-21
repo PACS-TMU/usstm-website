@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from 'next/image';
+import './carousel.css';
 
 export default function Carousel() {
     const [yearbookData, setYearbookData] = useState([]);
@@ -66,10 +67,10 @@ export default function Carousel() {
                             width={5184}
                             height={3456}
                             priority={true}
-                            className="rounded-md"
+                            className="rounded-md w-full h-full"
                         />
                         
-                        <h1 className="text-center mb-10">{image.title}, {image.year}</h1>
+                        <h1 className="text-center pb-10">{image.title}, {image.year}</h1>
                     </SwiperSlide>
                 ))}
             </Swiper>
