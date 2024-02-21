@@ -9,12 +9,12 @@ This is PACS first project, creating the Undergraduate Science Society of Toront
     - [X] Committee Pages
   - [X] Governance
   - [X] Past Boards
-  - [ ] Meetings (in-progress)
+  - [X] Meetings
   - [ ] FAQ
 - [ ] Events
   - [ ] Calendar
   - [ ] Annual Events (in-progress)
-  - [ ] Yearbook/Gallery (in-progress)
+  - [X] Yearbook/Gallery (in-progress)
 - [ ] Academics
   - [X] Feedback Form
   - [ ] Synergize Case Comp
