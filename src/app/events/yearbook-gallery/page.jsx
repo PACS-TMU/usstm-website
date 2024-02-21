@@ -8,7 +8,7 @@ export default function YearbookGallery() {
         <section>
             <Header title={`Yearbook & Gallery`} />
             
-            <div className="main">
+            <div className="">
                 <Carousel />
                 <Gallery />
             </div>

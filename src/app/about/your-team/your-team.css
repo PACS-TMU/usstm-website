@@ -19,12 +19,12 @@
   }
 
   .swiper-button-next{
-    background-image: url('./_components/side-arrow.svg');
+    background-image: url('../../_components/side-arrow.svg');
     fill: white;
     stroke: white;
   }
   .swiper-button-prev{
-    background-image: url('./_components/side-arrow.svg');
+    background-image: url('../../_components/side-arrow.svg');
     transform: rotate(180deg);
   }
 }
