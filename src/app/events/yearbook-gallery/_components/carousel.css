@@ -8,7 +8,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--usstm-background);
+  background-color: var(--usstm-foreground);
 }
 
 @media screen and (min-width: 1024px) {
