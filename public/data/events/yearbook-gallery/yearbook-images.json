@@ -1,50 +1,44 @@
 [
     {
         "id": 1,
-        "path": "/images/usstm-people.png",
-        "year": "2012",
-        "title": "placeholder text 1"
+        "path": "studentGroupAppreciationCover.png",
+        "year": "2023",
+        "title": "Student Group Appreciation Cover"
     },
     {
         "id": 2,
-        "path": "/images/usstm-people.png",
-        "year": "2013",
-        "title": "placeholder text 2"
+        "path": "awardsNight1.png",
+        "year": "2023",
+        "title": "Awards Night 2023 (Part 1)"
     },
     {
         "id": 3,
-        "path": "/images/usstm-people.png",
-        "year": "2014",
-        "title": "placeholder text 3"
-    },
-    {
-        "id": 4,
-        "path": "/images/usstm-people.png",
-        "year": "2015",
-        "title": "placeholder text 4"
-    },
-    {
-        "id": 5,
-        "path": "/images/usstm-people.png",
-        "year": "2016",
-        "title": "placeholder text 5"
-    },
-    {
-        "id": 6,
-        "path": "/images/usstm-people.png",
-        "year": "2017",
-        "title": "placeholder text 6"
+        "path": "awardsNight2.png",
+        "year": "2023",
+        "title": "Awards Night 2023 (Part 2)"
     },
     {
         "id": 7,
-        "path": "/images/usstm-people.png",
-        "year": "2018",
-        "title": "placeholder text 7"
+        "path": "merchSale.webp",
+        "year": "2023",
+        "title": "Merchandise Sale"
     },
     {
-        "id": 8,
-        "path": "/images/usstm-people.png",
-        "year": "2019",
-        "title": "placeholder text 8"
+        "id": 4,
+        "path": "studentRetreat.webp",
+        "year": "2023",
+        "title": "Student Retreat"
+    },
+    {
+        "id": 5,
+        "path": "SGLR1.png",
+        "year": "2023",
+        "title": "SGLR (Part 1)"
+    },
+    {
+        "id": 6,
+        "path": "SGLR2.png",
+        "year": "2023",
+        "title": "SGLR (Part 2)"
     }
 ]
