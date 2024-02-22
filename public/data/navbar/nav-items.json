@@ -46,7 +46,7 @@
         "id": 3,
         "itemName": "Events",
         "path": "/events",
-        "description": "USSTM Events of the Month: <br />",
+        "description": "Dive into a world of exciting opportunities with USSTM's vibrant events! We offer a diverse range of experiences to enhance your university journey.",
         "subItems": [
             {
                 "id": 301,
@@ -75,7 +75,7 @@
         "id": 4,
         "itemName": "Academics",
         "path": "/academics",
-        "description": "Academic Events of the Month: <br />",
+        "description": "Embark on an academic adventure with USSTM! Our academic initiatives are designed to support and enrich your learning experience.",
         "subItems": [
             {
                 "id": 401,
@@ -104,7 +104,7 @@
         "id": 5,
         "itemName": "Finances",
         "path": "/finances",
-        "description": "temp",
+        "description": "Discover how we allocate resources to best serve you, the students. Gain insight into the financial decisions driving our initiatives. Understanding our financial structure empowers you to engage with us and shape the future of student support and services.",
         "subItems": [
             {
                 "id": 501,
@@ -140,7 +140,7 @@
         "id": 6,
         "itemName": "Community",
         "path": "/community",
-        "description": "The Faculty of Science has a wonderful community outside of USSTM! Learn about all our commuity.",
+        "description": "Get involved and be a part of the vibrant USSTM community!  Stay updated on the latest community news and find ways to make a difference on campus and beyond. Join us in building a strong, supportive community that fosters growth, inclusivity, and collaboration..",
         "subItems": [
             {
                 "id": 601,
@@ -160,7 +160,7 @@
                 "id": 603,
                 "itemName": "Elections",
                 "path": "/community/elections",
-                "description": "where you have the power to shape the future of USSTM.",
+                "description": "Where you have the power to shape the future of USSTM.",
                 "subItems": []
             }
         ]
