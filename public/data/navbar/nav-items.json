@@ -46,27 +46,27 @@
         "id": 3,
         "itemName": "Events",
         "path": "/events",
-        "description": "USSTM Events of the Month: <br />",
+        "description": "Dive into a world of exciting opportunities with USSTM's vibrant events! We offer a diverse range of experiences to enhance your university journey.",
         "subItems": [
             {
                 "id": 301,
                 "itemName": "Calendar",
                 "path": "/events/calendar",
-                "description": "See everything that is happening within the Faculty of Science",
+                "description": "Stay up-to-date with all our scheduled activities and never miss an event!",
                 "subItems": []
             },
             {
                 "id": 302,
                 "itemName": "Annual Events",
                 "path": "/events/annual",
-                "description": "We host many annual events. Learn more about what event you can look forward to throughout the year!",
+                "description": "Our key events providing an overview of the vibrant and diverse activities organized by USSTM each year.",
                 "subItems": []
             },
             {
                 "id": 303,
                 "itemName": "Yearbook/Gallery",
                 "path": "/events/yearbook-gallery",
-                "description": "temp",
+                "description": "Memorable moments, photos, and highlights from USSTM events throughout the year",
                 "subItems": []
             }
         ]
@@ -75,7 +75,7 @@
         "id": 4,
         "itemName": "Academics",
         "path": "/academics",
-        "description": "Academic Events of the Month: <br />",
+        "description": "Embark on an academic adventure with USSTM! Our academic initiatives are designed to support and enrich your learning experience.",
         "subItems": [
             {
                 "id": 401,
@@ -104,13 +104,13 @@
         "id": 5,
         "itemName": "Finances",
         "path": "/finances",
-        "description": "temp",
+        "description": "Discover how we allocate resources to best serve you, the students. Gain insight into the financial decisions driving our initiatives. Understanding our financial structure empowers you to engage with us and shape the future of student support and services.",
         "subItems": [
             {
                 "id": 501,
                 "itemName": "Budget",
                 "path": "/finances/budget",
-                "description": "Where does USSTM's money go? Come find out here.",
+                "description": "Offers transparency regarding how funds are allocated to support student initiatives and programs",
                 "subItems": []
             },
             {
@@ -124,14 +124,14 @@
                 "id": 503,
                 "itemName": "Financial Policies",
                 "path": "/finances/policies",
-                "description": "Learn about the various ",
+                "description": "Learn about our financial policies, guiding the management and allocation of funds to ensure the sustainability and growth of USSTM.",
                 "subItems": []
             },
             {
                 "id": 504,
                 "itemName": "DMZ Startup Certified",
                 "path": "/finances/startup-certified",
-                "description": "temp",
+                "description": "Discover the innovation behind our DMZ Startup Certified program, empowering entrepreneurs to turn ideas into successful businesses.",
                 "subItems": []
             }
         ]
@@ -140,7 +140,7 @@
         "id": 6,
         "itemName": "Community",
         "path": "/community",
-        "description": "The Faculty of Science has a wonderful community outside of USSTM! Learn about all our commuity.",
+        "description": "Get involved and be a part of the vibrant USSTM community!  Stay updated on the latest community news and find ways to make a difference on campus and beyond. Join us in building a strong, supportive community that fosters growth, inclusivity, and collaboration..",
         "subItems": [
             {
                 "id": 601,
@@ -160,7 +160,7 @@
                 "id": 603,
                 "itemName": "Elections",
                 "path": "/community/elections",
-                "description": "temp",
+                "description": "Where you have the power to shape the future of USSTM.",
                 "subItems": []
             }
         ]
