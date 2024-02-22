@@ -29,7 +29,7 @@ export default function Elections2024() {
 
                 <div className="schedule py-2">
                     <h2 className="py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide items-left">
-                        This Year's Schedule
+                        This Year&apos;s Schedule
                     </h2>
 
                     <div className="image flex items-center justify-center flex-col">

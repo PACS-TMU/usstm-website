@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Header from '@/app/_components/general/header';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 
 export default function Elections() {
     const [electionsResults, setElectionsResults] = useState([]);
