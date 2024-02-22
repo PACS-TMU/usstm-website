@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -27,12 +27,13 @@ export default function Carousel() {
 
     return (
         <div className="w-full bg-highlight-blue pt-10 pb-2 flex mt-4 mb-14 items-center justify-center">
-            <div className="slider-container w-[90%] main">
+            <div className="slider-container w-[90%] main flex justify-center items-center">
                 <Swiper
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation, Pagination, Autoplay]}
                     slidesPerGroupSkip={0}
                     navigation
                     loop={yearbookData.length > 1 ? true : false}
+                    autoplay={{ delay: 5000, disableOnInteraction: false }}
                     centeredSlides={true}
                     pagination={{
                         dynamicBullets: true,
@@ -63,15 +64,17 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                src={image.path}
+                                src={`/images/events/yearbook/${image.path}`}
                                 alt={image.title}
-                                width={2400}
-                                height={1600}
+                                width={1700}
+                                height={2200}
                                 priority={true}
-                                className="rounded-md w-full h-auto"
+                                className="rounded-md"
                             />
 
-                            <h1 className="text-center pb-10 font-serif font-semibold">{image.title}, {image.year}</h1>
+                            <h1 className="text-center pb-10 font-serif font-semibold">
+                                {image.title} - {image.year}
+                            </h1>
                         </SwiperSlide>
                     ))}
                 </Swiper>

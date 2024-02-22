@@ -1,123 +1,86 @@
 [
     {
         "id": 1,
-        "path": "/images/usstm-people.png",
-        "year": "2012",
-        "title": "placeholder text 1"
+        "path": "eventsCover.png",
+        "year": "2023",
+        "title": "Transition Events"
     },
     {
         "id": 2,
-        "path": "/images/usstm-people.png",
-        "year": "2013",
-        "title": "placeholder text 2"
+        "path": "halloweenCarnival1.webp",
+        "year": "2023",
+        "title": "Halloween Carnival (Part 1)"
     },
     {
         "id": 3,
-        "path": "/images/usstm-people.png",
-        "year": "2014",
-        "title": "placeholder text 3"
+        "path": "halloweenCarnival2.webp",
+        "year": "2023",
+        "title": "Halloween Carnival (Part 2)"
     },
     {
         "id": 4,
-        "path": "/images/usstm-people.png",
-        "year": "2015",
-        "title": "placeholder text 4"
+        "path": "hauntedHouse.webp",
+        "year": "2023",
+        "title": "Haunted House"
     },
     {
         "id": 5,
-        "path": "/images/usstm-people.png",
-        "year": "2016",
-        "title": "placeholder text 5"
+        "path": "braceletMaking.webp",
+        "year": "2023",
+        "title": "Bracelet Making"
     },
     {
         "id": 6,
-        "path": "/images/usstm-people.png",
-        "year": "2017",
-        "title": "placeholder text 6"
+        "path": "semiFormal2023.webp",
+        "year": "2023",
+        "title": "Semi-Formal"
     },
     {
         "id": 7,
-        "path": "/images/usstm-people.png",
-        "year": "2018",
-        "title": "placeholder text 7"
+        "path": "weekOfWelcome2.webp",
+        "year": "2023",
+        "title": "Week of Welcome (Part 2)"
     },
     {
         "id": 8,
-        "path": "/images/usstm-people.png",
-        "year": "2019",
-        "title": "placeholder text 8"
+        "path": "cprEventPage.png",
+        "year": "2023",
+        "title": "CPR Event"
     },
     {
         "id": 9,
-        "path": "/images/usstm-people.png",
-        "year": "2020",
-        "title": "placeholder text 9"
+        "path": "boba&BoardGames.png",
+        "year": "2023",
+        "title": "Boba and Board Games Night"
     },
     {
         "id": 10,
-        "path": "/images/usstm-people.png",
-        "year": "2021",
-        "title": "placeholder text 10"
+        "path": "fallNetworkingNight.png",
+        "year": "2023",
+        "title": "Fall Networking Night"
     },
     {
         "id": 11,
-        "path": "/images/usstm-people.png",
-        "year": "2022",
-        "title": "placeholder text 11"
+        "path": "frosh1.webp",
+        "year": "2023",
+        "title": "Frosh 2023 (Part 1)"
     },
     {
         "id": 12,
-        "path": "/images/usstm-people.png",
+        "path": "frosh2.webp",
         "year": "2023",
-        "title": "placeholder text 12"
+        "title": "Frosh 2023 (Part 2)"
     },
     {
         "id": 13,
-        "path": "/images/usstm-people.png",
-        "year": "2024",
-        "title": "placeholder text 13"
+        "path": "weekOfWelcome1.webp",
+        "year": "2023",
+        "title": "Week of Welcome (Part 1)"
     },
     {
         "id": 14,
-        "path": "/images/usstm-people.png",
-        "year": "2025",
-        "title": "placeholder text 14"
-    },
-    {
-        "id": 15,
-        "path": "/images/usstm-people.png",
-        "year": "2026",
-        "title": "placeholder text 15"
-    },
-    {
-        "id": 16,
-        "path": "/images/usstm-people.png",
-        "year": "2027",
-        "title": "placeholder text 16"
-    },
-    {
-        "id": 17,
-        "path": "/images/usstm-people.png",
-        "year": "2028",
-        "title": "placeholder text 17"
-    },
-    {
-        "id": 18,
-        "path": "/images/usstm-people.png",
-        "year": "2029",
-        "title": "placeholder text 18"
-    },
-    {
-        "id": 19,
-        "path": "/images/usstm-people.png",
-        "year": "2030",
-        "title": "placeholder text 19"
-    },
-    {
-        "id": 20,
-        "path": "/images/usstm-people.png",
-        "year": "2031",
-        "title": "placeholder text 20"
+        "path": "boardCover.png",
+        "year": "2023",
+        "title": "USSTM Members"
     }
 ]
-
