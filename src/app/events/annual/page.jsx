@@ -3,6 +3,7 @@ import AnnualEvent from '@/app/events/annual/_components/annual-event';
 import { useEffect, useState } from 'react';
 import Header from "@/app/_components/general/header";
 import Image from 'next/image';
+import UnderConstruction from "@/app/_components/general/under-construction";
 
 export default function Annual() {
     const [annualEvents, setAnnualEvents] = useState([]);
@@ -21,18 +22,22 @@ export default function Annual() {
     }, []);
 
     return (
-        <section id="annual-events-page">
-            <Header title={`Annual Events`}/>
-            <div className="main">
-                {annualEvents.map((annualEvent) => (
-                    <div key={annualEvent.id}
-                         className={`flex ${annualEvent.id % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
-                        <Image src={'/images/about/your-team/usstm-people.png'} alt="USSTM People" width={500}
-                               height={500} className="w-1/2"/>
-                        <AnnualEvent event={annualEvent} className="w-1/2"/>
-                    </div>
-                ))}
-            </div>
+        <section>
+            <UnderConstruction />
         </section>
+        // <section id="annual-events-page">
+        //     <Header title={`Annual Events`}/>
+        //     <div className="main">
+        //         {annualEvents.map((annualEvent) => (
+        //             <div key={annualEvent.id}
+        //                  className={`flex ${annualEvent.id % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
+        //                 <Image src={'/images/about/your-team/usstm-people.png'} alt="USSTM People" width={500}
+        //                        height={500} className="w-1/2"/>
+        //                 <AnnualEvent event={annualEvent} className="w-1/2"/>
+        //             </div>
+        //         ))}
+        //     </div>
+        // </section>
+
     )
 }
