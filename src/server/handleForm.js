@@ -29,9 +29,28 @@ export default async function handleForm(data) {
         case "Website Request":
             reciever = [process.env.VP_OPS_EMAIL, process.env.PACS_EMAIL];
             break;
+        case "Merchandise Request":
+            reciever = process.env.VP_COMMS_EMAIL;
+            break;
+        case "Science Lounge Booking":
+            reciever = process.env.VP_OPS_EMAIL;
+            break;
+        case "Events Request":
+            reciever = process.env.VP_EVENTS_EMAIL;
+            break;
+        case "Academics Request":
+            reciever = process.env.VP_ACADEMICS_EMAIL;
+            break;
+        case "Equity Request":
+            reciever = process.env.VP_EQUITY_EMAIL;
+            break;
+        case "General Inquiry":
+            reciever = process.env.VP_OPS_EMAIL;
+            break;
         default:
             //not valid nature of request
             console.error("Invalid nature of request");
+            break;
     }
 
     const msg = {

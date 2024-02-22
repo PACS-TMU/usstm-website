@@ -44,7 +44,7 @@ export default function YourTeam() {
             >
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/committee/${img1}`}
+                        src={`/images/about/your-team/carousel-images/${img1}`}
                         alt={name}
                         width={5184}
                         height={3456}
@@ -54,7 +54,7 @@ export default function YourTeam() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/committee/${img2}`}
+                        src={`/images/about/your-team/carousel-images/${img2}`}
                         alt={name}
                         width={5184}
                         height={3456}
@@ -64,7 +64,7 @@ export default function YourTeam() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                        src={`/images/about/committee/${img3}`}
+                        src={`/images/about/your-team/carousel-images/${img3}`}
                         alt={name}
                         width={5184}
                         height={3456}

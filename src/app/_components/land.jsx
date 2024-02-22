@@ -5,7 +5,7 @@ export default function Land() {
         <h1 className="text-center text-4xl lg:text-5xl pb-8 main text-highlight-dark my-auto">
           Land Acknowlegement
         </h1>
-        <div className="bg-highlight-dark py-2 flex justify-center items-center">
+        <div className="bg-highlight-dark py-8 flex justify-center items-center">
           <div className="text-container w-[90%] lg:w-[75%] h-full">
             <p className="text-background py-2 text-left main ">
               Toronto Metropolitan University is in the ‘Dish With One Spoon

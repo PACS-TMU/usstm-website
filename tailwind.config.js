@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "background": "#F5FAFA",
         "foreground": "#1E1E1E",
-        "highlight": "#D4A1CA",
+        "highlight": "#3E8989",
         "highlight-blue": "#E1E8F5",
         "highlight-dark": "#002956"
       },

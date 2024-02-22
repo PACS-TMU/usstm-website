@@ -28,7 +28,7 @@ export default function Dropdown({ parentItem, subItems, onClick, setIsExpandedM
                 </ul>)
             }
             {!isExpandedMobile && expanded && (
-                <ul className='fixed left-0 bg-highlight-dark w-full min-h-[35vh] z-50 flex opacity-[0.96]'>
+                <ul className='fixed left-0 bg-background w-full min-h-[35vh] z-50 flex'>
                     <div className="dropdown-text main mx-auto flex">
                         <div className="lg-dropdown w-3/4 grid grid-row-3 grid-cols-2">
                             {subItems.map((subItem) => (
@@ -42,10 +42,10 @@ export default function Dropdown({ parentItem, subItems, onClick, setIsExpandedM
                                                 setExpanded(false);
                                             }}
                                         >
-                                            <div className='text-left text-highlight font-regular underline'>
+                                            <div className='text-left text-highlight-dark hover:text-highlight ease-in-out duration-300 font-regular underline'>
                                                 {subItem.itemName}
                                             </div>
-                                            <div className='text-md text-background font-thin text-sm m-2'>
+                                            <div className='text-md text-foreground font-thin text-sm m-2'>
                                                 {subItem.description}
                                             </div>
                                         </Link>
@@ -54,7 +54,7 @@ export default function Dropdown({ parentItem, subItems, onClick, setIsExpandedM
                             ))}
                         </div>
                         <div className="description w-1/4 flex min-h-[35vh] items-center ml-4">
-                            <div className="description-text text-background font-thin font-serif">
+                            <div className="description-text text-foreground font-thin font-serif">
                                 {parse(parentItem.description)}
                             </div>
                         </div>
