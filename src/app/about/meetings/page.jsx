@@ -40,23 +40,23 @@ export default function Meetings() {
                     <h1 className={'py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide'}>Meeting Schedules</h1>
                     <div className={'grid grid-cols-1 md:grid-cols-3 gap-4'}>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Something something</h1>
+                            <h1 className={'text-2xl'}>Bi-Weekly Board Meetings</h1>
                             <p>Some text</p>
                         </div>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Something something</h1>
-                            <p>Some text</p>
+                            <h1 className={'text-2xl'}>Semi-Annual General Meetings</h1>
+                            <p>Mid Fall Semester</p>
                         </div>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Something something</h1>
-                            <p>Some text</p>
+                            <h1 className={'text-2xl'}>Annual General Meetings</h1>
+                            <p>Mid Winter Semester</p>
                         </div>
                     </div>
                 </div>
                 <div className={'grid grid-cols-1 md:grid-cols-2'}>
                     <div className={'bg-highlight-dark p-4 text-background'}>
-                        <h1 className={'text-2xl'}>Something something</h1>
-                        <p>Some text</p>
+                        <h1 className={'text-2xl'}>Robert's Rules</h1>
+                        <p>roberts rules, motions </p>
                     </div>
                     <div>
                         <Image className={'w-full'} src={'/images/usstm-people.png'} alt={'USSTM People'} width={500} height={500}/>
