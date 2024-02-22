@@ -12,14 +12,14 @@ export default function directors() {
                     <ul className="list-none">
                         <li className="font-semibold tracking-wide">President:</li>
                         <li className="px-4 pb-3 pt-1">
-                        The President oversees the organization's operations, represents the USSTM in 
+                        The President oversees the organization&apos;s operations, represents the USSTM in 
                         official capacities, and ensures the board fulfills its responsibilities.
                         </li>
 
                         <li className="font-semibold tracking-wide">Vice President:</li>
                         <li className="px-4 pb-3 pt-1">
                             <u>VP Operations</u>: Manages internal affairs, coordinates events and activities, and supports the President in executing their duties.<br></br>
-                            <u>VP Finance</u>: Responsible for managing the organization's finances, budgeting, and financial planning.<br></br>
+                            <u>VP Finance</u>: Responsible for managing the organization&apos;s finances, budgeting, and financial planning.<br></br>
                             <u>VP Communications</u>: The VP Communications handles all internal and external communications, including social media, newsletters, and public relations.<br></br>
                             <u>VP Events</u>: Plans and executes events and activities for USSTM members, fostering a sense of community and engagement.<br></br>
                             <u>VP External</u>: External manages external partnerships and relationships, representing USSTM to external organizations and stakeholders.</li>

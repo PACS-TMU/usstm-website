@@ -55,7 +55,7 @@ export default function Meetings() {
                 </div>
                 <div className={'grid grid-cols-1 md:grid-cols-2'}>
                     <div className={'bg-highlight-dark p-4 text-background'}>
-                        <h1 className={'text-2xl'}>Robert's Rules</h1>
+                        <h1 className={'text-2xl'}>Robert&apos;s Rules</h1>
                         <p>roberts rules, motions </p>
                     </div>
                     <div>
