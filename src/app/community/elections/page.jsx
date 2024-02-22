@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/app/_components/general/header';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function Elections() {
     const [electionsResults, setElectionsResults] = useState([]);
@@ -25,6 +26,11 @@ export default function Elections() {
             <div className="main">
                 {/* Introduction */}
                 <div id="introduction" className="px-6 pb-6">
+                    <p className='block py-2'>
+                        The 2024 elections are coming up and we are excited to announce that nominations are
+                        now open for the 2024-2025 Board! Please <Link href="/elections2024">click here</Link> for
+                        more details.
+                    </p>
                     <p className="block py-2">
                         Each year, the Undergrad Science Society of Toronto Metropolitan (USSTM) conducts an election cycle to select the next Board of Directors. The
                         Board plays a pivotal role in steering the direction of USSTM and ensuring its continued success. The responsibilities of the USSTM team are
