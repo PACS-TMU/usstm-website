@@ -52,21 +52,21 @@
                 "id": 301,
                 "itemName": "Calendar",
                 "path": "/events/calendar",
-                "description": "See everything that is happening within the Faculty of Science",
+                "description": "Stay up-to-date with all our scheduled activities and never miss an event!",
                 "subItems": []
             },
             {
                 "id": 302,
                 "itemName": "Annual Events",
                 "path": "/events/annual",
-                "description": "We host many annual events. Learn more about what event you can look forward to throughout the year!",
+                "description": "Our key events providing an overview of the vibrant and diverse activities organized by USSTM each year.",
                 "subItems": []
             },
             {
                 "id": 303,
                 "itemName": "Yearbook/Gallery",
                 "path": "/events/yearbook-gallery",
-                "description": "temp",
+                "description": "Memorable moments, photos, and highlights from USSTM events throughout the year",
                 "subItems": []
             }
         ]
@@ -124,7 +124,7 @@
                 "id": 501,
                 "itemName": "Budget",
                 "path": "/finances/budget",
-                "description": "Where does USSTM's money go? Come find out here.",
+                "description": "Offers transparency regarding how funds are allocated to support student initiatives and programs",
                 "subItems": []
             },
             {
@@ -138,14 +138,14 @@
                 "id": 503,
                 "itemName": "Financial Policies",
                 "path": "/finances/policies",
-                "description": "Learn about the various ",
+                "description": "Learn about our financial policies, guiding the management and allocation of funds to ensure the sustainability and growth of USSTM.",
                 "subItems": []
             },
             {
                 "id": 504,
                 "itemName": "DMZ Startup Certified",
                 "path": "/finances/startup-certified",
-                "description": "temp",
+                "description": "Discover the innovation behind our DMZ Startup Certified program, empowering entrepreneurs to turn ideas into successful businesses.",
                 "subItems": []
             }
         ]
@@ -174,7 +174,7 @@
                 "id": 603,
                 "itemName": "Elections",
                 "path": "/community/elections",
-                "description": "temp",
+                "description": "where you have the power to shape the future of USSTM.",
                 "subItems": []
             }
         ]
