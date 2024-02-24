@@ -54,7 +54,7 @@ export default function Dropdown({ parentItem, subItems, onClick, setIsExpandedM
                             ))}
                         </div>
                         <div className="description w-1/4 flex min-h-[35vh] items-center ml-4">
-                            <div className="description-text text-foreground font-thin font-serif">
+                            <div className="description-text text-foreground font-normal font-serif">
                                 {parse(parentItem.description)}
                             </div>
                         </div>
