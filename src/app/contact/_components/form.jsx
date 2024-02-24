@@ -35,7 +35,23 @@ export default function Form() {
             <p className="pb-6 text-center w-3/4 mx-auto">
                 If you have any questions, concerns, or requests, please feel free to reach out to us. We are here to help you!
             </p>
-            <form action={handleForm} className="w-full">
+            <form
+                id="contact-form"
+                action={handleForm}
+                className="w-full"
+                onSubmit={e => {
+                    e.preventDefault();
+                    document.getElementById('submit-button').innerHTML = "Submitting...";
+                    setTimeout(() => {
+                        const form = document.getElementById('my-form');
+                        document.getElementById('contact-form').reset();
+                        document.getElementById('submit-button').innerHTML = 'Thank you, we will get back to you as soon as possible!';
+                        document.getElementById('submit-button').disabled = true;
+                        document.getElementById('submit-button').style.backgroundColor = '#E1E8F5';
+                        document.getElementById('submit-button').style.color = '#1E1E1E';
+                    }, 1000);
+                }}
+            >
                 <div className="flex md:flex-row flex-col justify-center items-center">
                     <div className="flex flex-col w-[95%] md:w-1/2">
                         <label htmlFor="firstName">First Name</label>
@@ -157,7 +173,7 @@ export default function Form() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center mt-4">
-                    <button type="submit" className="bg-highlight-dark text-white px-4 py-2 rounded">Submit</button>
+                    <button id="submit-button" type="submit" className="bg-highlight-dark text-white px-4 py-2 rounded shadow-md lg:text-lg">Submit</button>
                 </div>
             </form>
         </div>
