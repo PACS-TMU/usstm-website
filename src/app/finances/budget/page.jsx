@@ -74,7 +74,7 @@ export default function Budget() {
                         {budgets.map((budget) => (
                             <div key={budget.id} className="text-center">
                                 <a href={`/assets/budgets/${budget.path}`} target="_blank">
-                                    <button className="bg-highlight-blue text-foreground rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105">
+                                    <button className="bg-highlight-blue text-foreground rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105 duration-300 transition-all">
                                         {budget.title} <br /> Budget
                                     </button>
                                 </a>
