@@ -10,7 +10,7 @@ export default function InvalidPage({ id }) {
 
     const fetchNavData = async () => {
         try {
-            const res = await fetch('/data/nav-items.json');
+            const res = await fetch('/data/navbar/nav-items.json');
             const data = await res.json();
             setItems(data);
 
@@ -23,7 +23,7 @@ export default function InvalidPage({ id }) {
     let subItems = [];
 
     items.map(item => {
-        if (item.id === id) {
+        if (item.id == id) {
             subItems = item.subItems;
         }
     });

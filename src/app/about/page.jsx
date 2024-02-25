@@ -1,6 +1,6 @@
 'use client'
 import Header from "@/app/_components/general/header";
-import InvalidPage from '../_components/general/invalidpage';
+import InvalidPage from '@/app/_components/general/invalid-page';
 
 export default function About() {
     

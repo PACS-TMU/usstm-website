@@ -74,13 +74,20 @@ export default function Budget() {
                         {budgets.map((budget) => (
                             <div key={budget.id} className="text-center">
                                 <a href={`/assets/budgets/${budget.path}`} target="_blank">
-                                    <button className="bg-highlight-blue text-foreground rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105">
+                                    <button className="bg-highlight-blue text-foreground rounded-sm shadow-md w-full h-full p-4 text-xl lg:text-2xl font-serif font-semibold tracking-wide hover:scale-105 duration-300 transition-all">
                                         {budget.title} <br /> Budget
                                     </button>
                                 </a>
                             </div>
                         ))}
                     </div>
+                    <p className="pt-4 my-3 italic">
+                        Our Year to Date (YTD) budget is available upon request. Please email 
+                        the <a href="mailto:vp.finance@usstm.ca">VP Finance</a> or visit 
+                        our <Link href='/contact'>Contact Us Page</Link> to request it.
+                        Our YTD for the 2023-2024 fiscal year (as of February 24, 2024) can be 
+                        found <a href="/assets/budgets/YTD-02-24.pdf" target="_blank">here</a>.
+                    </p>
                 </div>
 
                 <div className="resources my-2 lg:my-6 py-2">
@@ -103,7 +110,7 @@ export default function Budget() {
                             </h2>
                             <p className="m-4">
                                 The Funding Request Committee (FRC) Public Folder contains all the documents and resources that are used by the FRC in order to make decisions
-                                on the budget requests. Please click <a href="https://drive.google.com/drive/folders/0B0YoFRsbVn0jZlpQbTBOMVFnbTA?resourcekey=0-sqqYIbHC_gojvK8ZuOAtnw" target="_blank">here</a> to
+                                on the budget requests. Please click <a href="https://drive.google.com/drive/folders/1tt_8FF_tYbUqFsZQdeN4qTSoFxDw_fOV" target="_blank">here</a> to
                                 access the public folder.
                             </p>
                         </div>

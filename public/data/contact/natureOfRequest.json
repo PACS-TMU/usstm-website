@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "option": "Finance Inquiry/Complaint",
+        "option": "Finance Inquiry/Feedback",
         "value": "Finance Request"
     },
     {
@@ -11,12 +11,12 @@
     },
     {
         "id": 3,
-        "option": "Website Suggestion/Complaint",
+        "option": "Website Suggestion/Feedback",
         "value": "Website Request"
     },
     {
         "id": 4,
-        "option": "Merchandise Inquiry",
+        "option": "USSTM Merch Inquiry/Feedback",
         "value": "Merchandise Request"
     },
     {
@@ -26,17 +26,17 @@
     },
     {
         "id": 6,
-        "option": "Event Inquiry/Complaint",
+        "option": "Event Inquiry/Feedback",
         "value": "Events Request"
     },
     {
         "id": 7,
-        "option": "Academic Inquiry/Complaint",
+        "option": "Academic Inquiry/Feedback",
         "value": "Academics Request"
     },
     {
         "id": 8,
-        "option": "Equity Inquiry/Complaint",
+        "option": "Equity Inquiry/Feedback",
         "value": "Equity Request"
     },
     {
