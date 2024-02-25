@@ -20,15 +20,7 @@ export default function Meetings() {
                 </div>
                 <hr className={'h-0.5 bg-black my-3'}/>
                 <div className={'flex flex-col items-center justify-center gap-2'}>
-                    <h2 className={'text-center text-2xl font-serif'}>Small Title</h2>
-                    <h1 className={'text-center text-4xl'}>Large Title</h1>
-                    <p className={'md:w-2/3 text-center mt-3'}>Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
-                        has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.</p>
+                    <p className={'md:w-2/3 text-center mt-3'}>At USSTM, we value transparency and collaboration, which is why we regularly hold meetings to discuss important matters and make decisions that impact our organization and its members. Our meetings are open to all members, and we encourage everyone to participate and share their ideas.</p>
                     {/*{state &&*/}
                     {/*<div className='border w-26 flex justify-center items-center divide-x'>*/}
                     {/*    <button className={'p-1'}>Click here</button>*/}
@@ -40,23 +32,28 @@ export default function Meetings() {
                     <h1 className={'py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide'}>Meeting Schedules</h1>
                     <div className={'grid grid-cols-1 md:grid-cols-3 gap-4'}>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Bi-Weekly Board Meetings</h1>
-                            <p>Some text</p>
+                            <h1 className={'text-2xl pb-2'}>Board Meetings</h1>
+                            <p>Monday Bi-Weekly</p>
                         </div>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Semi-Annual General Meetings</h1>
+                            <h1 className={'text-2xl pb-2'}>Semi-Annual General Meetings</h1>
                             <p>Mid Fall Semester</p>
                         </div>
                         <div className={'bg-highlight-dark p-4 text-background rounded'}>
-                            <h1 className={'text-2xl'}>Annual General Meetings</h1>
+                            <h1 className={'text-2xl pb-2'}>Annual General Meetings</h1>
                             <p>Mid Winter Semester</p>
                         </div>
                     </div>
                 </div>
                 <div className={'grid grid-cols-1 md:grid-cols-2'}>
                     <div className={'bg-highlight-dark p-4 text-background'}>
-                        <h1 className={'text-2xl'}>Robert&apos;s Rules</h1>
-                        <p>roberts rules, motions </p>
+                        <h1 className={'text-2xl pb-2'}>Robert&apos;s Rules</h1>
+                        <p>Robert's Rules of Order is a widely used guide for conducting meetings and making decisions in a fair 
+                            and orderly manner. In meetings following Robert's Rules, members can submit motions to propose actions or
+                             decisions. To submit a motion, you must email [ops email] with the [motion template] filled out. If you need help
+                             filling out the template, please email [vp ops]. Members can also attend meetings by emailing VP Operations. It's important for members to familiarize themselves with the rules 
+                             and procedures outlined in Robert's Rules to participate effectively in meetings and contribute to the 
+                             decision-making process. </p>
                     </div>
                     <div>
                         <Image className={'w-full'} src={'/images/usstm-people.png'} alt={'USSTM People'} width={500} height={500}/>
