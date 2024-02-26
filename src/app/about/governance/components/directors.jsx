@@ -18,11 +18,14 @@ export default function directors() {
 
                         <li className="font-semibold tracking-wide">Vice President:</li>
                         <li className="px-4 pb-3 pt-1">
-                            <u>VP Operations</u>: Manages internal affairs, coordinates events and activities, and supports the President in executing their duties.<br></br>
-                            <u>VP Finance</u>: Responsible for managing the organization&apos;s finances, budgeting, and financial planning.<br></br>
-                            <u>VP Communications</u>: The VP Communications handles all internal and external communications, including social media, newsletters, and public relations.<br></br>
-                            <u>VP Events</u>: Plans and executes events and activities for USSTM members, fostering a sense of community and engagement.<br></br>
-                            <u>VP External</u>: External manages external partnerships and relationships, representing USSTM to external organizations and stakeholders.</li>
+                            <u>VP Operations</u>: Manages internal affairs, coordinates events and activities, and supports the President in executing their duties.<br />
+                            <u>VP Finance</u>: Responsible for managing the organization&apos;s finances, budgeting, and financial planning.<br />
+                            <u>VP Communications</u>: Handles all internal and external communications, including social media, newsletters, and public relations.<br />
+                            <u>VP Student Life</u>: Plans and executes events and activities for USSTM members, fostering a sense of community and engagement.<br />
+                            <u>VP External</u>: External manages external partnerships and relationships, representing USSTM to external organizations and stakeholders.<br />
+                            <u>VP Equity</u>: Promotes diversity, inclusion, and equity within the organization, advocating for marginalized groups and implementing initiatives to ensure a supportive environment for all members.<br />
+                            <u>VP Academics</u>: Focuses on academic affairs, working to enhance the academic experience of members by organizing educational events, workshops, and initiatives related to their studies.
+                            </li>
                         <li className="font-semibold tracking-wide">Directors:</li>
                         <li className="px-4 pb-3 pt-1">
                             <u>Department Directors</u>: Represent specific academic departments within the Faculty of Science, 
@@ -32,7 +35,11 @@ export default function directors() {
                         </li>
 
                         <li className="font-semibold tracking-wide">Non-Voting Members:</li>
-                        <li className="px-4 pb-3 pt-1">[Brief overview of the roles of Non-Voting Members]</li>
+                        <li className="px-4 pb-3 pt-1">
+                            <u>Chairperson</u>: Presides over meetings, ensuring that discussions are conducted according to the organization&apos;s rules and that all members have an opportunity to voice their opinions.<br />
+                            <u>Secretary</u>: Maintains records of meetings and official correspondence, ensuring that organizational documents are accurate and up-to-date.<br />
+                            <u>Manager</u>: Oversees the day-to-day operations of the organization, ensuring that tasks are completed efficiently and that resources are managed effectively.
+                        </li>
                     </ul>
                 </section>
             </div>
