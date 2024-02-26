@@ -5,6 +5,7 @@ import './globals.css'
 import {Cantarell} from 'next/font/google';
 
 export const metadata = {
+    metadataBase: new URL('https://www.usstm.ca'),
     title: {
         default: 'USSTM',
         template: '%s - USSTM',
