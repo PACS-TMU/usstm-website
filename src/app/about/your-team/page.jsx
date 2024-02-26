@@ -1,16 +1,7 @@
-"use client";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-// Other imports
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
+'use client';
 import Header from "@/app/_components/general/header";
-import "./your-team.css";
+import Carousel from './_components/carousel';
+import { useState, useEffect } from 'react';
 
 export default function YourTeam() {
 
@@ -23,58 +14,11 @@ export default function YourTeam() {
                 const data = await res.json();
                 setYourTeamData(data);
             } catch (error) {
-                console.error('Error fetching past-boards data:', error);
+                console.error('Error fetching your-team data:', error);
             }
         }
         fetchData();
     }, []);
-
-    function Carousel({ img1, img2, img3, name }) {
-        return (
-            <Swiper
-                loop={true}
-                slidesPerGroupSkip={0}
-                pagination={{
-                    dynamicBullets: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation, Autoplay]}
-                autoplay={{ delay: 5000, disableOnInteraction: false }}
-                className="w-full h-auto text-center text-lg flex justify-center items-center"
-            >
-                <SwiperSlide>
-                    <Image
-                        src={`/images/about/your-team/carousel-images/${img1}`}
-                        alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
-                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] block mx-auto object-cover'
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image
-                        src={`/images/about/your-team/carousel-images/${img2}`}
-                        alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
-                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image
-                        src={`/images/about/your-team/carousel-images/${img3}`}
-                        alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
-                        className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
-                    />
-                </SwiperSlide>
-            </Swiper>
-        );
-    }
 
     return (
         <section id="your-team-page">
