@@ -5,7 +5,10 @@ import './globals.css'
 import {Cantarell} from 'next/font/google';
 
 export const metadata = {
-    title: 'USSTM',
+    title: {
+        default: 'USSTM',
+        template: '%s - USSTM',
+      },
     description: 'Undergraduate Science Society of Toronto Metropolitan',
 }
 
