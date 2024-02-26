@@ -46,9 +46,9 @@ export default function YourTeam() {
                     <Image
                         src={`/images/about/your-team/carousel-images/${img1}`}
                         alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
+                        width={2250}
+                        height={1500}
+                        loading='lazy'
                         className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] block mx-auto object-cover'
                     />
                 </SwiperSlide>
@@ -56,9 +56,9 @@ export default function YourTeam() {
                     <Image
                         src={`/images/about/your-team/carousel-images/${img2}`}
                         alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
+                        width={2250}
+                        height={1500}
+                        loading='lazy'
                         className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>
@@ -66,9 +66,9 @@ export default function YourTeam() {
                     <Image
                         src={`/images/about/your-team/carousel-images/${img3}`}
                         alt={name}
-                        width={5184}
-                        height={3456}
-                        priority={true}
+                        width={2250}
+                        height={1500}
+                        loading='lazy'
                         className='w-full h-auto lg:w-auto lg:h-full max-h-[100vh] mx-auto block object-cover'
                     />
                 </SwiperSlide>

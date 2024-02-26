@@ -63,7 +63,7 @@ export default function Committee({ fileName, group }) {
                         alt={item.name}
                         width={1200}
                         height={800}
-                        priority={true}
+                        loading='lazy'
                         placeholder="blur"
                         blurDataURL={blur}
                         className="w-full h-auto aspect-square object-cover object-top shadow-md rounded-full rotate-0"
