@@ -10,7 +10,7 @@
         "id": 2,
         "itemName": "About Us",
         "path": "/about",
-        "description": "Vision for USSTM: <br />Mission Statement:",
+        "description": "<b>Vision for USSTM:</b> To build a community where every student feels valued, supported, and inspired to reach their full potential.<br /><br /><b>Mission Statement:</b> To provide accessible support for student growth and development.",
         "subItems": [
             {
                 "id": 201,
@@ -66,7 +66,7 @@
                 "id": 303,
                 "itemName": "Yearbook/Gallery",
                 "path": "/events/yearbook-gallery",
-                "description": "Memorable moments, photos, and highlights from USSTM events throughout the year",
+                "description": "Memorable moments, photos, and highlights from USSTM events throughout the years!",
                 "subItems": []
             }
         ]
@@ -95,7 +95,7 @@
                 "id": 403,
                 "itemName": "Crash Courses",
                 "path": "/academics/crash-course",
-                "description": "Struggling with a first or second year course? USSTM Crash Courses' may be exactly what you need.",
+                "description": "Struggling with a first or second year course? USSTM Crash Courses may be exactly what you need.",
                 "subItems": []
             }
         ]
@@ -117,7 +117,7 @@
                 "id": 502,
                 "itemName": "Conferences & Competitions",
                 "path": "/finances/conferences-competitions",
-                "description": "Want to attended a conferences, case comp or hackathon? USSTM can give you funding to repersent TMU Scinece",
+                "description": "Want to attended a conferences, case comp or hackathon? USSTM can give you funding to repersent TMU Science!",
                 "subItems": []
             },
             {
@@ -140,20 +140,20 @@
         "id": 6,
         "itemName": "Community",
         "path": "/community",
-        "description": "Get involved and be a part of the vibrant USSTM community!  Stay updated on the latest community news and find ways to make a difference on campus and beyond. Join us in building a strong, supportive community that fosters growth, inclusivity, and collaboration..",
+        "description": "Get involved and be a part of the vibrant USSTM community!  Stay updated on the latest community news and find ways to make a difference on campus and beyond. Join us in building a strong, supportive community that fosters growth, inclusivity, and collaboration.",
         "subItems": [
             {
                 "id": 601,
                 "itemName": "Student Groups & Course Unions",
                 "path": "/community/groups-unions",
-                "description": "We have various different clubs for all the different areas in science. See an area that hasnt been filled? Learn how to create a student group!",
+                "description": "We have various different clubs for all the different areas in science. See an area that hasn't been filled? Learn how to create a student group!",
                 "subItems": []
             },
             {
                 "id": 602,
                 "itemName": "Science Lounge",
                 "path": "/community/science-lounge",
-                "description": "KHE223 is an area for all science students to study or chill. Come find out what can be found in the SciLounge",
+                "description": "KHE223 is an area for all science students to study or chill. Come find out what can be found in the Sci-Lounge!",
                 "subItems": []
             },
             {

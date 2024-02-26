@@ -1,11 +1,8 @@
-import Header from "@/app/_components/general/header";
-
+import UnderConstruction from "/src/app/_components/general/under-construction";
 export default function FAQ() {
     return (
         <section>
-            <Header title={`FAQ (Frequently Asked Question)`} />
-            <div className="main">
-            </div>
+            <UnderConstruction />
         </section>
     )
 }
