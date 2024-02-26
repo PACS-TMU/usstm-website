@@ -36,7 +36,7 @@ export default function directors() {
 
                         <li className="font-semibold tracking-wide">Non-Voting Members:</li>
                         <li className="px-4 pb-3 pt-1">
-                            <u>Chairperson</u>: Presides over meetings, ensuring that discussions are conducted according to the organization's rules and that all members have an opportunity to voice their opinions.<br />
+                            <u>Chairperson</u>: Presides over meetings, ensuring that discussions are conducted according to the organization&apos;s rules and that all members have an opportunity to voice their opinions.<br />
                             <u>Secretary</u>: Maintains records of meetings and official correspondence, ensuring that organizational documents are accurate and up-to-date.<br />
                             <u>Manager</u>: Oversees the day-to-day operations of the organization, ensuring that tasks are completed efficiently and that resources are managed effectively.
                         </li>
