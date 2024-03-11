@@ -1,9 +1,9 @@
 'use client'
 import Image from "next/image";
 import Header from "@/app/_components/general/header";
-import Directors from "@/app/about/governance/components/directors";
-import Membership from "@/app/about/governance/components/membership";
-import Meeting from "@/app/about/governance/components/meeting";
+import Directors from "@/app/about/governance/_components/directors";
+import Membership from "@/app/about/governance/_components/membership";
+import Meeting from "@/app/about/governance/_components/meeting";
 import Arrow from "@/app/_components/general/arrow";
 import { useState, useEffect } from "react";
 import { GrDocumentText } from "react-icons/gr";
@@ -49,6 +49,41 @@ export default function Governance() {
                             of which are designed to ensure the highest standards of operation.
                         </p>
                     </div>
+                    <h2 className="py-4 pt-6 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                        Governance Policies
+                    </h2>
+                    <p>
+                        To ensure the highest standards of operation, we adhere to a set of governance policies:
+                    </p>
+                </div>
+
+                <div className="bg-highlight-dark my-4 lg:my-6 xl:my-8 text-background">
+                    <div className="main">
+                        <div className="flex flex-col md:flex-row md:justify-between justify-center items-center py-8 mx-2 lg:mx-6 md:space-y-0 > * + * space-y-12 > * + * ">
+                            {documents.map((document) => (
+                                <div key={document.id} className="flex flex-col items-center space-y-4 > * + *">
+                                    <a
+                                        href={`/assets/governance/${document.pdf}`}
+                                        target="_blank"
+                                    >
+                                        <button>
+                                            <GrDocumentText
+                                                size={70}
+                                                className="text-background hover:scale-105 lg:hover:scale-110 hover:text-highlight-blue transition duration-300 ease-in-out"
+                                            />
+                                        </button>
+                                    </a>
+                                    <p>{document.name}</p>
+                                    <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
+                                        Last Updated: {document.updated}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="main">
                     <div className="content px-6">
                         <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                             Structure Overview
@@ -139,53 +174,21 @@ export default function Governance() {
                             {currentTab === 'membership-information' && <Membership />}
                             {currentTab === 'meeting-information' && <Meeting />}
                         </div>
-
-                        <h2 className="py-4 pt-6 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
-                            Governance Policies
-                        </h2>
-                        <p>
-                            To ensure the highest standards of operation, we adhere to a set of governance policies:
-                        </p>
-                    </div>
-                </div>
-
-                <div className="bg-highlight-dark my-4 text-background">
-                    <div className="main">
-                        <div className="flex flex-col md:flex-row md:justify-between justify-center items-center py-8 mx-2 lg:mx-6 md:space-y-0 > * + * space-y-12 > * + * ">
-                            {documents.map((document) => (
-                                <div key={document.id} className="flex flex-col items-center space-y-4 > * + *">
-                                    <a
-                                        href={`/assets/governance/${document.pdf}`}
-                                        target="_blank"
-                                    >
-                                        <button>
-                                            <GrDocumentText
-                                                size={70}
-                                                className="text-background hover:scale-105 lg:hover:scale-110 hover:text-highlight-blue transition duration-300 ease-in-out"
-                                            />
-                                        </button>
-                                    </a>
-                                    <p>{document.name}</p>
-                                    <p className="lg:text-sm text-xs italic pt-2 text-stone-300">
-                                        Last Updated: {document.updated}
-                                    </p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="main">
-                    <div className="pt-2 pb-6 px-6">
-                        <h2 className="py-2 pt-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Your Voice Matters</h2>
-                        <p>
-                            As members of our society, your input is invaluable. Reach out to us with event ideas, suggestions for new services, or any
-                            criticisms or complaints. You are the watchdogs for USSTM, ensuring we adhere to our Constitution, By-Laws, and other policies. If you have any
-                            concerns about our policies, please reach out to our VP Operations at <a href="mailto:vp.operations@usstm.ca">vp.operations@usstm.ca</a>.
-                        </p>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div className="main">
+                <div className="pt-2 pb-6 px-6">
+                    <h2 className="py-2 pt-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">Your Voice Matters</h2>
+                    <p>
+                        As members of our society, your input is invaluable. Reach out to us with event ideas, suggestions for new services, or any
+                        criticisms or complaints. You are the watchdogs for USSTM, ensuring we adhere to our Constitution, By-Laws, and other policies. If you have any
+                        concerns about our policies, please reach out to our VP Operations at <a href="mailto:vp.operations@usstm.ca">vp.operations@usstm.ca</a>.
+                    </p>
+                </div>
+            </div>
+
+        </section >
     )
 }
