@@ -5,7 +5,7 @@ import CandidateSection from "./candidate-section";
 import autoAnimate from "@formkit/auto-animate";
 
 export default function Collapsible(props) {
-    const [isVisible, setVisible] = useState(false);
+    const [isVisible, setVisible] = useState(props.sectionName === "Directors");
     const parent = useRef(null);
 
     useEffect(() => {
@@ -19,7 +19,7 @@ export default function Collapsible(props) {
             try {
                 const response = await fetch('/data/elections2024/candidates.json');
                 const data = await response.json();
-                setCandidtes(data)
+                setCandidtes(data);
             } catch (error) {
                 console.error('Error fetching FAQ data:', error);
             }
@@ -36,7 +36,6 @@ export default function Collapsible(props) {
     let allDirectors = [];
 
     if (props.sectionName === "Executives") {
-        const executives = candidates.filter(candidate => candidate.type === 'Executive');
         const presidents = candidates.filter(candidate => candidate.position === 'President' || candidate.position === 'Co-President');
         const ops = candidates.filter(candidate => candidate.position === 'Vice President Operations');
         const finance = candidates.filter(candidate => candidate.position === 'Vice President Finance');
@@ -48,7 +47,6 @@ export default function Collapsible(props) {
         allExecutives = [presidents, ops, finance, communications, studentlife, academics, external, equity];
     }
     else if (props.sectionName === "Directors") {
-        const directors = candidates.filter(candidate => candidate.type === 'Director');
         const bio = candidates.filter(candidate => candidate.position === 'Biology Director');
         const biomed = candidates.filter(candidate => candidate.position === 'Biomedical Sciences Director');
         const cs = candidates.filter(candidate => candidate.position === 'Computer Science Director');
