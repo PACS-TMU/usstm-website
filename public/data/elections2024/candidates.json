@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "Louise Malabanan",
+        "bio": "INSERT BIO HERE",
+        "position": "Co-President",
+        "type": "Executive",
+        "image": "LouiseMalabanan.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pooja Samaraweera",
+        "bio": "INSERT BIO HERE",
+        "position": "Co-President",
+        "type": "Executive",
+        "image": "PoojaSamaraweera.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Benson Zhang", 
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Operations",
+        "type": "Executive",
+        "image": "BensonZhang.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Koshlender Gupta",
+        "bio": "My name is Koshlender and I am running for USSTM VP Finance. I have a background in finance being from a family of accountants, so I took a natural liking to it, but I found my real passion in Computer Science. Coming out of 1st year, I helped found the Metropolitan Open Source Society, a student group, whose board I sit on as VP Finance while also currently being Deputy VP Finance of USSTM. Both these roles helped me gain perspective and experience into the problems student groups face daily and the things that go on within USSTM. Using these perspectives combined, I can change USSTM financials for the better. Help me help you!",
+        "position": "Vice President Finance",
+        "type": "Executive",
+        "image": "KoshlenderGupta.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bel Catapusan",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Communications",
+        "type": "Executive",
+        "image": "BelCatapusan.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Katherine Moncada",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Student Life",
+        "type": "Executive",
+        "image": "KatherineMoncada.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jack Shen",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President External",
+        "type": "Executive",
+        "image": "JackShen.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Intesar Shah",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Academics",
+        "type": "Executive",
+        "image": "IntesarShah.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mark Paul",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Equity",
+        "type": "Executive",
+        "image": "MarkPaul.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Abigail Willie",
+        "bio": "INSERT BIO HERE",
+        "position": "Vice President Equity",
+        "type": "Executive",
+        "image": "AbigailWillie.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Jirah Jamog",
+        "bio": "INSERT BIO HERE",
+        "position": "Biology Director",
+        "type": "Director",
+        "image": "JirahJamog.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Fiona Vongsay",
+        "bio": "INSERT BIO HERE",
+        "position": "Biology Director",
+        "type": "Director",
+        "image": "FionaVongsay.jpg"
+    },
+    {
+        "id": 13,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Biology Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 14,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Biomedical Sciences Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 15,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Biomedical Sciences Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Zil Pavdighada",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "ZilPavdighada.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Hamidreza Khoramrokh",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "HamidrezaKhoramrokh.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Prachi Patel",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "PrachiPatel.jpg"
+    },
+    {
+        "id": 19,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 20,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 21,
+        "name": "NAME",
+        "bio": "INSERT BIO HERE",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "NAME.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Viri Nguyen",
+        "bio": "INSERT BIO HERE",
+        "position": "Math and Its Applications Director",
+        "type": "Director",
+        "image": "ViriNguyen.jpg"
+    }
+]
