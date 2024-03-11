@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Benson Zhang", 
-        "bio": "Hello everyone 👍! My name is Benson Zhang and I’m running for the position of VP Operations on USSTM.<br /><br />If I were to be elected as operations, I have plans to involve new technologies into USSTM. For example, creating our governing documents as LaTeX files. People on my committee, as well as future VP Ops, can learn valuable skills that will be needed in the work place. Additionally, I have lots of leadership experience both within USSTM and outside of it. I have plans to help the other student leaders in the FoS community.<br /><br />My campaign is focused on innovation, community & positivity. I have 4 campaign symbols which are a potion, an atom, a book, and a thumbs up. For an in depth explanation, please check out my instagram for more information: @benson.usstm.ops24",
+        "bio": "Hello everyone 👍! My name is Benson Zhang and I’m running for the position of VP Operations on USSTM.<br /><br />If I were to be elected as operations, I have plans to involve new technologies into USSTM. For example, creating our governing documents as LaTeX files. People on my committee, as well as future VP Ops, can learn valuable skills that will be needed in the work place. Additionally, I have lots of leadership experience both within USSTM and outside of it. I have plans to help the other student leaders in the FoS community.<br /><br />My campaign is focused on innovation, community & positivity. I have 4 campaign symbols which are a potion, an atom, a book, and a thumbs up. For an in depth explanation, please check out my instagram for more information: <a href='https://www.instagram.com/benson.usstm.ops24/' target='_blank'>@benson.usstm.ops24</a>",
         "position": "Vice President Operations",
         "type": "Executive",
         "image": "BensonZhang.jpeg"
@@ -93,7 +93,7 @@
         "bio": "N/A",
         "position": "Biology Director",
         "type": "Director",
-        "image": "Blank.jpg"
+        "image": "FionaVongsay.jpg"
     },
     {
         "id": 13,
@@ -157,7 +157,7 @@
         "bio": "Hello, I'm Prachi, a second-year computer science student and the CS liaison on USSTM's external committee. In the past year, I focused on enhancing student network by bringing in professionals from Microsoft, KPMG, and more. I've hosted networking nights and an interview prep workshop, aiming to enrich our learning environment.<br /><br />As part of the team, I want to host more events such as a tech summit, monthly workshops, and sharing new internship/co-op resources. My objective is to make tech resources more accessible and help students build a solid network.",
         "position": "Computer Science Director",
         "type": "Director",
-        "image": "Blank.jpg"
+        "image": "PrachiPatel.png"
     },
     {
         "id": 21,
