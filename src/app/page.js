@@ -3,7 +3,6 @@ import Pillars from "./_components/pillars";
 import Land from "./_components/land";
 import USSTM from "./_components/usstm";
 import FAQ from "./_components/faq";
-import Head from "next/head";
 
 export const metadata = {
   title: "Home - USSTM",
@@ -14,9 +13,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Head>
-        <meta property="og:url" content="Canonical link preview URL" />
-      </Head>
       <Parallax />
       <USSTM />
       <Pillars />
