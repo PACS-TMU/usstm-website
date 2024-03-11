@@ -81,14 +81,6 @@
     },
     {
         "id": 11,
-        "name": "Fiona Vongsay",
-        "bio": "N/A",
-        "position": "Biology Director",
-        "type": "Director",
-        "image": "Blank.jpg"
-    },
-    {
-        "id": 12,
         "name": "Sara Shabanian-Azad",
         "bio": "Hello Everyone,<br /><br />My name is Sara Shabanian-Azad, and I am a fourth-year Biology student at TMU. Throughout my journey at university, I’ve had a mix of challenges and proud moments that have contributed to my personal growth. Within my four years of being an undergraduate, I have embarked on being a part of Sci Frosh for the last two years, in which allowed me to grasp the perspective of students’ experiences and expectations of uni.<br /><br />Ideas that will be at the forefront are the abilities to access more resources, more events and opportunities, and advocacy for the needs of science students. Enhancing access to more resources available to science will be crucial in the advancement of your education and overall well-being. More social events are needed so a stronger community can be created and more opportunities for insights from alumni. Lastly, advocating for the needs of the science students to ensure they are being heard during certain challenges throughout the semester and in the future.",
         "position": "Biology Director",
@@ -96,23 +88,15 @@
         "image": "SaraAzad.jpeg"
     },
     {
+        "id": 12,
+        "name": "Fiona Vongsay",
+        "bio": "N/A",
+        "position": "Biology Director",
+        "type": "Director",
+        "image": "Blank.jpg"
+    },
+    {
         "id": 13,
-        "name": "Tamanna Nasseri",
-        "bio": "Motivated, optimistic, and hardworking are three adjectives that best describe me. My drive to achieve my goals has enabled me not to give up. No matter the circumstances and roadblocks, I have learned to persevere due to my passions. I have incorporated this motivation into my drive to become a healthcare professional. I have experienced my fair share of hurdles in the field of STEM, but I continue to work towards my goals due to my motivation and willingness to work. My main motto in life is to be happy in whatever I pursue. This mentality has allowed me to view challenges as opportunities and curses as blessings in disguise. One bad grade does not define me, one cancellation does not ruin my night, and I have learned to always prevail under any circumstance. I have never left a task unfinished or less than my standards. Due to my previous experiences and my strengths, I am confident that I am suited for Biomedical Science Director.",
-        "position": "Biomedical Sciences Director",
-        "type": "Director",
-        "image": "TamannaNasseri.jpeg"
-    },
-    {
-        "id": 14,
-        "name": "Julia Rapczynska",
-        "bio": "Hi, my name is Julia. I am a third-year biomedical science student at TMU. I am currently part of the USSTM External Committee as the Sponsorship Director. As a Sponsorship Director and attending many networking events, I have noticed a lack of diversity among biomedical science professionals invited to panel at these events. As a Biomedical Science Director, I also wish to provide students with many opportunities to expose themselves to different work industries and professions. On top of providing more professional opportunities, I have noticed a lack of efficient communication between students and professors. I want to communicate actively with professors and students to address problems that arise in courses.",
-        "position": "Biomedical Sciences Director",
-        "type": "Director",
-        "image": "JuliaRapczynska.jpg"
-    },
-    {
-        "id": 15,
         "name": "Sharifa Lomiyev",
         "bio": "I'm Sharifa Lomiyev, a Biomedical Science 3rd-year undergraduate student. I am highly organized, driven, and hardworking which helps me in my full-time studies, a part-time job as a teller, a volunteer lab assistant, and currently Nimbus Coordinator in USSTM. I can be very stubborn when it comes to finishing what I started. I'm willing to go to great lengths to achieve and complete tasks with high excellence and I don't like to leave things on the back burner. I intend to carry this trait into my role as Biomedical Science Director by unrelentingly supporting students in the Faculty of Science and Biomedical Science who may be feeling as lost as I used to when I started my program. I’m always happy to help those in need while making them feel important, seen, and appreciated. I stand by kindness and genuinity in my daily life because I have seen what kind of difference these two traits make in a person’s day to a person’s life. I intend to make that difference no matter what it takes. ",
         "position": "Biomedical Sciences Director",
@@ -120,31 +104,23 @@
         "image": "SharifaLomiyev.jpeg"
     },
     {
+        "id": 14,
+        "name": "Tamanna Nasseri",
+        "bio": "Motivated, optimistic, and hardworking are three adjectives that best describe me. My drive to achieve my goals has enabled me not to give up. No matter the circumstances and roadblocks, I have learned to persevere due to my passions. I have incorporated this motivation into my drive to become a healthcare professional. I have experienced my fair share of hurdles in the field of STEM, but I continue to work towards my goals due to my motivation and willingness to work. My main motto in life is to be happy in whatever I pursue. This mentality has allowed me to view challenges as opportunities and curses as blessings in disguise. One bad grade does not define me, one cancellation does not ruin my night, and I have learned to always prevail under any circumstance. I have never left a task unfinished or less than my standards. Due to my previous experiences and my strengths, I am confident that I am suited for Biomedical Science Director.",
+        "position": "Biomedical Sciences Director",
+        "type": "Director",
+        "image": "TamannaNasseri.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Julia Rapczynska",
+        "bio": "Hi, my name is Julia. I am a third-year biomedical science student at TMU. I am currently part of the USSTM External Committee as the Sponsorship Director. As a Sponsorship Director and attending many networking events, I have noticed a lack of diversity among biomedical science professionals invited to panel at these events. As a Biomedical Science Director, I also wish to provide students with many opportunities to expose themselves to different work industries and professions. On top of providing more professional opportunities, I have noticed a lack of efficient communication between students and professors. I want to communicate actively with professors and students to address problems that arise in courses.",
+        "position": "Biomedical Sciences Director",
+        "type": "Director",
+        "image": "JuliaRapczynska.jpg"
+    },
+    {
         "id": 16,
-        "name": "Zil Pavdighada",
-        "bio": "Hi everyone! I'm Zil, running for re-election as Computer Science Director. As a woman and transfer student in computer science, I understand our unique STEM challenges and champion inclusivity and empowerment. Currently, as a CS Director and VP Operations for PACS, I've advocated for your needs, managed finances for student groups, and organized impactful events. I'm focused on elevating academic support, refining co-op resources, and improving the course enrollment process. My commitment is to transparency, productivity, and equity. Together, let's work towards a more vibrant and inclusive community.",
-        "position": "Computer Science Director",
-        "type": "Director",
-        "image": "ZilPavdighada.jpg"
-    },
-    {
-        "id": 17,
-        "name": "Hamidreza Khoramrokh",
-        "bio": "Hey beautiful people of TMU!<br />I'm Hamid, a second year Computer Science student. I enjoy hosting events, making the CS community foster, and meeting different people from all over TMU!<br /><br />This year I, the president of MOSS, organized my biggest event, a hackathon in collaboration with WiCS. I believe this hackathon, amongst other events and workshops that I have hosted or volunteered, demonstrates my dedication to the betterment of the community.<br /><br />Outside of school, I enjoy meeting new people, jogging, watching movies, boardgames, and working on my little fun projects (I'm making a flutter app right now)!",
-        "position": "Computer Science Director",
-        "type": "Director",
-        "image": "HamidrezaKhoramrokh.jpg"
-    },
-    {
-        "id": 18,
-        "name": "Prachi Patel",
-        "bio": "Hello, I'm Prachi, a second-year computer science student and the CS liaison on USSTM's external committee. In the past year, I focused on enhancing student network by bringing in professionals from Microsoft, KPMG, and more. I've hosted networking nights and an interview prep workshop, aiming to enrich our learning environment.<br /><br />As part of the team, I want to host more events such as a tech summit, monthly workshops, and sharing new internship/co-op resources. My objective is to make tech resources more accessible and help students build a solid network.",
-        "position": "Computer Science Director",
-        "type": "Director",
-        "image": "Blank.jpg"
-    },
-    {
-        "id": 19,
         "name": "Basith Abdul",
         "bio": "Hello, I'm Basith Abdul, a candidate for Computer Science Director at USSTM, currently in my first year of the Computer Science program. Growing up in Qatar with Indian heritage, I've gained a global outlook that informs my leadership and collaboration style. My leadership journey peaked as the cyber club president in high school, where I honed my team and project management skills.<br /><br />As a sports lover, particularly of football, and an enthusiast for badminton, table tennis, swimming, and painting, I've learned the value of balance, discipline, and creativity. These are crucial qualities I plan to bring to my role at USSTM.<br /><br />My campaign focuses on inclusivity, enhancing academic support, and creating a nurturing environment for Computer Science students. I'm dedicated to leveraging my leadership experience, passion for technology, and commitment to our community to enrich USSTM's tradition of excellence. I appreciate your support for my candidacy.",
         "position": "Computer Science Director",
@@ -152,12 +128,36 @@
         "image": "BasithAbdul.jpeg"
     },
     {
-        "id": 20,
+        "id": 17,
         "name": "Abdul Abedin",
         "bio": "- Fourth Year Computer Science Student with 1 year of Internship Experience<br />- Passionate about contributing to the CS community<br/>- Committed to Advocating for Computer Science Students<br />- Eager to organize fun and impactful CS events",
         "position": "Computer Science Director",
         "type": "Director",
         "image": "AbdulAbedin.jpeg"
+    },
+    {
+        "id": 18,
+        "name": "Hamidreza Khoramrokh",
+        "bio": "Hey beautiful people of TMU!<br />I'm Hamid, a second year Computer Science student. I enjoy hosting events, making the CS community foster, and meeting different people from all over TMU!<br /><br />This year I, the president of MOSS, organized my biggest event, a hackathon in collaboration with WiCS. I believe this hackathon, amongst other events and workshops that I have hosted or volunteered, demonstrates my dedication to the betterment of the community.<br /><br />Outside of school, I enjoy meeting new people, jogging, watching movies, boardgames, and working on my little fun projects (I'm making a flutter app right now)!",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "HamidrezaKhoramrokh.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Zil Pavdighada",
+        "bio": "Hi everyone! I'm Zil, running for re-election as Computer Science Director. As a woman and transfer student in computer science, I understand our unique STEM challenges and champion inclusivity and empowerment. Currently, as a CS Director and VP Operations for PACS, I've advocated for your needs, managed finances for student groups, and organized impactful events. I'm focused on elevating academic support, refining co-op resources, and improving the course enrollment process. My commitment is to transparency, productivity, and equity. Together, let's work towards a more vibrant and inclusive community.",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "ZilPavdighada.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Prachi Patel",
+        "bio": "Hello, I'm Prachi, a second-year computer science student and the CS liaison on USSTM's external committee. In the past year, I focused on enhancing student network by bringing in professionals from Microsoft, KPMG, and more. I've hosted networking nights and an interview prep workshop, aiming to enrich our learning environment.<br /><br />As part of the team, I want to host more events such as a tech summit, monthly workshops, and sharing new internship/co-op resources. My objective is to make tech resources more accessible and help students build a solid network.",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "Blank.jpg"
     },
     {
         "id": 21,
