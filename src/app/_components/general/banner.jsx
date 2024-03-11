@@ -7,7 +7,7 @@ import './banner.css';
 export default function Banner() {
     const [shown, setShown] = useState(true);
     const banner = <span>
-            Elections 2024 happening now! <Link href={'/elections2024'}>Click here</Link> to see details!
+            Elections 2024 happening now! <Link href={'/elections2024/candidates'}>Click here</Link> to see the candidates!
         </span>;
     return (
         shown && <div className="blink banner shadow-md w-full bg-highlight-blue text-foreground flex items-center justify-center">
