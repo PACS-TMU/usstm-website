@@ -13,7 +13,6 @@ export default function CRO() {
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
                 <div className="relative w-full mb-4 lg:my-0 object-cover">
-                    {console.log(num)}
                     <Image
                         src={`/images/elections2024/cro.jpg`}
                         loading="lazy"
