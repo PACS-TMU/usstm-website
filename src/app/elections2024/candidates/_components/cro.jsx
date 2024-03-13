@@ -1,10 +1,9 @@
+'use client';
 import Image from "next/image";
+import { useState } from "react";
 
 export default function CRO() {
-    const getRandomInt = (max) => {
-        return Math.floor(Math.random() * Math.floor(max));
-    };
-    let num = getRandomInt(5);
+    const [isFunny, setIsFunny] = useState(Math.random() < 0.8);
 
     return (
         <div className="flex flex-col pt-10 pb-5">
@@ -12,6 +11,7 @@ export default function CRO() {
                 Meet our CRO!
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
+                {isFunny ?
                 <Image
                     src={`/images/elections2024/cro.jpg`}
                     loading="lazy"
@@ -19,8 +19,15 @@ export default function CRO() {
                     width={1000}
                     height={1000}
                     className="w-96 aspect-square mb-4 lg:my-0 object-cover shadow-md rounded-sm mx-auto"
-                />
-
+                /> :
+                    <Image src={`/images/elections2024/cro-ken.jpg`}
+                           loading="lazy"
+                           alt="The USSTM Chief Returning Officer for 2024 Elections"
+                           width={1000}
+                           height={1000}
+                           className="w-96 aspect-square mb-4 lg:my-0 object-cover shadow-md rounded-sm mx-auto"
+                    />
+                }
                 <div className="lg:p-8 ">
                     <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                         The 2024 Chief Returning Officer
