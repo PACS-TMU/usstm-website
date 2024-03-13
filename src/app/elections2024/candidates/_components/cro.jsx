@@ -1,7 +1,17 @@
 import Image from "next/image";
 
 export default function CRO() {
-    let rand = Math.floor(Math.random()*3);
+    const getRandomInt = (max) => {
+        return Math.floor(Math.random() * Math.floor(max));
+    };
+    const images = [
+        `/images/elections2024/cro-ken.jpg`,
+        `/images/elections2024/cro.jpg`,
+    ]
+
+    const randomIndex = getRandomInt(5); // Generates a random number between 0 and 4
+    const imageSource = randomIndex === 0 ? `${images[0]}?${Date.now()}` : `${images[1]}?${Date.now()}`;
+
     return (
         <div className="flex flex-col pt-10 pb-5">
             <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
@@ -9,7 +19,7 @@ export default function CRO() {
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
                 <Image
-                    src={rand===0 ? `/images/elections2024/cro-ken.jpg`: `/images/elections2024/cro.jpg`}
+                    src={imageSource}
                     loading="lazy"
                     alt="The USSTM Chief Returning Officer for 2024 Elections"
                     width={1000}
