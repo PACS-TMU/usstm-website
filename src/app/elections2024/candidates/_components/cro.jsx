@@ -12,25 +12,15 @@ export default function CRO() {
                 Meet our CRO!
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
-                <div className="relative w-full mb-4 lg:my-0 object-cover">
-                    <Image
-                        src={`/images/elections2024/cro.jpg`}
-                        loading="lazy"
-                        alt="The USSTM Chief Returning Officer for 2024 Elections"
-                        width={1000}
-                        height={1000}
-                        className="relative top-0 left-0 w-96 aspect-square object-cover shadow-md rounded-sm mx-auto"
-                    />
-                    <Image
-                        src={`/images/elections2024/cro-ken.jpg`}
-                        loading="lazy"
-                        alt="The USSTM Chief Returning Officer for 2024 Elections"
-                        width={1000}
-                        height={1000}
-                        className={`${num !== 0 ? 'hidden' : ''} absolute top-0 left-1/2 -translate-x-1/2 w-96 aspect-square object-cover shadow-md rounded-sm mx-auto`}
-                    />
-                </div>
-                
+                <Image
+                    src={`/images/elections2024/cro.jpg`}
+                    loading="lazy"
+                    alt="The USSTM Chief Returning Officer for 2024 Elections"
+                    width={1000}
+                    height={1000}
+                    className="w-96 aspect-square mb-4 lg:my-0 object-cover shadow-md rounded-sm mx-auto"
+                />
+
                 <div className="lg:p-8 ">
                     <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                         The 2024 Chief Returning Officer
