@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function CRO() {
-    const [isFunny, setIsFunny] = useState(Math.random() < 0.8);
+    const [isFunny, setIsFunny] = useState(Math.random() < 0.65);
 
     useEffect(() => {
-        setIsFunny(Math.random() < 0.8);
+        setIsFunny(Math.random() < 0.65);
     }, []);
 
     return (
