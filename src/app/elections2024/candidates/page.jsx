@@ -1,9 +1,10 @@
 import Header from "@/app/_components/general/header";
 import Collapsible from "./_components/collapsible";
+import CRO from "./_components/cro";
 
 export default function Candidates() {
     return (
-        <section id="elections-24">
+        <section id="elections-2024-candidates">
             <Header title={`Candidates for the 2024-25 Board`} />
 
             <div className="main lg:text-lg">
@@ -21,6 +22,8 @@ export default function Candidates() {
                     <Collapsible sectionName="Executives" />
                     <Collapsible sectionName="Directors" />
                 </div>
+
+                <CRO />
             </div>
         </section>
     );

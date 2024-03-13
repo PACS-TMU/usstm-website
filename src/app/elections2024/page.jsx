@@ -1,6 +1,7 @@
 import Header from "@/app/_components/general/header";
 import Image from "next/image";
 import Link from "next/link";
+import CRO from "./candidates/_components/cro";
 
 export default function Elections2024() {
     return (
@@ -10,7 +11,7 @@ export default function Elections2024() {
             <div className="main lg:text-lg">
                 <div id="introduction" className="pb-5">
                     <p className="block py-2">
-                        The 2024 elections have begun! Nomination period has ended and the campaigning period started.
+                        Voting for the 2024 elections has begun! All science students will receive a unique link to vote via email.
                         All eligible candidates must have already attended the All Candidates Meeting or had a proxy attend 
                         on their behalf. If you have any elections related questions, please contact the Chief Returning Officer
                         at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>.
@@ -30,14 +31,14 @@ export default function Elections2024() {
                 <div className="lg:w-3/4 lg:mx-auto bg-highlight-blue rounded-sm shadow-md my-8">
                     <div className="intro w-full md:w-3/4 mx-auto grid gird-cols-1 md:grid-cols-[30%_30%_40%] justify-center items-center gap-5 py-24">
                         <h2 className="text-center p-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
-                            Campaigning Period - Now Ongoing!
+                            Voting Period - Vote Now!
                         </h2>
                         <hr className="hidden md:block border border-gray-400 rotate-90 w-full " />
                         <div className="px-4 md:px-0">
                             <p className="py-2 xl:text-xl">
-                                The campaigning period has started and will end on March 15th.
+                                The voting period has started and will end on March 15th.
                                 Please check our <Link href='/elections2024/candidates'>2024 Candidates Page</Link> to 
-                                see our candidates for the year.
+                                see our candidates for the year. You will receive an email with a unique link to vote.
                             </p>
                         </div>
                     </div>
@@ -83,6 +84,7 @@ export default function Elections2024() {
                         </li>
                     </ul>
                 </div>
+                <CRO />
             </div>
         </section >
     );

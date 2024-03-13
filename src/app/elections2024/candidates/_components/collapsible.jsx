@@ -5,7 +5,7 @@ import CandidateSection from "./candidate-section";
 import autoAnimate from "@formkit/auto-animate";
 
 export default function Collapsible(props) {
-    const [isVisible, setVisible] = useState(props.sectionName === "Directors");
+    const [isVisible, setVisible] = useState(false);
     const parent = useRef(null);
 
     useEffect(() => {
