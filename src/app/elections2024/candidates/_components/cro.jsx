@@ -30,7 +30,7 @@ export default function CRO() {
                         email him at <a href="mailto:cro@usstm.ca">cro@usstm.ca</a>.
                     </div>
                     <div className="py-4">
-                        <b>Author's note:</b> Cunsolo is super cool!
+                        <b>Author&apos;s note:</b> Cunsolo is super cool!
                     </div>
                 </div>
             </div>
