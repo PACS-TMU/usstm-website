@@ -4,13 +4,7 @@ export default function CRO() {
     const getRandomInt = (max) => {
         return Math.floor(Math.random() * Math.floor(max));
     };
-    const images = [
-        `/images/elections2024/cro-ken.jpg`,
-        `/images/elections2024/cro.jpg`,
-    ]
-
-    const randomIndex = getRandomInt(5); // Generates a random number between 0 and 4
-    const imageSource = randomIndex === 0 ? `${images[0]}?${Date.now()}` : `${images[1]}?${Date.now()}`;
+    let num = getRandomInt(4);
 
     return (
         <div className="flex flex-col pt-10 pb-5">
@@ -18,14 +12,25 @@ export default function CRO() {
                 Meet our CRO!
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
-                <Image
-                    src={imageSource}
-                    loading="lazy"
-                    alt="The USSTM Chief Returning Officer for 2024 Elections"
-                    width={1000}
-                    height={1000}
-                    className="w-96 aspect-square shadow-md rounded-sm mb-4 lg:my-2 object-cover"
-                />
+                <div className="relative w-full shadow-md rounded-sm mb-4 lg:my-0 object-cover">
+                    <Image
+                        src={`/images/elections2024/cro.jpg`}
+                        loading="lazy"
+                        alt="The USSTM Chief Returning Officer for 2024 Elections"
+                        width={1000}
+                        height={1000}
+                        className="relative top-0 left-0 w-96 aspect-square object-cover"
+                    />
+                    <Image
+                        src={`/images/elections2024/cro-ken.jpg`}
+                        loading="lazy"
+                        alt="The USSTM Chief Returning Officer for 2024 Elections"
+                        width={1000}
+                        height={1000}
+                        className={`${num!==0 ? 'hidden' : 'block'} absolute top-0 left-0 w-96 aspect-square object-cover`}
+                    />
+                </div>
+                
                 <div className="lg:p-8 ">
                     <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                         The 2024 Chief Returning Officer
