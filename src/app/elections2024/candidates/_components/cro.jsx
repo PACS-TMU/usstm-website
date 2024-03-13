@@ -4,7 +4,7 @@ export default function CRO() {
     const getRandomInt = (max) => {
         return Math.floor(Math.random() * Math.floor(max));
     };
-    let num = getRandomInt(4);
+    let num = getRandomInt(5);
 
     return (
         <div className="flex flex-col pt-10 pb-5">
@@ -12,14 +12,15 @@ export default function CRO() {
                 Meet our CRO!
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
-                <div className="relative w-full shadow-md rounded-sm mb-4 lg:my-0 object-cover">
+                <div className="relative w-full mb-4 lg:my-0 object-cover">
+                    {console.log(num)}
                     <Image
                         src={`/images/elections2024/cro.jpg`}
                         loading="lazy"
                         alt="The USSTM Chief Returning Officer for 2024 Elections"
                         width={1000}
                         height={1000}
-                        className="relative top-0 left-0 w-96 aspect-square object-cover"
+                        className="relative top-0 left-0 w-96 aspect-square object-cover shadow-md rounded-sm mx-auto"
                     />
                     <Image
                         src={`/images/elections2024/cro-ken.jpg`}
@@ -27,7 +28,7 @@ export default function CRO() {
                         alt="The USSTM Chief Returning Officer for 2024 Elections"
                         width={1000}
                         height={1000}
-                        className={`${num!==0 ? 'hidden' : 'block'} absolute top-0 left-0 w-96 aspect-square object-cover`}
+                        className={`${num !== 0 ? 'hidden' : ''} absolute top-0 left-1/2 -translate-x-1/2 w-96 aspect-square object-cover shadow-md rounded-sm mx-auto`}
                     />
                 </div>
                 
