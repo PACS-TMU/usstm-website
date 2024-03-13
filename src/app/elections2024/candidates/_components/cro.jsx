@@ -1,9 +1,13 @@
 'use client';
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function CRO() {
     const [isFunny, setIsFunny] = useState(Math.random() < 0.8);
+
+    useEffect(() => {
+        setIsFunny(Math.random() < 0.8);
+    }, []);
 
     return (
         <div className="flex flex-col pt-10 pb-5">
