@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function CRO() {
-    let rand = Math.floor(Math.random()*8);
+    let rand = Math.floor(Math.random()*3);
     return (
         <div className="flex flex-col pt-10 pb-5">
             <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
