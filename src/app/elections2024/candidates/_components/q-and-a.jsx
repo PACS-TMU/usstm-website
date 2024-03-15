@@ -7,7 +7,7 @@ export default function QandA({ candidate, setShowQA, showQA }) {
     const ref = useRef(null);
     useClickAway(ref, () => setShowQA(false));
     return (
-        <div tabIndex={0}>
+        <div tabIndex={0} className='z-20'>
             <div className="w-screen h-screen bg-gray-500 opacity-50 fixed top-0 left-0">
             </div>
             <div
