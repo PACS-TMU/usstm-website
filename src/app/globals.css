@@ -27,12 +27,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Abril;
 }
 
-a:not(#navbar a) {
+a:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a) {
     color: var(--highlight);
     text-decoration: underline;
 }
 
-a:hover:not(#navbar a) {
+a:hover:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a) {
     transition: ease-in-out 0.2s;
     color: var(--highlight-dark);
 }

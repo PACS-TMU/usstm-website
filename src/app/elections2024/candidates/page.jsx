@@ -10,12 +10,12 @@ export default function Candidates() {
             <div className="main lg:text-lg">
                 <div id="introduction" className="pb-5">
                     <p className="block py-2">
-                        The campaigning period has started and will end on March 15th. Please ensure
-                        that any campaigning activities are in accordance with
-                        the <a href="/assets/governance/election-procedures.pdf" target="_blank">Election Procedures</a>.
+                        Elections for the 2024-2025 board is now done! If you have any elections related questions,
+                        please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. To
+                        see the results, please visit our <a href="https://www.instagram.com/usstorontomet/" target="_blank">instagram page</a>.
                     </p>
                     <p className="block py-2">
-                        Meet the candidates for the 2024-25 Board of Directors!
+                        Meet the candidates who ran for the 2024-25 Board of Directors!
                     </p>
                 </div>
                 <div className="content">
