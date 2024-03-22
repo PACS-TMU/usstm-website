@@ -7,7 +7,7 @@ import './banner.css';
 export default function Banner() {
     const [shown, setShown] = useState(true);
     const banner = <span>
-            Voting for Elections 2024 has begun! <Link href={'/elections2024/candidates'}>Click here</Link> to see the candidates!
+            Elections results are out! Results on our <a href="https://www.instagram.com/usstorontomet/" target="_blank">instagram page</a>!
         </span>;
     return (
         shown && <div className="blink banner shadow-md w-full bg-highlight-blue text-foreground flex items-center justify-center">

@@ -20,6 +20,16 @@ export default function Meetings() {
                         and its members. Our meetings are open to all members, and we encourage everyone to
                         participate and share their ideas.
                     </p>
+                    <div className='border-2 border-highlight-dark w-26 text-lg lg:text-xl xl:text-2xl my-4 font-semibold flex justify-center underline items-center divide-x hover:scale-105 hover:text-background hover:bg-highlight-dark ease-in-out duration-200'>
+                        <button id={'meeting-minutes-button'} className={'p-4'}>
+                            <a
+                                href={'https://drive.google.com/drive/folders/1PBybdVQ1PxRBHBvKofCI7J_x7T80IMj6'}
+                                target={'_blank'}
+                            >
+                                Click here for our meeting minutes!
+                            </a>
+                        </button>
+                    </div>
                 </div>
                 <div className={'space-y-3'}>
                     <h1 className={'py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide'}>Meeting Schedules</h1>
@@ -34,7 +44,7 @@ export default function Meetings() {
                         </div>
                         <div className={'bg-highlight-blue p-4 text-foreground rounded shadow-md'}>
                             <h1 className={'text-2xl pb-2 font-serif font-semibold'}>
-                                Semi-Annual General Meetings
+                                Semi-Annual General Meetings (SAGM)
                             </h1>
                             <p>
                                 Mid-Fall Semester
@@ -42,7 +52,7 @@ export default function Meetings() {
                         </div>
                         <div className={'bg-highlight-blue p-4 text-foreground rounded shadow-md'}>
                             <h1 className={'text-2xl pb-2 font-serif font-semibold'}>
-                                Annual General Meetings
+                                Annual General Meetings (AGM)
                             </h1>
                             <p>
                                 Mid-Winter Semester
@@ -57,7 +67,7 @@ export default function Meetings() {
                             Robert&apos;s Rules of Order is a widely used guide for conducting meetings and making decisions in a fair
                             and orderly manner. In meetings following Robert&apos;s Rules, members can submit motions to propose actions or
                             decisions. To submit a motion, you must email <a href="mailto:vp.operations@usstm.ca">VP Operations</a> with
-                            the <a href="https://docs.google.com/document/d/1V06RwQng0UArh4cgS8GmLEINj-rxbdVTeJKxbVzOJqQ/view" target="_blank">motion template</a> filled 
+                            the <a href="https://docs.google.com/document/d/1V06RwQng0UArh4cgS8GmLEINj-rxbdVTeJKxbVzOJqQ/view" target="_blank">motion template</a> filled
                             out. If you need help filling out the template, please email VP Operations. Members can also attend meetings by
                             emailing <a href="mailto:vp.operations@usstm.ca">VP Operations</a>. It&apos;s important for members to familiarize themselves with the rules
                             and procedures outlined in Robert&apos;s Rules to participate effectively in meetings and contribute to the
