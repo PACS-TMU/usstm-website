@@ -23,7 +23,7 @@ export default function Elections2024() {
                     <div className='border-2 border-highlight-dark w-3/4 lg:w-1/2 xl:w-1/3 mx-auto text-lg lg:text-xl xl:text-2xl mt-12 font-semibold flex justify-center underline items-center divide-x hover:scale-105 hover:text-background hover:bg-highlight-dark ease-in-out duration-200'>
                         <button id={'candidates-button'} className={'p-4'}>
                             <Link
-                                href={'https://drive.google.com/drive/folders/1PBybdVQ1PxRBHBvKofCI7J_x7T80IMj6'}
+                                href={'/elections2024/candidates'}
                                 target={'_blank'}
                             >
                                 Click here to see the candidates who ran!
