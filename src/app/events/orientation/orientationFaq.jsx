@@ -1,5 +1,5 @@
 import { faqData } from "./faqData"
-import OrientationFAQItem from "./OrientationFAQItem"
+import OrientationFAQItem from "./orientationFaqItem"
 
 export default function OrientationFAQ() {
     return (
