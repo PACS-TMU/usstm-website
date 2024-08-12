@@ -68,6 +68,13 @@
                 "path": "/events/yearbook-gallery",
                 "description": "Memorable moments, photos, and highlights from USSTM events throughout the years!",
                 "subItems": []
+            },
+            {
+                "id": 304,
+                "itemName": "Orientation",
+                "path": "/events/orientation",
+                "description": "Get ready for the best week of your life! USSTM Orientation is a week-long event that will introduce you to the Science community.",
+                "subItems": []
             }
         ]
     },

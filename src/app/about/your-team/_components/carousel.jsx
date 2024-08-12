@@ -10,8 +10,6 @@ import Image from 'next/image';
 import "./carousel.css";
 
 export default function Carousel({ img1, img2, img3, name }) {
-
-
     return (
         <Swiper
             loop={true}
