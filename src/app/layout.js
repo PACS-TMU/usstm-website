@@ -1,6 +1,6 @@
 import Navbar from './_components/general/navbar/navbar'
 import Footer from './_components/general/footer'
-import Banner from "@/app/_components/general/banner";
+// import Banner from "@/app/_components/general/banner";
 import './globals.css'
 import {Cantarell} from 'next/font/google';
 
@@ -23,7 +23,7 @@ export default function RootLayout({children}) {
         <html lang="en">
         <body className={cantarell.className}>
         <Navbar/>
-        <Banner/>
+        {/* <Banner/> */}
         <main className='space-y-20'>{children}</main>
         <Footer/>
         </body>

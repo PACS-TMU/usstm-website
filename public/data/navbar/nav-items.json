@@ -39,13 +39,6 @@
                 "path": "/about/meetings",
                 "description": "Interested in attending our meetings or want to see what was done? Visit this page for all this info and more.",
                 "subItems": []
-            },
-            {
-                "id": 205,
-                "itemName": "Elections 2024",
-                "path": "/elections2024",
-                "description": "Elections for the 2024-2025 Board of Directors have begun! Click here to learn more about the candidates and how to vote.",
-                "subItems": []
             }
         ]
     },
@@ -75,13 +68,6 @@
                 "path": "/events/yearbook-gallery",
                 "description": "Memorable moments, photos, and highlights from USSTM events throughout the years!",
                 "subItems": []
-            },
-            {
-                "id": 304,
-                "itemName": "Elections 2024",
-                "path": "/elections2024",
-                "description": "Elections for the 2024-2025 Board of Directors have begun! Click here to learn more about the candidates and how to vote.",
-                "subItems": []
             }
         ]
     },
@@ -110,13 +96,6 @@
                 "itemName": "Crash Courses",
                 "path": "/academics/crash-course",
                 "description": "Struggling with a first or second year course? USSTM Crash Courses may be exactly what you need.",
-                "subItems": []
-            },
-            {
-                "id": 404,
-                "itemName": "Elections 2024",
-                "path": "/elections2024",
-                "description": "Elections for the 2024-2025 Board of Directors have begun! Click here to learn more about the candidates and how to vote.",
                 "subItems": []
             }
         ]
@@ -154,13 +133,6 @@
                 "path": "/finances/startup-certified",
                 "description": "Discover the innovation behind our DMZ Startup Certified program, empowering entrepreneurs to turn ideas into successful businesses.",
                 "subItems": []
-            },
-            {
-                "id": 505,
-                "itemName": "Elections 2024",
-                "path": "/elections2024",
-                "description": "Elections for the 2024-2025 Board of Directors have begun! Click here to learn more about the candidates and how to vote.",
-                "subItems": []
             }
         ]
     },
@@ -189,13 +161,6 @@
                 "itemName": "Elections",
                 "path": "/community/elections",
                 "description": "Where you have the power to shape the future of USSTM.",
-                "subItems": []
-            },
-            {
-                "id": 604,
-                "itemName": "Elections 2024",
-                "path": "/elections2024",
-                "description": "Elections for the 2024-2025 Board of Directors have begun! Click here to learn more about the candidates and how to vote.",
                 "subItems": []
             }
         ]
