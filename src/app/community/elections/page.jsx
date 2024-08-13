@@ -61,8 +61,8 @@ export default function Elections() {
                             <Image
                                 src="/images/community/elections/timeline.png"
                                 alt="USSTM Elections Timeline"
-                                width={800}
-                                height={1055}
+                                width={1500}
+                                height={1980}
                                 priority={true}
                                 className='w-full lg:w-3/4 h-auto mx-auto'
                             />
