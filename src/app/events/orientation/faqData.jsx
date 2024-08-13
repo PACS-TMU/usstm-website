@@ -22,7 +22,7 @@ export const faqData = [
     {
         id: 5,
         question: "How can I stay in touch to get updates about Orientation?",
-        answer: "Our Instagram (@tmuscifrosh) is the best way to keep in touch. So head on over, follow us, and check it out!"
+        answer: "Our Instagram (@scifroshtmu) is the best way to keep in touch. So head on over, follow us, and check it out!"
     },
     {
         id: 6,
