@@ -53,7 +53,7 @@ export default function Elections() {
                             Timeline
                         </h2>
                         <p className='block py-2'>
-                            Disclaimer: Please note this timeline is for the regular election cycle occurring each year in Winter semester. By-Elections will be held if needed on different dates.
+                            <span className='font-bold'> Disclaimer: </span> Please note this timeline is for the regular election cycle occurring each year in Winter semester. By-Elections will be held if needed on different dates.
                         </p>
                         <section id="timeline-image" className="p-4">
                             <Image
