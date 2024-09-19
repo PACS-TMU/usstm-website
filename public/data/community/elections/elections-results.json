@@ -10,6 +10,11 @@
         "path": "/assets/elections/2023-Elections.pdf"
     },
     {
+        "id": 6,
+        "title": "2022/23 Election Results",
+        "path": "/assets/elections/2022-Elections.pdf"
+    },
+    {
         "id": 5,
         "title": "2021/22 Election Results",
         "path": "/assets/elections/2021-Elections.pdf"
