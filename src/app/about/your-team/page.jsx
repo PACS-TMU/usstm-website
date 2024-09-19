@@ -22,7 +22,7 @@ export default function YourTeam() {
 
     return (
         <section id="your-team-page">
-            <Header title="Meet the Faces Behind USSTM" />
+            <Header title="Your 2023/24 Team" />
             <div className="main flex flex-col">
                 <p className='lg:text-lg'> Welcome to the heart of USSTM, where a passionate team of individuals works tirelessly to bring the best experiences to our members. Get to know the leaders and contributors who drive our society forward:</p>
                 {
