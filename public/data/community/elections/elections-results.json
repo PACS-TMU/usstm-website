@@ -1,5 +1,15 @@
 [
     {
+        "id": 8,
+        "title": "2024/25 Election Results",
+        "path": "/assets/elections/2024-Elections.pdf"
+    },
+    {
+        "id": 7,
+        "title": "2023/24 Election Results",
+        "path": "/assets/elections/2023-Elections.pdf"
+    },
+    {
         "id": 6,
         "title": "2022/23 Election Results",
         "path": "/assets/elections/2022-Elections.pdf"
