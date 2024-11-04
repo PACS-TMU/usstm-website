@@ -19,7 +19,7 @@ export default function Parallax() {
                         <div id="stats-text">
                             <div id="stats-students">
                                 <Image
-                                    src="/images/homepage/stats-icons/students-icon.png"
+                                    overrideSrc="/images/homepage/stats-icons/students-icon.png"
                                     alt="Icon of Students"
                                     className="stats-icon"
                                     width={100}
@@ -34,7 +34,7 @@ export default function Parallax() {
 
                             <div id="stats-groups">
                                 <Image
-                                    src='/images/homepage/stats-icons/groups-icon.png'
+                                    overrideSrc='/images/homepage/stats-icons/groups-icon.png'
                                     alt="Icon of Student Groups"
                                     className="stats-icon"
                                     width={100}
@@ -49,7 +49,7 @@ export default function Parallax() {
 
                             <div id="stats-board">
                                 <Image
-                                    src='/images/homepage/stats-icons/board-icon.png'
+                                    overrideSrc='/images/homepage/stats-icons/board-icon.png'
                                     alt="Icon of Board Members"
                                     className="stats-icon"
                                     width={100}

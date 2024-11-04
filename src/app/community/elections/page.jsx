@@ -57,7 +57,7 @@ export default function Elections() {
                         </p>
                         <section id="timeline-image" className="p-4">
                             <Image
-                                src="/images/community/elections/timeline.png"
+                                overrideSrc="/images/community/elections/timeline.png"
                                 alt="USSTM Elections Timeline"
                                 width={1500}
                                 height={1980}

@@ -64,7 +64,7 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                src={`/images/events/yearbook/${image.path}`}
+                                overrideSrc={`/images/events/yearbook/${image.path}`}
                                 alt={image.title}
                                 width={1700}
                                 height={2200}

@@ -77,7 +77,7 @@ export default function Meetings() {
                     <div className="image">
                         <Image
                             className={'w-auto h-full object-cover'}
-                            src={'/images/about/meetings/meetings-graphic.jpg'}
+                            overrideSrc={'/images/about/meetings/meetings-graphic.jpg'}
                             alt={'Meetings Graphic'}
                             width={750}
                             height={750}

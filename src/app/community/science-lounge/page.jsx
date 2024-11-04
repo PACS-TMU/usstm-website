@@ -27,7 +27,7 @@ export default function ScienceLounge() {
                     </div >
                     <div className="w-full lg:w-3/5 lg:ml-4">
                         <Image
-                            src="/images/community/sci-lounge/intro.jpg"
+                            overrideSrc="/images/community/sci-lounge/intro.jpg"
                             width={1296}
                             height={725}
                             className="w-full rounded-sm shadow-md my-6 lg:my-0"
@@ -54,7 +54,7 @@ export default function ScienceLounge() {
                             Layout
                         </h2>
                         <Image
-                            src="/images/community/sci-lounge/intro.jpg"
+                            overrideSrc="/images/community/sci-lounge/intro.jpg"
                             width={2502}
                             height={2560}
                             className="w-full h-auto lg:my-6"

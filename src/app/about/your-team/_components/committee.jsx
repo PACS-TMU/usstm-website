@@ -59,7 +59,7 @@ export default function Committee({ fileName, group }) {
             {members.map((item, index) => (
                 <div key={index} className="w-full h-full flex flex-col">
                     <Image
-                        src={`/images/about/your-team/committees/${fileName}/${item.image}`}
+                        overrideSrc={`/images/about/your-team/committees/${fileName}/${item.image}`}
                         alt={item.name}
                         width={1200}
                         height={800}

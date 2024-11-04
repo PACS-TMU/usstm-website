@@ -24,7 +24,7 @@ export default function Carousel({ img1, img2, img3, name }) {
         >
             <SwiperSlide>
                 <Image
-                    src={`/images/about/your-team/carousel-images/${img1}`}
+                    overrideSrc={`/images/about/your-team/carousel-images/${img1}`}
                     alt={name}
                     width={2250}
                     height={1500}
@@ -34,7 +34,7 @@ export default function Carousel({ img1, img2, img3, name }) {
             </SwiperSlide>
             <SwiperSlide>
                 <Image
-                    src={`/images/about/your-team/carousel-images/${img2}`}
+                    overrideSrc={`/images/about/your-team/carousel-images/${img2}`}
                     alt={name}
                     width={2250}
                     height={1500}
@@ -44,7 +44,7 @@ export default function Carousel({ img1, img2, img3, name }) {
             </SwiperSlide>
             <SwiperSlide>
                 <Image
-                    src={`/images/about/your-team/carousel-images/${img3}`}
+                    overrideSrc={`/images/about/your-team/carousel-images/${img3}`}
                     alt={name}
                     width={2250}
                     height={1500}

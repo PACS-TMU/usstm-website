@@ -12,7 +12,7 @@ export default function Orientation() {
             <Header title={`Orientation`} />
             <div className="main lg:text-lg">
                 <Image
-                    src="/images/events/orientation/banner.png"
+                    overrideSrc="/images/events/orientation/banner.png"
                     alt="Orientation Banner"
                     width={2160}
                     height={1080}
@@ -86,7 +86,7 @@ export default function Orientation() {
                             We are so thrilled to have you join us for a week full of exciting squid game inspired events.
                         </p>
                         <Image
-                            src="/images/events/orientation/schedule.png"
+                            overrideSrc="/images/events/orientation/schedule.png"
                             alt="Orientation Schedule"
                             width={2160}
                             height={1080}
