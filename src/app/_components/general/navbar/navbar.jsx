@@ -81,7 +81,7 @@ export default function Navbar() {
           >
             <Link href="/">
               <Image
-                src="/icons/usstm-logo.png"
+                overrideSrc="/icons/usstm-logo.png"
                 alt="The USSTM Logo"
                 className="m-3 w-12"
                 width={240}

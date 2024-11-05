@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_call:
+
+jobs:
+  build:
+    name: Build static website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout and setup
+        uses: speelbarrow/checkout-and-setup@v1.3
+      - name: Build using Next.JS
+        run:  npx next build
+      - name: Copy public resources to build directory
+        shell: bash
+        run:  |
+          shopt -s dotglob
+
+          git fetch origin public:public
+          git checkout public -- public
+          cp -r public/* out/
+      - name: Upload static website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/

@@ -24,7 +24,7 @@ export default function Gallery() {
             {galleryData.map((image, index) => (
                 <div key={index} className="relative">
                     <Image 
-                        src={`/images/events/yearbook/${image.path}`}
+                        overrideSrc={`/images/events/yearbook/${image.path}`}
                         alt={image.title} 
                         width={1920} 
                         height={1080} 
