@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "position": "Yearbook Chair",
+        "image": "yearbookChair.jpg",
+        "name": "Queenie Chung"
+    },
+    {
+        "id": 2,
+        "position": "Yearbook Editor",
+        "image": "editor.jpg",
+        "name": "Muneera Siddiqui"
+    },
+    {
+        "id": 3,
+        "position": "Yearbook Designer",
+        "image": "designer1.jpg",
+        "name": "Abigail Boateng"
+    },
+    {
+        "id": 4,
+        "position": "Yearbook Designer",
+        "image": "designer2.jpg",
+        "name": "Ekeminiabasi Morgan"
+    },
+    {
+        "id": 5,
+        "position": "Yearbook Photographer",
+        "image": "photographer1.jpg",
+        "name": "Sohail Karar"
+    },
+    {
+        "id": 6,
+        "position": "Yearbook Photographer",
+        "image": "photographer2.jpg",
+        "name": "Labib Sarwar"
+    },
+    {
+        "id": 7,
+        "position": "Yearbook Member",
+        "image": "yearbookMember1.jpg",
+        "name": "Layal Singh"
+    },
+    {
+        "id": 8,
+        "position": "Yearbook Member",
+        "image": "yearbookMember2.jpg",
+        "name": "Nathan Romero"
+    }
+]
