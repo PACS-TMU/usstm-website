@@ -9,7 +9,7 @@ export default function Elections() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/community/elections/elections-results.json');
+                const res = await fetch('https://usstm.ca/data/community/elections/elections-results.json');
                 const data = await res.json();
                 setElectionsResults(data);
             } catch (error) {
@@ -38,7 +38,7 @@ export default function Elections() {
                         at least 24 hours before. You may send someone in your place to the &quot;All Candidates
                         Meeting&quot; but you must tell the CRO who will be attending in your
                         place 24 hours in advance.
-                        Please read the Election Policies that can be found <a href="/assets/governance/election-procedures.pdf" target="_blank">here</a>.
+                        Please read the Election Policies that can be found <a href="https://usstm.ca/assets/governance/election-procedures.pdf" target="_blank">here</a>.
                     </p>
                     <p className='block py-2'>
                         It is your responsibility to know this document as well as the Constitution and By-Laws
@@ -57,7 +57,7 @@ export default function Elections() {
                         </p>
                         <section id="timeline-image" className="p-4">
                             <Image
-                                overrideSrc="/images/community/elections/timeline.png"
+                                overrideSrc="https://usstm.ca/images/community/elections/timeline.png"
                                 alt="USSTM Elections Timeline"
                                 width={1500}
                                 height={1980}
@@ -110,7 +110,7 @@ export default function Elections() {
                             </p>
                             <p className="px-2">
                                 Note: This is a general overview. For detailed rules, refer to the
-                                comprehensive <a href="/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
+                                comprehensive <a href="https://usstm.ca/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
                             </p>
                         </div>
                     </div>

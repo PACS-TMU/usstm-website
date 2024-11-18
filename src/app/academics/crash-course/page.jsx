@@ -33,7 +33,7 @@ export default function CrashCourse() {
                         className="styled-calendar-container w-[90%] mx-auto lg:w-full border border-gray-300 md:border-none h-[700px]"
                         data-cy="calendar-embed-iframe"
                     />
-                    <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+                    <script async type="module" src="https://embed.styledcalendar.comhttps://usstm.ca/assets/parent-window.js"></script>
                 </div>
                 <div className="content">
                     <h2 className="py-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">

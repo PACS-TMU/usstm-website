@@ -11,7 +11,7 @@ export default function Annual() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/events/annual/annual-events.json');
+                const response = await fetch('https://usstm.ca/data/events/annual/annual-events.json');
                 const data = await response.json();
                 setAnnualEvents(data);
             } catch (error) {
@@ -31,7 +31,7 @@ export default function Annual() {
         //         {annualEvents.map((annualEvent) => (
         //             <div key={annualEvent.id}
         //                  className={`flex ${annualEvent.id % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
-        //                 <Image src={'/images/about/your-team/usstm-people.png'} alt="USSTM People" width={500}
+        //                 <Image src={'https://usstm.ca/images/about/your-team/usstm-people.png'} alt="USSTM People" width={500}
         //                        height={500} className="w-1/2"/>
         //                 <AnnualEvent event={annualEvent} className="w-1/2"/>
         //             </div>

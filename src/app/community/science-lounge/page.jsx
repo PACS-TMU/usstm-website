@@ -27,7 +27,7 @@ export default function ScienceLounge() {
                     </div >
                     <div className="w-full lg:w-3/5 lg:ml-4">
                         <Image
-                            overrideSrc="/images/community/sci-lounge/intro.jpg"
+                            overrideSrc="https://usstm.ca/images/community/sci-lounge/intro.jpg"
                             width={1296}
                             height={725}
                             className="w-full rounded-sm shadow-md my-6 lg:my-0"
@@ -46,7 +46,7 @@ export default function ScienceLounge() {
                         className="styled-calendar-container w-[90%] mx-auto lg:w-full border border-gray-300 md:border-none h-[700px]"
                         data-cy="calendar-embed-iframe"
                     />
-                    <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+                    <script async type="module" src="https://embed.styledcalendar.comhttps://usstm.ca/assets/parent-window.js"></script>
                 </div>
                 <div className="flex flex-col lg:flex-row">
                     <div className="flex flex-col justify-center w-full lg:w-3/5 lg:ml-4">
@@ -54,7 +54,7 @@ export default function ScienceLounge() {
                             Layout
                         </h2>
                         <Image
-                            overrideSrc="/images/community/sci-lounge/intro.jpg"
+                            overrideSrc="https://usstm.ca/images/community/sci-lounge/intro.jpg"
                             width={2502}
                             height={2560}
                             className="w-full h-auto lg:my-6"

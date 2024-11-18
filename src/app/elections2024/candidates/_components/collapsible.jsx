@@ -17,7 +17,7 @@ export default function Collapsible(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/elections2024/candidates.json');
+                const response = await fetch('https://usstm.ca/data/elections2024/candidates.json');
                 const data = await response.json();
                 setCandidtes(data);
             } catch (error) {
