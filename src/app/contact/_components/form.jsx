@@ -7,6 +7,8 @@ import { z } from "zod";
 export default function Form() {
 	const [programs, setPrograms] = useState([]);
 	const [natureOfRequest, setNatureOfRequest] = useState([]);
+	const [result, setResult] = useState(null);
+
 	useEffect(() => {
 		const fetchPrograms = async () => {
 			try {
@@ -82,23 +84,41 @@ export default function Form() {
 					.max(50, {
 						message: "Subject must be between 3 and 50 characters.",
 					}),
-				message: z
-					.string()
-					.min(10, {
-						message: "Message must be at least 10 characters.",
-					}),
+				message: z.string().min(10, {
+					message: "Message must be at least 10 characters.",
+				}),
 			}),
-		[]
+		[programs, natureOfRequest]
 	);
 
 	const {
 		register,
 		handleSubmit,
-		formState: { errors, isSubmitting }
+		formState: { errors, isSubmitting },
+		reset,
 	} = useForm({ resolver: zodResolver(schema) });
 
 	const onSubmit = async (data) => {
-		console.log(data);
+		try {
+			const res = await fetch(process.env.NEXT_PUBLIC_WORKER_URL, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(data),
+			});
+
+			if (!res.ok) {
+				console.error(`Error with status code ${res.status}\n${res.text() || res.statusText}`)
+
+				setResult("error");
+			} else {
+				setResult("success");
+				reset();
+			}
+		} catch (e) {
+			console.error(e);
+		}
 	};
 
 	return (
@@ -110,6 +130,20 @@ export default function Form() {
 				If you have any questions, concerns, or requests, please feel
 				free to reach out to us. We are here to help you!
 			</p>
+			{result &&
+				(result === "success" ? (
+					<p
+						className={`pb-6 text-center w-3/4 mx-auto text-green-600 font-semibold`}
+					>
+						Your message has been submitted!
+					</p>
+				) : (
+					<p
+						className={`pb-6 text-center w-3/4 mx-auto text-red-500 font-semibold`}
+					>
+						An error occurred submitting the form. Please try again later.
+					</p>
+				))}
 			<form
 				id="contact-form"
 				className="w-full"
@@ -126,7 +160,9 @@ export default function Form() {
 							{...register("firstName")}
 						/>
 						{errors.firstName?.message && (
-							<p className="text-red-500 text-sm">{errors.firstName?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.firstName?.message}
+							</p>
 						)}
 					</div>
 					<div className="flex flex-col w-[95%] md:w-1/2 mt-4 md:mt-0">
@@ -139,7 +175,9 @@ export default function Form() {
 							{...register("lastName")}
 						/>
 						{errors.lastName?.message && (
-							<p className="text-red-500 text-sm">{errors.lastName?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.lastName?.message}
+							</p>
 						)}
 					</div>
 				</div>
@@ -156,7 +194,9 @@ export default function Form() {
 							{...register("email")}
 						/>
 						{errors.email?.message && (
-							<p className="text-red-500 text-sm">{errors.email?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.email?.message}
+							</p>
 						)}
 					</div>
 				</div>
@@ -180,7 +220,9 @@ export default function Form() {
 							<option value="Other">Other</option>
 						</select>
 						{errors.program?.message && (
-							<p className="text-red-500 text-sm">{errors.program?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.program?.message}
+							</p>
 						)}
 					</div>
 					<div className="w-[95%] md:w-1/2 mt-4 md:mt-0">
@@ -201,7 +243,11 @@ export default function Form() {
 							<option value="Year 5">Year 5</option>
 							<option value="Other">Other</option>
 						</select>
-						{errors.year?.message && <p className="text-red-500 text-sm">{errors.year?.message}</p>}
+						{errors.year?.message && (
+							<p className="text-red-500 text-sm">
+								{errors.year?.message}
+							</p>
+						)}
 					</div>
 				</div>
 				<div className="flex mt-4 justify-center items-center">
@@ -225,7 +271,9 @@ export default function Form() {
 							))}
 						</select>
 						{errors.natureOfRequest?.message && (
-							<p className="text-red-500 text-sm">{errors.natureOfRequest?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.natureOfRequest?.message}
+							</p>
 						)}
 					</div>
 				</div>
@@ -239,7 +287,9 @@ export default function Form() {
 							{...register("subject")}
 						/>
 						{errors.subject?.message && (
-							<p className="text-red-500 text-sm">{errors.subject?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.subject?.message}
+							</p>
 						)}
 					</div>
 				</div>
@@ -253,7 +303,9 @@ export default function Form() {
 							{...register("message")}
 						/>
 						{errors.message?.message && (
-							<p className="text-red-500 text-sm">{errors.message?.message}</p>
+							<p className="text-red-500 text-sm">
+								{errors.message?.message}
+							</p>
 						)}
 					</div>
 				</div>
@@ -261,7 +313,7 @@ export default function Form() {
 					<button
 						id="submit-button"
 						type="submit"
-                        disabled={isSubmitting}
+						disabled={isSubmitting}
 						className="bg-highlight-dark text-white px-4 py-2 rounded shadow-md lg:text-lg"
 					>
 						Submit{isSubmitting ? "ting..." : ""}
