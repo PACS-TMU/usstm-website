@@ -17,7 +17,7 @@ export default function Carousel() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('/data/events/yearbook-gallery/yearbook-images.json');
+            const response = await fetch('https://usstm.ca/data/events/yearbook-gallery/yearbook-images.json');
             const data = await response.json();
             setYearbookData(data);
         } catch (err) {
@@ -64,7 +64,7 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                overrideSrc={`/images/events/yearbook/${image.path}`}
+                                overrideSrc={`https://usstm.ca/images/events/yearbook/${image.path}`}
                                 alt={image.title}
                                 width={1700}
                                 height={2200}

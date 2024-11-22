@@ -8,7 +8,7 @@ export default function GroupsUnions() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/community/groups-unions/sgcu-db.json');
+                const res = await fetch('https://usstm.ca/data/community/groups-unions/sgcu-db.json');
                 const data = await res.json();
                 setSgcuData(data);
             } catch (error) {
@@ -54,7 +54,7 @@ export default function GroupsUnions() {
                 >
                     <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'end' }}>
                         <Image
-                            overrideSrc={`/images/community/sg-logos/${group['group-logo']}`}
+                            overrideSrc={`https://usstm.ca/images/community/sg-logos/${group['group-logo']}`}
                             alt={group['group-name']}
                             width={500}
                             height={500}

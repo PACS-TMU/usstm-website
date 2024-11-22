@@ -7,7 +7,7 @@ export default function PastBoards() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/about/past-boards/past-boards.json');
+                const res = await fetch('https://usstm.ca/data/about/past-boards/past-boards.json');
                 const data = await res.json();
                 setBoard(data);
             } catch (error) {

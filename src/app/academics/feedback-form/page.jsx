@@ -13,7 +13,7 @@ export default function Feedback() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/academics/feedback-form/feedback-form.json');
+                const response = await fetch('https://usstm.ca/data/academics/feedback-form/feedback-form.json');
                 const data = await response.json();
                 const assessments = await data[0];
                 const content = await data[1];

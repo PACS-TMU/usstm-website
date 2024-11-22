@@ -10,7 +10,7 @@ export default function YourTeam() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/about/your-team/your-team.json');
+                const res = await fetch('https://usstm.ca/data/about/your-team/your-team.json');
                 const data = await res.json();
                 setYourTeamData(data);
             } catch (error) {
