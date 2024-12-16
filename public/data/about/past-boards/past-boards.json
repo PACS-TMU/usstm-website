@@ -1,139 +1,242 @@
 [
-    {
-        "id": "board-22",
-        "year": "2022-2023",
-        "members": [
-            {
-                "id": "Executives-22",
-                "people": [
-                    {
-                        "id": 1,
-                        "position": "President",
-                        "name": "Jamie Rice"
-                    },
-                    {
-                        "id": 2,
-                        "position": "VP Operations",
-                        "name": "VACANT"
-                    },
-                    {
-                        "id": 3,
-                        "position": "VP Finance",
-                        "name": "Redge Wang"
-                    },
-                    {
-                        "id": 4,
-                        "position": "VP Communications",
-                        "name": "Tiam Vanaki"
-                    },
-                    {
-                        "id": 5,
-                        "position": "VP Student Life",
-                        "name": "Anita Lesan"
-                    },
-                    {
-                        "id": 6,
-                        "position": "VP Academics",
-                        "name": "Ramisa Razi"
-                    },
-                    {
-                        "id": 7,
-                        "position": "VP Externals",
-                        "name": "VACANT"
-                    },
-                    {
-                        "id": 8,
-                        "position": "VP Equity",
-                        "name": "Jafarul Hoque"
-                    }
-                ]
-            },
-            {
-                "id": "Program Directors-22",
-                "people": [
-                    {
-                        "id": 1,
-                        "position": "Biomedical Science Directors",
-                        "name": [
-                            "Frank Garfalo",
-                            "Golsa Malak",
-                            "Urwa Najeeb"
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "position": "Biology Director",
-                        "name": [
-                            "VACANT"
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "position": "Chemistry Director",
-                        "name": [
-                            "Stephanie Tboas"
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "position": "Computer Science Directors",
-                        "name": [
-                            "Mathushan Sivakumaran",
-                            "VACANT",
-                            "VACANT"
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "position": "Mathematics and Its Applications Director",
-                        "name": [
-                            "Aisha Yusuf"
-                        ]
-                    },
-                    {
-                        "id": 6,
-                        "position": "Financial Mathematics Director",
-                        "name": [
-                            "VACANT"
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "position": "Medical Physics Director",
-                        "name": [
-                            "Alejandro Coba Cabrera"
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "First Year Directors-22",
-                "people": [
-                        "Louise Malabanan",
-                        "Jack Shen",
-                        "Benson Zhang"
-                ]
-            },
-            {
-                "id": "Non-Voting Members-22",
-                "people": [
-                    {
-                        "id": 1,
-                        "position": "Chairperson",
-                        "name": "Alessandro Cunsolo"
-                    },
-                    {
-                        "id": 2,
-                        "position": "Manager, Student Relations and Development",
-                        "name": "Pamela Wettlaufer"
-                    },
-                    {
-                        "id": 3,
-                        "position": "Secretary",
-                        "name": "Nzonzila Mundele"
-                    }
-                ]
-            }
-        ]
-    }
+	{
+		"id": "board-23",
+		"year": "2023-2024",
+		"members": [
+			{
+				"id": "Executives-23",
+				"people": [
+					{
+						"id": 1,
+						"position": "President",
+						"name": "Ramisa Razi"
+					},
+					{
+						"id": 2,
+						"position": "VP Operations",
+						"name": "Louise Malabanan"
+					},
+					{
+						"id": 3,
+						"position": "VP Finance",
+						"name": "Redge Wang"
+					},
+					{
+						"id": 4,
+						"position": "VP Communications",
+						"name": "Tiam Vanaki"
+					},
+					{
+						"id": 5,
+						"position": "VP Student Life",
+						"name": "Anita Lesan"
+					},
+					{
+						"id": 6,
+						"position": "VP Academics",
+						"name": "Intesar Shah"
+					},
+					{
+						"id": 7,
+						"position": "VP Externals",
+						"name": "Jack Shen"
+					},
+					{
+						"id": 8,
+						"position": "VP Equity",
+						"name": "Jafarul Hoque"
+					}
+				]
+			},
+			{
+				"id": "Program Directors-23",
+				"people": [
+					{
+						"id": 1,
+						"position": "Biomedical Science Directors",
+						"name": ["Norhan Almasri", "Urwa Najeeb"]
+					},
+					{
+						"id": 2,
+						"position": "Biology Director",
+						"name": ["Pooja Samaraweera", "Fiona Vongsay"]
+					},
+					{
+						"id": 3,
+						"position": "Chemistry Director",
+						"name": ["Ethan Dalley"]
+					},
+					{
+						"id": 4,
+						"position": "Computer Science Directors",
+						"name": [
+							"Amir Ali Eslami",
+							"Hamidreza Khoramrokh",
+							"Zil Pavdighada"
+						]
+					},
+					{
+						"id": 5,
+						"position": "Mathematics and Its Applications Director",
+						"name": ["Benson Zhang"]
+					},
+					{
+						"id": 6,
+						"position": "Financial Mathematics Director",
+						"name": ["Abigail Willie"]
+					},
+					{
+						"id": 7,
+						"position": "Medical Physics Director",
+						"name": ["Alejandro Coba Cabrera"]
+					}
+				]
+			},
+			{
+				"id": "First Year Directors-23",
+
+				"people": ["Dylan Cheong", "Maesah Rahman", "Nathan Romero"]
+			},
+			{
+				"id": "Non-Voting Board Members-23",
+				"people": [
+					{
+						"id": 1,
+						"position": "Chairperson",
+						"name": "Alessandro Cunsolo"
+					},
+					{
+						"id": 2,
+						"position": "Manager, Student Relations and Development",
+						"name": "Pamela Wettlaufer"
+					},
+					{
+						"id": 3,
+						"position": "Secretary",
+						"name": "Umayyah Saleh"
+					},
+					{
+						"id": 4,
+						"position": "International Student Commisioner",
+						"name": "Tamara Beriia"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "board-22",
+		"year": "2022-2023",
+		"members": [
+			{
+				"id": "Executives-22",
+				"people": [
+					{
+						"id": 1,
+						"position": "President",
+						"name": "Jamie Rice"
+					},
+					{
+						"id": 2,
+						"position": "VP Operations",
+						"name": "VACANT"
+					},
+					{
+						"id": 3,
+						"position": "VP Finance",
+						"name": "Redge Wang"
+					},
+					{
+						"id": 4,
+						"position": "VP Communications",
+						"name": "Tiam Vanaki"
+					},
+					{
+						"id": 5,
+						"position": "VP Student Life",
+						"name": "Anita Lesan"
+					},
+					{
+						"id": 6,
+						"position": "VP Academics",
+						"name": "Ramisa Razi"
+					},
+					{
+						"id": 7,
+						"position": "VP Externals",
+						"name": "VACANT"
+					},
+					{
+						"id": 8,
+						"position": "VP Equity",
+						"name": "Jafarul Hoque"
+					}
+				]
+			},
+			{
+				"id": "Program Directors-22",
+				"people": [
+					{
+						"id": 1,
+						"position": "Biomedical Science Directors",
+						"name": ["Frank Garfalo", "Golsa Malak", "Urwa Najeeb"]
+					},
+					{
+						"id": 2,
+						"position": "Biology Director",
+						"name": ["VACANT"]
+					},
+					{
+						"id": 3,
+						"position": "Chemistry Director",
+						"name": ["Stephanie Tboas"]
+					},
+					{
+						"id": 4,
+						"position": "Computer Science Directors",
+						"name": ["Mathushan Sivakumaran", "VACANT", "VACANT"]
+					},
+					{
+						"id": 5,
+						"position": "Mathematics and Its Applications Director",
+						"name": ["Aisha Yusuf"]
+					},
+					{
+						"id": 6,
+						"position": "Financial Mathematics Director",
+						"name": ["VACANT"]
+					},
+					{
+						"id": 7,
+						"position": "Medical Physics Director",
+						"name": ["Alejandro Coba Cabrera"]
+					}
+				]
+			},
+			{
+				"id": "First Year Directors-22",
+				"people": ["Louise Malabanan", "Jack Shen", "Benson Zhang"]
+			},
+			{
+				"id": "Non-Voting Members-22",
+				"people": [
+					{
+						"id": 1,
+						"position": "Chairperson",
+						"name": "Alessandro Cunsolo"
+					},
+					{
+						"id": 2,
+						"position": "Manager, Student Relations and Development",
+						"name": "Pamela Wettlaufer"
+					},
+					{
+						"id": 3,
+						"position": "Secretary",
+						"name": "Nzonzila Mundele"
+					}
+				]
+			}
+		]
+	}
 ]
