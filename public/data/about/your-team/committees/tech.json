@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "position": "Tech Manager",
+        "image": "tech-manager.jpg",
+        "name": "Mo Nakouzi"
+    },
+    {
+        "id": 2,
+        "position": "Front End Lead",
+        "image": "front-end-lead.jpg",
+        "name": "Maruf Ahmed"
+    },
+    {
+        "id": 3,
+        "position": "Back End Lead",
+        "image": "back-end-lead.jpg",
+        "name": "Noah Friedman"
+    },
+    {
+        "id": 4,
+        "position": "DevOps Lead",
+        "image": "devops-lead.jpg",
+        "name": "Daniel Ibanescu"
+    },
+    {
+        "id": 5,
+        "position": "Data Lead",
+        "image": "data-lead.jpg",
+        "name": "Prachi Patel"
+    }
+]

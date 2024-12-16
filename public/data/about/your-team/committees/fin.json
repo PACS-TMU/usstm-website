@@ -2,43 +2,31 @@
     {
         "id": 1,
         "position": "VP Finance",
-        "image": "finance.jpg",
-        "name": "Redge Wang"
+        "image": "vp-finance.jpg",
+        "name": "Koshlender Gupta"
     },
     {
         "id": 2,
         "position": "Deputy Finance",
-        "image": "deputyFin.jpg",
-        "name": "Koshlender Gupta"
+        "image": "deputy-finance.jpg",
+        "name": "Mo Nakouzi"
     },
     {
         "id": 3,
-        "position": "Student Group Finance Coordinator",
-        "image": "SGFin1.jpg",
-        "name": "Zil Pavdighada"
-    },
-    {
-        "id": 4,
-        "position": "Student Group Finance Coordinator",
-        "image": "SGFin2.jpg",
-        "name": "Long Nguyen"
-    },
-    {
-        "id": 5,
-        "position": "Course Union Finance Coordinator",
-        "image": "CUFin.jpg",
-        "name": "Ethan Ham"
-    },
-    {
-        "id": 6,
-        "position": "Financial Associate",
-        "image": "financialAssociate.jpg",
+        "position": "Finance Associate",
+        "image": "finance-associate.jpg",
         "name": "Kabilash Jegatheswaran"
     },
     {
-        "id": 7,
-        "position": "Budget Analyst",
-        "image": "budgetAnalyst.jpg",
-        "name": "Abiali Badani"
+        "id": 4,
+        "position": "Finance Associate",
+        "image": "finance-associate.jpg",
+        "name": "Muskaan Bajwa"
+    },
+    {
+        "id": 5,
+        "position": "Finance Associate",
+        "image": "finance-associate.jpg",
+        "name": "Kayra Shivdat"
     }
 ]

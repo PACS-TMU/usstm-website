@@ -1,68 +1,44 @@
 [
     {
         "id": 1,
-        "position": "VP Operations",
-        "image": "operations.jpg",
-        "name": "Louise Malabanan"
-    },
-    {
-        "id": 2,
         "position": "Deputy Operations",
-        "image": "deputyOps.jpg",
-        "name": "Benson Zhang"
-    },
-    {
-        "id": 3,
-        "position": "Secretary",
-        "image": "secretary.jpg",
-        "name": "Umayyah Saleh"
-    },
-    {
-        "id": 4,
-        "position": "Operations Lead",
-        "image": "opsLead.jpg",
+        "image": "deputy-operations.jpg",
         "name": "Queenie Chung"
     },
     {
+        "id": 2,
+        "position": "Secretary",
+        "image": "secretary.jpg",
+        "name": "Pranathi Budarapu"
+    },
+    {
+        "id": 3,
+        "position": "Chairperson",
+        "image": "chairperson.jpg",
+        "name": "Damian Gavrusenko"
+    },
+    {
+        "id": 4,
+        "position": "Data Analyst/Tech Lead",
+        "image": "data-analyst-tech-lead.jpg",
+        "name": "Labib Sarwar"
+    },
+    {
         "id": 5,
-        "position": "Science Lounge Coordinator",
-        "image": "scienceLoungeCoord1.jpg",
-        "name": "Bel Catapusan"
+        "position": "Governance Lead",
+        "image": "governance-lead.jpg",
+        "name": "Muneera Adil Siddiqui"
     },
     {
         "id": 6,
         "position": "Science Lounge Coordinator",
-        "image": "scienceLoungeCoord2.jpg",
-        "name": "Melanie Kentsn"
+        "image": "science-lounge-coordinator.jpg",
+        "name": "Abeer Moussa"
     },
     {
         "id": 7,
-        "position": "General Projects Manager",
-        "image": "generalProjectsManager1.jpg",
-        "name": "Jirah Jamog"
-    },
-    {
-        "id": 8,
-        "position": "General Projects Manager",
-        "image": "generalProjectsManager2.jpg",
-        "name": "Tamanjot Baraich"
-    },
-    {
-        "id": 9,
-        "position": "General Projects Manager",
-        "image": "generalProjectsManager3.jpg",
-        "name": "Mareson Suresh"
-    },
-    {
-        "id": 10,
-        "position": "Events Calendar Coordinator",
-        "image": "eventsCalendarCoordinator.jpg",
-        "name": "Pooja Samaraweera"
-    },
-    {
-        "id": 11,
-        "position": "Operations Assistant",
-        "image": "operationsAssisstant.jpg",
-        "name": "Zoe Dumensil"
+        "position": "Resource Manager/Engagement and Feedback Specialist",
+        "image": "resource-manager-engagement-and-feedback-specialist.jpg",
+        "name": "Mehar Kaur"
     }
 ]

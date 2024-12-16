@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "position": "VP Finance",
+        "image": "vp-finance.jpg",
+        "name": "Koshlender Gupta"
+    },
+    {
+        "id": 2,
+        "position": "Co-President",
+        "image": "co-president.jpg",
+        "name": "Louise Malabanan"
+    },
+    {
+        "id": 3,
+        "position": "VP Academic",
+        "image": "vp-academic.jpg",
+        "name": "Intesar Shah"
+    },
+    {
+        "id": 4,
+        "position": "Deputy Finance",
+        "image": "deputy-finance.jpg",
+        "name": "Mo Nakouzi"
+    },
+    {
+        "id": 5,
+        "position": "Computer Science Director",
+        "image": "computer-science-director.jpg",
+        "name": "Basith Abdul"
+    },
+    {
+        "id": 6,
+        "position": "Deputy External",
+        "image": "deputy-external.jpg",
+        "name": "Tamanna Nasseri"
+    },
+    {
+        "id": 7,
+        "position": "Finance Associate",
+        "image": "finance-associate.jpg",
+        "name": "Sade Mohammed"
+    }
+]

@@ -2,61 +2,61 @@
     {
         "id": 1,
         "position": "VP Student Life",
-        "image": "studentLife.jpg",
-        "name": "Anita Lesan"
-    },
-    {
-        "id": 2,
-        "position": "Deputy Student Life",
-        "image": "deputyStudentLife.jpg",
+        "image": "vp-student-life.jpg",
         "name": "Katherine Moncada"
     },
     {
+        "id": 2,
+        "position": "Events Venue Coordinator",
+        "image": "events-venue-coordinator.jpg",
+        "name": "Lubna Mahmoud"
+    },
+    {
         "id": 3,
-        "position": "Events Coordinator",
-        "image": "eventscoord1.jpg",
-        "name": "Alejandro Cobacabrera"
+        "position": "Events Planner",
+        "image": "events-planner.jpg",
+        "name": "Viri Nguyen"
     },
     {
         "id": 4,
-        "position": "Events Coordinator",
-        "image": "eventscoord2.jpg",
-        "name": "Indveer Sandhu"
+        "position": "Events Planner",
+        "image": "events-planner.jpg",
+        "name": "Muhammad Hanan"
     },
     {
         "id": 5,
-        "position": "Events Coordinator",
-        "image": "eventscoord3.jpg",
-        "name": "Nurtaj Haque"
+        "position": "Marketing Coordinator",
+        "image": "marketing-coordinator.jpg",
+        "name": "Shreya Nagah"
     },
     {
         "id": 6,
-        "position": "Events Coordinator",
-        "image": "eventscoord4.jpg",
-        "name": "Pooja Samaraweera"
+        "position": "Finance Co-Coordinator",
+        "image": "finance-co-coordinator.jpg",
+        "name": "Abdul Abedin"
     },
     {
         "id": 7,
-        "position": "Events Coordinator",
-        "image": "eventscoord5.jpg",
-        "name": "Suzy Petrosyan"
+        "position": "Finance Co-Coordinator",
+        "image": "finance-co-coordinator.jpg",
+        "name": "Alex Banoub"
     },
     {
         "id": 8,
-        "position": "Events Coordinator",
-        "image": "eventscoord6.jpg",
-        "name": "Tamara Beriia"
+        "position": "Events Volunteer Coordinators",
+        "image": "events-volunteer-coordinators.jpg",
+        "name": "Basith Abdul"
     },
     {
         "id": 9,
-        "position": "Events Coordinator",
-        "image": "eventscoord7.jpg",
-        "name": "Urwa Najeeb"
+        "position": "Event Management Coordinator",
+        "image": "event-management-coordinator.jpg",
+        "name": "Georgia Amposah-Fordjour"
     },
     {
         "id": 10,
-        "position": "Events Coordinator",
-        "image": "eventscoord8.jpg",
-        "name": "Mohammad"
+        "position": "Events Planner",
+        "image": "events-planner.jpg",
+        "name": "Abdel Abdelaal"
     }
 ]

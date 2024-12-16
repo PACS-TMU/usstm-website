@@ -2,43 +2,121 @@
     {
         "id": 1,
         "position": "VP Communications",
-        "image": "comms.jpg",
-        "name": "Tiam Vanaki"
+        "image": "vp-communications.jpg",
+        "name": "Bel Christian Catapusan"
     },
     {
         "id": 2,
         "position": "Deputy Communications",
-        "image": "deputyComms.jpg",
-        "name": "Fiona Vongsay"
+        "image": "deputy-communications.jpg",
+        "name": "Sharifa Lomiyev"
     },
     {
         "id": 3,
-        "position": "Graphic Designer",
-        "image": "graphicDesigner.jpg",
-        "name": "Vy Luong"
+        "position": "Social Media Managaer",
+        "image": "social-media-managaer.jpg",
+        "name": "Fiona Vongsay"
     },
     {
         "id": 4,
-        "position": "Merchandise Designer",
-        "image": "merch.jpg",
-        "name": "Ira Magallenes"
+        "position": "Events Manager",
+        "image": "events-manager.jpg",
+        "name": "Gabrielle Amponsah-Fordjour"
     },
     {
         "id": 5,
-        "position": "Social Media Manager",
-        "image": "socialMediaManager.jpg",
-        "name": "Hamidreza Khoramrokh"
+        "position": "Merchandise Manager",
+        "image": "merchandise-manager.jpg",
+        "name": "Saaruca Kumar"
     },
     {
         "id": 6,
-        "position": "Social Media Assistant",
-        "image": "socialMediaAssistant.jpg",
-        "name": "Valeria Suaznabar"
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Ishaba Hossaun"
     },
     {
         "id": 7,
-        "position": "Social Media Video Editor",
-        "image": "videoEditor.jpg",
-        "name": "Ethan Dally"
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Fiza Aamir Butt"
+    },
+    {
+        "id": 8,
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Krista Lila"
+    },
+    {
+        "id": 9,
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Setareh Fadaei"
+    },
+    {
+        "id": 10,
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Talha Ahmad Khan"
+    },
+    {
+        "id": 11,
+        "position": "Social Media Assistant Instagram",
+        "image": "social-media-assistant-instagram.jpg",
+        "name": "Ira Magallanes"
+    },
+    {
+        "id": 12,
+        "position": "Social Media Assistant Instagram",
+        "image": "social-media-assistant-instagram.jpg",
+        "name": "Cindy Nguyen"
+    },
+    {
+        "id": 13,
+        "position": "Social Media Assistant TikTok",
+        "image": "social-media-assistant-tiktok.jpg",
+        "name": "Sanjana Kulendren"
+    },
+    {
+        "id": 14,
+        "position": "Social Media Assistant TikTok",
+        "image": "social-media-assistant-tiktok.jpg",
+        "name": "Sania Shadvar"
+    },
+    {
+        "id": 15,
+        "position": "Social Media Assistant LinkedIn",
+        "image": "social-media-assistant-linkedin.jpg",
+        "name": "Hamidreza Khoramrokh"
+    },
+    {
+        "id": 16,
+        "position": "Event Videographer",
+        "image": "event-videographer.jpg",
+        "name": "Aishwin Jeevothayan"
+    },
+    {
+        "id": 17,
+        "position": "Event Video Editor",
+        "image": "event-video-editor.jpg",
+        "name": "Yuvraj Shahi"
+    },
+    {
+        "id": 18,
+        "position": "Merchandise Designer",
+        "image": "merchandise-designer.jpg",
+        "name": "Jordan Miller"
+    },
+    {
+        "id": 19,
+        "position": "Merchandise Designer",
+        "image": "merchandise-designer.jpg",
+        "name": "Mobina Tavakkoli"
+    },
+    {
+        "id": 20,
+        "position": "Website Designer",
+        "image": "website-designer.jpg",
+        "name": "Choney Dolma"
     }
 ]
