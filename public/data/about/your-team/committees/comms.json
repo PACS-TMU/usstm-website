@@ -13,8 +13,8 @@
     },
     {
         "id": 3,
-        "position": "Social Media Managaer",
-        "image": "social-media-managaer.jpg",
+        "position": "Social Media Manager",
+        "image": "social-media-manager.png",
         "name": "Fiona Vongsay"
     },
     {
@@ -26,37 +26,37 @@
     {
         "id": 5,
         "position": "Merchandise Manager",
-        "image": "merchandise-manager.jpg",
+        "image": "",
         "name": "Saaruca Kumar"
     },
     {
         "id": 6,
         "position": "Graphic Designer",
         "image": "graphic-designer.jpg",
-        "name": "Ishaba Hossaun"
+        "name": "Ishaba Hossain"
     },
     {
         "id": 7,
         "position": "Graphic Designer",
-        "image": "graphic-designer.jpg",
+        "image": "graphic-designer-2.jpg",
         "name": "Fiza Aamir Butt"
     },
     {
         "id": 8,
         "position": "Graphic Designer",
-        "image": "graphic-designer.jpg",
+        "image": "",
         "name": "Krista Lila"
     },
     {
         "id": 9,
         "position": "Graphic Designer",
-        "image": "graphic-designer.jpg",
+        "image": "",
         "name": "Setareh Fadaei"
     },
     {
         "id": 10,
         "position": "Graphic Designer",
-        "image": "graphic-designer.jpg",
+        "image": "",
         "name": "Talha Ahmad Khan"
     },
     {
@@ -68,19 +68,19 @@
     {
         "id": 12,
         "position": "Social Media Assistant Instagram",
-        "image": "social-media-assistant-instagram.jpg",
+        "image": "social-media-assistant-instagram-2.png",
         "name": "Cindy Nguyen"
     },
     {
         "id": 13,
         "position": "Social Media Assistant TikTok",
-        "image": "social-media-assistant-tiktok.jpg",
+        "image": "social-media-assistant-tiktok.png",
         "name": "Sanjana Kulendren"
     },
     {
         "id": 14,
         "position": "Social Media Assistant TikTok",
-        "image": "social-media-assistant-tiktok.jpg",
+        "image": "social-media-assistant-tiktok-2.jpg",
         "name": "Sania Shadvar"
     },
     {
@@ -110,13 +110,13 @@
     {
         "id": 19,
         "position": "Merchandise Designer",
-        "image": "merchandise-designer.jpg",
+        "image": "",
         "name": "Mobina Tavakkoli"
     },
     {
         "id": 20,
         "position": "Website Designer",
-        "image": "website-designer.jpg",
+        "image": "",
         "name": "Choney Dolma"
     }
 ]

@@ -8,13 +8,13 @@
     {
         "id": 2,
         "position": "Events Venue Coordinator",
-        "image": "events-venue-coordinator.jpg",
+        "image": "events-venue-coordinator.png",
         "name": "Lubna Mahmoud"
     },
     {
         "id": 3,
         "position": "Events Planner",
-        "image": "events-planner.jpg",
+        "image": "",
         "name": "Viri Nguyen"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6,
         "position": "Finance Co-Coordinator",
-        "image": "finance-co-coordinator.jpg",
+        "image": "",
         "name": "Abdul Abedin"
     },
     {
@@ -44,19 +44,19 @@
     {
         "id": 8,
         "position": "Events Volunteer Coordinators",
-        "image": "events-volunteer-coordinators.jpg",
+        "image": "events-volunteer-coordinators.png",
         "name": "Basith Abdul"
     },
     {
         "id": 9,
         "position": "Event Management Coordinator",
-        "image": "event-management-coordinator.jpg",
+        "image": "",
         "name": "Georgia Amposah-Fordjour"
     },
     {
         "id": 10,
         "position": "Events Planner",
-        "image": "events-planner.jpg",
+        "image": "",
         "name": "Abdel Abdelaal"
     }
 ]

@@ -14,7 +14,7 @@
     {
         "id": 3,
         "position": "VP Academic",
-        "image": "vp-academic.jpg",
+        "image": "",
         "name": "Intesar Shah"
     },
     {
@@ -26,19 +26,19 @@
     {
         "id": 5,
         "position": "Computer Science Director",
-        "image": "computer-science-director.jpg",
+        "image": "computer-science-director.png",
         "name": "Basith Abdul"
     },
     {
         "id": 6,
         "position": "Deputy External",
-        "image": "deputy-external.jpg",
+        "image": "",
         "name": "Tamanna Nasseri"
     },
     {
         "id": 7,
         "position": "Finance Associate",
-        "image": "finance-associate.jpg",
+        "image": "",
         "name": "Sade Mohammed"
     }
 ]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "position": "Co-President",
+        "type": "Executive",
+        "image": "co-president.jpg",
+        "contact-info": "president@usstm.ca",
+        "name": "Louise Malabanan"
+    },
+    {
+        "id": 2,
+        "position": "Co-President",
+        "type": "Executive",
+        "image": "",
+        "contact-info": "president@usstm.ca",
+        "name": "Pooja Samaraweera"
+    }
+]

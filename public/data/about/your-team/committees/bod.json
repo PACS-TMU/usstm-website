@@ -3,7 +3,7 @@
         "id": 1,
         "position": "Co-President",
         "type": "Executive",
-        "image": "president_1.jpg",
+        "image": "president-1.jpg",
         "contact-info": "president@usstm.ca",
         "name": "Louise Malabanan"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "position": "Co-President",
         "type": "Executive",
-        "image": "president_2.jpg",
+        "image": "",
         "contact-info": "president@usstm.ca",
         "name": "Pooja Samaraweera"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "position": "VP Operations",
         "type": "Executive",
-        "image": "operations.jpg",
+        "image": "vp-operations.jpg",
         "contact-info": "vp.operations@usstm.ca",
         "name": "Harnoor Gahir"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "position": "VP Finance",
         "type": "Executive",
-        "image": "finance.jpg",
+        "image": "vp-finance.jpg",
         "contact-info": "vp.finance@usstm.ca",
         "name": "Koshlender Gupta"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "position": "VP Communications",
         "type": "Executive",
-        "image": "comms.jpg",
+        "image": "vp-comms.jpg",
         "contact-info": "vp.communications@usstm.ca",
         "name": "Bel Christian Catapusan"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "position": "VP Student Life",
         "type": "Executive",
-        "image": "studentLife.jpg",
+        "image": "vp-student-life.jpg",
         "contact-info": "vp.events@usstm.ca",
         "name": "Katherine Moncada"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "position": "VP Academics",
         "type": "Executive",
-        "image": "academics.jpg",
+        "image": "",
         "contact-info": "vp.academics@usstm.ca",
         "name": "Intesar Shah"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "position": "VP Externals",
         "type": "Executive",
-        "image": "externals.jpg",
+        "image": "vp-external.jpg",
         "contact-info": "vp.externals@usstm.ca",
         "name": "Jack Shen"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "position": "VP Equity",
         "type": "Executive",
-        "image": "equity.jpg",
+        "image": "vp-equity.jpg",
         "contact-info": "vp.equity@usstm.ca",
         "name": "Abigail Willie"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "position": "Biomedical Science Director",
         "type": "ProgramDirector",
-        "image": "biomed1.jpg",
+        "image": "biomed-director.jpg",
         "contact-info": "",
         "name": "Sharifa Lomiyev"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "position": "Biomedical Science Director",
         "type": "ProgramDirector",
-        "image": "biomed2.jpg",
+        "image": "",
         "contact-info": "",
         "name": "Tamanna Nasseri"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "position": "Biology Director",
         "type": "ProgramDirector",
-        "image": "bio1.jpg",
+        "image": "bio-director-1.jpg",
         "contact-info": "",
         "name": "Sara Shabanian-Azad"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "position": "Biology Director",
         "type": "ProgramDirector",
-        "image": "bio2.jpg",
+        "image": "bio-director-2.jpg",
         "contact-info": "",
         "name": "Fiona Vongsay"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "position": "Chemistry Director",
         "type": "ProgramDirector",
-        "image": "chem.jpg",
+        "image": "chem-director.jpg",
         "contact-info": "",
         "name": "Cameron Stanger"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "cs3.jpg",
+        "image": "cs-director-3.png",
         "contact-info": "",
         "name": "Juan Pires"
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "",
+        "image": "cs-director-4.jpg",
         "contact-info": "",
         "name": "Prachi Patel"
     },
@@ -147,7 +147,7 @@
         "id": 19,
         "position": "Mathematics and Its Applications Director",
         "type": "ProgramDirector",
-        "image": "math.jpg",
+        "image": "",
         "contact-info": "",
         "name": "Viri Nguyen"
     },
@@ -155,7 +155,7 @@
         "id": 20,
         "position": "Financial Mathematics Director",
         "type": "ProgramDirector",
-        "image": "finMath.jpg",
+        "image": "",
         "contact-info": "",
         "name": "Jasmine Sodhi"
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "position": "Medical Physics Director",
         "type": "ProgramDirector",
-        "image": "medPhys.jpg",
+        "image": "med-phys-director.jpg",
         "contact-info": "",
         "name": "Ira Magallanes"
     },
@@ -195,7 +195,7 @@
         "id": 25,
         "position": "Chairperson",
         "type": "NonVotingBoardMember",
-        "image": "chairperson.jpg",
+        "image": "",
         "contact-info": "",
         "name": "Damian Gavrusenko"
     },
@@ -219,7 +219,7 @@
         "id": 28,
         "position": "International Student Commisioner",
         "type": "NonVotingBoardMember",
-        "image": "commisioner.jpg",
+        "image": "",
         "contact-info": "",
         "name": "Kamilla Ganikyzy"
     }

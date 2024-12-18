@@ -8,9 +8,9 @@
     },
     {
         "id": 2,
-        "committee-name": "President's Committee",
-        "path": "presidents-committee",
-        "committee-image": ["pres1.jpg","pres2.jpg","pres3.jpg"],
+        "committee-name": "Co-Presidents",
+        "path": "presidents",
+        "committee-image": ["presidents1.jpg","presidents2.jpg"],
         "committee-description": "The President's Committee is responsible for overseeing all operations and ensuring that the board of directors fulfills its duties. They provide strategic direction, represent the USSTM in official capacities. The President's Commitee plays a crucial role in setting the tone and vision for the organization, guiding its growth and development."
     },
     {
@@ -36,37 +36,51 @@
     },
     {
         "id": 6,
-        "committee-name": "Yearbook Committee",
-        "path": "yearbook-committee",
-        "committee-image": ["yearbook1.jpg","yearbook2.jpg","yearbook3.jpg"],
-        "committee-description": "The Yearbook Committee is responsible for capturing and immortalizing the memories and achievements of the USSTM throughout the year. They design and produce the annual yearbook, curating photographs, stories, and highlights from various events and activities. The Yearbook Committee works to create a keepsake that will be cherished by students for years to come, ensuring that every moment is captured and celebrated."
-    },
-    {
-        "id": 7,
         "committee-name": "Events Committee",
         "path": "events-committee",
         "committee-image": ["events1.jpg","events2.jpg","events3.jpg"],
         "committee-description": "The Events Committee is responsible for planning and executing events and activities for USSTM members. This includes social events that help foster a sense of community and engagement within the organization. The Events Committee works closely with other members of the executive team to ensure that events are well-organized, engaging, and aligned with the USSTM's mission and values."
     },
     {
-        "id": 8,
+        "id": 7,
         "committee-name": "Academics Committee",
         "path": "academics-committee",
         "committee-image": ["academics1.jpg","academics2.jpg","academics3.jpg"],
         "committee-description": "The Academic Committee is dedicated to enhancing the academic experience of students within the USSTM. They organize Crash Courses to support students in their studies. Additionally, the committee liaises with faculty and administration to advocate for student needs and improve academic resources. The Academic Committee plays a vital role in fostering a supportive academic environment for all students."
     },
     {
-        "id": 9,
+        "id": 8,
         "committee-name": "Externals Committee",
         "path": "external-committee",
         "committee-image": ["external1.jpg","external2.jpg","external3.jpg"],
         "committee-description": "The Externals Committee focuses on equipping USSTM students with professional skills and networking opportunities. They organize events, workshops, and networking sessions with industry professionals to help students build connections and gain valuable insights into their future careers. The committee also liaises with external organizations and businesses to create partnerships and sponsorship opportunities for USSTM, enhancing the overall student experience and providing valuable professional development opportunities."
     },
     {
-        "id": 10,
-        "committee-name": "Equity Committee",
-        "path": "equity-committee",
+        "id": 9,
+        "committee-name": "EDI Committee",
+        "path": "edi-committee",
         "committee-image": ["equity1.jpg","equity2.jpg","equity3.jpg"],
         "committee-description": "The Equity Committee is committed to promoting diversity, equity, and inclusivity within the USSTM. They organize events, workshops, and campaigns to raise awareness about social justice issues and create a more inclusive community. The committee works to address systemic barriers and advocate for marginalized groups, ensuring that everyone feels valued and respected within the organization."
+    },
+    {
+        "id": 10,
+        "committee-name": "Tech Committee",
+        "path": "tech-committee",
+        "committee-image": [],
+        "committee-description": "Description coming soon."
+    },
+    {
+        "id": 11,
+        "committee-name": "Funding Request Committee",
+        "path": "funding-request-committee",
+        "committee-image": [],
+        "committee-description": "Description coming soon"
+    },
+    {
+        "id": 12,
+        "committee-name": "Science Orientation Committee",
+        "path": "science-orientation-committee",
+        "committee-image": [],
+        "committee-description": "Description coming soon"
     }
 ]

@@ -8,13 +8,13 @@
     {
         "id": 2,
         "position": "Deputy Equity",
-        "image": "deputy-equity.jpg",
+        "image": "",
         "name": "Vanessa Arase"
     },
     {
         "id": 3,
         "position": "Researcher",
-        "image": "researcher.jpg",
+        "image": "",
         "name": "Melanie Kentshitswe"
     },
     {
@@ -26,13 +26,13 @@
     {
         "id": 5,
         "position": "Researcher",
-        "image": "researcher.jpg",
+        "image": "researcher-2.jpg",
         "name": "Sara Shabanian-Azad"
     },
     {
         "id": 6,
         "position": "Researcher",
-        "image": "researcher.jpg",
+        "image": "",
         "name": "VACANT"
     },
     {
@@ -44,25 +44,25 @@
     {
         "id": 8,
         "position": "Event Planner",
-        "image": "event-planner.jpg",
+        "image": "event-planner-2.jpg",
         "name": "Ergib Welda"
     },
     {
         "id": 9,
         "position": "Event Planner",
-        "image": "event-planner.jpg",
+        "image": "",
         "name": "VACANT"
     },
     {
         "id": 10,
         "position": "Event Planner",
-        "image": "event-planner.jpg",
+        "image": "",
         "name": "VACANT"
     },
     {
         "id": 11,
         "position": "General Member",
-        "image": "general-member.jpg",
+        "image": "",
         "name": "Laxmitha Sivathayalan"
     }
 ]

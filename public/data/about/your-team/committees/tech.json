@@ -8,19 +8,19 @@
     {
         "id": 2,
         "position": "Front End Lead",
-        "image": "front-end-lead.jpg",
+        "image": "",
         "name": "Maruf Ahmed"
     },
     {
         "id": 3,
         "position": "Back End Lead",
-        "image": "back-end-lead.jpg",
+        "image": "",
         "name": "Noah Friedman"
     },
     {
         "id": 4,
         "position": "DevOps Lead",
-        "image": "devops-lead.jpg",
+        "image": "",
         "name": "Daniel Ibanescu"
     },
     {

@@ -1,44 +1,50 @@
 [
     {
-        "id": 1,
+        "id": 2,
+        "position": "VP Operations",
+        "image": "vp-operations.jpg",
+        "name": "Harnoor Gahir"
+    },
+    {
+        "id": 2,
         "position": "Deputy Operations",
         "image": "deputy-operations.jpg",
         "name": "Queenie Chung"
     },
     {
-        "id": 2,
+        "id": 3,
         "position": "Secretary",
-        "image": "secretary.jpg",
+        "image": "",
         "name": "Pranathi Budarapu"
     },
     {
-        "id": 3,
+        "id": 4,
         "position": "Chairperson",
-        "image": "chairperson.jpg",
+        "image": "",
         "name": "Damian Gavrusenko"
     },
     {
-        "id": 4,
+        "id": 5,
         "position": "Data Analyst/Tech Lead",
-        "image": "data-analyst-tech-lead.jpg",
+        "image": "data-analyst-tech-lead.jpeg",
         "name": "Labib Sarwar"
     },
     {
-        "id": 5,
+        "id": 6,
         "position": "Governance Lead",
-        "image": "governance-lead.jpg",
+        "image": "",
         "name": "Muneera Adil Siddiqui"
     },
     {
-        "id": 6,
+        "id": 7,
         "position": "Science Lounge Coordinator",
-        "image": "science-lounge-coordinator.jpg",
+        "image": "",
         "name": "Abeer Moussa"
     },
     {
-        "id": 7,
+        "id": 8,
         "position": "Resource Manager/Engagement and Feedback Specialist",
-        "image": "resource-manager-engagement-and-feedback-specialist.jpg",
+        "image": "resource-manager-engagement-and-feedback-specialist.png",
         "name": "Mehar Kaur"
     }
 ]
