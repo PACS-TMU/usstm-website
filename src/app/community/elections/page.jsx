@@ -9,7 +9,7 @@ export default function Elections() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('https://usstm.ca/data/community/elections/elections-results.json');
+                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/community/elections/elections-results.json`);
                 const data = await res.json();
                 setElectionsResults(data);
             } catch (error) {
@@ -57,7 +57,7 @@ export default function Elections() {
                         </p>
                         <section id="timeline-image" className="p-4">
                             <Image
-                                overrideSrc="https://usstm.ca/images/community/elections/timeline.png"
+                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/elections/timeline.png`}
                                 alt="USSTM Elections Timeline"
                                 width={1500}
                                 height={1980}

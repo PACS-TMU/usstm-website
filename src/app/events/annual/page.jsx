@@ -11,7 +11,7 @@ export default function Annual() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://usstm.ca/data/events/annual/annual-events.json');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/annual/annual-events.json`);
                 const data = await response.json();
                 setAnnualEvents(data);
             } catch (error) {

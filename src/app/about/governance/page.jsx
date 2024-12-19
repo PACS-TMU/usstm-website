@@ -15,7 +15,7 @@ export default function Governance() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://usstm.ca/data/about/governance/gov-docs.json');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/governance/gov-docs.json`);
                 const data = await response.json();
                 setDocuments(data);
             } catch (error) {
@@ -37,7 +37,7 @@ export default function Governance() {
                             that drives our mission forward.
                         </p>
                         <Image
-                            overrideSrc="https://usstm.ca/images/about/governance/structure.png"
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/governance/structure.png`}
                             alt="USSTM Structure"
                             width={3000}
                             height={3000}
