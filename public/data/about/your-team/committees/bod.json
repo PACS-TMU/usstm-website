@@ -3,7 +3,7 @@
         "id": 1,
         "position": "Co-President",
         "type": "Executive",
-        "image": "president-1.jpg",
+        "image": "co-president.jpg",
         "contact-info": "president@usstm.ca",
         "name": "Louise Malabanan"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "position": "VP Communications",
         "type": "Executive",
-        "image": "vp-comms.jpg",
+        "image": "vp-communications.jpg",
         "contact-info": "vp.communications@usstm.ca",
         "name": "Bel Christian Catapusan"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "position": "VP Externals",
         "type": "Executive",
-        "image": "vp-external.jpg",
+        "image": "vp-externals.jpg",
         "contact-info": "vp.externals@usstm.ca",
         "name": "Jack Shen"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "position": "Biomedical Science Director",
         "type": "ProgramDirector",
-        "image": "biomed-director.jpg",
+        "image": "biomedical-science-director.jpg",
         "contact-info": "",
         "name": "Sharifa Lomiyev"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "position": "Biology Director",
         "type": "ProgramDirector",
-        "image": "bio-director-1.jpg",
+        "image": "biology-director.jpg",
         "contact-info": "",
         "name": "Sara Shabanian-Azad"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "position": "Biology Director",
         "type": "ProgramDirector",
-        "image": "bio-director-2.jpg",
+        "image": "biology-director-2.png",
         "contact-info": "",
         "name": "Fiona Vongsay"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "position": "Chemistry Director",
         "type": "ProgramDirector",
-        "image": "chem-director.jpg",
+        "image": "chemistry-director.jpg",
         "contact-info": "",
         "name": "Cameron Stanger"
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "cs1.jpg",
+        "image": "computer-science-director.png",
         "contact-info": "",
         "name": "Basith Abdul"
     },
@@ -123,7 +123,7 @@
         "id": 16,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "cs2.jpg",
+        "image": "computer-science-director-2.jpg",
         "contact-info": "",
         "name": "Muhammad Hanan"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "cs-director-3.png",
+        "image": "computer-science-director-3.png",
         "contact-info": "",
         "name": "Juan Pires"
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "position": "Computer Science Director",
         "type": "ProgramDirector",
-        "image": "cs-director-4.jpg",
+        "image": "computer-science-director-4.jpg",
         "contact-info": "",
         "name": "Prachi Patel"
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "position": "Medical Physics Director",
         "type": "ProgramDirector",
-        "image": "med-phys-director.jpg",
+        "image": "medical-physics-director.jpg",
         "contact-info": "",
         "name": "Ira Magallanes"
     },
@@ -203,7 +203,7 @@
         "id": 26,
         "position": "Manager, Student Relations and Development",
         "type": "NonVotingBoardMember",
-        "image": "manager.jpg",
+        "image": "",
         "contact-info": "manager@usstm.ca",
         "name": "Pamela Wettlaufer"
     },
@@ -211,7 +211,7 @@
         "id": 27,
         "position": "Secretary",
         "type": "NonVotingBoardMember",
-        "image": "secretary.jpg",
+        "image": "",
         "contact-info": "secretary@usstm.ca",
         "name": "Pranathi Budarapu"
     },

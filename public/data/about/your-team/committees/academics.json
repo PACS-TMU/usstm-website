@@ -2,7 +2,7 @@
     {
         "id": 1,
         "position": "VP Academic",
-        "image": "vp-academic.jpg",
+        "image": "",
         "name": "Intesar Shah"
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "position": "Events Coordinator",
-        "image": "events-coordinator.jpg",
+        "image": "",
         "name": "Burhan Miyaji"
     },
     {
@@ -38,25 +38,25 @@
     {
         "id": 7,
         "position": "Social Media Coordinator",
-        "image": "social-media-coordinator.jpg",
+        "image": "",
         "name": "Laiba Tahseen"
     },
     {
         "id": 8,
         "position": "Graphic Designer",
-        "image": "graphic-designer-1.jpg",
+        "image": "",
         "name": "Danny Liu"
     },
     {
         "id": 9,
         "position": "Graphic Designer",
-        "image": "graphic-designer-2.jpg",
+        "image": "graphic-designer.jpg",
         "name": "Natalie Di Rosa"
     },
     {
         "id": 10,
         "position": "Case Comp Coordinator",
-        "image": "case-comp-coordinator.jpg",
+        "image": "",
         "name": "Karman Khera"
     },
     {
@@ -68,7 +68,7 @@
     {
         "id": 12,
         "position": "Academic Feedback Coordinator",
-        "image": "academic-feedback-coordinator.jpg",
+        "image": "",
         "name": "Sharon Savunthararajah"
     }
 ]
