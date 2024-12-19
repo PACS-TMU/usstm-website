@@ -13,7 +13,7 @@ export default function Feedback() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/academics/feedback-form/feedback-form.json');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/academics/feedback-form/feedback-form.json`);
                 const data = await response.json();
                 const assessments = await data[0];
                 const content = await data[1];

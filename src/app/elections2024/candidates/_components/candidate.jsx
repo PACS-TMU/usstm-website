@@ -20,7 +20,7 @@ export default function Candidate({ index, candidate, list }) {
                 <div className="flex flex-col lg:flex-row items-center text-center lg:w-[50%] lg:max-w-[50%] lg:text-left lg:ml-2 lg:mr-4">
                     <div className="grid grid-rows-[80%_20%] grid-cols-1 w-[50%] items-center justify-center">
                         <Image
-                            overrideSrc={`/images/elections2024/candidates/${candidate.image}`}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2024/candidates/${candidate.image}`}
                             loading="lazy"
                             alt={candidate.name}
                             width={1000}

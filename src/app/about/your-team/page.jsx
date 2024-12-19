@@ -10,7 +10,7 @@ export default function YourTeam() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/about/your-team/your-team.json');
+                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/your-team/your-team.json`);
                 const data = await res.json();
                 setYourTeamData(data);
             } catch (error) {
@@ -22,7 +22,7 @@ export default function YourTeam() {
 
     return (
         <section id="your-team-page">
-            <Header title="Your 2023/24 Team" />
+            <Header title="Your 2024/25 Team" />
             <div className="main flex flex-col">
                 <p className='lg:text-lg'> Welcome to the heart of USSTM, where a passionate team of individuals works tirelessly to bring the best experiences to our members. Get to know the leaders and contributors who drive our society forward:</p>
                 {
@@ -36,7 +36,7 @@ export default function YourTeam() {
                                     {committee['committee-name']}
                                 </p>
 
-                                <Carousel img1={committee['committee-image'][0]} img2={committee['committee-image'][1]} img3={committee['committee-image'][2]} name={committee['committee-name']} />
+                                <Carousel imgs={committee['committee-image']} name={committee['committee-name']} />
 
                                 <p className=" pt-2">
                                     {committee['committee-description']}

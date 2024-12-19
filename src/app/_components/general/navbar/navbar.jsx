@@ -23,7 +23,7 @@ export default function Navbar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/data/navbar/nav-items.json');
+        const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/navbar/nav-items.json`);
         const data = await res.json();
         setNavItems(data);
       } catch (error) {
@@ -81,7 +81,7 @@ export default function Navbar() {
           >
             <Link href="/">
               <Image
-                overrideSrc="/icons/usstm-logo.png"
+                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/icons/usstm-logo.png`}
                 alt="The USSTM Logo"
                 className="m-3 w-12"
                 width={240}

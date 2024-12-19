@@ -7,7 +7,7 @@
 }
 #parallax {
     /*  this is where the magic happens:  */
-    background-image: url("/images/homepage/parallax.jpg");
+    background-image: url("https://usstm.ca/images/homepage/parallax.jpg");
     background-attachment: scroll;
     background-position: center;
     background-size: cover;

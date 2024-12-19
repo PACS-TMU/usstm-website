@@ -17,7 +17,7 @@ export default function Carousel() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('/data/events/yearbook-gallery/yearbook-images.json');
+            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/yearbook-gallery/yearbook-images.json`);
             const data = await response.json();
             setYearbookData(data);
         } catch (err) {
@@ -64,7 +64,7 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                overrideSrc={`/images/events/yearbook/${image.path}`}
+                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/yearbook/${image.path}`}
                                 alt={image.title}
                                 width={1700}
                                 height={2200}
