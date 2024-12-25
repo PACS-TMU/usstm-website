@@ -101,12 +101,12 @@ Project Managers:
 GitHub | Discord
 -|-
 @MoNakouzi | @mnakouzi
-@williamKhine | @yumicol
+@marufamd | @maruf99
 
 Team Leads:
 Team | GitHub | Discord
 -|-|-
-0 | @williamKhine | @yumicol
-1 | @andrearcaina | @psykthe
-2 | @grcng | @grc_ng
-3 | @thatrisk | @thatrisk 
+Frontend | @marufamd | @maruf99
+Backend | @zazu7765 | @zsazu
+DevOps | @speelbarrow | @speelbarrow
+Data | @prachii9 | @prachi6697 
