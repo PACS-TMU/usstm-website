@@ -1,0 +1,13 @@
+name: ''
+description: ''
+runs:
+  using: composite
+  steps:
+    - name: Set up Node.JS
+      uses: actions/setup-node@v4
+      with:
+        cache: npm
+        cache-dependency-path: package-lock.json
+    - name: Install dependencies
+      shell: bash
+      run: npm install

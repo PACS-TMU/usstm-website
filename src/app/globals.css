@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --usstm-background: #F5FAFA;
+    --usstm-foreground: #1E1E1E;
+    --highlight: #3E8989;
+    --highlight-dark: #002956;
+    --highlight-blue: #E1E8F5;
+}
+
+@font-face {
+    font-family: Abril;
+    src: url(https://usstm.ca/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+/* Set bg color and margins */
+html {
+    background-color: var(--usstm-background);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Abril;
+}
+
+a:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a) {
+    color: var(--highlight);
+    text-decoration: underline;
+}
+
+a:hover:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a) {
+    transition: ease-in-out 0.2s;
+    color: var(--highlight-dark);
+}
+
+.main {
+    position: relative;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
