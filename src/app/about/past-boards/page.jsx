@@ -7,7 +7,7 @@ export default function PastBoards() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/about/past-boards/past-boards.json');
+                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/past-boards/past-boards.json`);
                 const data = await res.json();
                 setBoard(data);
             } catch (error) {

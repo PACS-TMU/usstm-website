@@ -19,7 +19,7 @@ export default function Parallax() {
                         <div id="stats-text">
                             <div id="stats-students">
                                 <Image
-                                    overrideSrc="/images/homepage/stats-icons/students-icon.png"
+                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/students-icon.png`}
                                     alt="Icon of Students"
                                     className="stats-icon"
                                     width={100}
@@ -34,7 +34,7 @@ export default function Parallax() {
 
                             <div id="stats-groups">
                                 <Image
-                                    overrideSrc='/images/homepage/stats-icons/groups-icon.png'
+                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/groups-icon.png`}
                                     alt="Icon of Student Groups"
                                     className="stats-icon"
                                     width={100}
@@ -49,7 +49,7 @@ export default function Parallax() {
 
                             <div id="stats-board">
                                 <Image
-                                    overrideSrc='/images/homepage/stats-icons/board-icon.png'
+                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/board-icon.png`}
                                     alt="Icon of Board Members"
                                     className="stats-icon"
                                     width={100}

@@ -17,14 +17,14 @@ export default function CRO() {
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
                 {isFunny ?
                 <Image
-                    overrideSrc={`/images/elections2024/cro.jpg`}
+                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2024/cro.jpg}`}
                     loading="lazy"
                     alt="The USSTM Chief Returning Officer for 2024 Elections"
                     width={1000}
                     height={1000}
                     className="w-96 aspect-square mb-4 lg:my-0 object-cover shadow-md rounded-sm mx-auto"
                 /> :
-                    <Image overrideSrc={`/images/elections2024/cro-ken.jpg`}
+                    <Image overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2024/cro-ken.jpg}`}
                            loading="lazy"
                            alt="The USSTM Chief Returning Officer for 2024 Elections"
                            width={1000}

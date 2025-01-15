@@ -7,7 +7,7 @@ export default function Meetings() {
             <Header title={`Meetings`} />
             <div className="main space-y-5 lg:text-lg">
                 <div
-                    className="flex items-center justify-center bg-[url(/images/about/meetings/usstm-meetings-header-bg.png)] bg-center bg-cover h-52">
+                    className="flex items-center justify-center bg-[url(https://usstm.ca/images/about/meetings/usstm-meetings-header-bg.png)] bg-center bg-cover h-52">
                     <div className={'text-4xl lg:text-6xl'}>
                         Our Meetings
                     </div>
@@ -77,7 +77,7 @@ export default function Meetings() {
                     <div className="image">
                         <Image
                             className={'w-auto h-full object-cover'}
-                            overrideSrc={'/images/about/meetings/meetings-graphic.jpg'}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/meetings/meetings-graphic.jpg`}
                             alt={'Meetings Graphic'}
                             width={750}
                             height={750}
