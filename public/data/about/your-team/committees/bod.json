@@ -11,7 +11,7 @@
         "id": 2,
         "position": "Co-President",
         "type": "Executive",
-        "image": "",
+        "image": "co-president2.jpg",
         "contact-info": "president@usstm.ca",
         "name": "Pooja Samaraweera"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "position": "VP Academics",
         "type": "Executive",
-        "image": "",
+        "image": "vp-academics.jpg",
         "contact-info": "vp.academics@usstm.ca",
         "name": "Intesar Shah"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "position": "Biomedical Science Director",
         "type": "ProgramDirector",
-        "image": "",
+        "image": "biomedical-science-director2.jpg",
         "contact-info": "",
         "name": "Tamanna Nasseri"
     },
@@ -203,7 +203,7 @@
         "id": 26,
         "position": "Manager, Student Relations and Development",
         "type": "NonVotingBoardMember",
-        "image": "",
+        "image": "manager.jpg",
         "contact-info": "manager@usstm.ca",
         "name": "Pamela Wettlaufer"
     },
@@ -211,7 +211,7 @@
         "id": 27,
         "position": "Secretary",
         "type": "NonVotingBoardMember",
-        "image": "",
+        "image": "secretary.jpeg",
         "contact-info": "secretary@usstm.ca",
         "name": "Pranathi Budarapu"
     },
