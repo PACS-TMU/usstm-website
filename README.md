@@ -42,7 +42,7 @@ Before you work on this website there are some command line tools and extensions
 ### VSCode Extensions
 - [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-## Cloning the Website
+## Setting up the Dev Environment
 If you are unfamiliar with how to use GitHub and the Git CLI, please check out our [GitHub Docs](https://github.com/PACS-TMU/documentation/blob/main/github-docs.md), where we offer a description of all you need to know to run this website.
 
 1. Clone the repo.
@@ -53,10 +53,24 @@ git clone https://github.com/PACS-TMU/usstm-website.git
 ```
 cd usstm-website
 ```
-3. Switch to the branch that you are working on by using:
+3. Create a new branch for your feature
+```
+git branch <branch-name>
+```
+4. Switch to the branch that you are working on by using:
 ```
 git checkout <branch-name>
 ```
+5. Run the following command to clone the public folder to the current branch
+```
+git checkout public -- public
+```
+6. Create a file in the root folder called `.env.local` and paste in the following lines
+```
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_WORKER_URL=https://usstm-worker.tech-25f.workers.dev
+```
+
 
 ## Running the website
 1. Install node modules
