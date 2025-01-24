@@ -57,7 +57,7 @@ export default function Elections2024() {
                         <Image
                             width={1080}
                             height={1080}
-                            overrideSrc={`https://usstm.ca/images/elections2024/schedule.png`}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2024/schedule.png`}
                             alt="Elections 2024 Schedule"
                             className="rounded-md w-full max-w-[1080px] h-auto"
                         />

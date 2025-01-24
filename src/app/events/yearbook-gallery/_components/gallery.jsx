@@ -11,7 +11,7 @@ export default function Gallery() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('https://usstm.ca/data/events/yearbook-gallery/gallery-images.json');
+            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/yearbook-gallery/gallery-images.json`);
             const data = await response.json();
             setGalleryData(data);
         } catch (err) {
@@ -24,7 +24,7 @@ export default function Gallery() {
             {galleryData.map((image, index) => (
                 <div key={index} className="relative">
                     <Image 
-                        overrideSrc={`https://usstm.ca/images/events/yearbook/${image.path}`}
+                        overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/yearbook/${image.path}`}
                         alt={image.title} 
                         width={1920} 
                         height={1080} 

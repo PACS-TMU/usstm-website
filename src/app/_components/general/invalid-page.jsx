@@ -10,7 +10,7 @@ export default function InvalidPage({ id }) {
 
     const fetchNavData = async () => {
         try {
-            const res = await fetch('https://usstm.ca/data/navbar/nav-items.json');
+            const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/navbar/nav-items.json`);
             const data = await res.json();
             setItems(data);
 

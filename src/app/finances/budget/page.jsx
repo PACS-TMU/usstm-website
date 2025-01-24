@@ -10,7 +10,7 @@ export default function Budget() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://usstm.ca/data/finances/budget/budgets.json');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/finances/budget/budgets.json`);
                 const data = await response.json();
                 setBudgets(data);
             } catch (error) {

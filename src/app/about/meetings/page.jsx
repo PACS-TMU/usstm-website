@@ -77,7 +77,7 @@ export default function Meetings() {
                     <div className="image">
                         <Image
                             className={'w-auto h-full object-cover'}
-                            overrideSrc={'https://usstm.ca/images/about/meetings/meetings-graphic.jpg'}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/meetings/meetings-graphic.jpg`}
                             alt={'Meetings Graphic'}
                             width={750}
                             height={750}

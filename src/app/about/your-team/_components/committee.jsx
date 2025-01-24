@@ -59,7 +59,7 @@ export default function Committee({ fileName, group }) {
             {members.map((item, index) => (
                 <div key={index} className="w-full h-full flex flex-col">
                     <Image
-                        overrideSrc={`https://usstm.ca/images/about/your-team/committees/${fileName}/${item.image}`}
+                        overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/${item.image ? `your-team/committees/${fileName}/${item.image}` : 'Blank.jpg'}`}
                         alt={item.name}
                         width={1200}
                         height={800}

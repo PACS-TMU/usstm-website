@@ -23,7 +23,7 @@ export default function Carousel({ imgList }) {
                 <SwiperSlide key={index}>
                     <div className="relative lg:w-[55%] w-full h-[80vh] mx-auto flex justify-center items-center">
                         <Image
-                            overrideSrc={`https://usstm.ca/images/events/orientation/${img.path}`}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/${img.path}`}
                             alt={img.alt}
                             width={1000}
                             height={1000}
