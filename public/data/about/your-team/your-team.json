@@ -67,20 +67,20 @@
         "committee-name": "Tech Committee",
         "path": "tech",
         "committee-image": [],
-        "committee-description": "Description coming soon."
+        "committee-description": "The Tech Committee focuses on exploring, developing, and integrating innovative tech solutions within the school community. They collaborate on a range of projects, from improving digital infrastructure to hosting workshops on emerging technologies. Their mission is to empower students with the skills and knowledge to navigate the tech world, while enhancing the overall learning experience."
     },
     {
         "id": 11,
         "committee-name": "Funding Request Committee",
         "path": "funding-request",
         "committee-image": [],
-        "committee-description": "Description coming soon"
+        "committee-description": "The Funding Request Committee focuses on managing and distributing funds to support various student-led initiatives and projects. They review and evaluate funding proposals, ensuring that resources are allocated efficiently and equitably to enrich the student experience. Their goal is to empower students and organizations by providing financial support for creative, impactful, and sustainable projects. Through collaboration and transparent decision-making, the Funding Request Committee helps bring ideas to life and ensures that all students have the opportunity to make a meaningful impact within the FoS community."
     },
     {
         "id": 12,
         "committee-name": "Science Orientation Committee",
         "path": "science-orientation",
         "committee-image": [],
-        "committee-description": "Description coming soon"
+        "committee-description": "The Science Orientation Committee is dedicated to helping new students explore and engage with the exciting world of science. They organize orientation events, hands-on activities, and informational sessions to introduce incoming students to the various scientific fields, clubs, and resources available. Their mission is to foster a sense of curiosity, encourage exploration, and make the transition into the science community welcoming and accessible. Whether you're interested in biology, chemistry, physics, or engineering, the Science Orientation Committee is here to spark your interest and guide you through the first steps of your scientific journey."
     }
 ]
