@@ -14,47 +14,41 @@
     {
         "id": 3,
         "position": "Events Planner",
-        "image": "",
-        "name": "Viri Nguyen"
-    },
-    {
-        "id": 4,
-        "position": "Events Planner",
         "image": "events-planner.jpg",
         "name": "Muhammad Hanan"
     },
     {
-        "id": 5,
+        "id": 4,
         "position": "Marketing Coordinator",
         "image": "marketing-coordinator.jpg",
         "name": "Shreya Nagah"
     },
     {
-        "id": 6,
+        "id": 5,
         "position": "Finance Co-Coordinator",
         "image": "",
         "name": "Abdul Abedin"
     },
     {
-        "id": 7,
+        "id": 6,
         "position": "Finance Co-Coordinator",
         "image": "finance-co-coordinator.jpg",
         "name": "Alex Banoub"
     },
     {
-        "id": 8,
+        "id": 7,
         "position": "Events Volunteer Coordinators",
         "image": "events-volunteer-coordinators.png",
         "name": "Basith Abdul"
     },
     {
-        "id": 9,
+        "id": 8,
         "position": "Event Management Coordinator",
         "image": "",
         "name": "Georgia Amposah-Fordjour"
     },
     {
-        "id": 10,
+        "id": 9,
         "position": "Events Planner",
         "image": "",
         "name": "Abdel Abdelaal"

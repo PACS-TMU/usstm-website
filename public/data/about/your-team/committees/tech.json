@@ -7,13 +7,13 @@
     },
     {
         "id": 2,
-        "position": "Front End Lead",
+        "position": "Frontend Lead",
         "image": "",
         "name": "Maruf Ahmed"
     },
     {
         "id": 3,
-        "position": "Back End Lead",
+        "position": "Backend Lead",
         "image": "",
         "name": "Noah Friedman"
     },
@@ -28,5 +28,29 @@
         "position": "Data Lead",
         "image": "data-lead.jpg",
         "name": "Prachi Patel"
+    },
+    {
+        "id": 6,
+        "position": "Frontend Team Member",
+        "image": "",
+        "name": "Arsal Abrar"
+    },
+    {
+        "id": 7,
+        "position": "Backend Team Member",
+        "image": "",
+        "name": "Mark Paul"
+    },
+    {
+        "id": 8,
+        "position": "Data Team Member",
+        "image": "",
+        "name": "Isabel Kwon"
+    },
+    {
+        "id": 9,
+        "position": "Data Team Member",
+        "image": "",
+        "name": "Viri Nguyen"
     }
 ]

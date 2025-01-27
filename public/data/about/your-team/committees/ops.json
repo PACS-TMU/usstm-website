@@ -14,7 +14,7 @@
     {
         "id": 3,
         "position": "Secretary",
-        "image": "",
+        "image": "secretary.jpeg",
         "name": "Pranathi Budarapu"
     },
     {
@@ -25,24 +25,18 @@
     },
     {
         "id": 5,
-        "position": "Data Analyst/Tech Lead",
-        "image": "data-analyst-tech-lead.jpeg",
-        "name": "Labib Sarwar"
-    },
-    {
-        "id": 6,
         "position": "Governance Lead",
         "image": "",
         "name": "Muneera Adil Siddiqui"
     },
     {
-        "id": 7,
+        "id": 6,
         "position": "Science Lounge Coordinator",
         "image": "",
         "name": "Abeer Moussa"
     },
     {
-        "id": 8,
+        "id": 7,
         "position": "Resource Manager/Engagement and Feedback Specialist",
         "image": "resource-manager-engagement-and-feedback-specialist.png",
         "name": "Mehar Kaur"
