@@ -22,7 +22,7 @@ export function CommitteePage({ params }) {
 
 	useEffect(() => {
 		setObj(data?.find(d => d.path === committee) ?? { "committee-name": "" })
-	}, [data]);
+	}, [committee, data]);
 
 	return (
         <section>
