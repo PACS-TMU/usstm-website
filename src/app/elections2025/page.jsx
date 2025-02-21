@@ -12,7 +12,7 @@ export default function Elections2024() {
                     <p className="block py-2">
                         Elections for the 2025-2026 board are coming up! If you have any elections related questions, 
                         please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. Once nomination period is over, 
-                        you'll be able to see the candidates on the <Link href={'/elections2024/candidates'}>candidates page</Link>.
+                        you&apos;ll be able to see the candidates on the <Link href={'/elections2024/candidates'}>candidates page</Link>.
                     </p>
                     <p className="block py-2">
                         Please visit our <Link href="/about/governance">governance page</Link> for more details about
