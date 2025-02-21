@@ -51,7 +51,7 @@ export default function Budget() {
                         Submit Your Request
                     </h2>
                     <p className="my-3">
-                        If you're ready to proceed, submit your budget breakdown and pitch using the link below:
+                        If you&apos;re ready to proceed, submit your budget breakdown and pitch using the link below:
                     </p>
                     <div className="flex items-center justify-center">
                         <button
