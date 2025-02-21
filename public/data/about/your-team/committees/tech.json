@@ -14,7 +14,7 @@
     {
         "id": 3,
         "position": "Backend Lead",
-        "image": "",
+        "image": "devops-lead.JPG",
         "name": "Noah Friedman"
     },
     {
@@ -38,13 +38,13 @@
     {
         "id": 7,
         "position": "Backend Developer",
-        "image": "",
+        "image": "backend-developer.JPG",
         "name": "Mark Paul"
     },
     {
         "id": 8,
         "position": "Data Analyst",
-        "image": "",
+        "image": "data-analyst.JPG",
         "name": "Isabel Kwon"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "id": 10,
-        "position": "Data Analyst",
+        "position": "Data Engineer",
         "image": "",
         "name": "Viri Nguyen"
     }
