@@ -99,7 +99,7 @@
         "id": 13,
         "position": "Biology Director",
         "type": "ProgramDirector",
-        "image": "biology-director-2.png",
+        "image": "biology-director-2.PNG",
         "contact-info": "",
         "name": "Fiona Vongsay"
     },
@@ -195,7 +195,7 @@
         "id": 25,
         "position": "Chairperson",
         "type": "NonVotingBoardMember",
-        "image": "",
+        "image": "chairperson.JPG",
         "contact-info": "",
         "name": "Damian Gavrusenko"
     },

@@ -219,7 +219,7 @@
         "id": 19,
         "group-name": "Quantum Science and Engineering Club",
         "short-name": "QSEC",
-        "group-logo": "qsec.png",
+        "group-logo": "qsec.jpg",
         "contact-info": [
             "<a href='https://instagram.com/qsec_tmu' target='_blank'>qsec_tmu</a>",
             ""
@@ -310,5 +310,17 @@
         ],
         "type": "CU",
         "active-group": true
-    }
+    },
+    {
+        "id": 27,
+        "group-name": "Science Beyond Barriers",
+        "short-name": "SBB",
+        "group-logo": "sbb.png",
+        "contact-info": [
+            "<a href='https://www.instagram.com/sbb__tmu' target='_blank'>mpcu_tmu</a>",
+            "sbb@usstm.ca"
+        ],
+        "type": "CU",
+        "active-group": true
+    } 
 ]

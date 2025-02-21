@@ -14,7 +14,7 @@
     {
         "id": 3,
         "position": "Backend Lead",
-        "image": "",
+        "image": "devops-lead.JPG",
         "name": "Noah Friedman"
     },
     {
@@ -31,25 +31,31 @@
     },
     {
         "id": 6,
-        "position": "Frontend Team Member",
+        "position": "Frontend Developer",
         "image": "",
         "name": "Arsal Abrar"
     },
     {
         "id": 7,
-        "position": "Backend Team Member",
-        "image": "",
+        "position": "Backend Developer",
+        "image": "backend-developer.JPG",
         "name": "Mark Paul"
     },
     {
         "id": 8,
-        "position": "Data Team Member",
-        "image": "",
+        "position": "Data Analyst",
+        "image": "data-analyst.JPG",
         "name": "Isabel Kwon"
     },
     {
         "id": 9,
-        "position": "Data Team Member",
+        "position": "Data Analyst",
+        "image": "data-analyst-2.jpeg",
+        "name": "Labib Sawar"
+    },
+    {
+        "id": 10,
+        "position": "Data Engineer",
         "image": "",
         "name": "Viri Nguyen"
     }
