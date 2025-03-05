@@ -2,7 +2,7 @@ import Header from "@/app/_components/general/header";
 import Link from "next/link";
 import CRO from "./candidates/_components/cro";
 
-export default function Elections2024() {
+export default function Elections2025() {
     return (
         <section id="elections-24">
             <Header title={`Elections 2025-26`} />
@@ -10,49 +10,39 @@ export default function Elections2024() {
             <div className="main lg:text-lg">
                 <div id="introduction" className="pb-5">
                     <p className="block py-2">
-                        Elections for the 2025-2026 board are coming up! If you have any elections related questions, 
-                        please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. Once nomination period is over, 
-                        you&apos;ll be able to see the candidates on the <Link href={'/elections2024/candidates'}>candidates page</Link>.
+                        Elections for the 2025-2026 board are coming up! If you have any elections related questions,
+                        please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. Once nomination period is over,
+                        you&apos;ll be able to see the candidates on the <Link href={'/elections2025/candidates'}>candidates page</Link>.
                     </p>
                     <p className="block py-2">
                         Please visit our <Link href="/about/governance">governance page</Link> for more details about
                         our election procedures annd the roles and responsibilities of the Board of Directors.
                     </p>
                     <div className='flex justify-center items-center'>
-                        <button 
-                            id={'candidates-button'} 
-                            className={'rounded-md bg-highlight-dark text-white text-lg lg:text-xl xl:text-2xl font-semibold my-2 p-4 hover:scale-105 ease-in-out duration-300'}
-                            aria-label="Candidates List Coming Soon..."
+                        <Link
+                            href={`/elections2025/candidates`}
                         >
-                            <Link
-                                href={''}
-                                target={'_blank'}
+                            <button
+                                id={'candidates-button'}
+                                className={'rounded-md bg-highlight-dark text-white text-lg lg:text-xl xl:text-2xl font-semibold my-2 p-4 hover:scale-105 ease-in-out duration-300'}
+                                aria-label="Candidates List"
                             >
-                                Candidates List Coming Soon...
-                            </Link>
-                        </button>
+                                Click here to view the candidates!
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="lg:w-3/4 lg:mx-auto bg-highlight-blue rounded-sm shadow-md my-8">
                     <div className="intro w-full md:w-3/4 mx-auto grid gird-cols-1 md:grid-cols-[30%_30%_40%] justify-center items-center gap-5 py-24">
                         <h2 className="text-center p-2 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
-                            Nomination Period has now started!
+                            Voting Period has now started!
                         </h2>
                         <hr className="hidden md:block border border-gray-400 rotate-90 w-full " />
                         <div className="px-4 md:px-0">
                             <p className="py-2 xl:text-xl">
-                                If you are interested in running, please complete your 
-                                &nbsp;<a 
-                                    href="https://docs.google.com/forms/d/19U5Y5Ogeh2T4-SesqQVPlvkOa0WZz4EdXbBYiC-7Qls/edit" 
-                                    target="_blank"
-                                >
-                                    Candidate Information Form
-                                </a>&nbsp;
-                                and submit it to the CRO before Feb 26th. You will have to
-                                gather nominations before the end of the nomination period to be
-                                eligible to run. For more information, please refer to our
-                                &nbsp;<a href="/about/governance" target="_blank">governance page</a>.
+                                Members of the Faculty of Science are invited to vote for their representatives
+                                on the USSTM Board of Directors. <strong>Please check your email for the voting link!</strong>
                             </p>
                         </div>
                     </div>
@@ -67,7 +57,7 @@ export default function Elections2024() {
                         <Image
                             width={1080}
                             height={1080}
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2024/schedule.png`}
+                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/elections2025/schedule.png`}
                             alt="Elections 2024 Schedule"
                             className="rounded-md w-full max-w-[1080px] h-auto"
                         />
