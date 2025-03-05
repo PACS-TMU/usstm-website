@@ -69,7 +69,7 @@
         "bio": "M/A",
         "position": "Biomedical Sciences Director",
         "type": "Director",
-        "image": "Blank.jpeg"
+        "image": "Blank.jpg"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "bio": "Hello there! My name is Azeem Cochinwala, and I am a candidate for the Computer Science Director position for USSTM. I am committed to advocating for student needs and to enhance the CS experience. If elected, I will work towards a year full of vast academic resources, supporting networking events, and engaging community-building opportunities.<br/>So let’s pave the way together for a bright future in TMU CS!<br/>#USSTMVOTE25",
         "position": "Computer Science Director",
         "type": "Director",
-        "image": "Blank.jpeg"
+        "image": "Blank.jpg"
     },
     {
         "id": 11,
@@ -85,6 +85,6 @@
         "bio": "Hello, TMU CS Students. I am running for one of the four USSTM CS Director positions. I am the Deputy Second Year Rep for TMU CSCU, VP Operations for STEM Fellowship, and an Events Associate for TMU SSA. I have a wide range of club experience and have volunteered for USSTM countless times. I am eager to be nominated for this position and am ecstatic to help bring CS problems to USSTM!",
         "position": "Computer Science Director",
         "type": "Director",
-        "image": "Blank.jpeg"
+        "image": "Blank.jpg"
     }
 ]
