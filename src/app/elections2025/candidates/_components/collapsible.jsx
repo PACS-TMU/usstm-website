@@ -17,11 +17,11 @@ export default function Collapsible(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/elections2024/candidates.json`);
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/elections2025/candidates.json`);
                 const data = await response.json();
                 setCandidtes(data);
             } catch (error) {
-                console.error('Error fetching FAQ data:', error);
+                console.error('Error fetching Elections data:', error);
             }
         };
 
@@ -39,19 +39,19 @@ export default function Collapsible(props) {
         const presidents = candidates.filter(candidate => candidate.position === 'President' || candidate.position === 'Co-President');
         const ops = candidates.filter(candidate => candidate.position === 'Vice President Operations');
         const finance = candidates.filter(candidate => candidate.position === 'Vice President Finance');
-        const communications = candidates.filter(candidate => candidate.position === 'Vice President Communications');
-        const studentlife = candidates.filter(candidate => candidate.position === 'Vice President Student Life');
+        // const communications = candidates.filter(candidate => candidate.position === 'Vice President Communications');
+        // const studentlife = candidates.filter(candidate => candidate.position === 'Vice President Student Life');
         const academics = candidates.filter(candidate => candidate.position === 'Vice President Academics');
         const external = candidates.filter(candidate => candidate.position === 'Vice President External');
         const equity = candidates.filter(candidate => candidate.position === 'Vice President Equity');
-        allExecutives = [presidents, ops, finance, communications, studentlife, academics, external, equity];
+        allExecutives = [presidents, ops, finance, academics, external, equity];
     }
     else if (props.sectionName === "Directors") {
-        const bio = candidates.filter(candidate => candidate.position === 'Biology Director');
+        // const bio = candidates.filter(candidate => candidate.position === 'Biology Director');
         const biomed = candidates.filter(candidate => candidate.position === 'Biomedical Sciences Director');
         const cs = candidates.filter(candidate => candidate.position === 'Computer Science Director');
-        const math = candidates.filter(candidate => candidate.position === 'Math and Its Applications Director');
-        allDirectors = [bio, biomed, cs, math];
+        // const math = candidates.filter(candidate => candidate.position === 'Math and Its Applications Director');
+        allDirectors = [biomed, cs];
     }
     else {
         console.error('Invalid role:', props.sectionName);
