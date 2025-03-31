@@ -32,12 +32,12 @@ h6 {
     font-family: Abril;
 }
 
-a:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a):not(#submit-request-button a) {
+a:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a):not(#submit-request-button a):not(.formal-link) {
     color: var(--highlight);
     text-decoration: underline;
 }
 
-a:hover:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a):not(#submit-request-button a) {
+a:hover:not(#navbar a):not(#meeting-minutes-button a):not(#candidates-button a):not(#register-orientation a):not(#submit-request-button a):not(.formal-link) {
     transition: ease-in-out 0.2s;
     color: var(--highlight-dark);
 }
