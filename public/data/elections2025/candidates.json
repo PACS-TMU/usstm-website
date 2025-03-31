@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Katherine Moncada & Muhammad Hanan",
+        "bio": "Name - Katherine Moncada & Muhammad Hanan<br/><br />Position running for - Co-Presidents<br /><br />Current positions - VP Student Life, Computer Science Director<br /><br />Why we want to run & what we hope to achieve:<br />'For Science Students, By Science Students – Your Voice, Our Priority!'<br /><br />Dedicated to Science Students – We will always prioritize the needs and interests of our faculty over anything else.<br /><br />✔ Unforgettable Events – We have worked hard to make every event an experience that makes you proud to be a science student.<br />✔ Building a Stronger Science Community – From collaborations to supporting student groups, we are committed to bringing our faculty together.<br />✔ Experience You Can Trust – With leadership experience in student life and faculty-wide collaborations, we know what it takes to make a difference.",
+        "position": "Co-President",
+        "type": "Executive",
+        "image": "Katherine&Muhammad.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Ava Bhatthal", 
+        "bio": "Hi everyone! My name is Ava, and I'm in my third year of the Biomedical Sciences program at TMU. If I were elected as VP of Operations under USSTM I would take initiative to elevate your concerns about student group ratification or funding directly to the board, coordinate fun events and activities for the student body, and ultimately advocate for the needs of the student body. I am a dedicated and extremely driven individual, and I truly believe I could make a difference within the Faculty of Science.",
+        "position": "Vice President Operations",
+        "type": "Executive",
+        "image": "AvaBhatthal.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Juan Pires",
+        "bio": "Hello, hello! :)<br /><br />My name is Juan Pires, and I am an engaged and enthusiastic fourth-year Computer Science Co-op student. I am running for the position of VP Finance at USSTM this year. There are many new additions and student initiatives I hope to advocate for and implement as VP Finance.<br/><br/>Why am I running? After several conversations with other Faculty Representatives and Board Members, I’ve noticed a gap in our current services. There is so much more we could do to enhance the student learning experience here in the Faculty of Science.<br/><br/>One example is the lack of a Certificate Reimbursement Program. While we may not be the largest university, we can certainly stand out among our competitors by offering something valuable to our students—certifications! My immediate goal is to create a Reimbursement Program for expensive certifications that give students a competitive edge in the corporate market.<br/><br/>What makes me your ideal candidate? I will ensure that my committee and I operate on three strong pillars: Integrity, Transparency, and Communication. Every request will be treated impartially, and any challenges will be communicated openly, so you can get what you deserve.<br/><br/>As for my experience: I am currently serving as one of your Computer Science Directors on USSTM. I have also been the Finance and Sponsorship Coordinator for Frosh 2024. Additionally, I’m a current Finance Associate on the Finance Team, working to ensure your reimbursements are processed promptly. I've also been a Sponsorship Coordinator on the Externals Team, securing great deals for events like the Chemistry Networking Night and Fall Networking Night, bringing you delicious meals at the best prices.<br/><br/>I look forward to earning your confidence and vote in this election.<br/><br/>Feel Free to reach out if you have any questions.<br/>Email: <a href='mailto:juan.pires@torontomu.ca'>juan.pires@torontomu.ca</a><br/>Instagram: <a href='https://instagram.com/juan.for.vpfinance' target='_blank'>juan.for.vpfinance</a>",
+        "position": "Vice President Finance",
+        "type": "Executive",
+        "image": "JuanPires.JPEG"
+    },
+    {
+        "id": 4,
+        "name": "Hadi Jafar",
+        "bio": "N/A",
+        "position": "Vice President Finance",
+        "type": "Executive",
+        "image": "Blank.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tamanna Nasseri",
+        "bio": "N/A",
+        "position": "Vice President External",
+        "type": "Executive",
+        "image": "Blank.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Karman Khehra",
+        "bio": "I am a third-year Biomedical Science student passionate about research, healthcare, and innovation. As an Operations Assistant at the Science Research and Innovation Office and a member of the Undergraduate Science Society’s Academic Committee, I support initiatives that bridge academics and real-world impact.",
+        "position": "Vice President Academics",
+        "type": "Executive",
+        "image": "KarmanKhehra.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Sara Shabanian-Azad",
+        "bio": "Hi everyone!!! My name is Sara and I am a fifth-year Biology student here at Toronto Met.<br/><br/>Here are a few things to know about me: I am an adaptative, dedicated and passionate individual both in academia and beyond. I enjoy learning about new things and embracing new experiences. Over the past three years, I've been actively involved in Sci Frosh, and I am currently one of the Biology directors on the board.<br/><br/>Advocacy is an essential part of who I am as a person and as a student. It is crucial to be able to self-express and stand up for what matters to you. I actively participate in a student group dedicated to breaking barriers in Science and advocating for underrepresented minorities. Through this, we want to make science more inclusive for all.<br/><br/>Which is why I am honoured to be running for Vice President of Equity. I am a suitable candidate, not only because of my experiences but also because of my mindset and visions, who can serve the greater student body by creating a more flourishing community here at TMU!",
+        "position": "Vice President Equity",
+        "type": "Executive",
+        "image": "SaraShabanianAzad.JPG"
+    },
+    {
+        "id": 8,
+        "name": "Vanessa Arase",
+        "bio": "As a passionate advocate for social justice and the current Deputy Equity Officer, I have dedicated myself to creating a more inclusive, equitable, and empowering community within the USSTM. My work on the Equity Committee has centered on organizing impactful events, workshops, and campaigns that raise awareness about systemic barriers and amplify the voices of marginalized groups. I believe in the power of open communication, accessible resources, and collaborative action to foster a culture where every member feels valued, respected, and empowered to succeed.<br/><br/>I strive to bring a personal perspective to this work, rooted in lived experience and a commitment to dismantling inequities. My background has shaped my understanding of systemic challenges and fuels my dedication to creating positive change. I am driven by the belief that diversity strengthens our collective efforts and that meaningful progress requires prioritizing inclusivity, acknowledging different viewpoints, and working together in solidarity.<br/><br/>If elected as your Vice President of Equity, I will continue to champion initiatives that address systemic barriers, promote social justice, and ensure that every member of our community feels seen, heard, and supported. Together, we can build a more equitable and inclusive future for the USSTM.",
+        "position": "Vice President Equity",
+        "type": "Executive",
+        "image": "VanessaArase.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mahmoud Mourad",
+        "bio": "M/A",
+        "position": "Biomedical Sciences Director",
+        "type": "Director",
+        "image": "MahmoudMourad.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Azeem Cochinwala",
+        "bio": "Hello there! My name is Azeem Cochinwala, and I am a candidate for the Computer Science Director position for USSTM. I am committed to advocating for student needs and to enhance the CS experience. If elected, I will work towards a year full of vast academic resources, supporting networking events, and engaging community-building opportunities.<br/>So let’s pave the way together for a bright future in TMU CS!<br/>#USSTMVOTE25",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "AzeemCochinwala.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Amitoz Banga",
+        "bio": "Hello, TMU CS Students. I am running for one of the four USSTM CS Director positions. I am the Deputy Second Year Rep for TMU CSCU, VP Operations for STEM Fellowship, and an Events Associate for TMU SSA. I have a wide range of club experience and have volunteered for USSTM countless times. I am eager to be nominated for this position and am ecstatic to help bring CS problems to USSTM!",
+        "position": "Computer Science Director",
+        "type": "Director",
+        "image": "AmitozBanga.JPG"
+    }
+]
