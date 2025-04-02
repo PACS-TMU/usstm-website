@@ -50,7 +50,7 @@ export default function Formal() {
         <p className="mb-8">
           Join us for the annual end-of-year Formal, hosted at the end of each academic year (late April or early May)
           at the iconic <span className="font-semibold">Liberty Grand Hotel</span>.
-          Dress to impress and celebrate the academic year's end with style, music,
+          Dress to impress and celebrate the academic year&apos;s end with style, music,
           and unforgettable memories.
         </p>
 
