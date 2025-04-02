@@ -3,20 +3,11 @@
 import Image from 'next/image';
 import Header from '@/app/_components/general/header';
 import Tickets from './tickets';
-import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { Suspense, useState } from 'react';
+import SearchParamsHandler from './searchParamsHandler';
 
 export default function Formal() {
-  const searchParams = useSearchParams();
   const [showSuccess, setShowSuccess] = useState(false);
-
-  useEffect(() => {
-    if (searchParams.get('purchase') === 'success') {
-      setShowSuccess(true);
-      const timer = setTimeout(() => { setShowSuccess(false); }, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [searchParams]);
 
   const tickets = [
     {
@@ -45,6 +36,13 @@ export default function Formal() {
         </div>
       )}
 
+      <Suspense>
+        <SearchParamsHandler onSuccess={() => {
+          setShowSuccess(true);
+          setTimeout(() => setShowSuccess(false), 5000);
+        }} />
+      </Suspense>
+
       <Header title={"Formal at Liberty Grand"} />
       <div className='main lg:text-lg'>
         <p className="mb-8">
@@ -71,13 +69,13 @@ export default function Formal() {
         <p className="text-lg xl:text-xl mb-4">
           For Alumni/Grad tickets, please visit us at the Science Lounge to purchase your tickets in person and
           provide proof of graduation. We will be accepting cash, debit, and credit for these tickets. You can
-          find more information about our in-person selling 
+          find more information about our in-person selling
           on <a href="https://www.instagram.com/p/DHuWxzTvvkM/?img_index=1" target='_blank'>our instagram</a>.
         </p>
         <p className="text-lg xl:text-xl mb-4">
           Please note that tickets are non-refundable and non-transferable. By purchasing a ticket, you agree
-          to these terms. Tickets will be available for purchase until the day of the event, or until they 
-          sell out. If you have any questions or concerns, please contact us 
+          to these terms. Tickets will be available for purchase until the day of the event, or until they
+          sell out. If you have any questions or concerns, please contact us
           at <a href='mailto:vp.events@usstm.ca' target='_blank'>vp.events@usstm.ca</a>.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-[95%] mx-auto mb-8">
