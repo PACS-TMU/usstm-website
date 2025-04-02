@@ -75,6 +75,13 @@
                 "path": "/events/orientation",
                 "description": "Get ready for the best week of your life! USSTM Orientation is a week-long event that will introduce you to the Science community.",
                 "subItems": []
+            },
+            {
+                "id": 305,
+                "itemName": "Formal",
+                "path": "/events/formal",
+                "description": "Join us for the annual end-of-year Formal, hosted at the end of each academic year (late April or early May) at the iconic Liberty Grand Hotel.",
+                "subItems": []
             }
         ]
     },
