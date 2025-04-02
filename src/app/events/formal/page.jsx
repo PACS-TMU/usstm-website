@@ -19,12 +19,16 @@ export default function Formal() {
       link: 'https://square.link/u/IycvghAG?src=embed',
     },
     {
-      title: 'Guest (non FOS) Ticket',
+      title: 'Guest (non-FOS) Ticket',
       link: 'https://square.link/u/ET7rdLOH?src=embed',
     },
     {
       title: 'Table Ticket (10 people)',
       link: 'https://square.link/u/wOKY6dqm?src=embed',
+    },
+    {
+      title: 'Alumni/Grad Ticket',
+      link: 'https://square.link/u/6Kq0L088?src=embed',
     }
   ]
 
@@ -67,10 +71,8 @@ export default function Formal() {
           email. Your tickets will be emailed to you closer to the event date.
         </p>
         <p className="text-lg xl:text-xl mb-4">
-          For Alumni/Grad tickets, please visit us at the Science Lounge to purchase your tickets in person and
-          provide proof of graduation. We will be accepting cash, debit, and credit for these tickets. You can
-          find more information about our in-person selling
-          on <a href="https://www.instagram.com/p/DHuWxzTvvkM/?img_index=1" target='_blank'>our instagram</a>.
+          For Alumni/Grad tickets, you will have to email us at <a href='mailto:vp.events@usstm.ca' target='_blank'>vp.events@usstm.ca</a> to
+          provide proof of graduation. Failure to do so will result in your ticket not being valid.
         </p>
         <p className="text-lg xl:text-xl mb-4">
           Please note that tickets are non-refundable and non-transferable. By purchasing a ticket, you agree
