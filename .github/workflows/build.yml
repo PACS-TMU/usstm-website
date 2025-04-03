@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Checkout and setup
         uses: speelbarrow/checkout-and-setup@v1.3
-      - name: Build using Next.JS
-        run:  npx next build
       - name: Copy public resources to build directory
         shell: bash
         run:  |
@@ -26,7 +24,10 @@ jobs:
 
           git fetch origin public:public
           git checkout public -- public
+          mkdir out
           cp -r public/* out/
+      - name: Build using Next.JS
+        run:  npx next build
       - name: Upload static website
         uses: actions/upload-pages-artifact@v3
         with:
