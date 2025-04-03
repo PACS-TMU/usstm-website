@@ -24,6 +24,7 @@ jobs:
 
           git fetch origin public:public
           git checkout public -- public
+          mkdir out
           cp -r public/* out/
       - name: Build using Next.JS
         run:  npx next build
