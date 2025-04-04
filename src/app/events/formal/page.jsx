@@ -51,7 +51,7 @@ export default function Formal() {
       <div className='main lg:text-lg'>
         <p className="mb-8">
           Join us for the annual end-of-year Formal, hosted at the end of each academic year (late April or early May)
-          at the iconic <span className="font-semibold">Liberty Grand Hotel</span>.
+          at the iconic <span className="font-semibold">Liberty Grand Entertainment Complex</span>.
           Dress to impress and celebrate the academic year&apos;s end with style, music,
           and unforgettable memories.
         </p>
@@ -76,7 +76,7 @@ export default function Formal() {
         </p>
         <p className="text-lg xl:text-xl mb-4">
           Please note that tickets are non-refundable and non-transferable. By purchasing a ticket, you agree
-          to these terms. Tickets will be available for purchase until the day of the event, or until they
+          to these terms. Tickets will be available for purchase until <span className='font-semibold'>April 10th</span>, or until they
           sell out. If you have any questions or concerns, please contact us
           at <a href='mailto:vp.events@usstm.ca' target='_blank'>vp.events@usstm.ca</a>.
         </p>
