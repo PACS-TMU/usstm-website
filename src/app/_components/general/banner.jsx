@@ -7,8 +7,7 @@ import './banner.css';
 export default function Banner() {
     // const [shown, setShown] = useState(true);
     const banner = <span>
-            The 2025-26 By-Elections are coming up! Stay tuned... 
-            {/* Click <Link href="/elections2025">here</Link> for more info! */}
+            The 2025-26 By-Elections are happening now! Click <Link href="/elections2025">here</Link> for more info!
         </span>;
     return (
         // shown && 

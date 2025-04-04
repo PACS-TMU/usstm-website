@@ -5,17 +5,17 @@ import CRO from "./_components/cro";
 export default function Candidates() {
     return (
         <section id="elections-2024-candidates">
-            <Header title={`Candidates for the 2025-26 Board`} />
+            <Header title={`Candidates for the 2025-26 By-Election`} />
 
             <div className="main lg:text-lg">
                 <div id="introduction" className="pb-5">
                     <p className="block py-2">
-                        Elections for the 2025-2026 board is now happening! If you have any elections related questions,
-                        please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. To
-                        see the results, please regularly checkout our <a href="https://www.instagram.com/usstorontomet/" target="_blank">instagram page</a>.
+                        The USSTM By-Election for the 2025-2026 board is currently underway! If you have any questions related to the by-election,
+                        please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. To see the results,
+                        please regularly check our <a href="https://www.instagram.com/usstorontomet/" target="_blank">Instagram page</a>.
                     </p>
                     <p className="block py-2">
-                        Meet the candidates who are running for the 2025-26 Board of Directors!
+                        Meet the candidates who are running in the 2025-26 By-Election for the USSTM Board of Directors!
                     </p>
                 </div>
                 <div className="content">
