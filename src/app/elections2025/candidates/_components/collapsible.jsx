@@ -36,22 +36,23 @@ export default function Collapsible(props) {
     let allDirectors = [];
 
     if (props.sectionName === "Executives") {
-        const presidents = candidates.filter(candidate => candidate.position === 'President' || candidate.position === 'Co-President');
-        const ops = candidates.filter(candidate => candidate.position === 'Vice President Operations');
-        const finance = candidates.filter(candidate => candidate.position === 'Vice President Finance');
-        // const communications = candidates.filter(candidate => candidate.position === 'Vice President Communications');
+        // const presidents = candidates.filter(candidate => candidate.position === 'President' || candidate.position === 'Co-President');
+        // const ops = candidates.filter(candidate => candidate.position === 'Vice President Operations');
+        // const finance = candidates.filter(candidate => candidate.position === 'Vice President Finance');
+        const communications = candidates.filter(candidate => candidate.position === 'Vice President Communications');
         // const studentlife = candidates.filter(candidate => candidate.position === 'Vice President Student Life');
-        const academics = candidates.filter(candidate => candidate.position === 'Vice President Academics');
-        const external = candidates.filter(candidate => candidate.position === 'Vice President External');
-        const equity = candidates.filter(candidate => candidate.position === 'Vice President Equity');
-        allExecutives = [presidents, ops, finance, academics, external, equity];
+        // const academics = candidates.filter(candidate => candidate.position === 'Vice President Academics');
+        // const external = candidates.filter(candidate => candidate.position === 'Vice President External');
+        // const equity = candidates.filter(candidate => candidate.position === 'Vice President Equity');
+        allExecutives = [communications];
     }
     else if (props.sectionName === "Directors") {
-        // const bio = candidates.filter(candidate => candidate.position === 'Biology Director');
-        const biomed = candidates.filter(candidate => candidate.position === 'Biomedical Sciences Director');
+        const bio = candidates.filter(candidate => candidate.position === 'Biology Director');
+        const biomed = candidates.filter(candidate => candidate.position === 'Biomedical Science Director');
         const cs = candidates.filter(candidate => candidate.position === 'Computer Science Director');
+        const chem = candidates.filter(candidate => candidate.position === 'Chemistry Director');
         // const math = candidates.filter(candidate => candidate.position === 'Math and Its Applications Director');
-        allDirectors = [biomed, cs];
+        allDirectors = [bio, biomed, cs, chem];
     }
     else {
         console.error('Invalid role:', props.sectionName);

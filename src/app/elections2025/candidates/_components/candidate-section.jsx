@@ -2,33 +2,35 @@ import Candidate from "./candidate";
 
 export default function CandidateSection({ role, candidates }) {
 
-    let presidents = [];
-    let ops = [];
-    let finance = [];
-    // let communications = [];
+    // let presidents = [];
+    // let ops = [];
+    // let finance = [];
+    let communications = [];
     // let studentlife = [];
-    let academics = [];
-    let external = [];
-    let equity = [];
-    // let bio = [];
+    // let academics = [];
+    // let external = [];
+    // let equity = [];
+    let bio = [];
     let biomed = [];
     let cs = [];
+    let chem = [];
     // let math = [];
 
     if (role === "Executives") {
-        presidents = candidates[0];
-        ops = candidates[1];
-        finance = candidates[2];
-        // communications = candidates[3];
+        // presidents = candidates[0];
+        // ops = candidates[1];
+        // finance = candidates[2];
+        communications = candidates[0];
         // studentlife = candidates[4];
-        academics = candidates[3];
-        external = candidates[4];
-        equity = candidates[5];
+        // academics = candidates[3];
+        // external = candidates[4];
+        // equity = candidates[5];
     }
     else if (role === "Directors") {
-        //bio = candidates[0];
-        biomed = candidates[0];
-        cs = candidates[1];
+        bio = candidates[0];
+        biomed = candidates[1];
+        cs = candidates[2];
+        chem = candidates[3];
         //math = candidates[3];
     }
     else {
@@ -39,7 +41,7 @@ export default function CandidateSection({ role, candidates }) {
         <>
             {role === "Executives" ?
                 (<div>
-                    <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl  font-semibold">
+                    {/* <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl  font-semibold">
                         President Candidate(s):
                     </p>
                     {presidents.map((candidate, index) => (
@@ -65,19 +67,19 @@ export default function CandidateSection({ role, candidates }) {
                             <Candidate index={index} candidate={candidate} list={finance} />
                             <hr className="w-full py-6 mt-6" />
                         </div>
-                    ))}
-                    {/* <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl  font-semibold">
+                    ))} */}
+                     <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl  font-semibold">
                         Vice President Communications Candidate(s):
                     </p>
                     {communications.map((candidate, index) => (
                         <Candidate key={index} index={index} candidate={candidate} list={communications} />
-                    ))} */}
+                    ))}
                     {/* <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
                         Vice President Student Life Candidate(s):
                     </p>
                     {studentlife.map((candidate, index) => (
                         <Candidate key={index} index={index} candidate={candidate} list={studentlife} />
-                    ))} */}
+                    ))}
                     <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
                         Vice President External Candidate(s):
                     </p>
@@ -104,15 +106,15 @@ export default function CandidateSection({ role, candidates }) {
                             <Candidate index={index} candidate={candidate} list={equity} />
                             <hr className="w-full py-6 mt-6" />
                         </div>
-                    ))}
+                    ))} */}
                 </div>) :
                 (<div>
-                    {/* <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
+                    <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
                         Biology Director Candidate(s):
                     </p>
                     {bio.map((candidate, index) => (
                         <Candidate key={index} index={index} candidate={candidate} list={bio} />
-                    ))} */}
+                    ))}
 
                     <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
                         Biomedical Sciences Director Candidate(s):
@@ -130,6 +132,16 @@ export default function CandidateSection({ role, candidates }) {
                     {cs.map((candidate, index) => (
                         <div key={index}>
                             <Candidate index={index} candidate={candidate} list={cs} />
+                            <hr className="w-full py-6 mt-6" />
+                        </div>
+                    ))}
+
+                    <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl font-semibold">
+                        Chemistry Director Candidate(s):
+                    </p>
+                    {chem.map((candidate, index) => (
+                        <div key={index}>
+                            <Candidate index={index} candidate={candidate} list={chem} />
                             <hr className="w-full py-6 mt-6" />
                         </div>
                     ))}
