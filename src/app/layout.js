@@ -23,7 +23,7 @@ export default function RootLayout({children}) {
         <html lang="en">
         <body className={cantarell.className}>
         <Navbar/>
-        <Banner/>
+        {/* <Banner/>*/}
         <main className='space-y-20'>{children}</main>
         <Footer/>
         </body>
