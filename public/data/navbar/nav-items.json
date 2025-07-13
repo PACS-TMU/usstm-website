@@ -176,6 +176,13 @@
                 "path": "/community/elections",
                 "description": "Where you have the power to shape the future of USSTM.",
                 "subItems": []
+            },
+            {
+                "id": 604,
+                "itemName": "Resources",
+                "path": "/community/resources",
+                "description": "Explore a wealth of resources designed to support your academic and personal growth.",
+                "subItems": []
             }
         ]
     },
