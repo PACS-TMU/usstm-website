@@ -183,6 +183,13 @@
                 "path": "/community/resources",
                 "description": "Explore a wealth of resources designed to support your academic and personal growth.",
                 "subItems": []
+            },
+            {
+                "id": 605,
+                "itemName": "Ment App",
+                "path": "/community/ment",
+                "description": "An app that USSTM is currently subscribed to on behalf of our students that facilitates mentor-mentee connections between students and alumni.",
+                "subItems": []
             }
         ]
     },
