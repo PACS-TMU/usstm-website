@@ -11,6 +11,11 @@ export default function Orientation() {
         <section id="orientation">
             <Header title={`Orientation`} />
             <div className="main lg:text-lg">
+                <div className="flex flex-col items-center justify-center py-20 h-[calc(100dvh-240px)]">
+                    <h2 className="text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide mb-4">Registration for 2025 Orientation will begin in August!</h2>
+                    <p className="text-lg lg:text-xl xl:text-2xl text-center">Stay tuned for more details.</p>
+                </div>
+                {/*
                 <Image
                     overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/banner.png`}
                     alt="Orientation Banner"
@@ -104,7 +109,7 @@ export default function Orientation() {
                       at <a href="mailto:orientation@usstm.ca">orientation@usstm.ca</a>.
                     </p>
                 </div>
-
+                */}
             </div>
         </section>
     )
