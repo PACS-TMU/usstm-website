@@ -16,8 +16,8 @@ export const faqData = [
     },
     {
         id: 4,
-        question: "When is Science Orientation 2024?",
-        answer: "Science Orientation 2024 will run on the dates of Monday, August 26, 2024 to Friday, August 30, 2024."
+        question: "When is Science Orientation 2025?",
+        answer: "Science Orientation 2025 will run on the dates of Monday, August 25, 2025 to Friday, August 29, 2025."
     },
     {
         id: 5,
