@@ -11,11 +11,44 @@ export default function Orientation() {
         <section id="orientation">
             <Header title={`Orientation`} />
             <div className="main lg:text-lg">
-                <div className="flex flex-col items-center justify-center py-20 h-[calc(100dvh-240px)]">
-                    <h2 className="text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide mb-4">Registration for 2025 Orientation will begin in August!</h2>
-                    <p className="text-lg lg:text-xl xl:text-2xl text-center">Stay tuned for more details.</p>
+                <div className="flex flex-col items-center justify-center py-20 h-[calc(80dvh-240px)]">
+                    <h2 className="text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide mb-4">
+                        Registration for 2025 has begun! Register Below...
+                    </h2>
+                    <p className="text-lg lg:text-xl xl:text-2xl text-center">
+                        Stay tuned for more details.
+                    </p>
                 </div>
-                {/*
+            </div>
+            <div
+                id="register-orientation"
+                className="mt-4 flex flex-col items-center justify-center text-lg lg:text-xl xl:text-2xl"
+            >
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfQ-aSJjzrwh5Dd7Vo9NIMM8st1bhAUOZ814TN1dLr-0ErN2w/viewform?usp=dialog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-highlight-dark hover:scale-105 transition-transform ease-in-out duration-300 text-background font-semibold py-3 px-5 rounded mt-4"
+                >
+                    Click Here for Registration Form
+                </a>
+            </div>
+            <hr className="my-6 w-[90%] mx-auto" />
+            <div id="faq-orientation" className="max-w-5xl mx-auto">
+                <h2 className="pb-2 pt-7 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                    Frequently Asked Questions
+                </h2>
+                <OrientationFAQ />
+                <p className="mt-8 text-base md:text-lg lg:text-xl">
+                    If you have any further questions or concerns, please do not
+                    hesitate to contact us at{" "}
+                    <a href="mailto:orientation@usstm.ca">
+                        orientation@usstm.ca
+                    </a>
+                    .
+                </p>
+            </div>
+            {/*
                 <Image
                     overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/banner.png`}
                     alt="Orientation Banner"
@@ -110,7 +143,6 @@ export default function Orientation() {
                     </p>
                 </div>
                 */}
-            </div>
         </section>
-    )
+    );
 }
