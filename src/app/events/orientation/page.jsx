@@ -15,6 +15,16 @@ export default function Orientation() {
                     <h2 className="text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide mb-4">Registration for 2025 Orientation will begin in August!</h2>
                     <p className="text-lg lg:text-xl xl:text-2xl text-center">Stay tuned for more details.</p>
                 </div>
+                <div id="faq-orientation">
+                    <h2 className="pb-2 pt-7 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
+                        Frequently Asked Questions
+                    </h2>
+                    <OrientationFAQ />
+                    <p className="mt-4 text-lg lg:text-xl">
+                      If you have any further questions or concerns, please do not hesitate to contact us 
+                      at <a href="mailto:orientation@usstm.ca">orientation@usstm.ca</a>.
+                    </p>
+                </div>
                 {/*
                 <Image
                     overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/banner.png`}
