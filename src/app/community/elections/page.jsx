@@ -1,6 +1,7 @@
 "use client";
 import Header from "@/app/_components/general/header";
 import { getImageUrl } from "@/lib/supabase";
+import { useContentItem } from "@/lib/use-content";
 import Image from "next/image";
 import Link from "next/link";
 

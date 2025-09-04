@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import Image from 'next/image';
 import './carousel.css';
 import { getImageUrl } from "@/lib/supabase";
+import { useContentItem } from '@/lib/use-content';
 
 export default function Carousel() {
     const { data } = useContentItem('events', 'yearbook-images');

@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Header from "@/app/_components/general/header";
 import Link from "next/link";
+import { useContentItem } from "@/lib/use-content";
 
 export default function Budget() {
     const { data } = useContentItem('finances', 'budgets');

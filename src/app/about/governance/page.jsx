@@ -8,6 +8,7 @@ import Arrow from "@/app/_components/general/arrow";
 import { useState, useEffect } from "react";
 import { GrDocumentText } from "react-icons/gr";
 import { getImageUrl } from '@/lib/supabase';
+import { useContentItem } from "@/lib/use-content";
 
 export default function Governance() {
     const [currentTab, setCurrentTab] = useState('directors');
