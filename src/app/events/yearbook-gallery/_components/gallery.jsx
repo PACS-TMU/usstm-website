@@ -2,23 +2,12 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { getImageUrl } from "@/lib/supabase";
+import { useContentItem } from '@/lib/use-content';
 
 export default function Gallery() {
-    const [galleryData, setGalleryData] = useState([]);
+    const { data } = useContentItem('events', 'gallery-images');
 
-    useEffect(() => {
-        fetchData();
-    }, []);
-
-    const fetchData = async () => {
-        try {
-            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/yearbook-gallery/gallery-images.json`);
-            const data = await response.json();
-            setGalleryData(data);
-        } catch (err) {
-            console.error(err);
-        }
-    }
+    const galleryData = data?.content?.images || [];
 
     return (
         <div className="my-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 main">

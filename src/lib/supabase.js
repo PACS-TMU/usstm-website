@@ -16,8 +16,10 @@ export function getImageUrl(path) {
 	// If it's already a full URL, return as is
 	if (path.startsWith("http")) return path;
 
+	const bucket = path.endsWith('.pdf') ? 'documents' : 'images';
+
 	// Get public URL from Supabase storage
-	const { data } = supabase.storage.from("images").getPublicUrl(path);
+	const { data } = supabase.storage.from(bucket).getPublicUrl(path);
 
 	return data.publicUrl;
 }
