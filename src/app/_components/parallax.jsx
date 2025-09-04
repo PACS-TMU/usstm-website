@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import './parallax.css';
+import { getImageUrl } from '@/lib/supabase';
 
 export default function Parallax() {
     return (
@@ -19,7 +20,7 @@ export default function Parallax() {
                         <div id="stats-text">
                             <div id="stats-students">
                                 <Image
-                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/students-icon.png`}
+                                    overrideSrc={getImageUrl('homepage/stats-icons/students-icon.png')}
                                     alt="Icon of Students"
                                     className="stats-icon"
                                     width={100}
@@ -34,7 +35,7 @@ export default function Parallax() {
 
                             <div id="stats-groups">
                                 <Image
-                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/groups-icon.png`}
+                                    overrideSrc={getImageUrl('homepage/stats-icons/groups-icon.png')}
                                     alt="Icon of Student Groups"
                                     className="stats-icon"
                                     width={100}
@@ -49,7 +50,7 @@ export default function Parallax() {
 
                             <div id="stats-board">
                                 <Image
-                                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/homepage/stats-icons/board-icon.png`}
+                                    overrideSrc={getImageUrl('homepage/stats-icons/board-icon.png')}
                                     alt="Icon of Board Members"
                                     className="stats-icon"
                                     width={100}

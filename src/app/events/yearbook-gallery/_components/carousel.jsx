@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import './carousel.css';
+import { getImageUrl } from "@/lib/supabase";
 
 export default function Carousel() {
     const [yearbookData, setYearbookData] = useState([]);
@@ -64,7 +65,7 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/yearbook/${image.path}`}
+                                overrideSrc={getImageUrl(`events/yearbook/${image.path}`)}
                                 alt={image.title}
                                 width={1700}
                                 height={2200}

@@ -2,10 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import NavItems from "./nav-items";
-import { useEffect, useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { useClickAway } from 'react-use';
 import { Twirl as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion } from "framer-motion";
+import { useContentItem } from "@/lib/use-content";
+
 
 export default function Navbar() {
   // States to open/close menus
@@ -18,20 +20,9 @@ export default function Navbar() {
     }
   };
 
-  // Retrieve nav items from JSON file
-  const [navItems, setNavItems] = useState([]);
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/navbar/nav-items.json`);
-        const data = await res.json();
-        setNavItems(data);
-      } catch (error) {
-        console.error('Error fetching nav data:', error);
-      }
-    }
-    fetchData();
-  }, []);
+  const { data, loading, error } = useContentItem('navigation', 'main-nav');
+  // nav items migrated to Supabase are stored under data.content.items
+  const navItems = data?.content?.items || [];
 
   // For closing the dropdown menu when clicking outside of it
   const ref = useRef(null);
@@ -53,7 +44,7 @@ export default function Navbar() {
           }
         }}
       >
-        <nav className="px-5 w-full overflow-auto flex justify-between main mx-auto">
+        <nav className="px-5 w-full overflow-auto flex justify-between align-center main mx-auto">
           <ul
             id="nav-links"
             className="md:flex items-center md:space-x-3 md:text-sm lg:space-x-8 justify-center font-bold lg:text-lg hidden"
@@ -81,12 +72,11 @@ export default function Navbar() {
           >
             <Link href="/">
               <Image
-                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/icons/usstm-logo.png`}
+                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/icons/usstm-logo.jpeg`}
                 alt="The USSTM Logo"
-                className="m-3 w-12"
+                className="m-3 w-10 rounded-full"
                 width={240}
                 height={240}
-                priority={true}
               />
             </Link>
           </div>

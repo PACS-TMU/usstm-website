@@ -2,6 +2,7 @@
 import Header from "@/app/_components/general/header";
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { getImageUrl } from "@/lib/supabase";
 
 export default function GroupsUnions() {
     const [sgcuData, setSgcuData] = useState([]);
@@ -54,7 +55,7 @@ export default function GroupsUnions() {
                 >
                     <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'end' }}>
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/sg-logos/${group['group-logo']}`}
+                            overrideSrc={getImageUrl(`community/sg-logos/${group['group-logo']}`)}
                             alt={group['group-name']}
                             width={500}
                             height={500}

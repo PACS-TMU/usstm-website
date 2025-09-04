@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { getImageUrl } from "@/lib/supabase";
 
 export default function Gallery() {
     const [galleryData, setGalleryData] = useState([]);
@@ -24,7 +25,7 @@ export default function Gallery() {
             {galleryData.map((image, index) => (
                 <div key={index} className="relative">
                     <Image 
-                        overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/yearbook/${image.path}`}
+                        overrideSrc={getImageUrl(`events/yearbook/${image.path}`)}
                         alt={image.title} 
                         width={1920} 
                         height={1080} 

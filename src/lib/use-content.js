@@ -21,7 +21,7 @@ export function useContent(categorySlug, options = {}) {
 					.select(
 						`
             *,
-            category:content_categories(*),
+            category:content_categories!inner(),
             media:content_media_relations(
               relation_type,
               sort_order,
@@ -34,7 +34,7 @@ export function useContent(categorySlug, options = {}) {
 
 				// If categorySlug is provided, filter by category
 				if (categorySlug) {
-					query = query.eq("category.slug", categorySlug);
+					query = query.eq("content_categories.slug", categorySlug);
 				}
 
 				// Apply additional filters from options
@@ -92,34 +92,6 @@ export function useContentItem(categorySlug, itemSlug) {
 		loading,
 		error,
 	};
-}
-
-/**
- * Hook for navigation items
- */
-export function useNavigation() {
-	return useContent("navigation");
-}
-
-/**
- * Hook for committee data
- */
-export function useCommittees() {
-	return useContent("committees");
-}
-
-/**
- * Hook for event data
- */
-export function useEvents() {
-	return useContent("events");
-}
-
-/**
- * Hook for gallery images
- */
-export function useGallery() {
-	return useContent("gallery");
 }
 
 // Helper function to get image URL (moved from supabase.js for easy import)

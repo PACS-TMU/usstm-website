@@ -8,7 +8,7 @@ export default function MentApp() {
 			<div className="main">
 				<div className="w-full flex flex-col gap-6 justify-center items-center">
 					<Image
-						src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/ment/ment-logo.png`}
+						src={getImageUrl('community/ment/ment-logo.png')}
 						alt="Ment App Logo"
 						height={600}
 						width={600}

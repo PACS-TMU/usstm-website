@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/app/_components/general/header';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { getImageUrl } from '@/lib/supabase';
 
 export default function Elections() {
     const [electionsResults, setElectionsResults] = useState([]);
@@ -57,7 +58,7 @@ export default function Elections() {
                         </p>
                         <section id="timeline-image" className="p-4">
                             <Image
-                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/elections/timeline.png`}
+                                overrideSrc={getImageUrl('community/elections/timeline.png')}
                                 alt="USSTM Elections Timeline"
                                 width={1500}
                                 height={1980}

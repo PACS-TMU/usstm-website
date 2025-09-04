@@ -7,23 +7,13 @@ import Meeting from "@/app/about/governance/_components/meeting";
 import Arrow from "@/app/_components/general/arrow";
 import { useState, useEffect } from "react";
 import { GrDocumentText } from "react-icons/gr";
+import { getImageUrl } from '@/lib/supabase';
 
 export default function Governance() {
     const [currentTab, setCurrentTab] = useState('directors');
-    const [documents, setDocuments] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/governance/gov-docs.json`);
-                const data = await response.json();
-                setDocuments(data);
-            } catch (error) {
-                console.error('Error fetching governance data: ', error);
-            }
-        };
-        fetchData();
-    }, []);
+    const { data } = useContentItem('governance', 'governance-docs');
+    const documents = data?.content?.documents || [];
 
     return (
         <section className="governance-page lg:text-lg">
@@ -37,7 +27,7 @@ export default function Governance() {
                             that drives our mission forward.
                         </p>
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/governance/structure.png`}
+                            overrideSrc={getImageUrl('about/governance/structure.png')}
                             alt="USSTM Structure"
                             width={3000}
                             height={3000}
