@@ -1,32 +1,11 @@
-import { useState, useEffect } from 'react';
 import Link from "next/link";
+import { useContentItem } from '@/lib/use-content';
 
 export default function InvalidPage({ id }) {
-    const [items, setItems] = useState([]);
+    const { data } = useContentItem('navigation', 'main-nav');
+    const items = data?.content?.items || [];
 
-    useEffect(() => {
-        fetchNavData();
-    }, []);
-
-    const fetchNavData = async () => {
-        try {
-            const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/navbar/nav-items.json`);
-            const data = await res.json();
-            setItems(data);
-
-        } catch (error) {
-            console.error('Error fetching sub items data:', error);
-        }
-
-    }
-
-    let subItems = [];
-
-    items.map(item => {
-        if (item.id == id) {
-            subItems = item.subItems;
-        }
-    });
+    const subItems = items.find(item => item.id == id)?.subItems || [];
 
     return (
 

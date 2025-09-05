@@ -1,38 +1,18 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
-import { useForm } from "react-hook-form";
+import { useContentItem } from "@/lib/use-content";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useMemo, useState } from "react";
+import { useForm } from "react-hook-form";
 import { z } from "zod";
 
 export default function Form() {
-	const [programs, setPrograms] = useState([]);
-	const [natureOfRequest, setNatureOfRequest] = useState([]);
 	const [result, setResult] = useState(null);
 
-	useEffect(() => {
-		const fetchPrograms = async () => {
-			try {
-				const response = await fetch(
-					"https://usstm.ca/data/contact/programs.json"
-				);
-				const programs = await response.json();
-				setPrograms(programs);
-			} catch (error) {
-				console.error("Error fetching programs data:", error);
-			}
-		};
-		const fetchNatureOfRequest = async () => {
-			try {
-				const response = await fetch(
-					"https://usstm.ca/data/contact/natureOfRequest.json"
-				);
-				const data = await response.json();
-				setNatureOfRequest(data);
-			} catch (error) {}
-		};
-		fetchPrograms();
-		fetchNatureOfRequest();
-	}, []);
+	const { data: programData } = useContentItem('contact', 'programs');
+	const { data: natureOfRequestData } = useContentItem('contact', 'nature-of-request');
+
+	const programs = programData?.content?.programs || [];
+	const natureOfRequest = natureOfRequestData?.content?.natureOfRequest || [];
 
 	const schema = useMemo(
 		() =>

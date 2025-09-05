@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Brygada_1918 } from "next/font/google";
 import NumberEntry from "./_components/numberEntry";
 import { useState } from "react";
+import { getImageUrl } from "@/lib/supabase";
 
 const brygada = Brygada_1918({ subsets: ["latin"] });
 
@@ -66,7 +67,7 @@ export default function Policies() {
                     </div>
                     <div className="hidden md:block w-[45%] min-h-full">
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/finances/policies/purpose-graphic.webp`}
+                            overrideSrc={getImageUrl('finances/policies/purpose-graphic.webp')}
                             alt="Purpose Graphic"
                             width={1200}
                             height={800}
@@ -79,7 +80,7 @@ export default function Policies() {
                 <div className="w-full md:w-5/6 flex shadow-md mx-auto bg-highlight-blue my-12">
                     <div className="hidden lg:block lg:w-[45%] min-h-full">
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/finances/policies/fr-graphic.webp`}
+                            overrideSrc={getImageUrl('finances/policies/fr-graphic.webp')}
                             alt="Funding Request Graphic"
                             width={1200}
                             height={800}
@@ -161,7 +162,7 @@ export default function Policies() {
                                 <li>Rules and regulations to follow</li>
                             </ul>
                             <Image
-                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/finances/policies/lim-graphic.png`}
+                                overrideSrc={getImageUrl('finances/policies/lim-graphic.png')}
                                 alt="Limitations Graphic"
                                 width={1200}
                                 height={800}

@@ -4,22 +4,11 @@ import { useEffect, useState } from 'react';
 import Header from "@/app/_components/general/header";
 import Image from 'next/image';
 import UnderConstruction from "@/app/_components/general/under-construction";
+import { useContentItem } from '@/lib/use-content';
 
 export default function Annual() {
-    const [annualEvents, setAnnualEvents] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/annual/annual-events.json`);
-                const data = await response.json();
-                setAnnualEvents(data);
-            } catch (error) {
-                console.error('Mo is too fat to fetch data:', error);
-            }
-        };
-        fetchData()
-    }, []);
+    const { data } = useContentItem('events', 'annual-events');
+    const annualEvents = data?.content?.events || [];
 
     return (
         <section>

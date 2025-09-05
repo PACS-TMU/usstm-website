@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import Arrow from "@/app/_components/general/arrow";
 import CandidateSection from "./candidate-section";
 import autoAnimate from "@formkit/auto-animate";
+import { useContentItem } from "@/lib/use-content";
 
 export default function Collapsible(props) {
     const [isVisible, setVisible] = useState(false);
@@ -12,21 +13,8 @@ export default function Collapsible(props) {
         parent.current && autoAnimate(parent.current);
     }, [parent]);
 
-    const [candidates, setCandidtes] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/elections2025/candidates.json`);
-                const data = await response.json();
-                setCandidtes(data);
-            } catch (error) {
-                console.error('Error fetching Elections data:', error);
-            }
-        };
-
-        fetchData();
-    }, []);
+    const { data } = useContentItem('community', 'election-candidates');
+    const candidates = data?.content?.candidates || [];
 
     const toggle = () => {
         setVisible(!isVisible);

@@ -1,21 +1,12 @@
 'use client'
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import Header from "@/app/_components/general/header";
+import { useContentItem } from "@/lib/use-content";
 
 export default function PastBoards() {
-    const [boardItems, setBoard] = useState([]);
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/past-boards/past-boards.json`);
-                const data = await res.json();
-                setBoard(data);
-            } catch (error) {
-                console.error('Error fetching past-boards data:', error);
-            }
-        }
-        fetchData();
-    }, []);
+    const { data, loading, error } = useContentItem('about', 'past-boards');
+
+    const boardItems = data?.content.boards || [];
 
     return (
         <div>

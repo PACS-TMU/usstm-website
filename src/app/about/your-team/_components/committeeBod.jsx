@@ -1,29 +1,11 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useContentItem } from "@/lib/use-content";
 import Committee from "./committee";
 
 export default function CommitteeBOD({ fileName }) {
-    const [bod, setBod] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const { data, loading, error } = useContentItem('committees', fileName);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`/data/about/your-team/committees/${fileName}.json`);
-                const data = await response.json();
-                setBod(data);
-                setLoading(false);
-            }
-            catch (error) {
-                setError(error);
-                setLoading(false);
-                console.error('Error fetching committee data: ', error);
-            }
-        };
-
-        fetchData();
-    }, [fileName]);
+    const bod = data?.content?.members || [];
 
     if (loading) return <div className="loading">Loading...</div>
     if (error) return <div className="error">Error: {error.message}</div>

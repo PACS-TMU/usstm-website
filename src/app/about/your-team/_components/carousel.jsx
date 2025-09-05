@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import Image from "next/image";
 import "./carousel.css";
 import { useMemo } from "react";
+import { getImageUrl } from '@/lib/supabase';
 
 export default function Carousel({ imgs, name }) {
 	return (
@@ -28,7 +29,7 @@ export default function Carousel({ imgs, name }) {
 					return (
 						<SwiperSlide key={img}>
 							<Image
-								overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/your-team/carousel-images/${img}`}
+								overrideSrc={getImageUrl(`about/your-team/carousel-images/${img}`)}
 								alt={name}
 								width={2250}
 								height={1500}
@@ -41,7 +42,7 @@ export default function Carousel({ imgs, name }) {
 			) : (
 				<SwiperSlide>
 					<Image
-						overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/your-team/carousel-images/Image Not Found.jpg`}
+						overrideSrc={getImageUrl('about/your-team/carousel-images/Image Not Found.jpg')}
 						alt={name}
 						width={2250}
 						height={1500}

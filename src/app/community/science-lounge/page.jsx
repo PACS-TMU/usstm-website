@@ -1,5 +1,7 @@
 import Header from "@/app/_components/general/header";
+import { getImageUrl } from "@/lib/supabase";
 import Image from "next/image";
+
 
 export default function ScienceLounge() {
     return (
@@ -27,7 +29,7 @@ export default function ScienceLounge() {
                     </div >
                     <div className="w-full lg:w-3/5 lg:ml-4">
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/sci-lounge/intro.jpg`}
+                            overrideSrc={getImageUrl('community/sci-lounge/intro.jpg')}
                             width={1296}
                             height={725}
                             className="w-full rounded-sm shadow-md my-6 lg:my-0"
@@ -54,7 +56,7 @@ export default function ScienceLounge() {
                             Layout
                         </h2>
                         <Image
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/community/sci-lounge/intro.jpg`}
+                            overrideSrc={getImageUrl('community/sci-lounge/intro.jpg')}
                             width={2502}
                             height={2560}
                             className="w-full h-auto lg:my-6"

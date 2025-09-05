@@ -1,24 +1,12 @@
 'use client';
 import Header from "@/app/_components/general/header";
+import { useContent } from "@/lib/use-content";
 import Carousel from './_components/carousel';
-import { useState, useEffect } from 'react';
 
 export default function YourTeam() {
+    const { data } = useContent('committees');
 
-    // Make this fetch from the main json when images are updated
-    const [yourTeamData, setYourTeamData] = useState([]);
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/about/your-team/your-team.json`);
-                const data = await res.json();
-                setYourTeamData(data);
-            } catch (error) {
-                console.error('Error fetching your-team data:', error);
-            }
-        }
-        fetchData();
-    }, []);
+    const yourTeamData = data?.map(c => ({ id: c.id, name: c.title, path: c.slug, ...c.content })) || [];
 
     return (
         <section id="your-team-page">
@@ -33,13 +21,13 @@ export default function YourTeam() {
 
                             <div className="space-y-5">
                                 <p className="font-semibold text-center pt-5 text-xl lg:text-2xl xl:text-3xl text-highlight-dark">
-                                    {committee['committee-name']}
+                                    {committee.name}
                                 </p>
 
-                                <Carousel imgs={committee['committee-image']} name={committee['committee-name']} />
+                                <Carousel imgs={committee.images} name={committee.name} />
 
                                 <p className=" pt-2">
-                                    {committee['committee-description']}
+                                    {committee.description}
                                 </p>
 
                                 <a href={`/about/your-team/${committee.path}`}>

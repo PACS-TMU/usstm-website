@@ -5,6 +5,7 @@ import { orientationTeam } from "./team";
 import Carousel from "./carousel";
 import OrientationFAQ from "./orientationFaq";
 import { carouselImages } from "./carouselImages";
+import { getImageUrl } from "@/lib/supabase";
 
 export default function Orientation() {
 	return (
@@ -51,7 +52,7 @@ export default function Orientation() {
             </div>
             */}
 			<Image
-				overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/banner.png`}
+				overrideSrc={getImageUrl('events/orientation/banner.png')}
 				alt="Orientation Banner"
 				width={2160}
 				height={1080}
@@ -141,7 +142,7 @@ export default function Orientation() {
 							full of exciting Minecraft inspired events.
 						</p>
 						<Image
-							overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/orientation/schedule.png`}
+							overrideSrc={getImageUrl('events/orientation/schedule.png')}
 							alt="Orientation Schedule"
 							width={2160}
 							height={1080}
