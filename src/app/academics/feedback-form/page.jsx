@@ -8,8 +8,8 @@ import { useContentItem } from "@/lib/use-content";
 export default function Feedback() {
     const { data } = useContentItem('academics', 'feedback-form');
     const [assess, courseContent] = data?.content?.form || [];
-    const assessQuestions = assess.questions || [];
-    const courseQuestions = courseContent.questions || [];
+    const assessQuestions = assess?.questions || [];
+    const courseQuestions = courseContent?.questions || [];
 
     const requiredStar = <span className="text-red-500">*</span>;
 

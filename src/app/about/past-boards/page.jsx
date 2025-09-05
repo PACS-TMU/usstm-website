@@ -1,9 +1,10 @@
 'use client'
 import { use, useEffect, useState } from "react";
 import Header from "@/app/_components/general/header";
+import { useContentItem } from "@/lib/use-content";
 
 export default function PastBoards() {
-    const { data, loading, error } = usedContentItem('about', 'past-boards');
+    const { data, loading, error } = useContentItem('about', 'past-boards');
 
     const boardItems = data?.content.boards || [];
 

@@ -1,4 +1,5 @@
 import Header from "@/app/_components/general/header";
+import { getImageUrl } from "@/lib/supabase";
 import Image from "next/image";
 
 export default function MentApp() {
