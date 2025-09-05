@@ -7,6 +7,7 @@ import { useClickAway } from 'react-use';
 import { Twirl as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion } from "framer-motion";
 import { useContentItem } from "@/lib/use-content";
+import { getImageUrl } from "@/lib/supabase";
 
 
 export default function Navbar() {
@@ -72,7 +73,7 @@ export default function Navbar() {
           >
             <Link href="/">
               <Image
-                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/icons/usstm-logo.jpeg`}
+                overrideSrc={getImageUrl('icons/usstm-logo.png')}
                 alt="The USSTM Logo"
                 className="m-3 w-10 rounded-full"
                 width={240}

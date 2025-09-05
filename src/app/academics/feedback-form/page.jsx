@@ -3,33 +3,13 @@ import Header from "@/app/_components/general/header";
 import QuestionTable from "@/app/academics/feedback-form/_components/question-table";
 import { useState, useEffect } from "react";
 import "./feedback-form.css";
+import { useContentItem } from "@/lib/use-content";
 
 export default function Feedback() {
-    const [assess, setAssess] = useState([]);
-    const [courseContent, setCourseContent] = useState([]);
-    const [assessQuestions, setAssessQuestions] = useState([]);
-    const [courseQuestions, setCourseQuestions] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/academics/feedback-form/feedback-form.json`);
-                const data = await response.json();
-                const assessments = await data[0];
-                const content = await data[1];
-                const assessmentQuestions = await data[0].questions;
-                const contentQuestions = await data[1].questions;
-                setAssess(assessments);
-                setCourseContent(content);
-                setAssessQuestions(assessmentQuestions);
-                setCourseQuestions(contentQuestions);
-            } catch (error) {
-                console.error("Couldn't fetch data for feedback form", error);
-            }
-        };
-
-        fetchData();
-    }, []);
+    const { data } = useContentItem('academics', 'feedback-form');
+    const [assess, courseContent] = data?.content?.form || [];
+    const assessQuestions = assess.questions || [];
+    const courseQuestions = courseContent.questions || [];
 
     const requiredStar = <span className="text-red-500">*</span>;
 

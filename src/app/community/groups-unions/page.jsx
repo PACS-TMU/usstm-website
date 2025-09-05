@@ -3,21 +3,12 @@ import Header from "@/app/_components/general/header";
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { getImageUrl } from "@/lib/supabase";
+import { useContentItem } from "@/lib/use-content";
 
 export default function GroupsUnions() {
-    const [sgcuData, setSgcuData] = useState([]);
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/community/groups-unions/sgcu-db.json`);
-                const data = await res.json();
-                setSgcuData(data);
-            } catch (error) {
-                console.error('Error fetching past-boards data:', error);
-            }
-        }
-        fetchData();
-    }, []);
+    const { data } = useContentItem('community', 'groups-unions');
+
+    const sgcuData = data?.content?.groups || [];
 
     const [copiedEmail, setCopiedEmail] = useState(null);
     const [hoveredIndex, setHoveredIndex] = useState(null);
