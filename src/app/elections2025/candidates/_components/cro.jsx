@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getImageUrl } from "@/lib/supabase";
 
 export default function CRO() {
     return (
@@ -8,7 +9,7 @@ export default function CRO() {
             </h2>
             <div className="flex flex-col lg:flex-row bg-highlight-blue w-full rounded-md p-8 justify-center items-center">
                 <Image
-                    overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/your-team/committees/bod/chairperson.JPG`}
+                    overrideSrc={getImageUrl('about/your-team/committees/bod/chairperson.JPG')}
                     loading="lazy"
                     alt="The USSTM Chief Returning Officer for 2025 Elections"
                     width={1000}

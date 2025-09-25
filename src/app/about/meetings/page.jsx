@@ -1,5 +1,6 @@
 import Header from "@/app/_components/general/header";
 import Image from "next/image";
+import { getImageUrl } from '@/lib/supabase';
 
 export default function Meetings() {
     return (
@@ -77,7 +78,7 @@ export default function Meetings() {
                     <div className="image">
                         <Image
                             className={'w-auto h-full object-cover'}
-                            overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/about/meetings/meetings-graphic.jpg`}
+                            overrideSrc={getImageUrl('about/meetings/meetings-graphic.jpg')}
                             alt={'Meetings Graphic'}
                             width={750}
                             height={750}
