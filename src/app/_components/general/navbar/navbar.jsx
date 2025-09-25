@@ -75,7 +75,7 @@ export default function Navbar() {
               <Image
                 overrideSrc={getImageUrl('icons/usstm-logo.png')}
                 alt="The USSTM Logo"
-                className="m-3 w-10 rounded-full"
+                className="m-3 w-10"
                 width={240}
                 height={240}
               />
