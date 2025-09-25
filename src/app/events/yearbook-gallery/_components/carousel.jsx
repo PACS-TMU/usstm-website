@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,23 +7,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import './carousel.css';
+import { getImageUrl } from "@/lib/supabase";
+import { useContentItem } from '@/lib/use-content';
 
 export default function Carousel() {
-    const [yearbookData, setYearbookData] = useState([]);
+    const { data } = useContentItem('events', 'yearbook-images');
 
-    useEffect(() => {
-        fetchData();
-    }, []);
-
-    const fetchData = async () => {
-        try {
-            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/events/yearbook-gallery/yearbook-images.json`);
-            const data = await response.json();
-            setYearbookData(data);
-        } catch (err) {
-            console.error(err);
-        }
-    };
+    const yearbookData = data?.content?.images || [];
 
     return (
         <div className="w-full bg-highlight-blue pt-10 pb-2 flex mt-4 mb-14 items-center justify-center">
@@ -64,7 +54,7 @@ export default function Carousel() {
                     {yearbookData.map((image, index) => (
                         <SwiperSlide key={index}>
                             <Image
-                                overrideSrc={`${process.env.NEXT_PUBLIC_BASE_URL}/images/events/yearbook/${image.path}`}
+                                overrideSrc={getImageUrl(`events/yearbook/${image.path}`)}
                                 alt={image.title}
                                 width={1700}
                                 height={2200}
