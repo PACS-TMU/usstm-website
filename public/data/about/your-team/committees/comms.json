@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "position": "VP Communications",
+        "image": "vp-communications.jpg",
+        "name": "Bel Christian Catapusan"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Communications",
+        "image": "deputy-communications.jpg",
+        "name": "Sharifa Lomiyev"
+    },
+    {
+        "id": 3,
+        "position": "Social Media Manager",
+        "image": "social-media-manager.png",
+        "name": "Fiona Vongsay"
+    },
+    {
+        "id": 4,
+        "position": "Events Manager",
+        "image": "events-manager.jpg",
+        "name": "Gabrielle Amponsah-Fordjour"
+    },
+    {
+        "id": 5,
+        "position": "Merchandise Manager",
+        "image": "",
+        "name": "Saaruca Kumar"
+    },
+    {
+        "id": 6,
+        "position": "Graphic Designer",
+        "image": "graphic-designer.jpg",
+        "name": "Ishaba Hossain"
+    },
+    {
+        "id": 7,
+        "position": "Graphic Designer",
+        "image": "graphic-designer-2.jpg",
+        "name": "Fiza Aamir Butt"
+    },
+    {
+        "id": 8,
+        "position": "Graphic Designer",
+        "image": "",
+        "name": "Krista Lila"
+    },
+    {
+        "id": 9,
+        "position": "Graphic Designer",
+        "image": "",
+        "name": "Setareh Fadaei"
+    },
+    {
+        "id": 10,
+        "position": "Graphic Designer",
+        "image": "",
+        "name": "Talha Ahmad Khan"
+    },
+    {
+        "id": 11,
+        "position": "Social Media Assistant Instagram",
+        "image": "social-media-assistant-instagram.jpg",
+        "name": "Ira Magallanes"
+    },
+    {
+        "id": 12,
+        "position": "Social Media Assistant Instagram",
+        "image": "social-media-assistant-instagram-2.png",
+        "name": "Cindy Nguyen"
+    },
+    {
+        "id": 13,
+        "position": "Social Media Assistant TikTok",
+        "image": "social-media-assistant-tiktok.png",
+        "name": "Sanjana Kulendren"
+    },
+    {
+        "id": 14,
+        "position": "Social Media Assistant TikTok",
+        "image": "social-media-assistant-tiktok-2.jpg",
+        "name": "Sania Shadvar"
+    },
+    {
+        "id": 15,
+        "position": "Social Media Assistant LinkedIn",
+        "image": "social-media-assistant-linkedin.jpg",
+        "name": "Hamidreza Khoramrokh"
+    },
+    {
+        "id": 16,
+        "position": "Event Videographer",
+        "image": "event-videographer.jpg",
+        "name": "Aishwin Jeevothayan"
+    },
+    {
+        "id": 17,
+        "position": "Event Video Editor",
+        "image": "event-video-editor.jpg",
+        "name": "Yuvraj Shahi"
+    },
+    {
+        "id": 18,
+        "position": "Merchandise Designer",
+        "image": "merchandise-designer.jpg",
+        "name": "Jordan Miller"
+    },
+    {
+        "id": 19,
+        "position": "Merchandise Designer",
+        "image": "",
+        "name": "Mobina Tavakkoli"
+    },
+    {
+        "id": 20,
+        "position": "Website Designer",
+        "image": "",
+        "name": "Choney Dolma"
+    }
+]

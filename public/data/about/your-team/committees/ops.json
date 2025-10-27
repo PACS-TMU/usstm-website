@@ -1,0 +1,44 @@
+[
+    {
+        "id": 2,
+        "position": "VP Operations",
+        "image": "vp-operations.jpg",
+        "name": "Harnoor Gahir"
+    },
+    {
+        "id": 2,
+        "position": "Deputy Operations",
+        "image": "deputy-operations.jpg",
+        "name": "Queenie Chung"
+    },
+    {
+        "id": 3,
+        "position": "Secretary",
+        "image": "secretary.jpeg",
+        "name": "Pranathi Budarapu"
+    },
+    {
+        "id": 4,
+        "position": "Chairperson",
+        "image": "",
+        "name": "Damian Gavrusenko"
+    },
+    {
+        "id": 5,
+        "position": "Governance Lead",
+        "image": "",
+        "name": "Muneera Adil Siddiqui"
+    },
+    {
+        "id": 6,
+        "position": "Science Lounge Coordinator",
+        "image": "",
+        "name": "Abeer Moussa"
+    },
+    {
+        "id": 7,
+        "position": "Resource Manager/Engagement and Feedback Specialist",
+        "image": "resource-manager-engagement-and-feedback-specialist.png",
+        "name": "Mehar Kaur"
+    }
+]

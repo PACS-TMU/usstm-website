@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "position": "VP External",
+        "image": "vp-external.jpg",
+        "name": "Jack Shen"
+    },
+    {
+        "id": 2,
+        "position": "Deputy External",
+        "image": "deputy-external.jpg",
+        "name": "Tamanna Nasseri"
+    },
+    {
+        "id": 3,
+        "position": "Sponsorship Director",
+        "image": "",
+        "name": "Julia Rapczynska"
+    },
+    {
+        "id": 4,
+        "position": "Biomed Liaison",
+        "image": "",
+        "name": "Suzy Petrosyan"
+    },
+    {
+        "id": 5,
+        "position": "Biomed Liaison",
+        "image": "biomed-liaison.jpg",
+        "name": "Olivia Luciani"
+    },
+    {
+        "id": 6,
+        "position": "Comp Sci Liason",
+        "image": "comp-sci-liason.jpg",
+        "name": "Prachi Patel"
+    },
+    {
+        "id": 7,
+        "position": "Comp Sci Liason",
+        "image": "",
+        "name": "Rishabh Seth"
+    },
+    {
+        "id": 8,
+        "position": "Math Liason",
+        "image": "math-liason.jpg",
+        "name": "Ashton Singh"
+    },
+    {
+        "id": 9,
+        "position": "Chem Liason",
+        "image": "chem-liason.jpg",
+        "name": "Emily Nguyen"
+    },
+    {
+        "id": 10,
+        "position": "Chem Liason",
+        "image": "chem-liason-2.jpg",
+        "name": "Tina Pham"
+    },
+    {
+        "id": 11,
+        "position": "Sponsorship Coordinator",
+        "image": "sponsorship-coordinator.png",
+        "name": "Juan Pires"
+    }
+]

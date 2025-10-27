@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "path": "eventsCover.png",
+        "year": "2023",
+        "title": "Transition Events"
+    },
+    {
+        "id": 2,
+        "path": "halloweenCarnival1.webp",
+        "year": "2023",
+        "title": "Halloween Carnival (Part 1)"
+    },
+    {
+        "id": 3,
+        "path": "halloweenCarnival2.webp",
+        "year": "2023",
+        "title": "Halloween Carnival (Part 2)"
+    },
+    {
+        "id": 4,
+        "path": "hauntedHouse.webp",
+        "year": "2023",
+        "title": "Haunted House"
+    },
+    {
+        "id": 5,
+        "path": "braceletMaking.webp",
+        "year": "2023",
+        "title": "Bracelet Making"
+    },
+    {
+        "id": 6,
+        "path": "semiFormal2023.webp",
+        "year": "2023",
+        "title": "Semi-Formal"
+    },
+    {
+        "id": 7,
+        "path": "weekOfWelcome2.webp",
+        "year": "2023",
+        "title": "Week of Welcome (Part 2)"
+    },
+    {
+        "id": 8,
+        "path": "cprEventPage.png",
+        "year": "2023",
+        "title": "CPR Event"
+    },
+    {
+        "id": 9,
+        "path": "boba&BoardGames.png",
+        "year": "2023",
+        "title": "Boba and Board Games Night"
+    },
+    {
+        "id": 10,
+        "path": "fallNetworkingNight.png",
+        "year": "2023",
+        "title": "Fall Networking Night"
+    },
+    {
+        "id": 11,
+        "path": "frosh1.webp",
+        "year": "2023",
+        "title": "Frosh 2023 (Part 1)"
+    },
+    {
+        "id": 12,
+        "path": "frosh2.webp",
+        "year": "2023",
+        "title": "Frosh 2023 (Part 2)"
+    },
+    {
+        "id": 13,
+        "path": "weekOfWelcome1.webp",
+        "year": "2023",
+        "title": "Week of Welcome (Part 1)"
+    },
+    {
+        "id": 14,
+        "path": "boardCover.png",
+        "year": "2023",
+        "title": "USSTM Members"
+    }
+]

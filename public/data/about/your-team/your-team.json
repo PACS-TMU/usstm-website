@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "committee-name": "Board of Directors",
+        "path": "bod",
+        "committee-image": ["bod1.jpg","bod2.jpg","bod3.jpg"],
+        "committee-description": "The Board of Directors is the governing body of the USSTM, responsible for setting the organization's strategic direction and ensuring its overall success. Comprised of elected student leaders, the Board oversees the implementation of policies and initiatives, manages the organization's finances, and represents the interests of its members. With a diverse range of backgrounds and experiences, the Board of Directors works collaboratively to make informed decisions that benefit the entire student community. Their dedication and leadership are instrumental in guiding the USSTM towards its mission of serving and empowering students."
+    },
+    {
+        "id": 2,
+        "committee-name": "Co-Presidents",
+        "path": "presidents",
+        "committee-image": ["presidents1.jpg","presidents2.jpg"],
+        "committee-description": "The President's Committee is responsible for overseeing all operations and ensuring that the board of directors fulfills its duties. They provide strategic direction, represent the USSTM in official capacities. The President's Commitee plays a crucial role in setting the tone and vision for the organization, guiding its growth and development."
+    },
+    {
+        "id": 3,
+        "committee-name": "Operations Committee",
+        "path": "ops",
+        "committee-image": ["ops1.jpg","ops2.jpg","ops3.jpg"],
+        "committee-description": "The Operations Committee is the cornerstone of the USSTM, responsible for the seamless management of the organization's daily operations. This committee oversees all logistical facets, including resource allocation and process management, ensuring that internal functions run efficiently. Beyond logistical tasks, the Operations Committee also focuses on fostering member engagement and maintaining the organization's effectiveness."
+    },
+    {
+        "id": 4,
+        "committee-name": "Finance Committee",
+        "path": "fin",
+        "committee-image": ["fin1.jpg","fin2.jpg","fin3.jpg"],
+        "committee-description": "The Finance Committee is responsible for managing the organization's finances, including budgeting, financial planning, and financial reporting. They work closely with other members of the executive team and student groups to ensure that financial resources are allocated appropriately and used effectively. The Finance Committee plays a crucial role in ensuring the financial health and sustainability of the USSTM, making strategic decisions to support its mission and goals."
+    },
+    {
+        "id": 5,
+        "committee-name": "Communications Committee",
+        "path": "comms",
+        "committee-image": ["comms1.jpg","comms2.jpg","comms3.jpg"],
+        "committee-description": "The Communications Committee is responsible for managing all internal and external communications for the USSTM. This includes overseeing social media channels, website design, newsletters, and public relations activities. The Communications Committee plays a key role in promoting the USSTM's activities and initiatives, engaging with members and the broader community, and maintaining a positive and professional image for the organization."
+    },
+    {
+        "id": 6,
+        "committee-name": "Events Committee",
+        "path": "events",
+        "committee-image": ["events1.jpg","events2.jpg","events3.jpg"],
+        "committee-description": "The Events Committee is responsible for planning and executing events and activities for USSTM members. This includes social events that help foster a sense of community and engagement within the organization. The Events Committee works closely with other members of the executive team to ensure that events are well-organized, engaging, and aligned with the USSTM's mission and values."
+    },
+    {
+        "id": 7,
+        "committee-name": "Academics Committee",
+        "path": "academics",
+        "committee-image": ["academics1.jpg","academics2.jpg","academics3.jpg"],
+        "committee-description": "The Academic Committee is dedicated to enhancing the academic experience of students within the USSTM. They organize Crash Courses to support students in their studies. Additionally, the committee liaises with faculty and administration to advocate for student needs and improve academic resources. The Academic Committee plays a vital role in fostering a supportive academic environment for all students."
+    },
+    {
+        "id": 8,
+        "committee-name": "Externals Committee",
+        "path": "external",
+        "committee-image": ["external1.jpg","external2.jpg","external3.jpg"],
+        "committee-description": "The Externals Committee focuses on equipping USSTM students with professional skills and networking opportunities. They organize events, workshops, and networking sessions with industry professionals to help students build connections and gain valuable insights into their future careers. The committee also liaises with external organizations and businesses to create partnerships and sponsorship opportunities for USSTM, enhancing the overall student experience and providing valuable professional development opportunities."
+    },
+    {
+        "id": 9,
+        "committee-name": "EDI Committee",
+        "path": "edi",
+        "committee-image": ["equity1.jpg","equity2.jpg","equity3.jpg"],
+        "committee-description": "The Equity Committee is committed to promoting diversity, equity, and inclusivity within the USSTM. They organize events, workshops, and campaigns to raise awareness about social justice issues and create a more inclusive community. The committee works to address systemic barriers and advocate for marginalized groups, ensuring that everyone feels valued and respected within the organization."
+    },
+    {
+        "id": 10,
+        "committee-name": "Tech Committee",
+        "path": "tech",
+        "committee-image": [],
+        "committee-description": "The Tech Committee focuses on exploring, developing, and integrating innovative tech solutions within the school community. They collaborate on a range of projects, from improving digital infrastructure to hosting workshops on emerging technologies. Their mission is to empower students with the skills and knowledge to navigate the tech world, while enhancing the overall learning experience."
+    },
+    {
+        "id": 11,
+        "committee-name": "Funding Request Committee",
+        "path": "funding-request",
+        "committee-image": [],
+        "committee-description": "The Funding Request Committee focuses on managing and distributing funds to support various student-led initiatives and projects. They review and evaluate funding proposals, ensuring that resources are allocated efficiently and equitably to enrich the student experience. Their goal is to empower students and organizations by providing financial support for creative, impactful, and sustainable projects. Through collaboration and transparent decision-making, the Funding Request Committee helps bring ideas to life and ensures that all students have the opportunity to make a meaningful impact within the FoS community."
+    },
+    {
+        "id": 12,
+        "committee-name": "Science Orientation Committee",
+        "path": "science-orientation",
+        "committee-image": [],
+        "committee-description": "The Science Orientation Committee is dedicated to helping new students explore and engage with the exciting world of science. They organize orientation events, hands-on activities, and informational sessions to introduce incoming students to the various scientific fields, clubs, and resources available. Their mission is to foster a sense of curiosity, encourage exploration, and make the transition into the science community welcoming and accessible. Whether you're interested in biology, chemistry, physics, or engineering, the Science Orientation Committee is here to spark your interest and guide you through the first steps of your scientific journey."
+    }
+]
