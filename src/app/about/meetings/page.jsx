@@ -24,7 +24,7 @@ export default function Meetings() {
                     <div className='border-2 border-highlight-dark w-26 text-lg lg:text-xl xl:text-2xl my-4 font-semibold flex justify-center underline items-center divide-x hover:scale-105 hover:text-background hover:bg-highlight-dark ease-in-out duration-200'>
                         <button id={'meeting-minutes-button'} className={'p-4'}>
                             <a
-                                href={'https://drive.google.com/drive/folders/1PBybdVQ1PxRBHBvKofCI7J_x7T80IMj6'}
+                                href={'https://drive.google.com/drive/folders/1zciKIJYgcsEikmuw60mdVhm_21IZeRah'}
                                 target={'_blank'}
                             >
                                 Click here for our meeting minutes!
