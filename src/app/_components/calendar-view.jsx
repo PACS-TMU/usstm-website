@@ -165,7 +165,7 @@ export default function CalendarView() {
                 <div className="mt-2 flex-1 space-y-1">
                   {isCurrentMonth && dayEvents.length > 0 ? (
                     <>
-                      {dayEvents.slice(0, 2).map((event, index) => (
+                      {dayEvents.map((event, index) => (
                         <div
                           key={event.id || index}
                           className="bg-blue-100/60 text-blue-500 rounded-md px-2 py-1 border-2 border-blue-200 flex items-center w-full cursor-pointer hover:bg-blue-100/80 transition-colors"
@@ -182,11 +182,6 @@ export default function CalendarView() {
                           </p>
                         </div>
                       ))}
-                      {dayEvents.length > 2 && (
-                        <div className="text-xs text-gray-500 px-2">
-                          +{dayEvents.length - 2} more
-                        </div>
-                      )}
                     </>
                   ) : null}
                 </div>
