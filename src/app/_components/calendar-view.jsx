@@ -1,12 +1,7 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
-import { createClient } from "@supabase/supabase-js";
-
-const portalSupabase = createClient(
-  process.env.NEXT_PUBLIC_PORTAL_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_PORTAL_SUPABASE_ANON_KEY
-);
+import { portalSupabase } from "@/lib/supabase";
 
 function getMonthMatrix(year, month) {
   // month: 0-11
