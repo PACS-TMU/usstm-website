@@ -9,6 +9,12 @@ if (!supabaseUrl || !supabaseAnonKey) {
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
+// Create a separate Supabase client for the portal
+export const portalSupabase = createClient(
+	process.env.NEXT_PUBLIC_PORTAL_SUPABASE_URL,
+	process.env.NEXT_PUBLIC_PORTAL_SUPABASE_ANON_KEY
+);
+
 // Helper function to get public URL for images
 export function getImageUrl(path) {
 	if (!path) return "/images/placeholder.jpg";
