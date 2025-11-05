@@ -160,23 +160,31 @@ export default function CalendarView() {
                 <div className="mt-2 flex-1 space-y-1">
                   {isCurrentMonth && dayEvents.length > 0 ? (
                     <>
-                      {dayEvents.map((event, index) => (
-                        <div
-                          key={event.id || index}
-                          className="bg-blue-100/60 text-blue-500 rounded-md px-2 py-1 border-2 border-blue-200 flex items-center w-full cursor-pointer hover:bg-blue-100/80 transition-colors"
-                          onClick={() => handleEventClick(event)}
-                        >
-                          <p className="truncate flex-1 pr-2 text-xs">
-                            {event.title}
-                          </p>
-                          <p className="text-xs text-right flex-shrink-0">
-                            {new Date(event.start_time).toLocaleTimeString([], {
-                              hour: "2-digit",
-                              minute: "2-digit",
-                            })}
-                          </p>
-                        </div>
-                      ))}
+                      {dayEvents
+                        .sort(
+                          (a, b) =>
+                            new Date(a.start_time) - new Date(b.start_time)
+                        )
+                        .map((event, index) => (
+                          <div
+                            key={event.id || index}
+                            className="bg-blue-100/60 text-blue-500 rounded-md px-2 py-1 border-2 border-blue-200 flex items-center w-full cursor-pointer hover:bg-blue-100/80 transition-colors"
+                            onClick={() => handleEventClick(event)}
+                          >
+                            <p className="truncate flex-1 pr-2 text-xs">
+                              {event.title}
+                            </p>
+                            <p className="text-xs text-right flex-shrink-0">
+                              {new Date(event.start_time).toLocaleTimeString(
+                                [],
+                                {
+                                  hour: "2-digit",
+                                  minute: "2-digit",
+                                }
+                              )}
+                            </p>
+                          </div>
+                        ))}
                     </>
                   ) : null}
                 </div>
@@ -185,6 +193,7 @@ export default function CalendarView() {
           })}
         </div>
       </div>
+      <div>hi</div>
 
       {/* Event Dialog/Modal */}
       {showDialog && selectedEvent && (
