@@ -26,6 +26,7 @@ export default function CalendarView() {
   const [events, setEvents] = useState([]);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [showDialog, setShowDialog] = useState(false);
+  const [selectedDate, setSelectedDate] = useState(null);
   const today = new Date();
   const [focus, setFocus] = useState(
     new Date(today.getFullYear(), today.getMonth(), 1)
@@ -82,9 +83,12 @@ export default function CalendarView() {
     setSelectedEvent(null);
   };
 
+  const handleDateClick = (date) => {
+    setSelectedDate(date);
+  };
+
   return (
     <div className="mx-auto p-4">
-      {/* Top bar */}
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-sm text-gray-500">Month</div>
@@ -134,55 +138,161 @@ export default function CalendarView() {
           {weeks.flat().map((date) => {
             const isCurrentMonth = date.getMonth() === month;
             const isToday = date.toDateString() === today.toDateString();
+            const isSelected =
+              selectedDate &&
+              selectedDate.toDateString() === date.toDateString();
             const dayEvents = getEventsForDate(date);
 
             return (
               <div
                 key={date.toISOString()}
-                className={`bg-white min-h-[96px] p-2 text-sm flex flex-col`}
+                className={`bg-white min-h-[96px] p-2 text-sm flex flex-col cursor-pointer hover:bg-gray-50 ${
+                  isSelected ? "ring-2 ring-blue-500 bg-blue-50" : ""
+                }`}
+                onClick={() => handleDateClick(date)}
               >
                 <div className="flex items-start justify-between">
                   <span
                     className={`text-xs font-medium ${
                       isCurrentMonth ? "text-gray-800" : "text-gray-400"
-                    } py-0.5`}
+                    } py-0.5 ${
+                      isToday && "bg-indigo-600 rounded-full px-2 text-white"
+                    }`}
                   >
                     {date.getDate()}
                   </span>
-                  {isToday && (
-                    <span className="text-xs text-white bg-indigo-600 rounded-full px-2 py-0.5">
-                      Today
-                    </span>
-                  )}
                 </div>
 
                 {/* Events for this date */}
                 <div className="mt-2 flex-1 space-y-1">
                   {isCurrentMonth && dayEvents.length > 0 ? (
                     <>
-                      {dayEvents.map((event, index) => (
-                        <div
-                          key={event.id || index}
-                          className="bg-blue-100/60 text-blue-500 rounded-md px-2 py-1 border-2 border-blue-200 flex items-center w-full cursor-pointer hover:bg-blue-100/80 transition-colors"
-                          onClick={() => handleEventClick(event)}
-                        >
-                          <p className="truncate flex-1 pr-2 text-xs">
-                            {event.title}
-                          </p>
-                          <p className="text-xs text-right flex-shrink-0">
-                            {new Date(event.start_time).toLocaleTimeString([], {
-                              hour: "2-digit",
-                              minute: "2-digit",
-                            })}
-                          </p>
-                        </div>
-                      ))}
+                      <div className="hidden sm:block space-y-1">
+                        {dayEvents
+                          .sort(
+                            (a, b) =>
+                              new Date(a.start_time) - new Date(b.start_time)
+                          )
+                          .map((event, index) => (
+                            <div
+                              key={event.id || index}
+                              className="bg-blue-100/60 text-blue-500 rounded-md px-2 py-1 border-2 border-blue-200 flex items-center w-full cursor-pointer hover:bg-blue-100/80 transition-colors"
+                              onClick={() => handleEventClick(event)}
+                            >
+                              <p className="truncate flex-1 pr-2 text-xs">
+                                {event.title}
+                              </p>
+                              <p className="text-xs text-right flex-shrink-0">
+                                {new Date(event.start_time).toLocaleTimeString(
+                                  [],
+                                  {
+                                    hour: "2-digit",
+                                    minute: "2-digit",
+                                  }
+                                )}
+                              </p>
+                            </div>
+                          ))}
+                      </div>
+                      <div className="sm:hidden flex flex-wrap gap-1 mt-1">
+                        {dayEvents
+                          .sort(
+                            (a, b) =>
+                              new Date(a.start_time) - new Date(b.start_time)
+                          )
+                          .slice(0, 3)
+                          .map((event, index) => (
+                            <div
+                              key={event.id || index}
+                              className="w-2 h-2 bg-blue-500 rounded-full cursor-pointer hover:bg-blue-600 transition-colors"
+                              onClick={(e) => {
+                                if (window.innerWidth >= 640) {
+                                  handleEventClick(event);
+                                }
+                              }}
+                              title={event.title}
+                            />
+                          ))}
+                        {dayEvents.length > 3 && (
+                          <div className="text-xs text-gray-500 ml-1">
+                            +{dayEvents.length - 3}
+                          </div>
+                        )}
+                      </div>
                     </>
                   ) : null}
                 </div>
               </div>
             );
           })}
+        </div>
+        <div className="sm:hidden">
+          {selectedDate ? (
+            <div className="p-4 border-t bg-gray-50">
+              <div className="text-center">
+                <div className="text-lg font-semibold text-gray-900">
+                  {selectedDate.toLocaleDateString("en-US", {
+                    weekday: "long",
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </div>
+                <div className="mt-2">
+                  {(() => {
+                    const dayEvents = getEventsForDate(selectedDate);
+                    if (dayEvents.length === 0) {
+                      return (
+                        <p className="text-gray-500 text-sm">
+                          No events on this date
+                        </p>
+                      );
+                    }
+                    return (
+                      <div className="space-y-2">
+                        <p className="text-sm text-gray-600">
+                          {dayEvents.length} event
+                          {dayEvents.length > 1 ? "s" : ""}
+                        </p>
+                        <div className="space-y-1">
+                          {dayEvents
+                            .sort(
+                              (a, b) =>
+                                new Date(a.start_time) - new Date(b.start_time)
+                            )
+                            .map((event, index) => (
+                              <div
+                                key={event.id || index}
+                                className="bg-blue-100 text-blue-800 rounded px-2 py-1 text-sm cursor-pointer hover:bg-blue-200"
+                                onClick={() => handleEventClick(event)}
+                              >
+                                <div className="flex justify-between items-center">
+                                  <span className="truncate">
+                                    {event.title}
+                                  </span>
+                                  <span className="text-xs ml-2">
+                                    {new Date(
+                                      event.start_time
+                                    ).toLocaleTimeString([], {
+                                      hour: "2-digit",
+                                      minute: "2-digit",
+                                    })}
+                                  </span>
+                                </div>
+                              </div>
+                            ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div className="p-4 border-t bg-gray-50 text-center">
+              <p className="text-gray-500 text-sm">Tap a date to see events</p>
+            </div>
+          )}
         </div>
       </div>
 
