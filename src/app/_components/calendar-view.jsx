@@ -84,6 +84,9 @@ export default function CalendarView() {
   };
 
   const handleDateClick = (date) => {
+    // if (window.innerWidth <= 640) {
+    //   setSelectedDate(date);
+    // }
     setSelectedDate(date);
   };
 
@@ -147,7 +150,9 @@ export default function CalendarView() {
               <div
                 key={date.toISOString()}
                 className={`bg-white min-h-[96px] p-2 text-sm flex flex-col cursor-pointer hover:bg-gray-50 ${
-                  isSelected ? "ring-2 ring-blue-500 bg-blue-50" : ""
+                  isSelected
+                    ? "ring-2 ring-blue-500 bg-blue-50 sm:ring-0 sm:bg-white"
+                    : ""
                 }`}
                 onClick={() => handleDateClick(date)}
               >
