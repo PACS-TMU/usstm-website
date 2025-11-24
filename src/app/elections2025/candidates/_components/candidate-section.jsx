@@ -27,10 +27,10 @@ export default function CandidateSection({ role, candidates }) {
         // equity = candidates[5];
     }
     else if (role === "Directors") {
-        bio = candidates[0];
-        biomed = candidates[1];
-        cs = candidates[2];
-        chem = candidates[3];
+        //bio = candidates[0];
+        //biomed = candidates[1];
+        //cs = candidates[2];
+        //chem = candidates[3];
         //math = candidates[3];
     }
     else {
@@ -69,7 +69,7 @@ export default function CandidateSection({ role, candidates }) {
                         </div>
                     ))} */}
                      <p className="text-lg lg:mx-2 mb-4 mt-6 lg:text-xl xl:text-2xl  font-semibold">
-                        Vice President Communications Candidate(s):
+                        Vice President Academics Candidate(s):
                     </p>
                     {communications.map((candidate, index) => (
                         <Candidate key={index} index={index} candidate={candidate} list={communications} />

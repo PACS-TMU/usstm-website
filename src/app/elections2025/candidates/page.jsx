@@ -20,7 +20,7 @@ export default function Candidates() {
                 </div>
                 <div className="content">
                     <Collapsible sectionName="Executives" />
-                    <Collapsible sectionName="Directors" />
+                    {/* <Collapsible sectionName="Directors" /> */}
                 </div>
 
                 <CRO />
