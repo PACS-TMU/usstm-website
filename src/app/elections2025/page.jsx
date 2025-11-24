@@ -60,7 +60,7 @@ export default function Elections2025() {
                     </div>
                 </div> */}
 
-                <div className="important-dates py-2">
+                {/*<div className="important-dates py-2">
                     <h2 className="py-4 text-2xl lg:text-3xl xl:text-4xl font-serif font-semibold tracking-wide">
                         Important Dates
                     </h2>
@@ -78,7 +78,7 @@ export default function Elections2025() {
                             Ratification Meeting: By-Election results will be ratified at the next meeting with the general membership (SAGM in Fall semester)
                         </li>
                     </ul>
-                </div>
+                </div>*/}
                 <CRO />
             </div>
         </section >
