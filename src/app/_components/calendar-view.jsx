@@ -37,9 +37,7 @@ export default function CalendarView() {
       try {
         const { data, error } = await portalSupabase
           .from("events")
-          .select(`*, created_by_user:users!created_by(group_name)`);
-
-        console.log("Data", data);
+          .select(`*, organizers(users(group_name))`);
         if (error) throw error;
         setEvents(data || []);
       } catch (error) {
@@ -352,10 +350,14 @@ export default function CalendarView() {
               </div>
 
               <div>
-                <span className="font-bold text-gray-900 mb-1">Host</span>
-                <p className="text-gray-700">
-                  {selectedEvent.created_by_user.group_name}
-                </p>
+                <span className="font-bold text-gray-900 mb-1">Host(s)</span>
+                {selectedEvent.organizers.map((organizer) => {
+                  return (
+                    <p className="text-gray-700">
+                      {organizer.users.group_name}
+                    </p>
+                  );
+                })}
               </div>
               <div>
                 <span className="font-bold text-gray-900 mb-1">Location</span>
