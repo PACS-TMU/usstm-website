@@ -349,9 +349,11 @@ export default function CalendarView() {
               <div>
                 <span className="font-bold text-gray-900 mb-1">Host(s)</span>
                 {selectedEvent.organizers.map((organizer) => {
+                  const groupName = organizer.users.group_name;
+
                   return (
-                    <p className="text-gray-700">
-                      {organizer.users.group_name}
+                    <p key={groupName} className="text-gray-700">
+                      {groupName}
                     </p>
                   );
                 })}
