@@ -15,8 +15,6 @@ export default function CandidateSection({ role, candidates }) {
   let chem = [];
   // let math = [];
 
-  console.log(candidates);
-
   if (role === "Executives") {
     // presidents = candidates[0];
     // ops = candidates[1];
