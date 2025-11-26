@@ -37,9 +37,7 @@ export default function CalendarView() {
       try {
         const { data, error } = await portalSupabase
           .from("events")
-          .select(`*, created_by_user:users!created_by(group_name)`);
-
-        console.log("Data", data);
+          .select(`*, organizers(users(group_name))`);
         if (error) throw error;
         setEvents(data || []);
       } catch (error) {
@@ -147,7 +145,9 @@ export default function CalendarView() {
               <div
                 key={date.toISOString()}
                 className={`bg-white min-h-[96px] p-2 text-sm flex flex-col cursor-pointer hover:bg-gray-50 ${
-                  isSelected ? "ring-2 ring-blue-500 bg-blue-50" : ""
+                  isSelected
+                    ? "ring-2 ring-blue-500 bg-blue-50 sm:ring-0 sm:bg-white"
+                    : ""
                 }`}
                 onClick={() => handleDateClick(date)}
               >
@@ -347,10 +347,16 @@ export default function CalendarView() {
               </div>
 
               <div>
-                <span className="font-bold text-gray-900 mb-1">Host</span>
-                <p className="text-gray-700">
-                  {selectedEvent.created_by_user.group_name}
-                </p>
+                <span className="font-bold text-gray-900 mb-1">Host(s)</span>
+                {selectedEvent.organizers.map((organizer) => {
+                  const groupName = organizer.users.group_name;
+
+                  return (
+                    <p key={groupName} className="text-gray-700">
+                      {groupName}
+                    </p>
+                  );
+                })}
               </div>
               <div>
                 <span className="font-bold text-gray-900 mb-1">Location</span>
