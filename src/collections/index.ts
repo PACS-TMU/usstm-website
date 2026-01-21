@@ -1,0 +1,13 @@
+// Export all collection schemas
+export { Pages } from './Pages'
+export { People } from './People'
+export { Committees } from './Committees'
+export { BoardHistory } from './BoardHistory'
+export { Events } from './Events'
+export { GalleryImages } from './GalleryImages'
+export { StudentGroups } from './StudentGroups'
+export { Documents } from './Documents'
+export { FAQ } from './FAQ'
+export { ElectionCycles } from './ElectionCycles'
+export { Users } from './Users'
+export { Media } from './Media'
