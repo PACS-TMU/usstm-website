@@ -14,7 +14,7 @@ export default function Pillars() {
                         <div className="pillar1 cardBox perspective rounded-full mr-[40%] w-[50%] lg:mr-0 lg:w-[80%] xl:w-[90%] row-start-1 col-start-1 lg:row-span-2 self-center justify-self-center flex items-center justify-center">
                             <div className="card w-full h-full rounded-full aspect-square bg-highlight">
                                 <div className="cardFront h-full flex justify-center items-center text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-md lg:text-lg xl:text-2xl text-center font-sans">
-                                    CONSISTENCY
+                                    CONSISTENCYY
                                 </div>
                                 <div className="cardBack h-full hidden xl:flex justify-center items-center self-center text-white text-md text-center">
                                     We maintain a steady approach, ensuring our actions and decisions align with established standards and values consistently.
