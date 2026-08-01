@@ -66,7 +66,9 @@ export default function Governance() {
 									className="flex flex-col items-center space-y-4 > * + *"
 								>
 									<a
-										href={getImageUrl(document.pdf)}
+										href={getImageUrl(
+											`governance/${document.pdf}`,
+										)}
 										target="_blank"
 									>
 										<button>
